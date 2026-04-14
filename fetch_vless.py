@@ -1,10 +1,11 @@
 import requests
+import urllib.parse
 from datetime import datetime
 import os
 
 URL = "https://tiagorrg.github.io/vless-checker/keys.json"
 
-TARGET = ["LV", "LT", "EE", "FI", "DE", "SE", "NL", "PL"]
+TARGET = ["Estonia", "Finland", "Germany", "Sweden", "Netherlands", "Poland", "Latvia", "Lithuania"]
 
 BLACKLIST = ["anycast", "ipv6", "cdn", "test", "cf"]
 
@@ -12,27 +13,31 @@ OUTPUT = "output/vless_eu.txt"
 
 
 def fetch():
-    r = requests.get(URL, timeout=20)
-    r.raise_for_status()
-    return r.json()
+    return requests.get(URL, timeout=20).json()
 
 
-def is_valid(key):
-    low = key.lower()
+def extract_country(vless):
+    try:
+        fragment = urllib.parse.unquote(vless.split("#")[-1]).lower()
+        return fragment
+    except:
+        return ""
+
+
+def is_valid(vless):
+    low = vless.lower()
 
     if any(b in low for b in BLACKLIST):
         return False
 
-    if not any(c in key.upper() for c in TARGET):
-        return False
+    frag = extract_country(vless)
 
-    return True
+    return any(t.lower() in frag for t in TARGET)
 
 
 def extract(data):
-    result = []
+    out = []
 
-    # структура keys.json может быть разная → делаем универсально
     if isinstance(data, list):
         items = data
     elif isinstance(data, dict):
@@ -41,17 +46,17 @@ def extract(data):
         return []
 
     for item in items:
-        if isinstance(item, str):
-            if item.startswith("vless://") and is_valid(item):
-                result.append(item)
+        if isinstance(item, str) and item.startswith("vless://"):
+            if is_valid(item):
+                out.append(item)
 
         elif isinstance(item, dict):
             for v in item.values():
                 if isinstance(v, str) and v.startswith("vless://"):
                     if is_valid(v):
-                        result.append(v)
+                        out.append(v)
 
-    return result
+    return out
 
 
 def save(data):
