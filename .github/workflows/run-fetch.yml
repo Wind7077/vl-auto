@@ -1,18 +1,33 @@
-- name: Install deps
-  run: pip install requests
+name: Update VLESS (smart merge)
 
-- name: Build merged VLESS list
-  run: python merge_vless.py
+on:
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
 
-- name: Commit changes
-  run: |
-    git config user.name "github-actions"
-    git config user.email "github-actions@github.com"
-    git add vless_normal_vpn.txt
-    git commit -m "auto smart merge vless" || exit 0
-    git push
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run smart merge
+        run: python merge_vless.py
+
+      - name: Commit results
+        run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add vless_normal_vpn.txt
-          git commit -m "auto update vless" || exit 0
+          git commit -m "auto smart merge" || exit 0
           git push
