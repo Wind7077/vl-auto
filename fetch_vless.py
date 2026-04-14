@@ -1,11 +1,7 @@
 import requests
 from datetime import datetime
-import os
-from urllib.parse import urlparse
 
 URL = "https://tiagorrg.github.io/vless-checker/keys.json"
-
-OUTPUT_FILE = "vless_normal_vpn.txt"
 
 CATEGORIES = [
     "baltics",
@@ -13,62 +9,62 @@ CATEGORIES = [
     "germany",
     "sweden",
     "netherlands",
-    "poland"
+    "poland",
+    "other"
 ]
-
-# ❌ мусорные домены (анти-VPN / чужие сети)
-BLOCKED_DOMAINS = [
-    "anti-vpn.ru",
-    "csbeta60.com",
-    "fastsync.xyz",
-    "beestvpn.ru",
-    "vpn-port.com",
-    "nitroo-tech.ru",
-    "stardevs.top"
-]
-
 
 def fetch():
-    r = requests.get(URL, timeout=20)
+    r = requests.get(URL, timeout=30)
     r.raise_for_status()
     return r.json()
 
+def extract_any(block):
+    result = []
 
-def is_good(vless: str) -> bool:
-    try:
-        if not vless.startswith("vless://"):
-            return False
+    if not isinstance(block, dict):
+        return result
 
-        host = vless.split("@")[1].split(":")[0]
+    # 1. best
+    if isinstance(block.get("best"), str):
+        result.append(block["best"])
 
-        # фильтр мусора
-        for b in BLOCKED_DOMAINS:
-            if b in host:
-                return False
+    # 2. top lists
+    for k in ["top10", "top5", "top20"]:
+        v = block.get(k)
+        if isinstance(v, list):
+            for item in v:
+                if isinstance(item, str):
+                    result.append(item)
+                elif isinstance(item, dict):
+                    if "key" in item:
+                        result.append(item["key"])
+                    elif "vless" in item:
+                        result.append(item["vless"])
 
-        # убираем явные тестовые/дублирующиеся схемы
-        if "alpn=http%2525" in vless:
-            return False
+    # 3. all (если есть)
+    v = block.get("all")
+    if isinstance(v, list):
+        for item in v:
+            if isinstance(item, str):
+                result.append(item)
+            elif isinstance(item, dict):
+                if "key" in item:
+                    result.append(item["key"])
+                elif "vless" in item:
+                    result.append(item["vless"])
 
-        return True
+    # 4. fallback: иногда лежит напрямую массивом
+    for k, v in block.items():
+        if isinstance(v, list):
+            for item in v:
+                if isinstance(item, str) and item.startswith("vless://"):
+                    result.append(item)
+                elif isinstance(item, dict):
+                    for kk in ["key", "vless", "url"]:
+                        if kk in item and isinstance(item[kk], str):
+                            result.append(item[kk])
 
-    except:
-        return False
-
-
-def collect(obj, out):
-    if isinstance(obj, str):
-        if obj.startswith("vless://") and is_good(obj):
-            out.append(obj)
-
-    elif isinstance(obj, dict):
-        for v in obj.values():
-            collect(v, out)
-
-    elif isinstance(obj, list):
-        for v in obj:
-            collect(v, out)
-
+    return result
 
 def main():
     data = fetch()
@@ -76,21 +72,23 @@ def main():
     all_vless = []
 
     for cat in CATEGORIES:
-        if cat in data:
-            collect(data[cat], all_vless)
+        block = data.get(cat)
+        if not block:
+            continue
+
+        all_vless.extend(extract_any(block))
 
     # дедуп
-    all_vless = list(dict.fromkeys(all_vless))
+    all_vless = list(dict.fromkeys(
+        [x for x in all_vless if isinstance(x, str) and x.startswith("vless://")]
+    ))
 
-    print("TOTAL CLEAN:", len(all_vless))
+    print("TOTAL:", len(all_vless))
 
-    os.makedirs("output", exist_ok=True)
-
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open("vless_normal_vpn.txt", "w", encoding="utf-8") as f:
         f.write(f"# updated: {datetime.utcnow()}\n")
         for v in all_vless:
             f.write(v + "\n")
-
 
 if __name__ == "__main__":
     main()
