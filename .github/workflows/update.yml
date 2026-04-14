@@ -1,31 +1,15 @@
-name: Update VLESS EU list
+- uses: actions/checkout@v4
+  with:
+    fetch-depth: 0
 
-on:
-  schedule:
-    - cron: "0 */2 * * *"
-  workflow_dispatch:
+- run: pip install requests beautifulsoup4
 
-permissions:
-  contents: write
+- run: python fetch_vless.py
 
-jobs:
-  update:
-    runs-on: ubuntu-latest
+- run: |
+    git config --global user.name "bot"
+    git config --global user.email "bot@users.noreply.github.com"
 
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - run: pip install requests beautifulsoup4
-
-      - run: python fetch_vless.py
-
-      - run: |
-          git config --global user.name "bot"
-          git config --global user.email "bot@users.noreply.github.com"
-          git add output/vless_eu.txt
-          git commit -m "auto update" || echo "no changes"
-          git push
+    git add output/vless_eu.txt
+    git commit -m "auto update" || echo "no changes"
+    git push origin HEAD:main
