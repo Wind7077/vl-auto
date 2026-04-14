@@ -15,12 +15,17 @@ def fetch_json():
 def extract_json(data):
     result = []
 
+    if not isinstance(data, dict):
+        return result
+
     for k, v in data.items():
         if isinstance(v, dict):
             for kk in ["best", "top10", "top5", "top20", "all"]:
                 val = v.get(kk)
+
                 if isinstance(val, str) and val.startswith("vless://"):
                     result.append(val)
+
                 elif isinstance(val, list):
                     for i in val:
                         if isinstance(i, str) and i.startswith("vless://"):
@@ -34,40 +39,45 @@ def extract_json(data):
 
 
 def fetch_html():
-    r = requests.get(URL_HTML, timeout=30)
-    r.raise_for_status()
-    return re.findall(r'vless://[^\s"<]+', r.text)
+    try:
+        r = requests.get(URL_HTML, timeout=30)
+        r.raise_for_status()
+        return re.findall(r'vless://[^\s"<]+', r.text)
+    except Exception:
+        return []
 
 
 def normalize(v):
     return v.strip()
 
 
+def is_valid(v):
+    return isinstance(v, str) and v.startswith("vless://") and len(v) > 50
+
+
 def main():
     all_vless = []
 
     try:
-        all_vless.extend(fetch_json())
+        json_data = fetch_json()
+        all_vless.extend(extract_json(json_data))
     except Exception as e:
         print("JSON error:", e)
 
-    try:
-        all_vless.extend(fetch_html())
-    except Exception as e:
-        print("HTML error:", e)
+    all_vless.extend(fetch_html())
 
-    cleaned = []
-    for v in all_vless:
-        if isinstance(v, str) and v.startswith("vless://"):
-            cleaned.append(normalize(v))
+    cleaned = [normalize(v) for v in all_vless if is_valid(v)]
 
-    # dedupe
+    # SMART DEDUP (order preserved)
     unique = list(dict.fromkeys(cleaned))
 
-    print("MERGED TOTAL:", len(unique))
+    if not unique:
+        raise RuntimeError("Empty VLESS list after merge")
+
+    print("FINAL TOTAL:", len(unique))
 
     with open("vless_normal_vpn.txt", "w", encoding="utf-8") as f:
-        f.write(f"# merged: {datetime.now(timezone.utc).isoformat()}\n")
+        f.write(f"# updated: {datetime.now(timezone.utc)}\n")
         for v in unique:
             f.write(v + "\n")
 
