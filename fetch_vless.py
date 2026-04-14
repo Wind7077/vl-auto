@@ -2,10 +2,20 @@ import requests
 import urllib.parse
 from datetime import datetime
 import os
+import re
 
 URL = "https://tiagorrg.github.io/vless-checker/keys.json"
 
-TARGET = ["Estonia", "Finland", "Germany", "Sweden", "Netherlands", "Poland", "Latvia", "Lithuania"]
+TARGET = {
+    "estonia": ["estonia", "ee"],
+    "finland": ["finland", "fi"],
+    "germany": ["germany", "de"],
+    "sweden": ["sweden", "se"],
+    "netherlands": ["netherlands", "the netherlands", "nl"],
+    "poland": ["poland", "pl"],
+    "latvia": ["latvia", "lv"],
+    "lithuania": ["lithuania", "lt"]
+}
 
 BLACKLIST = ["anycast", "ipv6", "cdn", "test", "cf"]
 
@@ -16,12 +26,36 @@ def fetch():
     return requests.get(URL, timeout=20).json()
 
 
-def extract_country(vless):
+def normalize(text):
+    text = urllib.parse.unquote(text)
+    text = text.lower()
+    text = re.sub(r'[^a-z0-9 ]', ' ', text)
+    return text
+
+
+def extract_meta(vless):
     try:
-        fragment = urllib.parse.unquote(vless.split("#")[-1]).lower()
-        return fragment
+        host = vless.split("@")[1].split(":")[0]
+        frag = vless.split("#")[-1]
+        return host, frag
     except:
-        return ""
+        return "", ""
+
+
+def detect_country(vless):
+    host, frag = extract_meta(vless)
+
+    host_n = normalize(host)
+    frag_n = normalize(frag)
+
+    combined = host_n + " " + frag_n
+
+    for country, variants in TARGET.items():
+        for v in variants:
+            if v in combined:
+                return country
+
+    return None
 
 
 def is_valid(vless):
@@ -30,20 +64,13 @@ def is_valid(vless):
     if any(b in low for b in BLACKLIST):
         return False
 
-    frag = extract_country(vless)
-
-    return any(t.lower() in frag for t in TARGET)
+    return detect_country(vless) is not None
 
 
 def extract(data):
     out = []
 
-    if isinstance(data, list):
-        items = data
-    elif isinstance(data, dict):
-        items = data.values()
-    else:
-        return []
+    items = data if isinstance(data, list) else data.values()
 
     for item in items:
         if isinstance(item, str) and item.startswith("vless://"):
