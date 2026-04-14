@@ -1,10 +1,9 @@
 import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse, unquote
+import re
 from datetime import datetime
 import os
 
-URL = "https://tiagorrg.github.io/vless-checker/"
+JS_URL = "https://tiagorrg.github.io/vless-checker/script.js?v=2"
 
 TARGET = ["LV", "LT", "EE", "FI", "DE", "SE", "NL", "PL"]
 
@@ -13,43 +12,32 @@ BLACKLIST = ["anycast", "ipv6", "cdn", "test", "cf"]
 OUTPUT = "output/vless_eu.txt"
 
 
-def fetch():
-    r = requests.get(URL, timeout=30)
+def fetch_js():
+    r = requests.get(JS_URL, timeout=30)
     r.raise_for_status()
     return r.text
 
 
-def extract(html):
-    soup = BeautifulSoup(html, "html.parser")
-    out = []
-
-    for tag in soup.find_all(["code", "pre", "td"]):
-        t = tag.get_text(strip=True)
-        if t.startswith("vless://"):
-            out.append(t)
-
-    return out
+def extract_vless(js):
+    # достаём все vless:// из JS
+    return re.findall(r'vless://[^\s"\']+', js)
 
 
-def get_remark(vless):
-    try:
-        parsed = urlparse(vless)
-        return unquote(parsed.fragment or "").upper()
-    except:
-        return ""
+def get_country(text):
+    # пытаемся вытащить страну из строки
+    match = re.search(r'\b(EE|LV|LT|FI|DE|SE|NL|PL)\b', text.upper())
+    return match.group(1) if match else ""
 
 
-def valid(vless):
+def is_valid(vless):
     low = vless.lower()
-    remark = get_remark(vless)
-
-    if not any(c in remark for c in TARGET):
-        return False
 
     if any(b in low for b in BLACKLIST):
         return False
 
-    return True
+    country = get_country(vless)
+
+    return country in TARGET
 
 
 def save(data):
@@ -62,11 +50,13 @@ def save(data):
 
 
 def main():
-    html = fetch()
-    proxies = extract(html)
-    filtered = [p for p in proxies if valid(p)]
+    js = fetch_js()
 
-    print(f"total: {len(proxies)} | filtered: {len(filtered)}")
+    vless = extract_vless(js)
+
+    filtered = [v for v in vless if is_valid(v)]
+
+    print(f"TOTAL: {len(vless)} | FILTERED: {len(filtered)}")
 
     save(filtered)
 
