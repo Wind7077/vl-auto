@@ -46,35 +46,28 @@ def normalize(v):
 def main():
     all_vless = []
 
-    # JSON source
     try:
-        json_data = fetch_json()
-        all_vless.extend(extract_json(json_data))
+        all_vless.extend(fetch_json())
     except Exception as e:
         print("JSON error:", e)
 
-    # HTML source
     try:
         all_vless.extend(fetch_html())
     except Exception as e:
         print("HTML error:", e)
 
-    # очистка
     cleaned = []
     for v in all_vless:
         if isinstance(v, str) and v.startswith("vless://"):
             cleaned.append(normalize(v))
 
-    # УМНЫЙ ДЕПУБ (сохраняет порядок)
+    # dedupe
     unique = list(dict.fromkeys(cleaned))
 
-    if not unique:
-        raise RuntimeError("Empty VLESS list after merge")
-
-    print("FINAL TOTAL:", len(unique))
+    print("MERGED TOTAL:", len(unique))
 
     with open("vless_normal_vpn.txt", "w", encoding="utf-8") as f:
-        f.write(f"# updated: {datetime.now(timezone.utc)}\n")
+        f.write(f"# merged: {datetime.now(timezone.utc).isoformat()}\n")
         for v in unique:
             f.write(v + "\n")
 
