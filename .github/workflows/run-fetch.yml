@@ -1,4 +1,4 @@
-name: VLESS Smart Telegram Filter
+name: Update VLESS (smart merge)
 
 on:
   schedule:
@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout repo
@@ -21,22 +24,13 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Install sing-box
-        run: |
-          curl -fsSL https://github.com/SagerNet/sing-box/releases/latest/download/sing-box-1.10.0-linux-amd64.tar.gz -o sb.tar.gz
-          tar -xzf sb.tar.gz
-          sudo mv sing-box-*/sing-box /usr/local/bin/sing-box
-
-      - name: Run merge
+      - name: Run smart merge
         run: python merge_vless.py
-
-      - name: Run Telegram filter
-        run: python telegram_check.py
 
       - name: Commit results
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
           git add vless_normal_vpn.txt
-          git commit -m "auto telegram filtered update" || exit 0
+          git commit -m "auto smart merge" || exit 0
           git push
