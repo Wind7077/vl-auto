@@ -1,87 +1,80 @@
 import requests
-import urllib.parse
-import re
 from datetime import datetime
+import os
 
 URL = "https://tiagorrg.github.io/vless-checker/keys.json"
+
 OUTPUT_FILE = "vless_normal_vpn.txt"
 
-TARGET = [
-    "estonia", "latvia", "lithuania",
+# берём только "Обычный VPN"
+CATEGORIES = [
+    "baltics",
     "finland",
     "germany",
     "sweden",
-    "netherlands", "the netherlands",
+    "netherlands",
     "poland"
 ]
 
-BLACKLIST = ["anycast", "ipv6", "cdn", "test", "cf"]
+
+def fetch():
+    r = requests.get(URL, timeout=20)
+    r.raise_for_status()
+    return r.json()
 
 
-def normalize(t):
-    return re.sub(r'[^a-z0-9 ]', ' ', urllib.parse.unquote(t.lower()))
+def extract_from_country(block):
+    """
+    ВАЖНО: берём ВСЕ, не только best/top10
+    """
+    result = []
 
+    if not isinstance(block, dict):
+        return result
 
-def is_good(v):
-    try:
-        low = v.lower()
+    # 1. best
+    if block.get("best"):
+        result.append(block["best"])
 
-        if any(b in low for b in BLACKLIST):
-            return False
+    # 2. top10 / top5
+    for k in ["top10", "top5"]:
+        if k in block and isinstance(block[k], list):
+            for item in block[k]:
+                if isinstance(item, dict) and "key" in item:
+                    result.append(item["key"])
 
-        host = v.split("@")[1].split(":")[0]
-        frag = v.split("#")[-1]
+    # 3. ALL (самое важное!)
+    if "all" in block and isinstance(block["all"], list):
+        for item in block["all"]:
+            if isinstance(item, str):
+                result.append(item)
+            elif isinstance(item, dict) and "key" in item:
+                result.append(item["key"])
 
-        text = normalize(host + " " + frag)
-
-        return any(x in text for x in TARGET)
-
-    except Exception as e:
-        print("SKIP ERROR:", e)
-        return False
+    return result
 
 
 def main():
-    try:
-        r = requests.get(URL, timeout=20)
-        r.raise_for_status()
-        data = r.json()
-    except Exception as e:
-        print("FETCH ERROR:", e)
-        exit(1)
+    data = fetch()
 
-    print("TYPE:", type(data))
+    all_vless = []
 
-    vless_list = []
+    for cat in CATEGORIES:
+        if cat in data:
+            all_vless.extend(extract_from_country(data[cat]))
 
-    try:
-        if isinstance(data, list):
-            items = data
-        elif isinstance(data, dict):
-            items = data.values()
-        else:
-            items = []
-    except Exception as e:
-        print("STRUCT ERROR:", e)
-        items = []
+    # дедупликация
+    all_vless = list(dict.fromkeys(all_vless))
 
-    for item in items:
-        if isinstance(item, str) and item.startswith("vless://"):
-            if is_good(item):
-                vless_list.append(item)
+    print("TOTAL:", len(all_vless))
 
-        elif isinstance(item, dict):
-            for v in item.values():
-                if isinstance(v, str) and v.startswith("vless://"):
-                    if is_good(v):
-                        vless_list.append(v)
-
-    print("FOUND:", len(vless_list))
+    os.makedirs("output", exist_ok=True)
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(f"# updated: {datetime.utcnow()}\n")
-        for v in vless_list:
-            f.write(v + "\n")
+        for v in all_vless:
+            if isinstance(v, str) and v.startswith("vless://"):
+                f.write(v + "\n")
 
 
 if __name__ == "__main__":
