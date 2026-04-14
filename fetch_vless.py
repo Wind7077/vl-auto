@@ -6,16 +6,19 @@ import re
 
 URL = "https://tiagorrg.github.io/vless-checker/keys.json"
 
-TARGET = {
-    "estonia": ["estonia", "ee"],
-    "finland": ["finland", "fi"],
-    "germany": ["germany", "de"],
-    "sweden": ["sweden", "se"],
-    "netherlands": ["netherlands", "the netherlands", "nl"],
-    "poland": ["poland", "pl"],
-    "latvia": ["latvia", "lv"],
-    "lithuania": ["lithuania", "lt"]
+HOST_MAP = {
+    "es.": "estonia",
+    "fi.": "finland",
+    "gr.": "germany",
+    "de.": "germany",
+    "nl.": "netherlands",
+    "pl.": "poland",
+    "se.": "sweden",
+    "lv.": "latvia",
+    "lt.": "lithuania"
 }
+
+TARGET = set(HOST_MAP.values())
 
 BLACKLIST = ["anycast", "ipv6", "cdn", "test", "cf"]
 
@@ -27,33 +30,37 @@ def fetch():
 
 
 def normalize(text):
-    text = urllib.parse.unquote(text)
-    text = text.lower()
+    text = urllib.parse.unquote(text).lower()
     text = re.sub(r'[^a-z0-9 ]', ' ', text)
     return text
 
 
-def extract_meta(vless):
-    try:
-        host = vless.split("@")[1].split(":")[0]
-        frag = vless.split("#")[-1]
-        return host, frag
-    except:
-        return "", ""
-
-
 def detect_country(vless):
-    host, frag = extract_meta(vless)
+    try:
+        host = vless.split("@")[1].split(":")[0].lower()
+    except:
+        host = ""
 
-    host_n = normalize(host)
-    frag_n = normalize(frag)
+    try:
+        frag = vless.split("#")[-1]
+    except:
+        frag = ""
 
-    combined = host_n + " " + frag_n
+    host_country = None
 
-    for country, variants in TARGET.items():
-        for v in variants:
-            if v in combined:
-                return country
+    for k, v in HOST_MAP.items():
+        if k in host:
+            host_country = v
+            break
+
+    frag_norm = normalize(frag)
+
+    if host_country:
+        return host_country
+
+    for country in TARGET:
+        if country in frag_norm:
+            return country
 
     return None
 
