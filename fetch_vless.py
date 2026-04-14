@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-from urllib.parse import urlparse, parse_qs, unquote
+from urllib.parse import urlparse, unquote
 from datetime import datetime
 import os
 
@@ -8,75 +8,65 @@ URL = "https://tiagorrg.github.io/vless-checker/"
 
 TARGET = ["LV", "LT", "EE", "FI", "DE", "SE", "NL", "PL"]
 
-BLACKLIST_WORDS = [
-    "anycast",
-    "ipv6",
-    "cdn",
-    "cf",
-    "test"
-]
+BLACKLIST = ["anycast", "ipv6", "cdn", "test", "cf"]
 
-OUTPUT_FILE = "output/vless_eu.txt"
+OUTPUT = "output/vless_eu.txt"
 
 
 def fetch():
-    r = requests.get(URL, timeout=20)
+    r = requests.get(URL, timeout=30)
     r.raise_for_status()
     return r.text
 
 
-def extract_vless(html):
+def extract(html):
     soup = BeautifulSoup(html, "html.parser")
-    result = []
+    out = []
 
     for tag in soup.find_all(["code", "pre", "td"]):
-        text = tag.get_text(strip=True)
-        if text.startswith("vless://"):
-            result.append(text)
+        t = tag.get_text(strip=True)
+        if t.startswith("vless://"):
+            out.append(t)
 
-    return result
+    return out
 
 
-def parse_remark(vless_url):
+def get_remark(vless):
     try:
-        parsed = urlparse(vless_url)
-        fragment = unquote(parsed.fragment)  # часть после #
-        return fragment.upper()
+        parsed = urlparse(vless)
+        return unquote(parsed.fragment or "").upper()
     except:
         return ""
 
 
-def is_valid(proxy):
-    remark = parse_remark(proxy)
+def valid(vless):
+    low = vless.lower()
+    remark = get_remark(vless)
 
-    # фильтр стран
     if not any(c in remark for c in TARGET):
         return False
 
-    # фильтр мусора
-    low = proxy.lower()
-    if any(bad in low for bad in BLACKLIST_WORDS):
+    if any(b in low for b in BLACKLIST):
         return False
 
     return True
 
 
-def save(proxies):
+def save(data):
     os.makedirs("output", exist_ok=True)
 
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+    with open(OUTPUT, "w", encoding="utf-8") as f:
         f.write(f"# updated: {datetime.utcnow()}\n")
-        for p in proxies:
-            f.write(p + "\n")
+        for x in data:
+            f.write(x + "\n")
 
 
 def main():
     html = fetch()
-    proxies = extract_vless(html)
+    proxies = extract(html)
+    filtered = [p for p in proxies if valid(p)]
 
-    filtered = [p for p in proxies if is_valid(p)]
-
-    print(f"TOTAL: {len(proxies)} | FILTERED: {len(filtered)}")
+    print(f"total: {len(proxies)} | filtered: {len(filtered)}")
 
     save(filtered)
 
