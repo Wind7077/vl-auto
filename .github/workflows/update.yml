@@ -1,41 +1,29 @@
-name: Update VLESS EU list
+name: update
 
 on:
+  workflow_dispatch:
   schedule:
     - cron: "0 */2 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
 
 jobs:
-  update:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          persist-credentials: true
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Install dependencies
-        run: pip install requests beautifulsoup4
+      - run: pip install requests
 
-      - name: Run script
-        run: python fetch_vless.py
+      - run: python fetch_vless.py
 
-      - name: Commit and push
+      - name: Commit file
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add output/vless_eu.txt
-          git commit -m "auto update" || echo "no changes"
-
-          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/Wind7077/vl-auto.git HEAD:main
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add vless_normal_vpn.txt
+          git commit -m "update" || exit 0
+          git push
