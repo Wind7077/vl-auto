@@ -1,88 +1,33 @@
-import requests
-import urllib.parse
-import re
-import os
-from datetime import datetime
+name: update-vless
 
-URL = "https://tiagorrg.github.io/vless-checker/keys.json"
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */2 * * *"
 
-# страны из "Обычный VPN"
-TARGET_KEYWORDS = [
-    "estonia", "latvia", "lithuania",
-    "finland",
-    "germany",
-    "sweden",
-    "netherlands", "the netherlands",
-    "poland"
-]
+jobs:
+  build:
+    runs-on: ubuntu-latest
 
-BLACKLIST = ["anycast", "ipv6", "cdn", "test", "cf"]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-OUTPUT_FILE = "vless_normal_vpn.txt"
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
 
+      - name: Install deps
+        run: pip install requests
 
-def fetch():
-    return requests.get(URL, timeout=20).json()
+      - name: Run parser
+        run: python fetch_vless.py
 
-
-def normalize(text):
-    text = urllib.parse.unquote(text).lower()
-    return re.sub(r'[^a-z0-9 ]', ' ', text)
-
-
-def is_normal_vpn(vless):
-    low = vless.lower()
-
-    # убираем мусор
-    if any(b in low for b in BLACKLIST):
-        return False
-
-    frag = vless.split("#")[-1]
-    host = ""
-
-    try:
-        host = vless.split("@")[1].split(":")[0]
-    except:
-        pass
-
-    text = normalize(frag + " " + host)
-
-    return any(k in text for k in TARGET_KEYWORDS)
-
-
-def extract(data):
-    result = []
-
-    items = data if isinstance(data, list) else data.values()
-
-    for item in items:
-        if isinstance(item, str) and item.startswith("vless://"):
-            if is_normal_vpn(item):
-                result.append(item)
-
-        elif isinstance(item, dict):
-            for v in item.values():
-                if isinstance(v, str) and v.startswith("vless://"):
-                    if is_normal_vpn(v):
-                        result.append(v)
-
-    return result
-
-
-def save(data):
-    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write(f"# updated: {datetime.utcnow()}\n")
-        for x in data:
-            f.write(x + "\n")
-
-
-def main():
-    data = fetch()
-    vless = extract(data)
-
-    print("FOUND:", len(vless))
-    save(vless)
-
-
-if __name__ == "__main__":
-    main()
+      - name: Commit results
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add vless_normal_vpn.txt || true
+          git commit -m "update vpn list" || true
+          git push || true
