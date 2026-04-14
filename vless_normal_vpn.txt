@@ -1,4 +1,4 @@
-# updated: 2026-04-14 10:55:29.796129
+# updated: 2026-04-14 11:00:13.438137
 vless://75807638-6f19-2328-ae08-38492ee85c88@ing-13.anti-vpn.ru:52006?security=tls&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=&fp=chrome&alpn=http%25252525252F1.1&allowInsecure=1#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://75807638-6f19-2328-ae08-38492ee85c88@ing-dop.anti-vpn.ru:52006?security=tls&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=&fp=chrome&alpn=http%2525252525252F1.1&allowInsecure=1#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://75807638-6f19-2328-ae08-38492ee85c88@ing-13.anti-vpn.ru:52006?security=tls&type=tcp&headerType=&path=&host=&flow=xtls-rprx-vision&sni=&fp=chrome&alpn=http%252525252525252F1.1&allowInsecure=1#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
