@@ -1,9 +1,8 @@
 import requests
-import re
 from datetime import datetime
 import os
 
-JS_URL = "https://tiagorrg.github.io/vless-checker/script.js?v=2"
+URL = "https://tiagorrg.github.io/vless-checker/keys.json"
 
 TARGET = ["LV", "LT", "EE", "FI", "DE", "SE", "NL", "PL"]
 
@@ -12,32 +11,47 @@ BLACKLIST = ["anycast", "ipv6", "cdn", "test", "cf"]
 OUTPUT = "output/vless_eu.txt"
 
 
-def fetch_js():
-    r = requests.get(JS_URL, timeout=30)
+def fetch():
+    r = requests.get(URL, timeout=20)
     r.raise_for_status()
-    return r.text
+    return r.json()
 
 
-def extract_vless(js):
-    # достаём все vless:// из JS
-    return re.findall(r'vless://[^\s"\']+', js)
-
-
-def get_country(text):
-    # пытаемся вытащить страну из строки
-    match = re.search(r'\b(EE|LV|LT|FI|DE|SE|NL|PL)\b', text.upper())
-    return match.group(1) if match else ""
-
-
-def is_valid(vless):
-    low = vless.lower()
+def is_valid(key):
+    low = key.lower()
 
     if any(b in low for b in BLACKLIST):
         return False
 
-    country = get_country(vless)
+    if not any(c in key.upper() for c in TARGET):
+        return False
 
-    return country in TARGET
+    return True
+
+
+def extract(data):
+    result = []
+
+    # структура keys.json может быть разная → делаем универсально
+    if isinstance(data, list):
+        items = data
+    elif isinstance(data, dict):
+        items = data.values()
+    else:
+        return []
+
+    for item in items:
+        if isinstance(item, str):
+            if item.startswith("vless://") and is_valid(item):
+                result.append(item)
+
+        elif isinstance(item, dict):
+            for v in item.values():
+                if isinstance(v, str) and v.startswith("vless://"):
+                    if is_valid(v):
+                        result.append(v)
+
+    return result
 
 
 def save(data):
@@ -50,15 +64,12 @@ def save(data):
 
 
 def main():
-    js = fetch_js()
+    data = fetch()
+    vless = extract(data)
 
-    vless = extract_vless(js)
+    print("FOUND:", len(vless))
 
-    filtered = [v for v in vless if is_valid(v)]
-
-    print(f"TOTAL: {len(vless)} | FILTERED: {len(filtered)}")
-
-    save(filtered)
+    save(vless)
 
 
 if __name__ == "__main__":
