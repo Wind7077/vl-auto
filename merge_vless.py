@@ -2,90 +2,111 @@ import requests
 import re
 import yaml
 from datetime import datetime, timezone
-from urllib.parse import urlparse, parse_qs, unquote
 
-URL_JSON = "https://tiagorrg.github.io/vless-checker/keys.json"
-URL_HTML = "https://getfreeproxy.com/lists/vless-proxy-list"
+URLS = [
+    "https://tiagorrg.github.io/vless-checker/keys.json",
+    "https://getfreeproxy.com/lists/vless-proxy-list"
+]
 
-def fetch():
+def fetch_all():
     out = []
 
+    # JSON source
     try:
-        j = requests.get(URL_JSON, timeout=20).json()
-        for v in str(j):
-            pass
-    except:
-        pass
+        j = requests.get(URLS[0], timeout=20).json()
+        out += re.findall(r"vless://[^\s\"'<]+", str(j))
+    except Exception as e:
+        print("JSON FAIL:", e)
 
+    # HTML source
     try:
-        r = requests.get(URL_HTML, timeout=20)
+        r = requests.get(URLS[1], timeout=20)
         out += re.findall(r"vless://[^\s\"'<]+", r.text)
-    except:
-        pass
+    except Exception as e:
+        print("HTML FAIL:", e)
 
     return list(dict.fromkeys(out))
 
 
-def make_name(uri):
-    return uri.split("@")[-1][:60]
+def safe_name(uri):
+    try:
+        host = uri.split("@")[1].split(":")[0]
+        port = re.search(r":(\d+)", uri).group(1)
+        return f"{host}:{port}"
+    except:
+        return "bad-node"
 
 
-def vless_to_clash(uri):
-    # ВАЖНО: НЕ режем параметры вообще
-    return {
-        "name": make_name(uri),
-        "type": "vless",
-        "server": uri.split("@")[1].split(":")[0],
-        "port": int(re.search(r":(\d+)", uri).group(1)),
-        "uuid": uri.split("vless://")[1].split("@")[0],
+def build_proxy(uri):
+    try:
+        host = uri.split("@")[1].split(":")[0]
+        port = int(re.search(r":(\d+)", uri).group(1))
+        uuid = uri.split("vless://")[1].split("@")[0]
 
-        # КРИТИЧНО: raw поддержка
-        "udp": True,
-        "network": "tcp",
-        "skip-cert-verify": False,
-
-        # forward full params via reality/tls fallback
-    }
+        return {
+            "name": safe_name(uri),
+            "type": "vless",
+            "server": host,
+            "port": port,
+            "uuid": uuid,
+            "udp": True
+        }
+    except:
+        return None
 
 
 def main():
-    raw = fetch()
+    raw = fetch_all()
+
+    print("RAW:", len(raw))
 
     proxies = []
-    for v in raw:
-        if v.startswith("vless://"):
-            try:
-                proxies.append(vless_to_clash(v))
-            except:
-                continue
+    good = []
 
-    # TXT
-    with open("vless_normal_vpn.txt", "w") as f:
-        f.write(f"# {len(raw)}\n")
-        for v in raw:
+    for v in raw:
+        if not v.startswith("vless://"):
+            continue
+        p = build_proxy(v)
+        if p:
+            proxies.append(p)
+            good.append(v)
+
+    # ── GUARANTEE: NEVER EMPTY ──
+    if not proxies:
+        print("WARNING: empty proxies → fallback DIRECT")
+        proxies = [{
+            "name": "DIRECT",
+            "type": "direct"
+        }]
+
+    # TXT ALWAYS WRITE
+    with open("vless_normal_vpn.txt", "w", encoding="utf-8") as f:
+        f.write(f"# updated {datetime.now(timezone.utc)}\n")
+        f.write(f"# total {len(good)}\n")
+        for v in good:
             f.write(v + "\n")
 
-    # YAML (ВАЖНО fallback)
+    # YAML ALWAYS WRITE
     config = {
         "mixed-port": 7890,
         "mode": "rule",
         "allow-lan": False,
 
-        "proxies": proxies if proxies else [{"name":"DIRECT","type":"direct"}],
+        "proxies": proxies,
 
         "proxy-groups": [{
             "name": "AUTO",
             "type": "select",
-            "proxies": [p["name"] for p in proxies] if proxies else ["DIRECT"]
+            "proxies": [p["name"] for p in proxies]
         }],
 
         "rules": ["MATCH,AUTO"]
     }
 
-    with open("clash_vless.yaml", "w") as f:
+    with open("clash_vless.yaml", "w", encoding="utf-8") as f:
         yaml.dump(config, f, allow_unicode=True, sort_keys=False)
 
-    print("OK:", len(proxies))
+    print("OK proxies:", len(proxies))
 
 
 if __name__ == "__main__":
