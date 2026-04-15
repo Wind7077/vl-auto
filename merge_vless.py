@@ -1,42 +1,46 @@
-import re
 import yaml
 from datetime import datetime
 
 INPUT_FILE = "vless_normal_vpn.txt"
 OUTPUT_FILE = "config.yaml"
 
-VLESS_REGEX = re.compile(
-    r"vless://(?P<uuid>[^@]+)@(?P<server>[^:]+):(?P<port>\d+)"
-)
 
-def parse_vless_lines(text: str):
+def parse_vless(text):
     proxies = []
 
     for line in text.splitlines():
         line = line.strip()
-        if not line or not line.startswith("vless://"):
+
+        if "vless://" not in line:
             continue
 
-        match = VLESS_REGEX.search(line)
-        if not match:
-            continue
+        try:
+            # vless://UUID@server:port
+            part = line.replace("vless://", "")
+            creds, server_part = part.split("@")
+            server, port = server_part.split(":")
 
-        proxies.append({
-            "name": line.split("@")[1][:40],
-            "type": "vless",
-            "server": match.group("server"),
-            "port": int(match.group("port")),
-            "uuid": match.group("uuid"),
-            "udp": True,
-            "tls": False,
-            "network": "tcp"
-        })
+            proxies.append({
+                "name": server[:40],
+                "type": "vless",
+                "server": server,
+                "port": int(port),
+                "uuid": creds,
+                "udp": True,
+                "tls": False,
+                "network": "tcp"
+            })
+
+        except:
+            continue
 
     return proxies
 
 
 def build_yaml(proxies):
-    config = {
+    names = [p["name"] for p in proxies]
+
+    return {
         "mixed-port": 7890,
         "mode": "rule",
         "ipv6": False,
@@ -45,14 +49,14 @@ def build_yaml(proxies):
             {
                 "name": "AUTO",
                 "type": "url-test",
-                "proxies": [p["name"] for p in proxies],
+                "proxies": names,
                 "url": "https://api.telegram.org",
                 "interval": 300
             },
             {
                 "name": "SELECT",
                 "type": "select",
-                "proxies": [p["name"] for p in proxies]
+                "proxies": names
             },
             {
                 "name": "FINAL",
@@ -60,37 +64,29 @@ def build_yaml(proxies):
                 "proxies": ["AUTO", "SELECT"]
             }
         ],
-        "rules": [
-            "MATCH,FINAL"
-        ]
+        "rules": ["MATCH,FINAL"]
     }
-
-    return config
 
 
 def main():
-    try:
-        with open(INPUT_FILE, "r", encoding="utf-8") as f:
-            raw = f.read()
+    with open(INPUT_FILE, "r", encoding="utf-8") as f:
+        data = f.read()
 
-        proxies = parse_vless_lines(raw)
+    proxies = parse_vless(data)
 
-        print(f"[INFO] parsed proxies: {len(proxies)}")
+    print("PARSED:", len(proxies))
 
-        if not proxies:
-            print("[ERROR] no proxies parsed -> STOP")
-            return
+    if len(proxies) == 0:
+        print("ERROR: no vless found in input file")
+        return
 
-        yaml_data = build_yaml(proxies)
+    config = build_yaml(proxies)
 
-        with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-            f.write("# generated " + str(datetime.utcnow()) + "\n\n")
-            yaml.dump(yaml_data, f, allow_unicode=True, sort_keys=False)
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        f.write("# generated " + str(datetime.utcnow()) + "\n")
+        yaml.dump(config, f, allow_unicode=True, sort_keys=False)
 
-        print("[OK] YAML generated")
-
-    except Exception as e:
-        print("[FATAL ERROR]", str(e))
+    print("DONE: config.yaml created")
 
 
 if __name__ == "__main__":
