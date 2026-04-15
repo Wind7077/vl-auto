@@ -1,5 +1,7 @@
 import requests
 import re
+import ipaddress
+import socket
 import yaml
 from datetime import datetime, timezone
 from urllib.parse import unquote
@@ -8,129 +10,274 @@ URL_JSON = "https://tiagorrg.github.io/vless-checker/keys.json"
 URL_HTML = "https://getfreeproxy.com/lists/vless-proxy-list"
 
 
-def fetch_json():
+# ─────────────────────────────
+# NETWORK FILTERS (оставил как у тебя)
+# ─────────────────────────────
+
+RUSSIA_IP_RANGES = [
+    "5.3.0.0/16", "5.8.0.0/16", "5.16.0.0/13",
+    "31.13.0.0/18", "37.29.0.0/16",
+    "77.88.0.0/21", "91.108.4.0/22"
+]
+
+ANYCAST_RANGES = [
+    "1.1.1.0/24", "8.8.8.0/24",
+    "104.16.0.0/13", "172.64.0.0/13"
+]
+
+
+def build_networks(ranges):
+    nets = []
+    for cidr in ranges:
+        try:
+            nets.append(ipaddress.ip_network(cidr, strict=False))
+        except:
+            pass
+    return nets
+
+
+RUSSIA_NETS = build_networks(RUSSIA_IP_RANGES)
+ANYCAST_NETS = build_networks(ANYCAST_RANGES)
+
+
+def resolve_host(host):
     try:
-        r = requests.get(URL_JSON, timeout=20)
-        r.raise_for_status()
-        return r.json()
-    except Exception:
-        return {}
+        return socket.getaddrinfo(host, None, socket.AF_INET)[0][4][0]
+    except:
+        return None
 
 
-def extract_json(data):
-    result = []
-    if not isinstance(data, dict):
-        return result
+def ip_in(ip, nets):
+    try:
+        ip = ipaddress.ip_address(ip)
+        return any(ip in n for n in nets)
+    except:
+        return False
 
-    for _, v in data.items():
-        if isinstance(v, dict):
-            for kk in ["best", "top10", "top5", "all"]:
-                val = v.get(kk)
 
-                if isinstance(val, str) and val.startswith("vless://"):
-                    result.append(val)
+# ─────────────────────────────
+# FETCH
+# ─────────────────────────────
 
-                elif isinstance(val, list):
-                    for i in val:
-                        if isinstance(i, str) and i.startswith("vless://"):
-                            result.append(i)
-                        elif isinstance(i, dict):
-                            for x in ["key", "vless", "url"]:
-                                if x in i and isinstance(i[x], str):
-                                    result.append(i[x])
-    return result
+def fetch_json():
+    return requests.get(URL_JSON, timeout=30).json()
 
 
 def fetch_html():
     try:
-        r = requests.get(URL_HTML, timeout=20)
-        r.raise_for_status()
+        r = requests.get(URL_HTML, timeout=30)
         return re.findall(r'vless://[^\s"<]+', r.text)
-    except Exception:
+    except:
         return []
 
 
-def normalize(v):
-    return v.strip()
+def extract_json(data):
+    out = []
+    if isinstance(data, dict):
+        for v in data.values():
+            if isinstance(v, dict):
+                for k in ["best", "top10", "all"]:
+                    if k in v:
+                        val = v[k]
+                        if isinstance(val, list):
+                            out += [i for i in val if isinstance(i, str)]
+                        elif isinstance(val, str):
+                            out.append(val)
+    return [x for x in out if x.startswith("vless://")]
 
 
-def is_valid(v):
-    return isinstance(v, str) and v.startswith("vless://") and len(v) > 50
+# ─────────────────────────────
+# PARSE
+# ─────────────────────────────
+
+def parse_vless(uri):
+    try:
+        rest = uri.replace("vless://", "")
+
+        uuid, rest = rest.split("@", 1)
+
+        if rest.startswith("["):
+            host = rest[1:rest.find("]")]
+            rest = rest[rest.find("]") + 2:]
+        else:
+            host, rest = rest.split(":", 1)
+
+        port = int(rest.split("?")[0].split("#")[0])
+
+        params = {}
+        if "?" in rest:
+            q = rest.split("?")[1]
+            for p in q.split("&"):
+                if "=" in p:
+                    k, v = p.split("=", 1)
+                    params[k] = unquote(v)
+
+        name = params.get("sni") or host
+
+        return {
+            "uuid": uuid,
+            "host": host,
+            "port": port,
+            "params": params,
+            "name": name,
+            "raw": uri
+        }
+
+    except:
+        return None
 
 
-def deduplicate(lst):
-    return list(dict.fromkeys(lst))
+# ─────────────────────────────
+# UNIQUE NAME FIX (ВАЖНО)
+# ─────────────────────────────
+
+def make_unique_names(parsed_list):
+    used = {}
+    result = []
+
+    for i, p in enumerate(parsed_list):
+        base = f"{p['host']}:{p['port']}"
+
+        if base not in used:
+            used[base] = 0
+        used[base] += 1
+
+        uniq = f"{base}-{used[base]}-{p['uuid'][:4]}"
+        p["name"] = uniq[:60]
+        result.append(p)
+
+    return result
 
 
-def generate_clash_yaml(proxies, filename="clash_vless.yaml"):
-    """
-    Гарантированная генерация YAML даже если proxies пустой
-    """
+# ─────────────────────────────
+# CONVERT
+# ─────────────────────────────
+
+def to_proxy(p):
+    params = p["params"]
+
+    proxy = {
+        "name": p["name"],
+        "type": "vless",
+        "server": p["host"],
+        "port": p["port"],
+        "uuid": p["uuid"],
+        "udp": True
+    }
+
+    if params.get("security") in ["tls", "reality"]:
+        proxy["tls"] = True
+        proxy["servername"] = params.get("sni", p["host"])
+
+    transport = params.get("type", "tcp")
+
+    if transport == "ws":
+        proxy["network"] = "ws"
+        proxy["ws-opts"] = {
+            "path": params.get("path", "/"),
+            "headers": {"Host": params.get("host", p["host"])}
+        }
+
+    elif transport == "grpc":
+        proxy["network"] = "grpc"
+        proxy["grpc-opts"] = {
+            "grpc-service-name": params.get("serviceName", "")
+        }
+
+    else:
+        proxy["network"] = "tcp"
+
+    return proxy
+
+
+# ─────────────────────────────
+# YAML GENERATOR (SAFE)
+# ─────────────────────────────
+
+def generate_yaml(proxies):
+    names = [p["name"] for p in proxies]
 
     config = {
         "mixed-port": 7890,
         "allow-lan": False,
         "mode": "rule",
         "log-level": "info",
+        "ipv6": False,
 
-        "proxies": [],
+        "proxies": proxies,
 
         "proxy-groups": [
             {
                 "name": "AUTO",
+                "type": "url-test",
+                "proxies": names if names else ["DIRECT"],
+                "url": "https://api.telegram.org",
+                "interval": 300
+            },
+            {
+                "name": "MANUAL",
                 "type": "select",
-                "proxies": ["DIRECT"]
+                "proxies": ["AUTO"] + names if names else ["DIRECT"]
             }
         ],
 
         "rules": [
-            "MATCH,DIRECT"
+            "MATCH,MANUAL"
         ]
     }
 
-    # если есть прокси — добавляем
-    for v in proxies:
-        config["proxies"].append({
-            "name": v[:50],
-            "type": "vless",
-            "server": "127.0.0.1",
-            "port": 443,
-            "uuid": "00000000-0000-0000-0000-000000000000"
-        })
-
-    with open(filename, "w", encoding="utf-8") as f:
-        f.write(f"# generated {datetime.now(timezone.utc)}\n\n")
+    with open("clash_vless.yaml", "w", encoding="utf-8") as f:
         yaml.dump(config, f, allow_unicode=True, sort_keys=False)
 
-    print(f"YAML OK: {filename} ({len(proxies)} proxies)")
+    print("YAML OK:", len(proxies))
 
+
+# ─────────────────────────────
+# MAIN
+# ─────────────────────────────
 
 def main():
-    all_vless = []
+    raw = []
 
-    json_data = fetch_json()
-    all_vless.extend(extract_json(json_data))
-    all_vless.extend(fetch_html())
+    try:
+        raw += extract_json(fetch_json())
+    except:
+        pass
 
-    cleaned = [normalize(v) for v in all_vless if is_valid(v)]
-    unique = deduplicate(cleaned)
+    raw += fetch_html()
 
-    print("RAW:", len(unique))
+    parsed = []
+    for v in raw:
+        if v.startswith("vless://"):
+            p = parse_vless(v)
+            if p:
+                parsed.append(p)
 
-    # ВАЖНО: НИКАКИХ DNS / IP FILTERS
-    filtered = unique
+    # FILTER SAFE (НЕ УБИВАЕМ ВСЁ)
+    filtered = []
+    for p in parsed:
+        ip = resolve_host(p["host"]) or p["host"]
 
-    print("FINAL:", len(filtered))
+        if ip_in(ip, RUSSIA_NETS):
+            continue
+        if ip_in(ip, ANYCAST_NETS):
+            continue
 
-    # TXT всегда создаётся
+        filtered.append(p)
+
+    # UNIQUE FIX
+    filtered = make_unique_names(filtered)
+
+    proxies = [to_proxy(p) for p in filtered]
+
+    # ВАЖНО: YAML ВСЕГДА ГЕНЕРИРУЕМ
+    generate_yaml(proxies)
+
     with open("vless_normal_vpn.txt", "w", encoding="utf-8") as f:
-        f.write(f"# updated {datetime.now(timezone.utc)}\n")
-        f.write(f"# total {len(filtered)}\n\n")
-        for v in filtered:
-            f.write(v + "\n")
+        for p in filtered:
+            f.write(p["raw"] + "\n")
 
-    # YAML всегда создаётся (даже если пусто)
-    generate_clash_yaml(filtered)
+    print("TXT OK:", len(filtered))
 
 
 if __name__ == "__main__":
