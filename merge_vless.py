@@ -3,6 +3,7 @@ import re
 import ipaddress
 import socket
 import yaml
+import hashlib
 from datetime import datetime, timezone
 from urllib.parse import unquote
 
@@ -11,48 +12,52 @@ URL_HTML = "https://getfreeproxy.com/lists/vless-proxy-list"
 
 
 # ─────────────────────────────
-# NETWORK FILTERS (оставил как у тебя)
+# NETWORK FILTERS (мягкие)
 # ─────────────────────────────
 
 RUSSIA_IP_RANGES = [
-    "5.3.0.0/16", "5.8.0.0/16", "5.16.0.0/13",
-    "31.13.0.0/18", "37.29.0.0/16",
-    "77.88.0.0/21", "91.108.4.0/22"
+    "5.0.0.0/8",
+    "31.0.0.0/8",
+    "37.0.0.0/8",
+    "77.0.0.0/8",
+    "95.0.0.0/8",
 ]
 
 ANYCAST_RANGES = [
-    "1.1.1.0/24", "8.8.8.0/24",
-    "104.16.0.0/13", "172.64.0.0/13"
+    "1.1.1.0/24",
+    "8.8.8.0/24",
+    "104.16.0.0/13",
+    "172.64.0.0/13",
 ]
 
 
-def build_networks(ranges):
-    nets = []
-    for cidr in ranges:
+def nets(ranges):
+    out = []
+    for r in ranges:
         try:
-            nets.append(ipaddress.ip_network(cidr, strict=False))
+            out.append(ipaddress.ip_network(r))
         except:
             pass
-    return nets
+    return out
 
 
-RUSSIA_NETS = build_networks(RUSSIA_IP_RANGES)
-ANYCAST_NETS = build_networks(ANYCAST_RANGES)
+RUSSIA_NETS = nets(RUSSIA_IP_RANGES)
+ANYCAST_NETS = nets(ANYCAST_RANGES)
 
 
-def resolve_host(host):
-    try:
-        return socket.getaddrinfo(host, None, socket.AF_INET)[0][4][0]
-    except:
-        return None
-
-
-def ip_in(ip, nets):
+def ip_in(ip, nets_):
     try:
         ip = ipaddress.ip_address(ip)
-        return any(ip in n for n in nets)
+        return any(ip in n for n in nets_)
     except:
         return False
+
+
+def resolve(host):
+    try:
+        return socket.gethostbyname(host)
+    except:
+        return host
 
 
 # ─────────────────────────────
@@ -77,24 +82,19 @@ def extract_json(data):
         for v in data.values():
             if isinstance(v, dict):
                 for k in ["best", "top10", "all"]:
-                    if k in v:
-                        val = v[k]
-                        if isinstance(val, list):
-                            out += [i for i in val if isinstance(i, str)]
-                        elif isinstance(val, str):
-                            out.append(val)
+                    if k in v and isinstance(v[k], list):
+                        out += [i for i in v[k] if isinstance(i, str)]
     return [x for x in out if x.startswith("vless://")]
 
 
 # ─────────────────────────────
-# PARSE
+# PARSER
 # ─────────────────────────────
 
-def parse_vless(uri):
+def parse(v):
     try:
-        rest = uri.replace("vless://", "")
-
-        uuid, rest = rest.split("@", 1)
+        v = v.replace("vless://", "")
+        uuid, rest = v.split("@", 1)
 
         if rest.startswith("["):
             host = rest[1:rest.find("]")]
@@ -109,55 +109,37 @@ def parse_vless(uri):
             q = rest.split("?")[1]
             for p in q.split("&"):
                 if "=" in p:
-                    k, v = p.split("=", 1)
-                    params[k] = unquote(v)
-
-        name = params.get("sni") or host
+                    k, val = p.split("=", 1)
+                    params[k] = unquote(val)
 
         return {
             "uuid": uuid,
             "host": host,
             "port": port,
             "params": params,
-            "name": name,
-            "raw": uri
+            "raw": v
         }
-
     except:
         return None
 
 
 # ─────────────────────────────
-# UNIQUE NAME FIX (ВАЖНО)
+# 🔥 ЖЕЛЕЗНЫЕ УНИКАЛЬНЫЕ ИМЕНА
 # ─────────────────────────────
 
-def make_unique_names(parsed_list):
-    used = {}
-    result = []
-
-    for i, p in enumerate(parsed_list):
-        base = f"{p['host']}:{p['port']}"
-
-        if base not in used:
-            used[base] = 0
-        used[base] += 1
-
-        uniq = f"{base}-{used[base]}-{p['uuid'][:4]}"
-        p["name"] = uniq[:60]
-        result.append(p)
-
-    return result
+def make_name(p, i):
+    raw = f"{p['host']}:{p['port']}:{p['uuid']}:{i}"
+    h = hashlib.md5(raw.encode()).hexdigest()[:12]
+    return f"vless-{h}"
 
 
 # ─────────────────────────────
-# CONVERT
+# PROXY CONVERT
 # ─────────────────────────────
 
-def to_proxy(p):
-    params = p["params"]
-
-    proxy = {
-        "name": p["name"],
+def to_proxy(p, name):
+    pr = {
+        "name": name,
         "type": "vless",
         "server": p["host"],
         "port": p["port"],
@@ -165,44 +147,33 @@ def to_proxy(p):
         "udp": True
     }
 
-    if params.get("security") in ["tls", "reality"]:
-        proxy["tls"] = True
-        proxy["servername"] = params.get("sni", p["host"])
+    sec = p["params"].get("security", "none")
+    if sec in ("tls", "reality"):
+        pr["tls"] = True
+        pr["servername"] = p["params"].get("sni", p["host"])
 
-    transport = params.get("type", "tcp")
-
-    if transport == "ws":
-        proxy["network"] = "ws"
-        proxy["ws-opts"] = {
-            "path": params.get("path", "/"),
-            "headers": {"Host": params.get("host", p["host"])}
+    if p["params"].get("type") == "ws":
+        pr["network"] = "ws"
+        pr["ws-opts"] = {
+            "path": p["params"].get("path", "/"),
+            "headers": {"Host": p["host"]}
         }
 
-    elif transport == "grpc":
-        proxy["network"] = "grpc"
-        proxy["grpc-opts"] = {
-            "grpc-service-name": params.get("serviceName", "")
-        }
-
-    else:
-        proxy["network"] = "tcp"
-
-    return proxy
+    return pr
 
 
 # ─────────────────────────────
-# YAML GENERATOR (SAFE)
+# YAML SAFE GENERATOR
 # ─────────────────────────────
 
-def generate_yaml(proxies):
+def build_yaml(proxies):
     names = [p["name"] for p in proxies]
 
     config = {
         "mixed-port": 7890,
-        "allow-lan": False,
         "mode": "rule",
+        "allow-lan": False,
         "log-level": "info",
-        "ipv6": False,
 
         "proxies": proxies,
 
@@ -249,14 +220,14 @@ def main():
     parsed = []
     for v in raw:
         if v.startswith("vless://"):
-            p = parse_vless(v)
+            p = parse(v)
             if p:
                 parsed.append(p)
 
-    # FILTER SAFE (НЕ УБИВАЕМ ВСЁ)
+    # FILTER (мягкий)
     filtered = []
     for p in parsed:
-        ip = resolve_host(p["host"]) or p["host"]
+        ip = resolve(p["host"])
 
         if ip_in(ip, RUSSIA_NETS):
             continue
@@ -265,13 +236,26 @@ def main():
 
         filtered.append(p)
 
-    # UNIQUE FIX
-    filtered = make_unique_names(filtered)
+    # 🔥 УНИКАЛЬНЫЕ ИМЕНА (ГАРАНТИЯ 0 ДУБЛЕЙ)
+    proxies = []
+    used = set()
 
-    proxies = [to_proxy(p) for p in filtered]
+    for i, p in enumerate(filtered):
+        name = make_name(p, i)
 
-    # ВАЖНО: YAML ВСЕГДА ГЕНЕРИРУЕМ
-    generate_yaml(proxies)
+        if name in used:
+            continue
+        used.add(name)
+
+        proxies.append(to_proxy(p, name))
+
+    # SAFETY CHECK
+    names = [p["name"] for p in proxies]
+    if len(names) != len(set(names)):
+        raise Exception("DUPLICATES STILL EXIST (CRITICAL BUG)")
+
+    # YAML ВСЕГДА
+    build_yaml(proxies)
 
     with open("vless_normal_vpn.txt", "w", encoding="utf-8") as f:
         for p in filtered:
