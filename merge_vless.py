@@ -1,92 +1,72 @@
-import yaml
-from datetime import datetime
+import re
+from urllib.parse import urlparse, parse_qs
 
-INPUT_FILE = "vless_normal_vpn.txt"
-OUTPUT_FILE = "config.yaml"
-
-
-def parse_vless(text):
-    proxies = []
-
-    for line in text.splitlines():
-        line = line.strip()
-
-        if "vless://" not in line:
-            continue
-
-        try:
-            # vless://UUID@server:port
-            part = line.replace("vless://", "")
-            creds, server_part = part.split("@")
-            server, port = server_part.split(":")
-
-            proxies.append({
-                "name": server[:40],
-                "type": "vless",
-                "server": server,
-                "port": int(port),
-                "uuid": creds,
-                "udp": True,
-                "tls": False,
-                "network": "tcp"
-            })
-
-        except:
-            continue
-
-    return proxies
+INPUT_FILE = "vless_raw.txt"
+OUTPUT_FILE = "vless_normal_vpn.txt"
 
 
-def build_yaml(proxies):
-    names = [p["name"] for p in proxies]
+def parse_vless(line: str):
+    line = line.strip()
 
-    return {
-        "mixed-port": 7890,
-        "mode": "rule",
-        "ipv6": False,
-        "proxies": proxies,
-        "proxy-groups": [
-            {
-                "name": "AUTO",
-                "type": "url-test",
-                "proxies": names,
-                "url": "https://api.telegram.org",
-                "interval": 300
-            },
-            {
-                "name": "SELECT",
-                "type": "select",
-                "proxies": names
-            },
-            {
-                "name": "FINAL",
-                "type": "select",
-                "proxies": ["AUTO", "SELECT"]
-            }
-        ],
-        "rules": ["MATCH,FINAL"]
-    }
+    if not line.startswith("vless://"):
+        return None
+
+    try:
+        # vless://uuid@host:port?params#name
+        parsed = urlparse(line)
+
+        uuid_host = parsed.netloc
+        if "@" not in uuid_host:
+            return None
+
+        uuid, host_port = uuid_host.split("@", 1)
+
+        if ":" not in host_port:
+            return None
+
+        host, port = host_port.split(":")
+
+        qs = parse_qs(parsed.query)
+
+        name = parsed.fragment if parsed.fragment else f"{host}"
+
+        return {
+            "name": name,
+            "type": "vless",
+            "server": host,
+            "port": int(port),
+            "uuid": uuid,
+            "udp": True,
+            "tls": False,
+            "network": "tcp"
+        }
+
+    except Exception:
+        return None
 
 
 def main():
-    with open(INPUT_FILE, "r", encoding="utf-8") as f:
-        data = f.read()
+    proxies = []
 
-    proxies = parse_vless(data)
-
-    print("PARSED:", len(proxies))
-
-    if len(proxies) == 0:
-        print("ERROR: no vless found in input file")
+    try:
+        with open(INPUT_FILE, "r", encoding="utf-8") as f:
+            lines = f.readlines()
+    except FileNotFoundError:
+        print("INPUT FILE NOT FOUND")
         return
 
-    config = build_yaml(proxies)
+    for line in lines:
+        p = parse_vless(line)
+        if p:
+            proxies.append(p)
+
+    print(f"Parsed proxies: {len(proxies)}")
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("# generated " + str(datetime.utcnow()) + "\n")
-        yaml.dump(config, f, allow_unicode=True, sort_keys=False)
-
-    print("DONE: config.yaml created")
+        for p in proxies:
+            f.write(
+                f"{p['name']}|{p['server']}|{p['port']}|{p['uuid']}\n"
+            )
 
 
 if __name__ == "__main__":
