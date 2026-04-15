@@ -1,8 +1,9 @@
 mixed-port: 7890
 mode: rule
 log-level: info
+
 proxies:
-- name: 🇪🇪 Estonia, Tallinn | 🌐 | [BL]-26b45b
+- name: "🇪🇪 Estonia, Tallinn | 🌐 | [BL]-26b45b"
   type: vless
   server: ing-13.anti-vpn.ru
   port: 52006
@@ -11,7 +12,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇫🇮 Finland, Helsinki | [BL]-7f8ff6
+- name: "🇫🇮 Finland, Helsinki | [BL]-7f8ff6"
   type: vless
   server: fix3.braidpro.online
   port: 443
@@ -20,7 +21,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇩🇪 Germany, Frankfurt am Main | [BL]-f1d3cf
+- name: "🇩🇪 Germany, Frankfurt am Main | [BL]-f1d3cf"
   type: vless
   server: de7.lazeroe.com
   port: 443
@@ -29,7 +30,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇸🇪 Sweden, Stockholm | [BL]-fbaae1
+- name: "🇸🇪 Sweden, Stockholm | [BL]-fbaae1"
   type: vless
   server: se.stuffcollections.com
   port: 443
@@ -38,7 +39,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇳🇱 The Netherlands, Amsterdam (Amsterdam-98336a
+- name: "🇳🇱 The Netherlands, Amsterdam (Amsterdam-98336a"
   type: vless
   server: nl6.lazeroe.com
   port: 443
@@ -47,7 +48,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇵🇱 Poland, Warsaw | [BL]-871c3c
+- name: "🇵🇱 Poland, Warsaw | [BL]-871c3c"
   type: vless
   server: polands.stardevs.top
   port: 443
@@ -56,7 +57,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇱🇹 Lithuania [*CIDR] YA-b398f7
+- name: "🇱🇹 Lithuania [*CIDR] YA-b398f7"
   type: vless
   server: 84.201.186.184
   port: 443
@@ -65,7 +66,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇫🇮 Finland [*CIDR] YA-ab03af
+- name: "🇫🇮 Finland [*CIDR] YA-ab03af"
   type: vless
   server: 84.201.173.96
   port: 443
@@ -74,7 +75,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇩🇪 Germany [*CIDR] VK-3ad7a9
+- name: "🇩🇪 Germany [*CIDR] VK-3ad7a9"
   type: vless
   server: 109.120.188.2
   port: 443
@@ -83,7 +84,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇳🇱 The Netherlands | 🌐 [*CIDR] YA-3c6e19
+- name: "🇳🇱 The Netherlands | 🌐 [*CIDR] YA-3c6e19"
   type: vless
   server: 158.160.237.0
   port: 3443
@@ -92,7 +93,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇵🇱 Poland [*CIDR] VK-691a74
+- name: "🇵🇱 Poland [*CIDR] VK-691a74"
   type: vless
   server: 212.233.98.145
   port: 5443
@@ -101,7 +102,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇬🇧 United Kingdom [*CIDR] YA-c72bfb
+- name: "🇬🇧 United Kingdom [*CIDR] YA-c72bfb"
   type: vless
   server: 84.201.151.238
   port: 443
@@ -110,7 +111,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
-- name: 🇷🇺 Russia [*CIDR] CDN-77a0a1
+- name: "🇷🇺 Russia [*CIDR] CDN-77a0a1"
   type: vless
   server: 151.236.114.156
   port: 8443
@@ -119,27 +120,44 @@ proxies:
   tls: true
   skip-cert-verify: true
   network: tcp
+
+
 proxy-groups:
 - name: AUTO
   type: select
-  proxies: &id001
-  - 🇪🇪 Estonia, Tallinn | 🌐 | [BL]-26b45b
-  - 🇫🇮 Finland, Helsinki | [BL]-7f8ff6
-  - 🇩🇪 Germany, Frankfurt am Main | [BL]-f1d3cf
-  - 🇸🇪 Sweden, Stockholm | [BL]-fbaae1
-  - 🇳🇱 The Netherlands, Amsterdam (Amsterdam-98336a
-  - 🇵🇱 Poland, Warsaw | [BL]-871c3c
-  - 🇱🇹 Lithuania [*CIDR] YA-b398f7
-  - 🇫🇮 Finland [*CIDR] YA-ab03af
-  - 🇩🇪 Germany [*CIDR] VK-3ad7a9
-  - 🇳🇱 The Netherlands | 🌐 [*CIDR] YA-3c6e19
-  - 🇵🇱 Poland [*CIDR] VK-691a74
-  - 🇬🇧 United Kingdom [*CIDR] YA-c72bfb
-  - 🇷🇺 Russia [*CIDR] CDN-77a0a1
+  proxies:
+  - "🇪🇪 Estonia, Tallinn | 🌐 | [BL]-26b45b"
+  - "🇫🇮 Finland, Helsinki | [BL]-7f8ff6"
+  - "🇩🇪 Germany, Frankfurt am Main | [BL]-f1d3cf"
+  - "🇸🇪 Sweden, Stockholm | [BL]-fbaae1"
+  - "🇳🇱 The Netherlands, Amsterdam (Amsterdam-98336a"
+  - "🇵🇱 Poland, Warsaw | [BL]-871c3c"
+  - "🇱🇹 Lithuania [*CIDR] YA-b398f7"
+  - "🇫🇮 Finland [*CIDR] YA-ab03af"
+  - "🇩🇪 Germany [*CIDR] VK-3ad7a9"
+  - "🇳🇱 The Netherlands | 🌐 [*CIDR] YA-3c6e19"
+  - "🇵🇱 Poland [*CIDR] VK-691a74"
+  - "🇬🇧 United Kingdom [*CIDR] YA-c72bfb"
+  - "🇷🇺 Russia [*CIDR] CDN-77a0a1"
+
 - name: FAST
   type: url-test
-  proxies: *id001
   url: https://www.google.com/generate_204
   interval: 300
+  proxies:
+  - "🇪🇪 Estonia, Tallinn | 🌐 | [BL]-26b45b"
+  - "🇫🇮 Finland, Helsinki | [BL]-7f8ff6"
+  - "🇩🇪 Germany, Frankfurt am Main | [BL]-f1d3cf"
+  - "🇸🇪 Sweden, Stockholm | [BL]-fbaae1"
+  - "🇳🇱 The Netherlands, Amsterdam (Amsterdam-98336a"
+  - "🇵🇱 Poland, Warsaw | [BL]-871c3c"
+  - "🇱🇹 Lithuania [*CIDR] YA-b398f7"
+  - "🇫🇮 Finland [*CIDR] YA-ab03af"
+  - "🇩🇪 Germany [*CIDR] VK-3ad7a9"
+  - "🇳🇱 The Netherlands | 🌐 [*CIDR] YA-3c6e19"
+  - "🇵🇱 Poland [*CIDR] VK-691a74"
+  - "🇬🇧 United Kingdom [*CIDR] YA-c72bfb"
+  - "🇷🇺 Russia [*CIDR] CDN-77a0a1"
+
 rules:
 - MATCH,AUTO
