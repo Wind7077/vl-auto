@@ -22,7 +22,7 @@ jobs:
           python-version: "3.11"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests pyyaml
 
       - name: Run smart merge
         run: python merge_vless.py
@@ -31,6 +31,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add vless_normal_vpn.txt
+          git add vless_normal_vpn.txt clash_vless.yaml
           git commit -m "auto smart merge" || exit 0
           git push
