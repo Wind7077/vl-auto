@@ -1,18 +1,11 @@
 mixed-port: 7890
-mode: rule
 allow-lan: false
+mode: rule
 log-level: info
 proxies: []
 proxy-groups:
 - name: AUTO
-  type: url-test
-  proxies:
-  - DIRECT
-  url: https://api.telegram.org
-  interval: 300
-- name: MANUAL
   type: select
-  proxies:
-  - DIRECT
+  proxies: []
 rules:
-- MATCH,MANUAL
+- MATCH,AUTO
