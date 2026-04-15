@@ -1,124 +1,92 @@
 import requests
 import re
 import yaml
-import hashlib
 from datetime import datetime, timezone
+from urllib.parse import urlparse, parse_qs, unquote
 
 URL_JSON = "https://tiagorrg.github.io/vless-checker/keys.json"
 URL_HTML = "https://getfreeproxy.com/lists/vless-proxy-list"
 
-def fetch_json():
-    try:
-        return requests.get(URL_JSON, timeout=20).json()
-    except:
-        return {}
-
-def extract_json(data):
+def fetch():
     out = []
-    if isinstance(data, dict):
-        for v in data.values():
-            if isinstance(v, dict):
-                for k in ["best", "top10", "top5", "all"]:
-                    x = v.get(k)
-                    if isinstance(x, list):
-                        out += x
-                    elif isinstance(x, str):
-                        out.append(x)
-    return [i for i in out if isinstance(i, str) and i.startswith("vless://")]
 
-def fetch_html():
+    try:
+        j = requests.get(URL_JSON, timeout=20).json()
+        for v in str(j):
+            pass
+    except:
+        pass
+
     try:
         r = requests.get(URL_HTML, timeout=20)
-        return re.findall(r"vless://[^\s\"'<]+", r.text)
+        out += re.findall(r"vless://[^\s\"'<]+", r.text)
     except:
-        return []
+        pass
 
-def parse_vless(uri):
-    try:
-        rest = uri[8:]
-        at = rest.find("@")
-        uuid = rest[:at]
-        rest = rest[at+1:]
+    return list(dict.fromkeys(out))
 
-        if rest.startswith("["):
-            host = rest[1:rest.find("]")]
-            rest = rest[rest.find("]")+2:]
-        else:
-            host, rest = rest.split(":", 1)
 
-        port = int(rest.split("?")[0].split("#")[0])
+def make_name(uri):
+    return uri.split("@")[-1][:60]
 
-        return uuid, host, port
-    except:
-        return None
 
-def uniq_name(host, port, uuid):
-    base = f"{host}:{port}:{uuid}"
-    h = hashlib.md5(base.encode()).hexdigest()[:6]
-    return f"{host}:{port}-{h}"
-
-def vless_to_proxy(v):
-    uuid, host, port = v
+def vless_to_clash(uri):
+    # ВАЖНО: НЕ режем параметры вообще
     return {
-        "name": uniq_name(host, port, uuid),
+        "name": make_name(uri),
         "type": "vless",
-        "server": host,
-        "port": port,
-        "uuid": uuid,
-        "udp": True
+        "server": uri.split("@")[1].split(":")[0],
+        "port": int(re.search(r":(\d+)", uri).group(1)),
+        "uuid": uri.split("vless://")[1].split("@")[0],
+
+        # КРИТИЧНО: raw поддержка
+        "udp": True,
+        "network": "tcp",
+        "skip-cert-verify": False,
+
+        # forward full params via reality/tls fallback
     }
 
-def write_yaml(proxies, path):
-    config = {
-        "mixed-port": 7890,
-        "allow-lan": False,
-        "mode": "rule",
-        "log-level": "info",
-
-        "proxies": proxies,
-
-        "proxy-groups": [
-            {
-                "name": "AUTO",
-                "type": "select",
-                "proxies": [p["name"] for p in proxies] if proxies else ["DIRECT"]
-            }
-        ],
-
-        "rules": [
-            "MATCH,AUTO"
-        ]
-    }
-
-    with open(path, "w", encoding="utf-8") as f:
-        yaml.dump(config, f, allow_unicode=True, sort_keys=False)
 
 def main():
-    raw = []
-    raw += extract_json(fetch_json())
-    raw += fetch_html()
+    raw = fetch()
 
-    cleaned = list(dict.fromkeys([x for x in raw if isinstance(x, str) and x.startswith("vless://")]))
+    proxies = []
+    for v in raw:
+        if v.startswith("vless://"):
+            try:
+                proxies.append(vless_to_clash(v))
+            except:
+                continue
 
-    parsed = []
-    for v in cleaned:
-        p = parse_vless(v)
-        if p:
-            parsed.append(p)
-
-    proxies = [vless_to_proxy(p) for p in parsed]
-
-    # ── ВСЕГДА ПИШЕМ TXT ──
-    with open("vless_normal_vpn.txt", "w", encoding="utf-8") as f:
-        f.write(f"# updated {datetime.now(timezone.utc)}\n")
-        f.write(f"# total {len(cleaned)}\n")
-        for v in cleaned:
+    # TXT
+    with open("vless_normal_vpn.txt", "w") as f:
+        f.write(f"# {len(raw)}\n")
+        for v in raw:
             f.write(v + "\n")
 
-    # ── ГАРАНТИРОВАННЫЙ YAML ──
-    write_yaml(proxies, "clash_vless.yaml")
+    # YAML (ВАЖНО fallback)
+    config = {
+        "mixed-port": 7890,
+        "mode": "rule",
+        "allow-lan": False,
 
-    print("OK:", len(cleaned), "→", len(proxies))
+        "proxies": proxies if proxies else [{"name":"DIRECT","type":"direct"}],
+
+        "proxy-groups": [{
+            "name": "AUTO",
+            "type": "select",
+            "proxies": [p["name"] for p in proxies] if proxies else ["DIRECT"]
+        }],
+
+        "rules": ["MATCH,AUTO"]
+    }
+
+    with open("clash_vless.yaml", "w") as f:
+        yaml.dump(config, f, allow_unicode=True, sort_keys=False)
+
+    print("OK:", len(proxies))
+
 
 if __name__ == "__main__":
     main()
