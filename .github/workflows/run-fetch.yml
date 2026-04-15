@@ -1,4 +1,4 @@
-name: Update VLESS
+name: VLESS Pipeline
 
 on:
   schedule:
@@ -20,12 +20,16 @@ jobs:
 
       - run: python merge_vless.py
 
-      - run: python telegram_check.py || true
+      - name: debug files
+        run: |
+          ls -lah
+          cat vless_normal_vpn.txt || true
+          cat clash_vless.yaml || true
 
       - name: commit
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add .
+          git add vless_normal_vpn.txt clash_vless.yaml
           git commit -m "update" || exit 0
           git push
