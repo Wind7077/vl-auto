@@ -1,7 +1,6 @@
 import requests
 import re
 import socket
-import yaml
 import ipaddress
 import hashlib
 from datetime import datetime, timezone
@@ -11,7 +10,7 @@ URL_JSON = "https://tiagorrg.github.io/vless-checker/keys.json"
 URL_HTML = "https://getfreeproxy.com/lists/vless-proxy-list"
 
 
-# ───────────────────────────── FETCH ─────────────────────────────
+# ───────────────────────── FETCH ─────────────────────────
 
 def fetch_json():
     try:
@@ -45,7 +44,7 @@ def extract_json(data):
     return out
 
 
-# ───────────────────────────── PARSE ─────────────────────────────
+# ───────────────────────── PARSER ─────────────────────────
 
 def parse(vless):
     try:
@@ -67,12 +66,12 @@ def parse(vless):
         if "#" in vless:
             name = unquote(vless.split("#")[1])
 
-        return uuid, host, port, name, vless
+        return uuid, host, port, name
     except:
         return None
 
 
-# ───────────────────────────── NETWORK CHECK ─────────────────────────────
+# ───────────────────────── NETWORK ─────────────────────────
 
 def resolve(host):
     try:
@@ -89,7 +88,7 @@ def is_bad(ip):
         return True
 
 
-# ───────────────────────────── UNIQUE NAME FIX ─────────────────────────────
+# ───────────────────────── UNIQUE NAME FIX ─────────────────────────
 
 def make_unique(name, host, port, used):
     base = name or f"{host}:{port}"
@@ -106,16 +105,16 @@ def make_unique(name, host, port, used):
     return final
 
 
-# ───────────────────────────── PROXY BUILD ─────────────────────────────
+# ───────────────────────── PROXY BUILD ─────────────────────────
 
-def to_proxy(parsed, used_names):
-    uuid, host, port, name, raw = parsed
+def build_proxy(parsed, used):
+    uuid, host, port, name = parsed
 
     ip = host if re.match(r"\d+\.\d+\.\d+\.\d+", host) else resolve(host)
     if not ip or is_bad(ip):
         return None
 
-    safe_name = make_unique(name, host, port, used_names)
+    safe_name = make_unique(name, host, port, used)
 
     return {
         "name": safe_name,
@@ -130,46 +129,61 @@ def to_proxy(parsed, used_names):
     }
 
 
-# ───────────────────────────── YAML BUILD ─────────────────────────────
+# ───────────────────────── YAML (NO YAML LIBRARY) ─────────────────────────
 
-def build_yaml(proxies):
+def write_yaml(proxies):
     if not proxies:
-        print("NO PROXIES -> YAML SKIP")
+        print("EMPTY YAML")
         return
 
     names = [p["name"] for p in proxies]
 
-    config = {
-        "mixed-port": 7890,
-        "mode": "rule",
-        "log-level": "info",
-        "proxies": proxies,
-        "proxy-groups": [
-            {
-                "name": "AUTO",
-                "type": "select",
-                "proxies": names
-            },
-            {
-                "name": "FAST",
-                "type": "url-test",
-                "proxies": names,
-                "url": "https://www.google.com/generate_204",
-                "interval": 300
-            }
-        ],
-        "rules": [
-            "MATCH,AUTO"
-        ]
-    }
+    proxy_block = ""
+    for p in proxies:
+        proxy_block += f"""- name: "{p['name']}"
+  type: vless
+  server: {p['server']}
+  port: {p['port']}
+  uuid: {p['uuid']}
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  network: tcp
+"""
+
+    group_names = "\n".join([f"  - \"{n}\"" for n in names])
+
+    yaml_text = f"""mixed-port: 7890
+mode: rule
+log-level: info
+
+proxies:
+{proxy_block}
+
+proxy-groups:
+- name: AUTO
+  type: select
+  proxies:
+{group_names}
+
+- name: FAST
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+{group_names}
+
+rules:
+- MATCH,AUTO
+"""
 
     with open("clash_vless.yaml", "w", encoding="utf-8") as f:
-        yaml.dump(config, f, allow_unicode=True, sort_keys=False)
+        f.write(yaml_text)
 
     print("YAML OK:", len(proxies))
 
 
-# ───────────────────────────── MAIN ─────────────────────────────
+# ───────────────────────── MAIN ─────────────────────────
 
 def main():
     raw = []
@@ -184,26 +198,25 @@ def main():
     raw = list(dict.fromkeys(raw))
 
     proxies = []
-    used_names = set()
+    used = set()
 
     for v in raw:
         parsed = parse(v)
         if not parsed:
             continue
 
-        p = to_proxy(parsed, used_names)
+        p = build_proxy(parsed, used)
         if p:
             proxies.append(p)
 
-    print("VALID PROXIES:", len(proxies))
+    print("VALID:", len(proxies))
 
     with open("vless_normal_vpn.txt", "w", encoding="utf-8") as f:
         f.write(f"# updated {datetime.now(timezone.utc)}\n")
-        f.write(f"# total {len(raw)}\n")
         for v in raw:
             f.write(v + "\n")
 
-    build_yaml(proxies)
+    write_yaml(proxies)
 
 
 if __name__ == "__main__":
