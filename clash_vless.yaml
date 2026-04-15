@@ -1,102 +1,13 @@
 mixed-port: 7890
-allow-lan: false
 mode: rule
-log-level: info
+allow-lan: false
 proxies:
-- name: es.milas.click:443-ff5364
-  type: vless
-  server: es.milas.click
-  port: 443
-  uuid: 913c6074-a747-492b-a7e9-5abfcad6369d
-  udp: true
-- name: 45.12.146.102:443-db26d5
-  type: vless
-  server: 45.12.146.102
-  port: 443
-  uuid: e060f013-53e5-4d88-bf5e-f93baa562ac5
-  udp: true
-- name: 92.119.166.90:7443-0617ea
-  type: vless
-  server: 92.119.166.90
-  port: 7443
-  uuid: 72eb4de8-5eca-420d-8876-173ef58d82e8
-  udp: true
-- name: se.stuffcollections.com:443-40c5ee
-  type: vless
-  server: se.stuffcollections.com
-  port: 443
-  uuid: 5557ef99-aa86-49e1-8430-aaae12111c28
-  udp: true
-- name: meowams.nethcloud.top:443-bfd6aa
-  type: vless
-  server: meowams.nethcloud.top
-  port: 443
-  uuid: 951c7521-7158-4978-b82c-2736d4f21044
-  udp: true
-- name: polands.stardevs.top:443-4b10c0
-  type: vless
-  server: polands.stardevs.top
-  port: 443
-  uuid: f00984ef-f57e-41db-9182-b25f7bc3a1e2
-  udp: true
-- name: 84.201.186.184:443-f20f55
-  type: vless
-  server: 84.201.186.184
-  port: 443
-  uuid: a96f18f0-4a56-4c4f-be6e-434835f5523c
-  udp: true
-- name: 51.250.99.14:443-594da7
-  type: vless
-  server: 51.250.99.14
-  port: 443
-  uuid: 06bc898f-87ff-4ec7-86dd-9d9ae9ad2255
-  udp: true
-- name: 109.120.188.2:443-b15510
-  type: vless
-  server: 109.120.188.2
-  port: 443
-  uuid: c6554ad3-c708-41cf-b72f-448a6b66763f
-  udp: true
-- name: 158.160.237.0:3443-8a3f6a
-  type: vless
-  server: 158.160.237.0
-  port: 3443
-  uuid: 52ca0d43-e64a-4127-a972-a15623886a06
-  udp: true
-- name: pleurotus-ostreatus.ru:443-6c5863
-  type: vless
-  server: pleurotus-ostreatus.ru
-  port: 443
-  uuid: 9435db74-1be4-4990-8957-8219702924c6
-  udp: true
-- name: 51.250.117.39:443-bb2a1f
-  type: vless
-  server: 51.250.117.39
-  port: 443
-  uuid: 8cd4e0c4-ee96-47d2-bb4f-afebe651fc3d
-  udp: true
-- name: dds.dendibase.org:443-24f046
-  type: vless
-  server: dds.dendibase.org
-  port: 443
-  uuid: a96f18f0-4a56-4c4f-be6e-434835f5523c
-  udp: true
+- name: DIRECT
+  type: direct
 proxy-groups:
 - name: AUTO
   type: select
   proxies:
-  - es.milas.click:443-ff5364
-  - 45.12.146.102:443-db26d5
-  - 92.119.166.90:7443-0617ea
-  - se.stuffcollections.com:443-40c5ee
-  - meowams.nethcloud.top:443-bfd6aa
-  - polands.stardevs.top:443-4b10c0
-  - 84.201.186.184:443-f20f55
-  - 51.250.99.14:443-594da7
-  - 109.120.188.2:443-b15510
-  - 158.160.237.0:3443-8a3f6a
-  - pleurotus-ostreatus.ru:443-6c5863
-  - 51.250.117.39:443-bb2a1f
-  - dds.dendibase.org:443-24f046
+  - DIRECT
 rules:
 - MATCH,AUTO
