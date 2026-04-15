@@ -4,97 +4,57 @@ import tempfile
 import time
 import requests
 import os
+from urllib.parse import unquote
+from merge_vless import parse_vless, vless_to_proxy, generate_yaml
 
 INPUT = "vless_normal_vpn.txt"
-OUTPUT = "vless_normal_vpn.txt"
+OUTPUT = "vless_checked.txt"
 
 TEST_URL = "https://api.telegram.org"
-TEST_TIMEOUT = 10
-WAIT = 2.5
-
-
-def clean(v: str) -> str:
-    if not isinstance(v, str):
-        return ""
-    v = v.strip()
-    if not v.startswith("vless://"):
-        return ""
-    if "@" not in v or ":" not in v:
-        return ""
-    return v
-
-
-def parse_vless(vless_uri):
-    try:
-        rest = vless_uri[len("vless://"):]
-        uuid, rest = rest.split("@", 1)
-
-        if rest.startswith("["):
-            b = rest.find("]")
-            host = rest[1:b]
-            rest = rest[b + 2:]
-        else:
-            host, rest = rest.split(":", 1)
-
-        port = int(rest.split("?")[0].split("#")[0])
-
-        return {
-            "type": "vless",
-            "tag": "proxy",
-            "server": host,
-            "server_port": port,
-            "uuid": uuid,
-        }
-    except:
-        return None
-
+SINGBOX_STARTUP_WAIT = 2.5
 
 def build_config(vless):
-    outbound = parse_vless(vless)
+    p = parse_vless(vless)
 
     return {
         "log": {"level": "error"},
-        "dns": {"strategy": "ipv4_only"},
         "inbounds": [{
             "type": "socks",
             "listen": "127.0.0.1",
             "listen_port": 1080
         }],
-        "outbounds": [
-            outbound,
-            {"type": "direct"},
-        ],
-        "route": {"final": "proxy"},
+        "outbounds": [{
+            "type": "vless",
+            "tag": "proxy",
+            "server": p["host"],
+            "server_port": p["port"],
+            "uuid": p["uuid"],
+        }],
+        "route": {"final": "proxy"}
     }
 
-
 def check(vless):
-    cfg = build_config(vless)
-    if not cfg:
+    try:
+        cfg = build_config(vless)
+    except:
         return False
 
-    with tempfile.NamedTemporaryFile("w", delete=False) as f:
+    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
         json.dump(cfg, f)
         path = f.name
 
     p = None
     try:
-        p = subprocess.Popen(
-            ["sing-box", "run", "-c", path],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL
-        )
+        p = subprocess.Popen(["sing-box", "run", "-c", path],
+                             stdout=subprocess.DEVNULL,
+                             stderr=subprocess.DEVNULL)
 
-        time.sleep(WAIT)
+        time.sleep(SINGBOX_STARTUP_WAIT)
 
-        r = requests.get(
-            TEST_URL,
-            proxies={
-                "http": "socks5h://127.0.0.1:1080",
-                "https": "socks5h://127.0.0.1:1080",
-            },
-            timeout=TEST_TIMEOUT
-        )
+        r = requests.get(TEST_URL, proxies={
+            "http": "socks5h://127.0.0.1:1080",
+            "https": "socks5h://127.0.0.1:1080"
+        }, timeout=10)
 
         return r.status_code in (200, 401)
 
@@ -109,12 +69,9 @@ def check(vless):
         except:
             pass
 
-
 def main():
     with open(INPUT, "r", encoding="utf-8") as f:
-        vless_list = [clean(x) for x in f]
-
-    vless_list = list(dict.fromkeys([v for v in vless_list if v]))
+        vless_list = [x.strip() for x in f if x.startswith("vless://")]
 
     good = []
 
@@ -123,12 +80,15 @@ def main():
             good.append(v)
 
     with open(OUTPUT, "w", encoding="utf-8") as f:
-        f.write("# clean list\n")
+        f.write("# checked\n")
         for v in good:
             f.write(v + "\n")
 
-    print("OK:", len(good))
-
+    try:
+        parsed = [vless_to_proxy(parse_vless(v)) for v in good if parse_vless(v)]
+        generate_yaml(parsed, "clash_vless.yaml")
+    except:
+        pass
 
 if __name__ == "__main__":
     main()
