@@ -1,4 +1,4 @@
-name: Update VLESS
+name: Update VLESS (stable merge)
 
 on:
   schedule:
@@ -10,21 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repo
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install requests pyyaml
+      - name: Install dependencies
+        run: pip install requests pyyaml
 
-      - run: python merge_vless.py
+      - name: Run merge
+        run: python merge_vless.py
 
-      - run: python telegram_check.py
-
-      - run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "update" || exit 0
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add vless_normal_vpn.txt clash_vless.yaml
+          git commit -m "auto merge stable" || exit 0
           git push
