@@ -4,59 +4,83 @@ import tempfile
 import time
 import requests
 import os
-from urllib.parse import unquote
-from merge_vless import parse_vless, vless_to_proxy, generate_yaml
 
 INPUT = "vless_normal_vpn.txt"
-OUTPUT = "vless_checked.txt"
-
 TEST_URL = "https://api.telegram.org"
-SINGBOX_STARTUP_WAIT = 2.5
 
-def build_config(vless):
-    p = parse_vless(vless)
+
+def parse_vless(vless):
+    # simple parser for sing-box
+    import re
+
+    host = vless.split("@")[1].split(":")[0]
+    port = int(vless.split(":")[1].split("?")[0])
+    uuid = vless.split("vless://")[1].split("@")[0]
+
+    sni = ""
+    m = re.search(r"sni=([^&]+)", vless)
+    if m:
+        sni = m.group(1)
 
     return {
+        "type": "vless",
+        "tag": "proxy",
+        "server": host,
+        "server_port": port,
+        "uuid": uuid,
+        "tls": {
+            "enabled": True,
+            "server_name": sni,
+            "utls": {"enabled": True, "fingerprint": "chrome"}
+        }
+    }
+
+
+def build_config(vless):
+    return {
         "log": {"level": "error"},
-        "inbounds": [{
-            "type": "socks",
-            "listen": "127.0.0.1",
-            "listen_port": 1080
-        }],
-        "outbounds": [{
-            "type": "vless",
-            "tag": "proxy",
-            "server": p["host"],
-            "server_port": p["port"],
-            "uuid": p["uuid"],
-        }],
+        "inbounds": [
+            {
+                "type": "socks",
+                "listen": "127.0.0.1",
+                "listen_port": 1080
+            }
+        ],
+        "outbounds": [
+            parse_vless(vless),
+            {"type": "direct"}
+        ],
         "route": {"final": "proxy"}
     }
 
-def check(vless):
-    try:
-        cfg = build_config(vless)
-    except:
-        return False
 
-    with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False) as f:
+def check(vless):
+    cfg = build_config(vless)
+
+    with tempfile.NamedTemporaryFile("w", delete=False) as f:
         json.dump(cfg, f)
         path = f.name
 
     p = None
     try:
-        p = subprocess.Popen(["sing-box", "run", "-c", path],
-                             stdout=subprocess.DEVNULL,
-                             stderr=subprocess.DEVNULL)
+        p = subprocess.Popen(
+            ["sing-box", "run", "-c", path],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
+        )
 
-        time.sleep(SINGBOX_STARTUP_WAIT)
+        time.sleep(2)
 
-        r = requests.get(TEST_URL, proxies={
-            "http": "socks5h://127.0.0.1:1080",
-            "https": "socks5h://127.0.0.1:1080"
-        }, timeout=10)
+        r = requests.get(
+            TEST_URL,
+            proxies={
+                "http": "socks5h://127.0.0.1:1080",
+                "https": "socks5h://127.0.0.1:1080"
+            },
+            timeout=8
+        )
 
-        return r.status_code in (200, 401)
+        return r.status_code == 200
 
     except:
         return False
@@ -69,26 +93,28 @@ def check(vless):
         except:
             pass
 
+
 def main():
     with open(INPUT, "r", encoding="utf-8") as f:
         vless_list = [x.strip() for x in f if x.startswith("vless://")]
 
     good = []
 
-    for v in vless_list:
+    print("TESTING:", len(vless_list))
+
+    for i, v in enumerate(vless_list):
+        print(i + 1, "/", len(vless_list))
         if check(v):
             good.append(v)
 
-    with open(OUTPUT, "w", encoding="utf-8") as f:
-        f.write("# checked\n")
+    # overwrite SAME FILE
+    with open(INPUT, "w", encoding="utf-8") as f:
+        f.write("# telegram-ok only\n")
         for v in good:
             f.write(v + "\n")
 
-    try:
-        parsed = [vless_to_proxy(parse_vless(v)) for v in good if parse_vless(v)]
-        generate_yaml(parsed, "clash_vless.yaml")
-    except:
-        pass
+    print("GOOD:", len(good))
+
 
 if __name__ == "__main__":
     main()
