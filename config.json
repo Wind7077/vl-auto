@@ -18,6 +18,10 @@
     ],
     "rules": [
       {
+        "outbound": ["warp-out"],
+        "server": "dns-warp"
+      },
+      {
         "outbound": "any",
         "server": "dns-direct"
       }
@@ -42,16 +46,8 @@
     {
       "type": "selector",
       "tag": "selector-vless",
-      "outbounds": ["urltest-vless", "My"],
-      "default": "urltest-vless"
-    },
-    {
-      "type": "urltest",
-      "tag": "urltest-vless",
       "outbounds": ["My"],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 100
+      "default": "My"
     },
     {
       "type": "wireguard",
@@ -73,7 +69,8 @@
         }
       ],
       "mtu": 1280,
-      "persistent_keepalive_interval": 25
+      "persistent_keepalive_interval": 25,
+      "gso": true
     },
     {
       "type": "direct",
