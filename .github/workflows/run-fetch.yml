@@ -1,7 +1,7 @@
 name: Update VLESS (smart merge)
 on:
   schedule:
-    - cron: "0 */2 * * *"
+    - cron: "0 * * * *"
   workflow_dispatch:
 jobs:
   build:
@@ -23,6 +23,9 @@ jobs:
       - name: Run smart merge
         run: python merge_vless.py
 
+      - name: Generate best vless (ain.txt)
+        run: python pick_best.py
+
       - name: Generate sing-box config
         run: python generate_config.py
 
@@ -30,6 +33,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add vless_normal_vpn.txt config.json
-          git commit -m "auto smart merge" || exit 0
+          git add vless_normal_vpn.txt ain.txt config.json
+          git commit -m "auto update" || exit 0
           git push
