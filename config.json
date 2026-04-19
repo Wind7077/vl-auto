@@ -1,21 +1,3 @@
-{
-  "log": {
-    "level": "info",
-    "timestamp": true
-  },
-  "dns": {
-    "servers": [
-      { "tag": "dns-direct", "address": "https://dns.google/dns-query", "detour": "direct" },
-      { "tag": "dns-warp", "address": "https://1.1.1.1/dns-query", "detour": "warp-out" }
-    ],
-    "rules": [
-      { "outbound": "warp-out", "server": "dns-warp" },
-      { "outbound": "any", "server": "dns-direct" }
-    ]
-  },
-  "inbounds": [
-    {
-      "type": "tun",
       "tag": "tun-in",
       "interface_name": "tun0",
       "inet4_address": "172.19.0.1/30",
@@ -23,7 +5,6 @@
       "mtu": 9000,
       "auto_route": true,
       "strict_route": true,
-      "endpoint_independent_nat": true,
       "sniff": true,
       "sniff_override_destination": true
     }
@@ -35,7 +16,7 @@
       "outbounds": ["My"],
       "url": "https://www.gstatic.com/generate_204",
       "interval": "30s",
-      "tolerance": 200
+      "tolerance": 150
     },
     {
       "type": "wireguard",
@@ -43,7 +24,10 @@
       "detour": "best-vless",
       "server": "162.159.195.10",
       "server_port": 4198,
-      "local_address": ["172.16.0.2/32", "2606:4700:110:8172:ca5a:f45d:180d:d977/128"],
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8172:ca5a:f45d:180d:d977/128"
+      ],
       "private_key": "eFzBPxgxWksAAI2S84XV9W3YuG2P+PVZhbdvCzDU42w=",
       "peers": [
         {
@@ -56,13 +40,15 @@
       "mtu": 1280,
       "persistent_keepalive_interval": 25
     },
-    { "type": "direct", "tag": "direct" }
+    {
+      "type": "direct",
+      "tag": "direct"
+    }
   ],
   "route": {
     "rules": [
-      { "inbound": "tun-in", "outbound": "warp-out" },
-      { "ip_cidr": ["162.159.195.0/24"], "outbound": "direct" }
-    ],
-    "auto_detect_interface": true
-  }
-}
+      {
+        "inbound": "tun-in",
+        "outbound": "warp-out"
+      },
+      {
