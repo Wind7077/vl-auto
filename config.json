@@ -20,10 +20,6 @@
       {
         "outbound": "any",
         "server": "dns-direct"
-      },
-      {
-        "query_type": ["A", "AAAA"],
-        "server": "dns-warp"
       }
     ]
   },
@@ -44,31 +40,23 @@
   ],
   "outbounds": [
     {
-      "type": "vless",
-      "tag": "vless-out",
-      "server": "lav1.pineappled.org",
-      "server_port": 443,
-      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
-      "flow": "xtls-rprx-vision",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
-        }
-      }
+      "type": "selector",
+      "tag": "selector-vless",
+      "outbounds": ["urltest-vless", "My"],
+      "default": "urltest-vless"
+    },
+    {
+      "type": "urltest",
+      "tag": "urltest-vless",
+      "outbounds": ["My"],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 100
     },
     {
       "type": "wireguard",
       "tag": "warp-out",
-      "detour": "vless-out",
+      "detour": "selector-vless",
       "server": "162.159.195.10",
       "server_port": 4198,
       "local_address": [
