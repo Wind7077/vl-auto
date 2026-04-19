@@ -1,5 +1,6 @@
 import json
 import re
+import random
 
 VLESS_FILE = "vless_normal_vpn.txt"
 
@@ -101,22 +102,24 @@ def main():
 
     print(f"Total parsed: {len(vless_list)}")
 
-    # фильтруем мусор
     good = [v for v in vless_list if is_good(v)]
     print(f"Good vless: {len(good)}")
 
-    # приоритет — reality серверы
     reality = [v for v in good if v.get("tls", {}).get("reality")]
     other = [v for v in good if not v.get("tls", {}).get("reality")]
     print(f"Reality: {len(reality)}, Other TLS: {len(other)}")
 
-    final_list = (reality + other)[:5]
+    final_list = (reality + other)[:10]
 
     if not final_list:
         print("No good vless after filtering, using raw list")
-        final_list = vless_list[:5]
+        final_list = vless_list[:10]
 
-    # перенумеруем теги чисто
+    # перемешиваем — каждый раз случайный порядок
+    random.shuffle(final_list)
+    final_list = final_list[:5]
+
+    # перенумеруем теги
     for i, v in enumerate(final_list):
         v["tag"] = f"vless-{i:02d}"
 
@@ -127,27 +130,16 @@ def main():
         print(f"  {v['tag']} -> {v['server']}:{v['server_port']} sni={sni} reality={is_reality}")
 
     warp = dict(WARP)
-    warp["detour"] = "vless-best"
+    warp["detour"] = "vless-00"  # всегда первый из перемешанного списка
 
-    # urltest — автовыбор быстрейшего vless каждые 3 минуты
-    urltest = {
-        "type": "urltest",
-        "tag": "vless-best",
-        "outbounds": [v["tag"] for v in final_list],
-        "url": "https://www.gstatic.com/generate_204",
-        "interval": "3m",
-        "tolerance": 50
-    }
-
-    # selector — proxy по умолчанию warp-out, можно вручную выбрать любой
     selector = {
         "type": "selector",
         "tag": "proxy",
-        "outbounds": ["warp-out", "vless-best"] + [v["tag"] for v in final_list],
+        "outbounds": ["warp-out"] + [v["tag"] for v in final_list],
         "default": "warp-out"
     }
 
-    outbounds = [selector, urltest] + final_list + [warp, {"type": "direct", "tag": "direct"}]
+    outbounds = [selector] + final_list + [warp, {"type": "direct", "tag": "direct"}]
 
     config = {
         "log": {
