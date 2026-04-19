@@ -5,13 +5,24 @@
   },
   "dns": {
     "servers": [
-      { "tag": "dns-direct", "address": "https://dns.google/dns-query", "detour": "direct" },
-      { "tag": "dns-warp", "address": "https://1.1.1.1/dns-query", "detour": "warp-out" }
+      {
+        "tag": "dns-warp",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "warp-out"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "https://dns.google/dns-query",
+        "detour": "direct"
+      }
     ],
     "rules": [
-      { "outbound": "warp-out", "server": "dns-warp" },
-      { "outbound": "any", "server": "dns-direct" }
-    ]
+      {
+        "outbound": "any",
+        "server": "dns-direct"
+      }
+    ],
+    "final": "dns-warp"
   },
   "inbounds": [
     {
@@ -23,51 +34,73 @@
       "mtu": 9000,
       "auto_route": true,
       "strict_route": true,
+      "endpoint_independent_nat": true,
       "sniff": true,
       "sniff_override_destination": true
     }
   ],
-  "endpoints": [
+  "outbounds": [
+    {
+      "type": "urltest",
+      "tag": "vless-best",
+      "outbounds": [],
+      "providers": ["vless-provider"],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
     {
       "type": "wireguard",
-      "tag": "warp-endpoint",
-      "address": ["172.16.0.2/32", "2606:4700:110:8172:ca5a:f45d:180d:d977/128"],
+      "tag": "warp-out",
+      "detour": "vless-best",
+      "server": "162.159.195.10",
+      "server_port": 4198,
+      "local_address": [
+        "172.16.0.2/32",
+        "2606:4700:110:8172:ca5a:f45d:180d:d977/128"
+      ],
       "private_key": "eFzBPxgxWksAAI2S84XV9W3YuG2P+PVZhbdvCzDU42w=",
       "peers": [
         {
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "allowed_ips": ["0.0.0.0/0", "::/0"],
           "server": "162.159.195.10",
-          "server_port": 4198,
-          "persistent_keepalive_interval": 25,
-          "reserved": [0, 0, 0]
+          "server_port": 4198
         }
       ],
-      "mtu": 1280
+      "mtu": 1280,
+      "persistent_keepalive_interval": 25
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
     }
   ],
-  "outbounds": [
+  "outbound_providers": [
     {
-      "type": "urltest",
-      "tag": "best-vless",
-      "outbounds": ["My"],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "45s",
-      "tolerance": 120
-    },
-    {
-      "type": "wireguard",
-      "tag": "warp-out",
-      "detour": "best-vless",
-      "endpoint": "warp-endpoint"
-    },
-    { "type": "direct", "tag": "direct" },
-    { "type": "block", "tag": "block" }
+      "tag": "vless-provider",
+      "type": "remote",
+      "url": "https://raw.githubusercontent.com/Wind7077/yml-vless/refs/heads/main/vless_normal_vpn.txt",
+      "download_interval": "1h",
+      "download_ua": "clash.meta",
+      "healthcheck_url": "https://www.gstatic.com/generate_204",
+      "healthcheck_interval": "3m"
+    }
   ],
   "route": {
     "rules": [
-      { "inbound": "tun-in", "outbound": "warp-out" },
-      { "ip_cidr": ["162.159.195.0/24"], "outbound": "direct" }
+      {
+        "ip_cidr": ["162.159.195.0/24"],
+        "outbound": "direct"
+      },
+      {
+        "inbound": "tun-in",
+        "outbound": "warp-out"
+      }
     ],
     "auto_detect_interface": true
   }
