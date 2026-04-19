@@ -42,20 +42,11 @@
       "sniff_override_destination": true
     }
   ],
-  "outbounds": [
-    {
-      "type": "selector",
-      "tag": "selector-vless",
-      "outbounds": ["My"],
-      "default": "My"
-    },
+  "endpoints": [
     {
       "type": "wireguard",
-      "tag": "warp-out",
-      "detour": "selector-vless",
-      "server": "162.159.195.10",
-      "server_port": 4198,
-      "local_address": [
+      "tag": "warp-endpoint",
+      "address": [
         "172.16.0.2/32",
         "2606:4700:110:8172:ca5a:f45d:180d:d977/128"
       ],
@@ -70,6 +61,21 @@
       ],
       "mtu": 1280,
       "persistent_keepalive_interval": 25
+    }
+  ],
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "selector-vless",
+      "outbounds": ["My"],
+      "default": "My"
+    },
+    {
+      "type": "wireguard",
+      "tag": "warp-out",
+      "detour": "selector-vless",
+      "endpoint": "warp-endpoint",
+      "mtu": 1280
     },
     {
       "type": "direct",
