@@ -72,6 +72,17 @@ def parse_vless(uri, index):
 
     return outbound
 
+def is_good(v):
+    tls = v.get("tls", {})
+    if not tls:
+        return False
+    sni = tls.get("server_name", "")
+    if "%" in sni:
+        return False
+    if len(sni) < 3:
+        return False
+    return True
+
 def main():
     with open(VLESS_FILE, "r", encoding="utf-8") as f:
         lines = f.readlines()
@@ -88,14 +99,37 @@ def main():
         print("No vless found!")
         return
 
-    # берём первые 5 серверов максимум
-    vless_list = vless_list[:5]
-    print(f"Using {len(vless_list)} vless servers")
+    print(f"Total parsed: {len(vless_list)}")
+
+    # фильтруем мусор
+    good = [v for v in vless_list if is_good(v)]
+    print(f"Good vless: {len(good)}")
+
+    # приоритет — reality серверы
+    reality = [v for v in good if v.get("tls", {}).get("reality")]
+    other = [v for v in good if not v.get("tls", {}).get("reality")]
+    print(f"Reality: {len(reality)}, Other TLS: {len(other)}")
+
+    final_list = (reality + other)[:5]
+
+    if not final_list:
+        print("No good vless after filtering, using raw list")
+        final_list = vless_list[:5]
+
+    # перенумеруем теги чисто
+    for i, v in enumerate(final_list):
+        v["tag"] = f"vless-{i:02d}"
+
+    print(f"Using {len(final_list)} vless servers:")
+    for v in final_list:
+        sni = v.get("tls", {}).get("server_name", "no-tls")
+        is_reality = "reality" in v.get("tls", {})
+        print(f"  {v['tag']} -> {v['server']}:{v['server_port']} sni={sni} reality={is_reality}")
 
     warp = dict(WARP)
-    warp["detour"] = vless_list[0]["tag"]
+    warp["detour"] = final_list[0]["tag"]
 
-    outbounds = vless_list + [warp, {"type": "direct", "tag": "direct"}]
+    outbounds = final_list + [warp, {"type": "direct", "tag": "direct"}]
 
     config = {
         "log": {
