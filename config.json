@@ -1,6 +1,6 @@
 {
   "log": {
-    "level": "debug",
+    "level": "info",
     "timestamp": true
   },
   "dns": {
@@ -27,6 +27,14 @@
   ],
   "outbounds": [
     {
+      "type": "urltest",
+      "tag": "vless-auto",
+      "outbounds": ["vless-out"],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
+    },
+    {
       "type": "vless",
       "tag": "vless-out",
       "server": "lav1.pineappled.org",
@@ -50,7 +58,7 @@
     {
       "type": "wireguard",
       "tag": "warp-out",
-      "detour": "vless-out",
+      "detour": "vless-auto",
       "server": "162.159.195.10",
       "server_port": 4198,
       "local_address": [
