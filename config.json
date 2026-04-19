@@ -27,6 +27,19 @@
   ],
   "outbounds": [
     {
+      "type": "selector",
+      "tag": "proxy",
+      "outbounds": [
+        "warp-out",
+        "vless-00",
+        "vless-01",
+        "vless-02",
+        "vless-03",
+        "vless-04"
+      ],
+      "default": "warp-out"
+    },
+    {
       "type": "vless",
       "tag": "vless-00",
       "server": "lav1.pineappled.org",
@@ -181,7 +194,7 @@
         "outbound": "direct"
       }
     ],
-    "final": "warp-out",
+    "final": "proxy",
     "auto_detect_interface": true
   }
 }

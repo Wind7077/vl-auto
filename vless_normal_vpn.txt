@@ -1,4 +1,4 @@
-# updated: 2026-04-19 07:22:04.790828+00:00
+# updated: 2026-04-19 07:29:40.977914+00:00
 vless://1280300d-653c-4730-b821-7e839c76cc70@151.101.67.6:443?type=xhttp&security=tls&encryption=none&sni=2a02%3A26f0%3A5d00%3A138f%3A%3A2a1&fp=chrome&alpn=h3&path=%2F&host=latviak.com&insecure=1#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
 vless://1280300d-653c-4730-b821-7e839c76cc70@151.101.3.6:443?type=xhttp&security=tls&encryption=none&sni=2a02%3A26f0%3A5d00%3A138f%3A%3A2a1&fp=chrome&alpn=h3&path=%2F&host=estoniyak.com&insecure=1#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
 vless://dd09a21b-c1ac-4fde-83bb-dc09f85416b6@lav1.pineappled.org:443?encryption=none&flow=xtls-rprx-vision&fp=chrome&packetEncoding=xudp&pbk=V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ&security=reality&sid=23&sni=www.apple.com&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
