@@ -31,6 +31,7 @@
       "tag": "proxy",
       "outbounds": [
         "warp-out",
+        "vless-best",
         "vless-00",
         "vless-01",
         "vless-02",
@@ -38,6 +39,20 @@
         "vless-04"
       ],
       "default": "warp-out"
+    },
+    {
+      "type": "urltest",
+      "tag": "vless-best",
+      "outbounds": [
+        "vless-00",
+        "vless-01",
+        "vless-02",
+        "vless-03",
+        "vless-04"
+      ],
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "3m",
+      "tolerance": 50
     },
     {
       "type": "vless",
@@ -172,7 +187,7 @@
       ],
       "mtu": 1280,
       "persistent_keepalive_interval": 25,
-      "detour": "vless-00"
+      "detour": "vless-best"
     },
     {
       "type": "direct",
