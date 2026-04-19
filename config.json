@@ -42,51 +42,51 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "172.86.93.20",
-      "server_port": 443,
-      "uuid": "8cf1c214-3376-11f1-bf19-dcb6e8e27879",
+      "server": "extbalancer.onnstreaming.ru",
+      "server_port": 5443,
+      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.kleinanzeigen.de",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "XFv4Qy1Pfx_Wj_oLqIqfVpBiykT2zr35X0mwEOME2Wg",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "lav1.pineappled.org",
-      "server_port": 443,
-      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "i.oneme.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
+          "public_key": "-nZqMxt7meVxfnQeK46MAYh5scb0M6La82axD8KHJXk",
+          "short_id": "91e2a4c7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "501.rushrushnode.org",
+      "server_port": 10501,
+      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "img14.360buyimg.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
+          "short_id": "9153"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "an1.pineappled.org",
+      "server": "lt1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -130,22 +130,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "104.238.29.121",
-      "server_port": 4497,
-      "uuid": "9bc43d33-6d90-420d-869a-6d4f69b28c4c",
+      "server": "pol1.pineappled.org",
+      "server_port": 443,
+      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "files.moscownews24.ru",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "23"
         }
       }
     },
