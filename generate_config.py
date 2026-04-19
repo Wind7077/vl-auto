@@ -127,17 +127,27 @@ def main():
         print(f"  {v['tag']} -> {v['server']}:{v['server_port']} sni={sni} reality={is_reality}")
 
     warp = dict(WARP)
-    warp["detour"] = final_list[0]["tag"]
+    warp["detour"] = "vless-best"
 
-    # selector — warp-out дефолтный, виден в UI Karing
+    # urltest — автовыбор быстрейшего vless каждые 3 минуты
+    urltest = {
+        "type": "urltest",
+        "tag": "vless-best",
+        "outbounds": [v["tag"] for v in final_list],
+        "url": "https://www.gstatic.com/generate_204",
+        "interval": "3m",
+        "tolerance": 50
+    }
+
+    # selector — proxy по умолчанию warp-out, можно вручную выбрать любой
     selector = {
         "type": "selector",
         "tag": "proxy",
-        "outbounds": ["warp-out"] + [v["tag"] for v in final_list],
+        "outbounds": ["warp-out", "vless-best"] + [v["tag"] for v in final_list],
         "default": "warp-out"
     }
 
-    outbounds = [selector] + final_list + [warp, {"type": "direct", "tag": "direct"}]
+    outbounds = [selector, urltest] + final_list + [warp, {"type": "direct", "tag": "direct"}]
 
     config = {
         "log": {
