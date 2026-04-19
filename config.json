@@ -5,26 +5,12 @@
   },
   "dns": {
     "servers": [
-      {
-        "tag": "dns-direct",
-        "address": "https://dns.google/dns-query",
-        "detour": "direct"
-      },
-      {
-        "tag": "dns-warp",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "warp-out"
-      }
+      { "tag": "dns-direct", "address": "https://dns.google/dns-query", "detour": "direct" },
+      { "tag": "dns-warp", "address": "https://1.1.1.1/dns-query", "detour": "warp-out" }
     ],
     "rules": [
-      {
-        "outbound": "warp-out",
-        "server": "dns-warp"
-      },
-      {
-        "outbound": "any",
-        "server": "dns-direct"
-      }
+      { "outbound": "warp-out", "server": "dns-warp" },
+      { "outbound": "any", "server": "dns-direct" }
     ]
   },
   "inbounds": [
@@ -37,7 +23,6 @@
       "mtu": 9000,
       "auto_route": true,
       "strict_route": true,
-      "endpoint_independent_nat": true,
       "sniff": true,
       "sniff_override_destination": true
     }
@@ -46,61 +31,43 @@
     {
       "type": "wireguard",
       "tag": "warp-endpoint",
-      "address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8172:ca5a:f45d:180d:d977/128"
-      ],
+      "address": ["172.16.0.2/32", "2606:4700:110:8172:ca5a:f45d:180d:d977/128"],
       "private_key": "eFzBPxgxWksAAI2S84XV9W3YuG2P+PVZhbdvCzDU42w=",
       "peers": [
         {
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
           "allowed_ips": ["0.0.0.0/0", "::/0"],
           "server": "162.159.195.10",
-          "server_port": 4198
+          "server_port": 4198,
+          "persistent_keepalive_interval": 25,
+          "reserved": [0, 0, 0]
         }
       ],
-      "mtu": 1280,
-      "persistent_keepalive_interval": 25
+      "mtu": 1280
     }
   ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "selector-vless",
+      "type": "urltest",
+      "tag": "best-vless",
       "outbounds": ["My"],
-      "default": "My"
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "45s",
+      "tolerance": 120
     },
     {
       "type": "wireguard",
       "tag": "warp-out",
-      "detour": "selector-vless",
-      "endpoint": "warp-endpoint",
-      "mtu": 1280
+      "detour": "best-vless",
+      "endpoint": "warp-endpoint"
     },
-    {
-      "type": "direct",
-      "tag": "direct"
-    },
-    {
-      "type": "block",
-      "tag": "block"
-    }
+    { "type": "direct", "tag": "direct" },
+    { "type": "block", "tag": "block" }
   ],
   "route": {
     "rules": [
-      {
-        "inbound": "tun-in",
-        "outbound": "warp-out"
-      },
-      {
-        "ip_cidr": ["162.159.195.0/24"],
-        "outbound": "direct"
-      },
-      {
-        "ip_cidr": ["162.159.195.10/32"],
-        "port": 4198,
-        "outbound": "direct"
-      }
+      { "inbound": "tun-in", "outbound": "warp-out" },
+      { "ip_cidr": ["162.159.195.0/24"], "outbound": "direct" }
     ],
     "auto_detect_interface": true
   }
