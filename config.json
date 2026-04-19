@@ -42,7 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "sw1.pineappled.org",
+      "server": "nl1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -64,7 +64,7 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "lav1.pineappled.org",
+      "server": "an1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -108,7 +108,7 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "ge1.pineappled.org",
+      "server": "sw1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -130,7 +130,7 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "nl1.pineappled.org",
+      "server": "lav1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
