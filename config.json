@@ -6,23 +6,26 @@
   "dns": {
     "servers": [
       {
-        "tag": "dns-warp",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "warp-out"
-      },
-      {
         "tag": "dns-direct",
         "address": "https://dns.google/dns-query",
         "detour": "direct"
+      },
+      {
+        "tag": "dns-warp",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "warp-out"
       }
     ],
     "rules": [
       {
+        "outbound": "warp-out",
+        "server": "dns-warp"
+      },
+      {
         "outbound": "any",
         "server": "dns-direct"
       }
-    ],
-    "final": "dns-warp"
+    ]
   },
   "inbounds": [
     {
@@ -41,18 +44,15 @@
   ],
   "outbounds": [
     {
-      "type": "urltest",
-      "tag": "vless-best",
-      "outbounds": [],
-      "providers": ["vless-provider"],
-      "url": "https://www.gstatic.com/generate_204",
-      "interval": "3m",
-      "tolerance": 50
+      "type": "selector",
+      "tag": "vless-selector",
+      "outbounds": ["My"],
+      "default": "My"
     },
     {
       "type": "wireguard",
       "tag": "warp-out",
-      "detour": "vless-best",
+      "detour": "vless-selector",
       "server": "162.159.195.10",
       "server_port": 4198,
       "local_address": [
@@ -74,32 +74,17 @@
     {
       "type": "direct",
       "tag": "direct"
-    },
-    {
-      "type": "block",
-      "tag": "block"
-    }
-  ],
-  "outbound_providers": [
-    {
-      "tag": "vless-provider",
-      "type": "remote",
-      "url": "https://raw.githubusercontent.com/Wind7077/yml-vless/refs/heads/main/vless_normal_vpn.txt",
-      "download_interval": "1h",
-      "download_ua": "clash.meta",
-      "healthcheck_url": "https://www.gstatic.com/generate_204",
-      "healthcheck_interval": "3m"
     }
   ],
   "route": {
     "rules": [
       {
-        "ip_cidr": ["162.159.195.0/24"],
-        "outbound": "direct"
-      },
-      {
         "inbound": "tun-in",
         "outbound": "warp-out"
+      },
+      {
+        "ip_cidr": ["162.159.195.0/24"],
+        "outbound": "direct"
       }
     ],
     "auto_detect_interface": true
