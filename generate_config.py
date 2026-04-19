@@ -123,13 +123,21 @@ def main():
     print(f"Using {len(final_list)} vless servers:")
     for v in final_list:
         sni = v.get("tls", {}).get("server_name", "no-tls")
-        is_reality = "reality" in v.get("tls", {})
+        is_reality = bool(v.get("tls", {}).get("reality"))
         print(f"  {v['tag']} -> {v['server']}:{v['server_port']} sni={sni} reality={is_reality}")
 
     warp = dict(WARP)
     warp["detour"] = final_list[0]["tag"]
 
-    outbounds = final_list + [warp, {"type": "direct", "tag": "direct"}]
+    # selector — warp-out дефолтный, виден в UI Karing
+    selector = {
+        "type": "selector",
+        "tag": "proxy",
+        "outbounds": ["warp-out"] + [v["tag"] for v in final_list],
+        "default": "warp-out"
+    }
+
+    outbounds = [selector] + final_list + [warp, {"type": "direct", "tag": "direct"}]
 
     config = {
         "log": {
@@ -170,7 +178,7 @@ def main():
                     "outbound": "direct"
                 }
             ],
-            "final": "warp-out",
+            "final": "proxy",
             "auto_detect_interface": True
         }
     }
