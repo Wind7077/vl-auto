@@ -42,7 +42,29 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "sw1.pineappled.org",
+      "server": "172.86.93.20",
+      "server_port": 443,
+      "uuid": "8cf1c214-3376-11f1-bf19-dcb6e8e27879",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.kleinanzeigen.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XFv4Qy1Pfx_Wj_oLqIqfVpBiykT2zr35X0mwEOME2Wg",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "lav1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -63,30 +85,8 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "104.238.29.121",
-      "server_port": 4497,
-      "uuid": "9bc43d33-6d90-420d-869a-6d4f69b28c4c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "files.moscownews24.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-02",
-      "server": "ge1.pineappled.org",
+      "server": "an1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -130,22 +130,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "lav1.pineappled.org",
-      "server_port": 443,
-      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "server": "104.238.29.121",
+      "server_port": 4497,
+      "uuid": "9bc43d33-6d90-420d-869a-6d4f69b28c4c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "files.moscownews24.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
         }
       }
     },
