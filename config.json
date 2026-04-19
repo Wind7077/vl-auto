@@ -5,26 +5,12 @@
   },
   "dns": {
     "servers": [
-      {
-        "tag": "dns-direct",
-        "address": "https://dns.google/dns-query",
-        "detour": "direct"
-      },
-      {
-        "tag": "dns-warp",
-        "address": "https://1.1.1.1/dns-query",
-        "detour": "warp-out"
-      }
+      { "tag": "dns-direct", "address": "https://dns.google/dns-query", "detour": "direct" },
+      { "tag": "dns-warp", "address": "https://1.1.1.1/dns-query", "detour": "warp-out" }
     ],
     "rules": [
-      {
-        "outbound": "warp-out",
-        "server": "dns-warp"
-      },
-      {
-        "outbound": "any",
-        "server": "dns-direct"
-      }
+      { "outbound": "warp-out", "server": "dns-warp" },
+      { "outbound": "any", "server": "dns-direct" }
     ]
   },
   "inbounds": [
@@ -44,21 +30,20 @@
   ],
   "outbounds": [
     {
-      "type": "selector",
-      "tag": "vless-selector",
+      "type": "urltest",
+      "tag": "best-vless",
       "outbounds": ["My"],
-      "default": "My"
+      "url": "https://www.gstatic.com/generate_204",
+      "interval": "30s",
+      "tolerance": 200
     },
     {
       "type": "wireguard",
       "tag": "warp-out",
-      "detour": "vless-selector",
+      "detour": "best-vless",
       "server": "162.159.195.10",
       "server_port": 4198,
-      "local_address": [
-        "172.16.0.2/32",
-        "2606:4700:110:8172:ca5a:f45d:180d:d977/128"
-      ],
+      "local_address": ["172.16.0.2/32", "2606:4700:110:8172:ca5a:f45d:180d:d977/128"],
       "private_key": "eFzBPxgxWksAAI2S84XV9W3YuG2P+PVZhbdvCzDU42w=",
       "peers": [
         {
@@ -71,21 +56,12 @@
       "mtu": 1280,
       "persistent_keepalive_interval": 25
     },
-    {
-      "type": "direct",
-      "tag": "direct"
-    }
+    { "type": "direct", "tag": "direct" }
   ],
   "route": {
     "rules": [
-      {
-        "inbound": "tun-in",
-        "outbound": "warp-out"
-      },
-      {
-        "ip_cidr": ["162.159.195.0/24"],
-        "outbound": "direct"
-      }
+      { "inbound": "tun-in", "outbound": "warp-out" },
+      { "ip_cidr": ["162.159.195.0/24"], "outbound": "direct" }
     ],
     "auto_detect_interface": true
   }
