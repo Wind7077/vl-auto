@@ -42,7 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "lav1.pineappled.org",
+      "server": "pol1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -64,28 +64,7 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "grpc1.pineappled.org",
-      "server_port": 2053,
-      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "lt1.pineappled.org",
+      "server": "sw1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -106,7 +85,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-02",
       "server": "88.216.214.193",
       "server_port": 443,
       "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
@@ -128,7 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-03",
       "server": "test.wide-frost.test-cdn-kkk.com",
       "server_port": 443,
       "uuid": "2060228c-5f0f-41f8-a3ca-f7988308442d",
@@ -145,6 +124,28 @@
           "enabled": true,
           "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
           "short_id": "50"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "lav1.pineappled.org",
+      "server_port": 443,
+      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "23"
         }
       }
     },
