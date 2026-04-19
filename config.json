@@ -28,10 +28,43 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "vless-out",
+      "tag": "vless-00",
+      "server": "151.101.67.6",
+      "server_port": 443,
+      "uuid": "1280300d-653c-4730-b821-7e839c76cc70",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "2a02%3A26f0%3A5d00%3A138f%3A%3A2a1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "151.101.3.6",
+      "server_port": 443,
+      "uuid": "1280300d-653c-4730-b821-7e839c76cc70",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "2a02%3A26f0%3A5d00%3A138f%3A%3A2a1",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "lav1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
@@ -48,9 +81,38 @@
       }
     },
     {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "76.13.251.177",
+      "server_port": 8443,
+      "uuid": "e0e44cfe-39b3-11f1-84d1-e6ad33f6a752",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FVL0r87K3-vUP2KXQX1juLMFEHJtvxwKM-nm6_PYllc",
+          "short_id": "cafe01234567"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "138.124.65.39.alexanderoff.ru",
+      "server_port": 449,
+      "uuid": "ef413b60-7df5-4503-a2ce-42f0e28d700b",
+      "packet_encoding": "xudp"
+    },
+    {
       "type": "wireguard",
       "tag": "warp-out",
-      "detour": "vless-out",
       "server": "162.159.195.10",
       "server_port": 4198,
       "local_address": [
@@ -61,13 +123,17 @@
       "peers": [
         {
           "public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-          "allowed_ips": ["0.0.0.0/0", "::/0"],
+          "allowed_ips": [
+            "0.0.0.0/0",
+            "::/0"
+          ],
           "server": "162.159.195.10",
           "server_port": 4198
         }
       ],
       "mtu": 1280,
-      "persistent_keepalive_interval": 25
+      "persistent_keepalive_interval": 25,
+      "detour": "vless-00"
     },
     {
       "type": "direct",
@@ -77,11 +143,15 @@
   "route": {
     "rules": [
       {
-        "ip_cidr": ["162.159.192.0/22"],
+        "ip_cidr": [
+          "162.159.192.0/22"
+        ],
         "outbound": "direct"
       },
       {
-        "ip_cidr": ["8.8.8.8/32"],
+        "ip_cidr": [
+          "8.8.8.8/32"
+        ],
         "outbound": "direct"
       }
     ],
