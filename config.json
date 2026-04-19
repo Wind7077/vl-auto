@@ -18,7 +18,7 @@
     ],
     "rules": [
       {
-        "outbound": ["warp-out"],
+        "outbound": "warp-out",
         "server": "dns-warp"
       },
       {
@@ -69,8 +69,7 @@
         }
       ],
       "mtu": 1280,
-      "persistent_keepalive_interval": 25,
-      "gso": true
+      "persistent_keepalive_interval": 25
     },
     {
       "type": "direct",
@@ -86,6 +85,15 @@
       {
         "inbound": "tun-in",
         "outbound": "warp-out"
+      },
+      {
+        "ip_cidr": ["162.159.195.0/24"],
+        "outbound": "direct"
+      },
+      {
+        "ip_cidr": ["162.159.195.10/32"],
+        "port": 4198,
+        "outbound": "direct"
       }
     ],
     "auto_detect_interface": true
