@@ -42,109 +42,110 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "gr-1.illusion-proxy.ru",
+      "server": "pl2-gws4.onnstreaming.ru",
       "server_port": 443,
-      "uuid": "bf263367-bb63-4663-b4a1-34946107a72e",
+      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gr-1.illusion-proxy.ru",
+        "server_name": "pl2-gws4.onnstreaming.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "I-ltGSV73Fd08VfuP_XZ-mAAb2ZE3Ag4a_8ftaX0bz0",
-          "short_id": "fe28038a"
+          "public_key": "fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ",
+          "short_id": "d1f93724859d75ac"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "152.53.139.145",
-      "server_port": 4278,
-      "uuid": "ae9196bf-c49b-40f7-87f3-f3370b4e886e",
+      "server": "nld.pink-world.ru",
+      "server_port": 443,
+      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "files.moscownews24.ru",
+        "server_name": "nld.pink-world.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
+          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
+          "short_id": "f27d8b541b5f48bf"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "bested1.pineappled.org",
+      "server": "nld.pink-world.ru",
       "server_port": 443,
-      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "nld.pink-world.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
+          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
+          "short_id": "f27d8b541b5f48bf"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "grpc1.pineappled.org",
-      "server_port": 2053,
-      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "server": "fi-2.illusion-proxy.ru",
+      "server_port": 443,
+      "uuid": "bf263367-bb63-4663-b4a1-34946107a72e",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "fi-2.illusion-proxy.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
+          "public_key": "kBYgYE-AUBYMOzhyWh9Du0QHLluIEq6FeL0KqHX3_Bs",
+          "short_id": "dfa086d3d14271ae"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "88.216.214.193",
+      "server": "pl2-gws4.onnstreaming.ru",
       "server_port": 443,
-      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
+      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hcaptcha.com",
+        "server_name": "pl2-gws4.onnstreaming.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "OnoYzxXhIySTpU1f2LlkD-Js_nQ0YwGvfDyi9IsDcWw",
-          "short_id": "8ac90e6b63633977"
+          "public_key": "fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ",
+          "short_id": "d1f93724859d75ac"
         }
       }
     },
