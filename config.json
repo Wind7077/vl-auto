@@ -42,110 +42,107 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "pl2-gws4.onnstreaming.ru",
-      "server_port": 443,
-      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
+      "server": "fl-1.devtoolspro.online",
+      "server_port": 2043,
+      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl2-gws4.onnstreaming.ru",
+        "server_name": "fl-1.devtoolspro.online",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ",
-          "short_id": "d1f93724859d75ac"
+          "public_key": "2N6gljNMopPp54hJ9MsCNAOZQttlm60AjgwP7Sd1t0c",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "nld.pink-world.ru",
+      "server": "193.233.252.17",
       "server_port": 443,
-      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
+      "uuid": "TMG_6edfe340813",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nld.pink-world.ru",
+        "server_name": "amazon.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
-          "short_id": "f27d8b541b5f48bf"
+          "public_key": "Ko0q6bxJ3yqo_9-UsCvS9RKJlpEjlAHK_yYuy5INAzs",
+          "short_id": "77760a7f"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "nld.pink-world.ru",
-      "server_port": 443,
-      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nld.pink-world.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
-          "short_id": "f27d8b541b5f48bf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "fi-2.illusion-proxy.ru",
+      "server": "pl-1.illusion-vpn.ru",
       "server_port": 443,
       "uuid": "bf263367-bb63-4663-b4a1-34946107a72e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fi-2.illusion-proxy.ru",
+        "server_name": "pl-1.illusion-vpn.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "kBYgYE-AUBYMOzhyWh9Du0QHLluIEq6FeL0KqHX3_Bs",
-          "short_id": "dfa086d3d14271ae"
+          "public_key": "5qvcOTHr_izGbsRz-j2xC3BMMdugFMsl7MnANjzwZ0I",
+          "short_id": "b2a1c97a38"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "45.136.126.32",
+      "server_port": 4443,
+      "uuid": "491772a0-12bd-47e2-afe9-5d5be5d47401",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HYMZ6sGaRCC0PPGCzyWeJgpaNO2vP1IM71gkiJIJ6zQ",
+          "short_id": "e313"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "pl2-gws4.onnstreaming.ru",
+      "server": "88.216.214.193",
       "server_port": 443,
-      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
+      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl2-gws4.onnstreaming.ru",
+        "server_name": "hcaptcha.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fN3l3mYSDO44IWNPHWOQo2JMUw2isUGoOqrS6hCFfBQ",
-          "short_id": "d1f93724859d75ac"
+          "public_key": "OnoYzxXhIySTpU1f2LlkD-Js_nQ0YwGvfDyi9IsDcWw",
+          "short_id": "8ac90e6b63633977"
         }
       }
     },
