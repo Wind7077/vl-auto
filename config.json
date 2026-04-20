@@ -42,51 +42,29 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "161.104.105.157",
-      "server_port": 443,
-      "uuid": "15da07d5-7f72-47db-9bd1-e122e9698d24",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn1.ozone.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
-          "short_id": "fbbffd72f5121b83"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "nl.realfast.click",
-      "server_port": 443,
-      "uuid": "2bbff6be-e96a-4ca3-9cf6-a36445e6681f",
+      "server": "nl-1.devtoolspro.online",
+      "server_port": 2043,
+      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "nl.realfast.click",
+        "server_name": "nl-1.devtoolspro.online",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1pMPaYppx4EQxHCE_nr6niNYmBZqcLWEt3xRQXUelSw",
-          "short_id": "3adba0ac09bf"
+          "public_key": "QjzO51Z1SzCBsaPrwxE9PEm7GK2wNySjAYITQ3J8fU8",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "152.53.139.158",
-      "server_port": 4283,
+      "tag": "vless-01",
+      "server": "104.238.29.121",
+      "server_port": 4497,
       "uuid": "fb99f4f0-181d-4117-be22-df9856fbbc06",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
@@ -106,45 +84,67 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "161.104.105.157",
+      "tag": "vless-02",
+      "server": "bested1.pineappled.org",
       "server_port": 443,
-      "uuid": "15da07d5-7f72-47db-9bd1-e122e9698d24",
+      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn1.ozone.ru",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
-          "short_id": "0a96d577e7ec624e"
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "23"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "download.spectrum.vu",
+      "server_port": 443,
+      "uuid": "f48890c7-0a71-4b2c-8a2c-bb23edfe427d",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "download.spectrum.vu",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8",
+          "short_id": "1A1C4D9A3F3A"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "test.fine-pond.test-cdn-kkk.com",
-      "server_port": 443,
-      "uuid": "e6216d49-cb64-49b6-afef-1fa48cd7e9e5",
+      "server": "152.53.139.158",
+      "server_port": 4283,
+      "uuid": "fb99f4f0-181d-4117-be22-df9856fbbc06",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "files.moscownews24.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "short_id": "50"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
         }
       }
     },
