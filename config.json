@@ -42,71 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "hetzner.spectrum.vu",
+      "server": "nld.pink-world.ru",
       "server_port": 443,
-      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
+      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "nld.pink-world.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
-          "short_id": "a1b2c3d4"
+          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
+          "short_id": "f27d8b541b5f48bf"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "nl-1.devtoolspro.online",
-      "server_port": 2043,
-      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl-1.devtoolspro.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QjzO51Z1SzCBsaPrwxE9PEm7GK2wNySjAYITQ3J8fU8",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "88.216.214.193",
-      "server_port": 443,
-      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "hcaptcha.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "OnoYzxXhIySTpU1f2LlkD-Js_nQ0YwGvfDyi9IsDcWw",
-          "short_id": "8ac90e6b63633977"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "161.104.105.157",
       "server_port": 443,
       "uuid": "a5aa71ac-07f6-41e8-a4bd-748c7d444877",
@@ -122,29 +79,71 @@
         "reality": {
           "enabled": true,
           "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
-          "short_id": "48ded064c96fcdf2"
+          "short_id": "13bc9866975af719"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fl-1.devtoolspro.online",
+      "server_port": 2043,
+      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fl-1.devtoolspro.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "2N6gljNMopPp54hJ9MsCNAOZQttlm60AjgwP7Sd1t0c",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "nld.pink-world.ru",
+      "server_port": 443,
+      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nld.pink-world.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
+          "short_id": "f27d8b541b5f48bf"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "lv.milas.click",
-      "server_port": 443,
-      "uuid": "913c6074-a747-492b-a7e9-5abfcad6369d",
+      "server": "nl-1.devtoolspro.online",
+      "server_port": 2043,
+      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv.milas.click",
+        "server_name": "nl-1.devtoolspro.online",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY",
-          "short_id": "4fa44664f6a566d3"
+          "public_key": "QjzO51Z1SzCBsaPrwxE9PEm7GK2wNySjAYITQ3J8fU8",
+          "short_id": ""
         }
       }
     },
