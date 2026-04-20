@@ -42,22 +42,22 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "lav1.pineappled.org",
-      "server_port": 443,
-      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "server": "de3.voxyvpn.ru",
+      "server_port": 8443,
+      "uuid": "13d7b355-1791-4c72-b542-61c5ec64430b",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
+          "public_key": "l78iryfyBl_JIg0KXgb0VQ3zxfhtkD1odwO09qs9SH4",
+          "short_id": "deadbeef"
         }
       }
     },
@@ -86,29 +86,29 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "sw1.pineappled.org",
+      "server": "gr-1.illusion-proxy.ru",
       "server_port": 443,
-      "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
+      "uuid": "bf263367-bb63-4663-b4a1-34946107a72e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "gr-1.illusion-proxy.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
+          "public_key": "I-ltGSV73Fd08VfuP_XZ-mAAb2ZE3Ag4a_8ftaX0bz0",
+          "short_id": "fe28038a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "bested1.pineappled.org",
+      "server": "an1.pineappled.org",
       "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
@@ -130,16 +130,17 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "grpc1.pineappled.org",
-      "server_port": 2053,
+      "server": "sw1.pineappled.org",
+      "server_port": 443,
       "uuid": "dd09a21b-c1ac-4fde-83bb-dc09f85416b6",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
