@@ -42,49 +42,71 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "45.136.126.32",
-      "server_port": 4443,
-      "uuid": "491772a0-12bd-47e2-afe9-5d5be5d47401",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HYMZ6sGaRCC0PPGCzyWeJgpaNO2vP1IM71gkiJIJ6zQ",
-          "short_id": "e313"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "st-2.globalcache.onnstreaming.ru",
+      "server": "hetzner.spectrum.vu",
       "server_port": 443,
-      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
+      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "st-2.globalcache.onnstreaming.ru",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "NOhuaiHfc8Tv7VrFKnNgr-VN594kxtUCslNEBhySvXQ",
-          "short_id": "aa69f619e4414362"
+          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
+          "short_id": "a1b2c3d4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "nl-1.devtoolspro.online",
+      "server_port": 2043,
+      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl-1.devtoolspro.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QjzO51Z1SzCBsaPrwxE9PEm7GK2wNySjAYITQ3J8fU8",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
+      "server": "88.216.214.193",
+      "server_port": 443,
+      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hcaptcha.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OnoYzxXhIySTpU1f2LlkD-Js_nQ0YwGvfDyi9IsDcWw",
+          "short_id": "8ac90e6b63633977"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "161.104.105.157",
       "server_port": 443,
       "uuid": "a5aa71ac-07f6-41e8-a4bd-748c7d444877",
@@ -100,51 +122,29 @@
         "reality": {
           "enabled": true,
           "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
-          "short_id": "13bc9866975af719"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "nld.pink-world.ru",
-      "server_port": 443,
-      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nld.pink-world.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
-          "short_id": "f27d8b541b5f48bf"
+          "short_id": "48ded064c96fcdf2"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "nld.pink-world.ru",
+      "server": "lv.milas.click",
       "server_port": 443,
-      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
+      "uuid": "913c6074-a747-492b-a7e9-5abfcad6369d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nld.pink-world.ru",
+        "server_name": "lv.milas.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
-          "short_id": "f27d8b541b5f48bf"
+          "public_key": "DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY",
+          "short_id": "4fa44664f6a566d3"
         }
       }
     },
