@@ -1,1 +1,1 @@
-vless://12a3c993-e2f1-4ebb-b622-d67e546f34e5@hetzner.spectrum.vu:443?type=tcp&security=reality&sni=www.microsoft.com&fp=chrome&pbk=joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo&sid=a1b2c3d4&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://f5a3bf49-07ca-0021-a96b-9606781e3600@fl.musicperec.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=6e3f0a5b&sni=www.amd.com#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Turku%20%7C%20%5BBL%5D
