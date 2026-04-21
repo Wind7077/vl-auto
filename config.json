@@ -42,7 +42,51 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "501.rushrushnode.org",
+      "server": "138.124.9.190",
+      "server_port": 16558,
+      "uuid": "11348c0f-b646-446a-bad7-b2b39c6de767",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gpuopen.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4",
+          "short_id": "0a856e071790b1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "fi-2.illusion-proxy.ru",
+      "server_port": 443,
+      "uuid": "bf263367-bb63-4663-b4a1-34946107a72e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi-2.illusion-proxy.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "kBYgYE-AUBYMOzhyWh9Du0QHLluIEq6FeL0KqHX3_Bs",
+          "short_id": "dfa086d3d14271ae"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "107.149.184.246",
       "server_port": 10501,
       "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
       "packet_encoding": "xudp",
@@ -52,7 +96,7 @@
         "server_name": "img14.360buyimg.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -63,29 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "72.56.38.50",
-      "server_port": 443,
-      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
-          "short_id": "a1b2c3d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
+      "tag": "vless-03",
       "server": "2.26.78.13.alexanderoff.ru",
       "server_port": 753,
       "uuid": "cd6ab345-4679-0001-bfa3-24fdfe8edf37",
@@ -106,44 +128,23 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "501.rushrushnode.org",
-      "server_port": 10501,
-      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
+      "tag": "vless-04",
+      "server": "72.56.38.50",
+      "server_port": 443,
+      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "img14.360buyimg.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
-          "short_id": "9153"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "s7.itxserver.space",
-      "server_port": 8443,
-      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.siemens.com",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
+          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
+          "short_id": "a1b2c3d4"
         }
       }
     },
