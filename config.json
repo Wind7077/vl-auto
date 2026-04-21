@@ -42,21 +42,20 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "gwapp-nl01.freenets.store",
-      "server_port": 8443,
-      "uuid": "0c8a9f50-51b3-43b5-b1fb-09fc3131a800",
+      "server": "2.26.78.13.alexanderoff.ru",
+      "server_port": 753,
+      "uuid": "cd6ab345-4679-0001-bfa3-24fdfe8edf37",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gwapp-nl01.freenets.store",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3VpWLkd8rOkubuhzrNMT8sIAdSgMazBQfE3OdMtjKSA",
+          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I",
           "short_id": ""
         }
       }
@@ -64,86 +63,87 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "147.45.248.201",
+      "server": "eston2.o4ka-internet.com",
       "server_port": 443,
-      "uuid": "37e34fcf-7254-4af3-a0ca-733efbff66c4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zL5pAKteheIP6ZHmadgqDpxVnIKEzHYZ87LxFSG6-nM",
-          "short_id": "8526"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "161.104.105.157",
-      "server_port": 443,
-      "uuid": "a5aa71ac-07f6-41e8-a4bd-748c7d444877",
+      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn1.ozone.ru",
+        "server_name": "eston2.o4ka-internet.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
-          "short_id": "13bc9866975af719"
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "s7.itxserver.space",
+      "server_port": 8443,
+      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.siemens.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": "6ba85179e30d4fc3"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "nl-1.devtoolspro.online",
-      "server_port": 2043,
-      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
+      "server": "eston2.o4ka-internet.com",
+      "server_port": 443,
+      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl-1.devtoolspro.online",
+        "server_name": "eston2.o4ka-internet.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "QjzO51Z1SzCBsaPrwxE9PEm7GK2wNySjAYITQ3J8fU8",
-          "short_id": ""
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "gwapp-nl01.freenets.store",
-      "server_port": 8443,
-      "uuid": "0c8a9f50-51b3-43b5-b1fb-09fc3131a800",
+      "server": "lv.wequ.host",
+      "server_port": 443,
+      "uuid": "34222749-f6ff-457e-887b-ff11f3cec0a2",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gwapp-nl01.freenets.store",
+        "server_name": "lv.wequ.host",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3VpWLkd8rOkubuhzrNMT8sIAdSgMazBQfE3OdMtjKSA",
-          "short_id": ""
+          "public_key": "wTItGAW6C-W57JpVR4lVm3bpHTIECjfvI3uq5Svykyk",
+          "short_id": "e7de299e"
         }
       }
     },

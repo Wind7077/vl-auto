@@ -1,1 +1,1 @@
-vless://7f6a8bf3-e8fc-473e-8acb-acee6321ec40@8.6.112.6:443?&security=tls&fp=chrome&sni=tbp.zuhn.ir&type=ws&headerType=none&host=tbp.zuhn.ir&path=%2Ftest#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Nuremberg%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
+vless://34222749-f6ff-457e-887b-ff11f3cec0a2@lv.wequ.host:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=wTItGAW6C-W57JpVR4lVm3bpHTIECjfvI3uq5Svykyk&sid=e7de299e&sni=lv.wequ.host&spx=/#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
