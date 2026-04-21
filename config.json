@@ -42,9 +42,9 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "64.188.60.146",
+      "server": "147.45.248.201",
       "server_port": 443,
-      "uuid": "85a49735-f53e-49d4-8480-fd0cb6412740",
+      "uuid": "37e34fcf-7254-4af3-a0ca-733efbff66c4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -55,14 +55,58 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "VQ0SfUe6DtxtPKClcGhsKVaJT_ylVPfSTYc5XjsvsAw",
-          "short_id": "7886"
+          "public_key": "zL5pAKteheIP6ZHmadgqDpxVnIKEzHYZ87LxFSG6-nM",
+          "short_id": "8526"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
+      "server": "109.120.189.4",
+      "server_port": 443,
+      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YnOlmcxFiHgitIcjba45C7z6kw7txOWnImgSfMCtsiA",
+          "short_id": "1da44564cda563cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "yad-ru.servers.gracevpnbuy.com",
+      "server_port": 443,
+      "uuid": "38ff06f6-8293-00c8-8dea-a435dc90e1f2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "X3_wpAsAUS1ajiuResGGrHQo8aMT1KlbMeMWAFk1jX8",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "nl-1.devtoolspro.online",
       "server_port": 2043,
       "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
@@ -83,7 +127,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
+      "tag": "vless-04",
       "server": "161.104.105.157",
       "server_port": 443,
       "uuid": "a5aa71ac-07f6-41e8-a4bd-748c7d444877",
@@ -99,51 +143,7 @@
         "reality": {
           "enabled": true,
           "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
-          "short_id": "48ded064c96fcdf2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "nld.pink-world.ru",
-      "server_port": 443,
-      "uuid": "c5bbdac7-6ff5-4762-87bf-870f55a03581",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nld.pink-world.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tB6tQr-pmLTdMM8DVOb9KsS27lDkAjjelbdu_Gp1SR0",
-          "short_id": "f27d8b541b5f48bf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "fi-2.illusion-proxy.ru",
-      "server_port": 443,
-      "uuid": "bf263367-bb63-4663-b4a1-34946107a72e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi-2.illusion-proxy.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "kBYgYE-AUBYMOzhyWh9Du0QHLluIEq6FeL0KqHX3_Bs",
-          "short_id": "dfa086d3d14271ae"
+          "short_id": "13bc9866975af719"
         }
       }
     },
