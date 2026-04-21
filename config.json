@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "video3.voidvpn.pro",
-      "server_port": 443,
-      "uuid": "142e8693-e884-475d-80c8-8cd637b13493",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "video3.voidvpn.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "P2AmGKAWAM-Q5w9yDIZ4C2-M1mF3C5NSuxpwCWztFUA",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "download.spectrum.vu",
       "server_port": 443,
       "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
@@ -85,50 +63,28 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "nl-1.devtoolspro.online",
+      "tag": "vless-01",
+      "server": "fl-1.devtoolspro.online",
       "server_port": 2043,
       "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "nl-1.devtoolspro.online",
+        "server_name": "fl-1.devtoolspro.online",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "QjzO51Z1SzCBsaPrwxE9PEm7GK2wNySjAYITQ3J8fU8",
+          "public_key": "2N6gljNMopPp54hJ9MsCNAOZQttlm60AjgwP7Sd1t0c",
           "short_id": ""
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "video2.voidvpn.pro",
-      "server_port": 443,
-      "uuid": "142e8693-e884-475d-80c8-8cd637b13493",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "video2.voidvpn.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Tuu4uaHdAZNNe7ylljv-Q6mOz5zAfBNh_YeywwKuJkc",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-02",
       "server": "82.39.215.123",
       "server_port": 443,
       "uuid": "7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2",
@@ -145,6 +101,50 @@
           "enabled": true,
           "public_key": "4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA",
           "short_id": "aabbccdd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "77.221.159.91",
+      "server_port": 4289,
+      "uuid": "c2810530-74e4-4160-b440-c4e5acc08d68",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "files.moscownews24.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "video1.voidvpn.pro",
+      "server_port": 443,
+      "uuid": "142e8693-e884-475d-80c8-8cd637b13493",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "video1.voidvpn.pro",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "POMIW99KWlwbe3RvCdmSHgfDmdPl9E4pGQJOIzMShg8",
+          "short_id": ""
         }
       }
     },
