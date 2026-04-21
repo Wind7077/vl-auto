@@ -42,6 +42,49 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "2.26.78.13.alexanderoff.ru",
+      "server_port": 753,
+      "uuid": "cd6ab345-4679-0001-bfa3-24fdfe8edf37",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "501.rushrushnode.org",
+      "server_port": 10501,
+      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "img14.360buyimg.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
+          "short_id": "9153"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "video2.voidvpn.pro",
       "server_port": 443,
       "uuid": "142e8693-e884-475d-80c8-8cd637b13493",
@@ -63,88 +106,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "72.56.38.50",
-      "server_port": 443,
-      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
-          "short_id": "a1b2c3d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "fl.umarketvpn.click",
-      "server_port": 8443,
-      "uuid": "f437c54a-dd61-4800-9871-33cf54a20e38",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RFeoSJw6AHyCIR_EaRklC6CF4-bEa_sNBCQiB0_2Wxg",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "82.39.215.123",
-      "server_port": 443,
-      "uuid": "7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2",
+      "server": "138.124.9.190",
+      "server_port": 16558,
+      "uuid": "11348c0f-b646-446a-bad7-b2b39c6de767",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "gpuopen.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA",
-          "short_id": "aabbccdd"
+          "public_key": "vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4",
+          "short_id": "0a856e071790b1"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "download.spectrum.vu",
-      "server_port": 443,
-      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
+      "server": "501.rushrushnode.org",
+      "server_port": 10501,
+      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "download.spectrum.vu",
+        "server_name": "img14.360buyimg.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8",
-          "short_id": "1a1c4d9a3f3a"
+          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
+          "short_id": "9153"
         }
       }
     },
