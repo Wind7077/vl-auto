@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "161.104.105.157",
-      "server_port": 443,
-      "uuid": "a5aa71ac-07f6-41e8-a4bd-748c7d444877",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn1.ozone.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
-          "short_id": "13bc9866975af719"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "64.188.60.146",
       "server_port": 443,
       "uuid": "85a49735-f53e-49d4-8480-fd0cb6412740",
@@ -84,23 +62,44 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "gwapp-nl01.freenets.store",
-      "server_port": 8443,
-      "uuid": "0c8a9f50-51b3-43b5-b1fb-09fc3131a800",
+      "tag": "vless-01",
+      "server": "nl-1.devtoolspro.online",
+      "server_port": 2043,
+      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gwapp-nl01.freenets.store",
+        "server_name": "nl-1.devtoolspro.online",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3VpWLkd8rOkubuhzrNMT8sIAdSgMazBQfE3OdMtjKSA",
+          "public_key": "QjzO51Z1SzCBsaPrwxE9PEm7GK2wNySjAYITQ3J8fU8",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "161.104.105.157",
+      "server_port": 443,
+      "uuid": "a5aa71ac-07f6-41e8-a4bd-748c7d444877",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn1.ozone.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
+          "short_id": "48ded064c96fcdf2"
         }
       }
     },
