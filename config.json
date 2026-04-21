@@ -42,6 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "gwapp-nl01.freenets.store",
+      "server_port": 8443,
+      "uuid": "0c8a9f50-51b3-43b5-b1fb-09fc3131a800",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gwapp-nl01.freenets.store",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "3VpWLkd8rOkubuhzrNMT8sIAdSgMazBQfE3OdMtjKSA",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
       "server": "147.45.248.201",
       "server_port": 443,
       "uuid": "37e34fcf-7254-4af3-a0ca-733efbff66c4",
@@ -62,45 +84,23 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "109.120.189.4",
+      "tag": "vless-02",
+      "server": "161.104.105.157",
       "server_port": 443,
-      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "uuid": "a5aa71ac-07f6-41e8-a4bd-748c7d444877",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "cdn1.ozone.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "YnOlmcxFiHgitIcjba45C7z6kw7txOWnImgSfMCtsiA",
-          "short_id": "1da44564cda563cc"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "yad-ru.servers.gracevpnbuy.com",
-      "server_port": 443,
-      "uuid": "38ff06f6-8293-00c8-8dea-a435dc90e1f2",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "X3_wpAsAUS1ajiuResGGrHQo8aMT1KlbMeMWAFk1jX8",
-          "short_id": ""
+          "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
+          "short_id": "13bc9866975af719"
         }
       }
     },
@@ -128,22 +128,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "161.104.105.157",
-      "server_port": 443,
-      "uuid": "a5aa71ac-07f6-41e8-a4bd-748c7d444877",
+      "server": "gwapp-nl01.freenets.store",
+      "server_port": 8443,
+      "uuid": "0c8a9f50-51b3-43b5-b1fb-09fc3131a800",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn1.ozone.ru",
+        "server_name": "gwapp-nl01.freenets.store",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wi3hRlGNIWwcyKxyQmItdaa9jXvYWb8uQFvbsSZZtA4",
-          "short_id": "13bc9866975af719"
+          "public_key": "3VpWLkd8rOkubuhzrNMT8sIAdSgMazBQfE3OdMtjKSA",
+          "short_id": ""
         }
       }
     },
