@@ -42,20 +42,21 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "2.26.78.13.alexanderoff.ru",
-      "server_port": 753,
-      "uuid": "cd6ab345-4679-0001-bfa3-24fdfe8edf37",
+      "server": "video1.voidvpn.pro",
+      "server_port": 443,
+      "uuid": "142e8693-e884-475d-80c8-8cd637b13493",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "video1.voidvpn.pro",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I",
+          "public_key": "POMIW99KWlwbe3RvCdmSHgfDmdPl9E4pGQJOIzMShg8",
           "short_id": ""
         }
       }
@@ -63,14 +64,36 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "eston2.o4ka-internet.com",
+      "server": "77.221.159.91",
+      "server_port": 4289,
+      "uuid": "c2810530-74e4-4160-b440-c4e5acc08d68",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "files.moscownews24.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fin.o4ka-internet.com",
       "server_port": 443,
       "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "eston2.o4ka-internet.com",
+        "server_name": "fin.o4ka-internet.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -84,66 +107,44 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "s7.itxserver.space",
-      "server_port": 8443,
-      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.siemens.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "eston2.o4ka-internet.com",
+      "server": "video3.voidvpn.pro",
       "server_port": 443,
-      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "uuid": "142e8693-e884-475d-80c8-8cd637b13493",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "eston2.o4ka-internet.com",
+        "server_name": "video3.voidvpn.pro",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
+          "public_key": "P2AmGKAWAM-Q5w9yDIZ4C2-M1mF3C5NSuxpwCWztFUA",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "lv.wequ.host",
-      "server_port": 443,
-      "uuid": "34222749-f6ff-457e-887b-ff11f3cec0a2",
+      "server": "nl-1.devtoolspro.online",
+      "server_port": 2043,
+      "uuid": "3a6cdcf4-903c-45e5-b019-ca7c6d768972",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv.wequ.host",
+        "server_name": "nl-1.devtoolspro.online",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wTItGAW6C-W57JpVR4lVm3bpHTIECjfvI3uq5Svykyk",
-          "short_id": "e7de299e"
+          "public_key": "QjzO51Z1SzCBsaPrwxE9PEm7GK2wNySjAYITQ3J8fU8",
+          "short_id": ""
         }
       }
     },
