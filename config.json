@@ -42,6 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "132.243.224.86.alexanderoff.ru",
+      "server_port": 443,
+      "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
+          "short_id": "c6118398"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "144.31.127.55.alexanderoff.ru",
+      "server_port": 443,
+      "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gateway.icloud.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
+          "short_id": "c6118398"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "nl.realfast.click",
       "server_port": 443,
       "uuid": "f26dacc3-0185-4ab2-bb00-de5cd556f865",
@@ -63,73 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "germany.milas.click",
-      "server_port": 443,
-      "uuid": "e40adfaf-2f39-44cc-a716-10884f0e0bfe",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "germany.milas.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pJpaRasoceUeRDJTXEZNnKT3yW5IocPXudB_B7_rBR0",
-          "short_id": "4fa44664f6a566d3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "de.realfast.click",
-      "server_port": 443,
-      "uuid": "f26dacc3-0185-4ab2-bb00-de5cd556f865",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.realfast.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "x-xLSUDGxwcHdJud7sJlNWPDpQcRBAa8zGBjBLqRbFc",
-          "short_id": "48dd07dc65590f05"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "132.243.234.60.alexanderoff.ru",
-      "server_port": 443,
-      "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gateway.icloud.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
-          "short_id": "c6118398"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
       "server": "fin.o4ka-internet.com",
       "server_port": 443,
       "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
@@ -146,6 +124,28 @@
           "enabled": true,
           "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
           "short_id": "5629431325884ff0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "de.realfast.click",
+      "server_port": 443,
+      "uuid": "f26dacc3-0185-4ab2-bb00-de5cd556f865",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.realfast.click",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "x-xLSUDGxwcHdJud7sJlNWPDpQcRBAa8zGBjBLqRbFc",
+          "short_id": "48dd07dc65590f05"
         }
       }
     },
