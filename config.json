@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "download.spectrum.vu",
-      "server_port": 443,
-      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "download.spectrum.vu",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8",
-          "short_id": "1a1c4d9a3f3a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "158.160.124.16",
       "server_port": 443,
       "uuid": "7cd8b73d-5f53-4521-b690-9eec798970b6",
@@ -85,15 +63,37 @@
     },
     {
       "type": "vless",
+      "tag": "vless-01",
+      "server": "edge5.samovargate.com",
+      "server_port": 443,
+      "uuid": "82b5b465-3307-4a25-acef-abd1649bbedf",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "gwuAehnMX6e-n1fxIenfjx43j3qXXi7Cb4wfnW5VyBQ",
+          "short_id": "f04729f65b9ea261"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "vless-02",
-      "server": "178.154.211.221",
+      "server": "158.160.231.77",
       "server_port": 443,
       "uuid": "4e78dd4f-1d8f-0410-b43b-e2c662c4f956",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -108,7 +108,28 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "158.160.97.228",
+      "server": "germany3.nbbconnect.ru",
+      "server_port": 443,
+      "uuid": "1becdc51-1b1a-4fb5-bbfb-06433b3f9dec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "germany3.nbbconnect.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "A4j57sDAA97uICmt2HhAW7PWMaV39gE6jy_VokhmI1k",
+          "short_id": "7c08356a875ff541"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "158.160.104.79",
       "server_port": 443,
       "uuid": "7cd8b73d-5f53-4521-b690-9eec798970b6",
       "packet_encoding": "xudp",
@@ -124,28 +145,6 @@
           "enabled": true,
           "public_key": "XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE",
           "short_id": "111111"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "nl.normbot.ru",
-      "server_port": 443,
-      "uuid": "0b069e37-ddaa-4e7f-80d5-cdca76cf7c39",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl.normbot.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U",
-          "short_id": "3100b9f4d458f240"
         }
       }
     },
