@@ -42,14 +42,14 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "germ1.o4ka-internet.com",
+      "server": "fin.o4ka-internet.com",
       "server_port": 443,
       "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "germ1.o4ka-internet.com",
+        "server_name": "fin.o4ka-internet.com",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
@@ -64,49 +64,6 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "s7.itxserver.space",
-      "server_port": 8443,
-      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.siemens.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "138.124.9.190",
-      "server_port": 16558,
-      "uuid": "11348c0f-b646-446a-bad7-b2b39c6de767",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gpuopen.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vDKgmefC_2JaSrrvQSsb7DU3KBeKUlXG1V0vgdjv_i4",
-          "short_id": "0a856e071790b1"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "64.188.60.146",
       "server_port": 443,
       "uuid": "85a49735-f53e-49d4-8480-fd0cb6412740",
@@ -127,23 +84,67 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "hetzner.spectrum.vu",
+      "tag": "vless-02",
+      "server": "pl-1.illusion-vpn.ru",
       "server_port": 443,
-      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
+      "uuid": "bf263367-bb63-4663-b4a1-34946107a72e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "pl-1.illusion-vpn.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
-          "short_id": "a1b2c3d4"
+          "public_key": "5qvcOTHr_izGbsRz-j2xC3BMMdugFMsl7MnANjzwZ0I",
+          "short_id": "b2a1c97a38"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "pl-1.illusion-vpn.ru",
+      "server_port": 443,
+      "uuid": "bf263367-bb63-4663-b4a1-34946107a72e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl-1.illusion-vpn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5qvcOTHr_izGbsRz-j2xC3BMMdugFMsl7MnANjzwZ0I",
+          "short_id": "b2a1c97a38"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "51.250.50.24",
+      "server_port": 443,
+      "uuid": "047ce9ff-d739-499c-932f-f596117fb0d7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CnluTuWsXgRCALAq6t1fsXdt-1LSmG3o8P0J20E9CU8",
+          "short_id": "42dbacd2e5"
         }
       }
     },
