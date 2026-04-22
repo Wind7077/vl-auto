@@ -42,6 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "158.160.104.79",
+      "server_port": 443,
+      "uuid": "7bc3e589-53d7-46c1-8f82-ff65c4e8939e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "5post-gate.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE",
+          "short_id": "111111"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
       "server": "144.31.127.55.alexanderoff.ru",
       "server_port": 443,
       "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
@@ -63,89 +85,66 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "95.163.183.144",
-      "server_port": 443,
-      "uuid": "787b85f3-ca2b-4fba-bedc-24a5ebe52d9b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "music.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Oc4VtwpdXGT4jlQZVEEgTTjeBx97uJ0sON2ek629plE",
-          "short_id": "7cdd41bbb2f014"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-02",
-      "server": "nl.normbot.ru",
+      "server": "158.160.105.127",
       "server_port": 443,
-      "uuid": "0b069e37-ddaa-4e7f-80d5-cdca76cf7c39",
+      "uuid": "7bc3e589-53d7-46c1-8f82-ff65c4e8939e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl.normbot.ru",
+        "server_name": "5post-gate.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U",
-          "short_id": "3100b9f4d458f240"
+          "public_key": "XguLRlc-hWqFhf8-KTxtCE434F6e4Hiqoc5cTBpLxnE",
+          "short_id": "111111"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "144.31.24.92",
+      "server": "germany3.nbbconnect.ru",
       "server_port": 443,
-      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "uuid": "1becdc51-1b1a-4fb5-bbfb-06433b3f9dec",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl.o4ka-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "132.243.224.86.alexanderoff.ru",
-      "server_port": 443,
-      "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gateway.icloud.com",
+        "server_name": "germany3.nbbconnect.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
-          "short_id": "c6118398"
+          "public_key": "A4j57sDAA97uICmt2HhAW7PWMaV39gE6jy_VokhmI1k",
+          "short_id": "7c08356a875ff541"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "download.spectrum.vu",
+      "server_port": 443,
+      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "download.spectrum.vu",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8",
+          "short_id": "1a1c4d9a3f3a"
         }
       }
     },
