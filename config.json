@@ -42,110 +42,108 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fl.musicperec.ru",
+      "server": "germany3.nbbconnect.ru",
       "server_port": 443,
-      "uuid": "f5a3bf49-07ca-0021-a96b-9606781e3600",
+      "uuid": "1becdc51-1b1a-4fb5-bbfb-06433b3f9dec",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "germany3.nbbconnect.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-          "short_id": "6e3f0a5b"
+          "public_key": "A4j57sDAA97uICmt2HhAW7PWMaV39gE6jy_VokhmI1k",
+          "short_id": "7c08356a875ff541"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "fin.o4ka-internet.com",
+      "server": "nl.normbot.ru",
       "server_port": 443,
-      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "uuid": "0b069e37-ddaa-4e7f-80d5-cdca76cf7c39",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fin.o4ka-internet.com",
+        "server_name": "nl.normbot.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
+          "public_key": "pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U",
+          "short_id": "3100b9f4d458f240"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "107.149.184.246",
-      "server_port": 10501,
-      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
+      "server": "159.194.199.190",
+      "server_port": 8443,
+      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "img14.360buyimg.com",
+        "server_name": "www.siemens.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
-          "short_id": "9153"
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": "6ba85179e30d4fc3"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "perecbass.ru",
+      "server": "download.spectrum.vu",
       "server_port": 443,
-      "uuid": "f5a3bf49-07ca-0021-a96b-9606781e3600",
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "download.spectrum.vu",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-          "short_id": "4c8d1e0f"
+          "public_key": "sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8",
+          "short_id": "a1b2c6d7e8f9"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "lv.musicperec.ru",
+      "server": "144.31.127.55.alexanderoff.ru",
       "server_port": 443,
-      "uuid": "f5a3bf49-07ca-4f96-a96b-9606781e3600",
+      "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "gateway.icloud.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-          "short_id": "6e3f0a5b"
+          "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
+          "short_id": "c6118398"
         }
       }
     },
