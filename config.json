@@ -42,22 +42,22 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "de.realfast.click",
+      "server": "fl.musicperec.ru",
       "server_port": 443,
-      "uuid": "f26dacc3-0185-4ab2-bb00-de5cd556f865",
+      "uuid": "f5a3bf49-07ca-0021-a96b-9606781e3600",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de.realfast.click",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "x-xLSUDGxwcHdJud7sJlNWPDpQcRBAa8zGBjBLqRbFc",
-          "short_id": "48dd07dc65590f05"
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "6e3f0a5b"
         }
       }
     },
@@ -86,65 +86,66 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "144.31.24.92",
-      "server_port": 443,
-      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "server": "107.149.184.246",
+      "server_port": 10501,
+      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl.o4ka-internet.com",
+        "server_name": "img14.360buyimg.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
+          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
+          "short_id": "9153"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "germany3.nbbconnect.ru",
+      "server": "perecbass.ru",
       "server_port": 443,
-      "uuid": "1becdc51-1b1a-4fb5-bbfb-06433b3f9dec",
+      "uuid": "f5a3bf49-07ca-0021-a96b-9606781e3600",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "germany3.nbbconnect.ru",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "A4j57sDAA97uICmt2HhAW7PWMaV39gE6jy_VokhmI1k",
-          "short_id": "7c08356a875ff541"
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "4c8d1e0f"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "132.243.234.60.alexanderoff.ru",
+      "server": "lv.musicperec.ru",
       "server_port": 443,
-      "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
+      "uuid": "f5a3bf49-07ca-4f96-a96b-9606781e3600",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gateway.icloud.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
-          "short_id": "c6118398"
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "6e3f0a5b"
         }
       }
     },
