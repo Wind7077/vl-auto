@@ -42,6 +42,27 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "47.254.156.196",
+      "server_port": 443,
+      "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.starwars.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TRP10HqKUXEQ3O-cfsq93DycfBmbJe9KM36yvSa8Mmw",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
       "server": "78.17.45.142",
       "server_port": 443,
       "uuid": "49120eb4-6841-40db-a089-b11bfc7a758f",
@@ -63,29 +84,29 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "lb1.capitaledge.blog",
-      "server_port": 8443,
-      "uuid": "5a84e152-f673-42bc-9691-f0b65d87319e",
+      "tag": "vless-02",
+      "server": "78.17.47.168",
+      "server_port": 443,
+      "uuid": "c1581107-915b-46a0-abcc-4c31d0e7b794",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hartfordmedia.cloud",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
-          "short_id": "3f8ad1"
+          "public_key": "SvQNeUViPFTH2-zG7HPZki4iY6a-d6yWdBXkMStqwjU",
+          "short_id": "74db5d"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-02",
+      "tag": "vless-03",
       "server": "assets-store.hartfordmedia.cloud",
       "server_port": 8443,
       "uuid": "5a84e152-f673-42bc-9691-f0b65d87319e",
@@ -107,45 +128,23 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "download.spectrum.vu",
-      "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "download.spectrum.vu",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8",
-          "short_id": "a1b2c6d7e8f9"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-04",
-      "server": "78.17.47.168",
-      "server_port": 443,
-      "uuid": "c1581107-915b-46a0-abcc-4c31d0e7b794",
+      "server": "catalog.westondigita.cloud",
+      "server_port": 8443,
+      "uuid": "5a84e152-f673-42bc-9691-f0b65d87319e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "aliusfilms.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SvQNeUViPFTH2-zG7HPZki4iY6a-d6yWdBXkMStqwjU",
-          "short_id": "74db5d"
+          "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+          "short_id": "44103f58"
         }
       }
     },
