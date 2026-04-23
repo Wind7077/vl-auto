@@ -42,108 +42,110 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "88.216.214.193",
+      "server": "78.17.45.142",
       "server_port": 443,
-      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
+      "uuid": "49120eb4-6841-40db-a089-b11bfc7a758f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hcaptcha.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "OnoYzxXhIySTpU1f2LlkD-Js_nQ0YwGvfDyi9IsDcWw",
-          "short_id": "8ac90e6b63633977"
+          "public_key": "7DBnPhcXc7B8dErqp5XK9JAym1GfFtTXSb1Ic53CX3g",
+          "short_id": "0fda"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "91.142.72.83",
-      "server_port": 33569,
-      "uuid": "93c6d2ce-0a01-4ac9-a1df-0ad6f6d84dea",
+      "server": "lb1.capitaledge.blog",
+      "server_port": 8443,
+      "uuid": "5a84e152-f673-42bc-9691-f0b65d87319e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "hartfordmedia.cloud",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zF51s3Rq32F0LEZ1Rz19IOc1JaVMX7BH6YMqBnV2CyQ",
-          "short_id": ""
+          "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+          "short_id": "3f8ad1"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "132.243.234.60.alexanderoff.ru",
-      "server_port": 443,
-      "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
+      "server": "assets-store.hartfordmedia.cloud",
+      "server_port": 8443,
+      "uuid": "5a84e152-f673-42bc-9691-f0b65d87319e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "gateway.icloud.com",
+        "server_name": "pixelforge.pics",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
-          "short_id": "c6118398"
+          "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+          "short_id": "2356d1ae4b"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "144.31.188.195",
-      "server_port": 447,
-      "uuid": "62ec5adf-5e4c-40ba-a3a8-3c4d50ed794e",
+      "server": "download.spectrum.vu",
+      "server_port": 443,
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "vjTFhqDNMhGeDATefbZyD6lkDduX0vQ-fDIUeiwNjkA",
-          "short_id": "222fb232f7912d93"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "159.194.216.83",
-      "server_port": 8443,
-      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.siemens.com",
+        "server_name": "download.spectrum.vu",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
+          "public_key": "sXC7sPCzHG_uYfvk3GSUdYQKfHAwirOVWMhO50Y9Pn8",
+          "short_id": "a1b2c6d7e8f9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "78.17.47.168",
+      "server_port": 443,
+      "uuid": "c1581107-915b-46a0-abcc-4c31d0e7b794",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SvQNeUViPFTH2-zG7HPZki4iY6a-d6yWdBXkMStqwjU",
+          "short_id": "74db5d"
         }
       }
     },
