@@ -42,93 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fin3.nfnpx.online",
+      "server": "45.66.228.4",
       "server_port": 443,
-      "uuid": "b504bb7d-8b8c-4a3a-91fe-863ed1fca259",
+      "uuid": "34f59f9d-4685-494c-843b-473d0fd974f4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "fin3.nfnpx.online",
+        "server_name": "de3.hitori.cloud",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LsesLwq7kI3X91a5oygEXLOyWQwEDSSHltrCppMWCH4",
-          "short_id": "560dced8d059f42b"
+          "public_key": "H4OqfYoC5BJw-hC3FmXhnd_J8_qZSRK6oRuT-irdc3U",
+          "short_id": "f43daf211bcea205"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "fin3.nfnpx.online",
-      "server_port": 443,
-      "uuid": "b504bb7d-8b8c-4a3a-91fe-863ed1fca259",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin3.nfnpx.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LsesLwq7kI3X91a5oygEXLOyWQwEDSSHltrCppMWCH4",
-          "short_id": "ed3eb3256dee971f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "fin.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin.o4ka-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "91.142.72.83",
-      "server_port": 33569,
-      "uuid": "93c6d2ce-0a01-4ac9-a1df-0ad6f6d84dea",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zF51s3Rq32F0LEZ1Rz19IOc1JaVMX7BH6YMqBnV2CyQ",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "138.124.97.153.muslimtr.ru",
+      "server": "144.31.127.55.muslimtr.ru",
       "server_port": 443,
       "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
       "packet_encoding": "xudp",
@@ -144,6 +79,70 @@
           "enabled": true,
           "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
           "short_id": "c6118398"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "151.240.151.202",
+      "server_port": 443,
+      "uuid": "09a429d9-6ffa-43f3-8b3a-c634dbdda94d",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
+          "short_id": "db04ce8bdb8900f1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "45.15.152.168",
+      "server_port": 443,
+      "uuid": "347bd1af-6fb9-40d2-a67b-9795d80a16d5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "P2ifN9qNV-B7AwF8Rc4nbBrnrMevMlZ02G49OUJBel0",
+          "short_id": "1902"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "b.primarymaster.online",
+      "server_port": 443,
+      "uuid": "b1cf281b-cdc4-4936-95c3-e3294e79558c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "b.primarymaster.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8",
+          "short_id": "4332e1e3ea3950fa"
         }
       }
     },
