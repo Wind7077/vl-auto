@@ -42,7 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "li2.gsupport.support",
+      "server": "109.120.189.4",
+      "server_port": 443,
+      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YnOlmcxFiHgitIcjba45C7z6kw7txOWnImgSfMCtsiA",
+          "short_id": "1da44564cda563cc"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "109.120.191.115",
+      "server_port": 8083,
+      "uuid": "3f2fe03a-4aa2-4748-b181-cbe999bca8e2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "sso.passport.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fl.gsupport.support",
       "server_port": 443,
       "uuid": "1a89484f-88db-4414-93ed-5b7ab71dc6cf",
       "packet_encoding": "xudp",
@@ -63,87 +106,44 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "fl.gsupport.support",
-      "server_port": 443,
-      "uuid": "734c11d6-0687-4d03-8243-69f74df9bef5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "video.intfreed.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "de2.gsupport.support",
-      "server_port": 443,
-      "uuid": "734c11d6-0687-4d03-8243-69f74df9bef5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "video.intfreed.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "159.194.216.83",
-      "server_port": 8443,
-      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
+      "server": "109.120.191.115",
+      "server_port": 7433,
+      "uuid": "3f2fe03a-4aa2-4748-b181-cbe999bca8e2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.siemens.com",
+        "server_name": "max.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "150.241.70.2",
-      "server_port": 5443,
-      "uuid": "511de852-8b34-41b9-91d2-28eba0981beb",
+      "server": "151.240.151.202",
+      "server_port": 443,
+      "uuid": "09a429d9-6ffa-43f3-8b3a-c634dbdda94d",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pkoDwsD2w2qdS9J9YXsV4QH-e7QtjspW2mejpB67dhY",
-          "short_id": "68ac7d27030a06"
+          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
+          "short_id": "db04ce8bdb8900f1"
         }
       }
     },
