@@ -42,6 +42,70 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "fin3.nfnpx.online",
+      "server_port": 443,
+      "uuid": "b504bb7d-8b8c-4a3a-91fe-863ed1fca259",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fin3.nfnpx.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LsesLwq7kI3X91a5oygEXLOyWQwEDSSHltrCppMWCH4",
+          "short_id": "560dced8d059f42b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "fin3.nfnpx.online",
+      "server_port": 443,
+      "uuid": "b504bb7d-8b8c-4a3a-91fe-863ed1fca259",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fin3.nfnpx.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LsesLwq7kI3X91a5oygEXLOyWQwEDSSHltrCppMWCH4",
+          "short_id": "ed3eb3256dee971f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fin.o4ka-internet.com",
+      "server_port": 443,
+      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fin.o4ka-internet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "91.142.72.83",
       "server_port": 33569,
       "uuid": "93c6d2ce-0a01-4ac9-a1df-0ad6f6d84dea",
@@ -58,71 +122,6 @@
           "enabled": true,
           "public_key": "zF51s3Rq32F0LEZ1Rz19IOc1JaVMX7BH6YMqBnV2CyQ",
           "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "fl2cdn.onnstreaming.ru",
-      "server_port": 443,
-      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fl2cdn.onnstreaming.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "S1bObj8Kt7TDHZjRYDiosJuz9zEzD4kTSMA75HwNaHM",
-          "short_id": "e62974835ef5cad8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "159.194.216.83",
-      "server_port": 8443,
-      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.siemens.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "perecbass.ru",
-      "server_port": 443,
-      "uuid": "f5a3bf49-07ca-0021-a96b-9606781e3600",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-          "short_id": "4c8d1e0f"
         }
       }
     },
