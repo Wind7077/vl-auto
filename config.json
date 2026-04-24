@@ -64,78 +64,78 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "fin.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "server": "159.194.199.190",
+      "server_port": 8443,
+      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fin.o4ka-internet.com",
+        "server_name": "www.siemens.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": "6ba85179e30d4fc3"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "109.120.191.115",
-      "server_port": 8083,
-      "uuid": "f5ffe5cb-f4fa-4bc6-8188-7fc4c622f28a",
+      "server": "151.240.151.202",
+      "server_port": 443,
+      "uuid": "09a429d9-6ffa-43f3-8b3a-c634dbdda94d",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "eh.vk.com",
+        "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
-          "short_id": "7dbf7d3233971d5c"
+          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
+          "short_id": "db04ce8bdb8900f1"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "158.160.230.188",
+      "server": "217.16.16.72",
       "server_port": 443,
-      "uuid": "5240d385-1858-4026-9881-d81ac4408edb",
+      "uuid": "09a429d9-6ffa-43f3-8b3a-c634dbdda94d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wl-3-5.legendary.ac",
+        "server_name": "yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DfXU_bE0heXqtA-9ljbKNK_3m90Z7KzBwMNV_z41ymQ",
-          "short_id": "275c1d6003e7134f"
+          "public_key": "pCuxB_edEjjHHt_sYHEAEQyrX2L1VfDaQkPpnd78LAM",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "45.144.52.222",
+      "server": "5.199.162.161",
       "server_port": 443,
-      "uuid": "2ac7804d-f902-407b-97e2-5f59a15fbe66",
+      "uuid": "9fa8b709-2c88-403e-a5ad-3d963180db60",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "fi.moktana.app",
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -143,7 +143,7 @@
         "reality": {
           "enabled": true,
           "public_key": "zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E",
-          "short_id": "904e78d8c660d241"
+          "short_id": "61ab4f5203851f10"
         }
       }
     },
