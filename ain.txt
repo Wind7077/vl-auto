@@ -1,1 +1,1 @@
-vless://347bd1af-6fb9-40d2-a67b-9795d80a16d5@45.15.152.168:443?encryption=none&fp=chrome&headerType=none&pbk=P2ifN9qNV-B7AwF8Rc4nbBrnrMevMlZ02G49OUJBel0&security=reality&sid=1902&sni=yahoo.com&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://9fa8b709-2c88-403e-a5ad-3d963180db60@5.199.162.161:443?mode=gun&security=reality&encryption=none&pbk=zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E&fp=chrome&type=grpc&serviceName=xyz&sni=deepl.com&sid=61ab4f5203851f10#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D
