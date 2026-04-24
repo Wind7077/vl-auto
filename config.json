@@ -42,50 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "51.250.44.234",
+      "server": "hetzner.spectrum.vu",
       "server_port": 443,
-      "uuid": "80bbcfc6-88c9-4838-ac41-f4d0c998af0f",
+      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wl-6-2.legendary.ac",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "HHmhCp_qS_hIgIniZwaNwqI5CFH2_QmES4dFO41BRWo",
-          "short_id": "64038de1ca7aad86"
+          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
+          "short_id": "a1b2c3d4"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "germ1.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "germ1.o4ka-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "161.104.105.157",
       "server_port": 443,
       "uuid": "6aeb78b3-d73c-44c8-b7f6-39bd5c1008a1",
@@ -107,44 +85,67 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "hetzner.spectrum.vu",
+      "tag": "vless-02",
+      "server": "51.250.24.230",
       "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "uuid": "bb0040cf-36dc-4529-baf6-efca54f96042",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "wl-6-3.legendary.ac",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
-          "short_id": "a1b2c3d4"
+          "public_key": "HXP9HKqhQvwTwh0cgddJ3c3VND1lwRYRXgKfW1XPaX4",
+          "short_id": "bf0c3248f61fe277"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "germ1.o4ka-internet.com",
+      "server_port": 443,
+      "uuid": "2983c1d0-2c98-4e16-a92a-a64351ec2b30",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "germ1.o4ka-internet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "159.194.199.190",
-      "server_port": 8443,
-      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
+      "server": "51.250.24.230",
+      "server_port": 443,
+      "uuid": "80bbcfc6-88c9-4838-ac41-f4d0c998af0f",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.siemens.com",
+        "server_name": "wl-6-3.legendary.ac",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
+          "public_key": "HXP9HKqhQvwTwh0cgddJ3c3VND1lwRYRXgKfW1XPaX4",
+          "short_id": "bf0c3248f61fe277"
         }
       }
     },
