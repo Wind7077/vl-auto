@@ -42,28 +42,94 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "169.40.2.37",
+      "server": "dl-google.hopto.org",
       "server_port": 443,
-      "uuid": "66d5302c-17f1-4c36-8e27-fa157d815293",
+      "uuid": "310df674-4bfd-4288-838c-954c8933e964",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv.crunch-crunch.com",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo",
-          "short_id": "ea1058117be12087"
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "182222c497471f98"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
+      "server": "dl-google.hopto.org",
+      "server_port": 443,
+      "uuid": "2bc587cc-30b1-49f7-a193-13e71bd06f00",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "5fb6180d46811b5a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "dl-google.hopto.org",
+      "server_port": 443,
+      "uuid": "13becaab-7d7a-4075-8ea6-331a1809323e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "1b0156039eb24a74"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "dl-google.hopto.org",
+      "server_port": 443,
+      "uuid": "43280716-46f6-41b0-b405-8fd3646f33c6",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "64176fd5c41bb868"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
       "server": "rc1.muslimtr.ru",
       "server_port": 443,
       "uuid": "322ffd77-9adc-4e10-8302-a8bcc14555a0",
@@ -80,72 +146,6 @@
           "enabled": true,
           "public_key": "-ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk",
           "short_id": "c6118398"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "dl-google.hopto.org",
-      "server_port": 443,
-      "uuid": "d7e937ed-fd25-48e4-a3f8-f5a6711b6ab0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "7c25f2e9ba5216f4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "dl-google.hopto.org",
-      "server_port": 443,
-      "uuid": "adfca19e-4889-4037-9e02-610567b81ba3",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "8b30ec81016fe395"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "dl-google.hopto.org",
-      "server_port": 443,
-      "uuid": "7c294601-bf44-4746-b68d-34d21126850a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "2be3252ede9ff935"
         }
       }
     },
