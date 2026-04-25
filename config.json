@@ -42,50 +42,94 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "169.40.2.37",
+      "server": "dl-google.hopto.org",
       "server_port": 443,
-      "uuid": "66d5302c-17f1-4c36-8e27-fa157d815293",
+      "uuid": "803f6121-7139-4404-9e43-37aec99a37f2",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv.crunch-crunch.com",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo",
-          "short_id": "ea1058117be12087"
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "cc8f83d8d1a9b653"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "169.40.2.37",
+      "server": "dl-google.hopto.org",
       "server_port": 443,
-      "uuid": "66d5302c-17f1-4c36-8e27-fa157d815293",
+      "uuid": "6b5f6e4d-f7e4-4159-b783-703d9b674c8c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv.crunch-crunch.com",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "djTtGqd0XWqtt_WHukU7BTPQSn9o7gIpAosAxMy8tUo",
-          "short_id": "ea1058117be12087"
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "053ee88eddbcd483"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
+      "server": "dl-google.hopto.org",
+      "server_port": 443,
+      "uuid": "78ffa5df-d25e-4c27-9bdf-79e37ac4f7c7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "90cc49f9de4e8455"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "dl-google.hopto.org",
+      "server_port": 443,
+      "uuid": "9fdb7fd4-d86a-4a6a-a612-af620a289435",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "4b1b2a1523cfd3a2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
       "server": "84.32.151.226",
       "server_port": 443,
       "uuid": "d0fae6b5-f262-4ede-8120-934421d0f12e",
@@ -101,50 +145,6 @@
           "enabled": true,
           "public_key": "zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E",
           "short_id": "9ad8b6b1f507e216"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "dl-google.hopto.org",
-      "server_port": 443,
-      "uuid": "d7e937ed-fd25-48e4-a3f8-f5a6711b6ab0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "7c25f2e9ba5216f4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "dl-google.hopto.org",
-      "server_port": 443,
-      "uuid": "21cad53f-61c6-4fc3-8ff3-4e541b317bb4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "3bb693f0ea22ffd1"
         }
       }
     },
