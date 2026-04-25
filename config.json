@@ -44,7 +44,7 @@
       "tag": "vless-00",
       "server": "dl-google.hopto.org",
       "server_port": 443,
-      "uuid": "803f6121-7139-4404-9e43-37aec99a37f2",
+      "uuid": "310df674-4bfd-4288-838c-954c8933e964",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -57,7 +57,7 @@
         "reality": {
           "enabled": true,
           "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "cc8f83d8d1a9b653"
+          "short_id": "182222c497471f98"
         }
       }
     },
@@ -66,7 +66,7 @@
       "tag": "vless-01",
       "server": "dl-google.hopto.org",
       "server_port": 443,
-      "uuid": "6b5f6e4d-f7e4-4159-b783-703d9b674c8c",
+      "uuid": "17b5f880-7862-4918-a0f8-f2fb5b3e71ea",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -79,7 +79,7 @@
         "reality": {
           "enabled": true,
           "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "053ee88eddbcd483"
+          "short_id": "4b6c2062816ce36b"
         }
       }
     },
@@ -88,7 +88,7 @@
       "tag": "vless-02",
       "server": "dl-google.hopto.org",
       "server_port": 443,
-      "uuid": "78ffa5df-d25e-4c27-9bdf-79e37ac4f7c7",
+      "uuid": "e452a6a1-131a-4411-8f8c-646242f6901f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -101,7 +101,7 @@
         "reality": {
           "enabled": true,
           "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "90cc49f9de4e8455"
+          "short_id": "88f64b7a0382918b"
         }
       }
     },
@@ -110,7 +110,7 @@
       "tag": "vless-03",
       "server": "dl-google.hopto.org",
       "server_port": 443,
-      "uuid": "9fdb7fd4-d86a-4a6a-a612-af620a289435",
+      "uuid": "ab83553a-c918-47fc-8ac6-4db5c41e492a",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -123,28 +123,29 @@
         "reality": {
           "enabled": true,
           "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
-          "short_id": "4b1b2a1523cfd3a2"
+          "short_id": "1b7255f8c4a179ea"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "84.32.151.226",
+      "server": "dl-google.hopto.org",
       "server_port": 443,
-      "uuid": "d0fae6b5-f262-4ede-8120-934421d0f12e",
+      "uuid": "d2b049ff-a6df-4f45-9d37-c6ddb74b863f",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E",
-          "short_id": "9ad8b6b1f507e216"
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "dbdc342315bf2740"
         }
       }
     },
