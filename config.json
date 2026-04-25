@@ -42,72 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "51.250.24.230",
-      "server_port": 443,
-      "uuid": "1aa19e05-22b8-4f08-bbc8-a5253fb9cda7",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-6-3.legendary.ac",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HXP9HKqhQvwTwh0cgddJ3c3VND1lwRYRXgKfW1XPaX4",
-          "short_id": "bf0c3248f61fe277"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "s1.fastfilex.pro",
-      "server_port": 8443,
-      "uuid": "3ca3c7ef-1c04-4396-92a0-5bf4c528905f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "s1.fastfilex.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
-          "short_id": "4326"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "178.154.215.113",
-      "server_port": 443,
-      "uuid": "bb0040cf-36dc-4529-baf6-efca54f96042",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-4-1.legendary.ac",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "E-nzKjkLlehnOE5Lub_r6tCOQcvnxVaSAETjFHESciw",
-          "short_id": "30e93292b543f308"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "51.250.44.234",
       "server_port": 443,
       "uuid": "bb0040cf-36dc-4529-baf6-efca54f96042",
@@ -129,7 +63,51 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-01",
+      "server": "51.250.44.234",
+      "server_port": 443,
+      "uuid": "1aa19e05-22b8-4f08-bbc8-a5253fb9cda7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-6-2.legendary.ac",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HHmhCp_qS_hIgIniZwaNwqI5CFH2_QmES4dFO41BRWo",
+          "short_id": "64038de1ca7aad86"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "hetzner.spectrum.vu",
+      "server_port": 443,
+      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
+          "short_id": "a1b2c3d4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "185.153.181.118",
       "server_port": 46110,
       "uuid": "6ec3c298-1058-43bd-81e3-54b155c4ae21",
@@ -146,6 +124,28 @@
           "enabled": true,
           "public_key": "7q3_m65wkw4AlZ0tk2SGw5PQePvYPh2kaU-UCkHUb2g",
           "short_id": "5e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "s1.fastfilex.pro",
+      "server_port": 8443,
+      "uuid": "3ca3c7ef-1c04-4396-92a0-5bf4c528905f",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "s1.fastfilex.pro",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
+          "short_id": "4326"
         }
       }
     },
