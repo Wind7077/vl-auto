@@ -42,36 +42,14 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "hetzner.spectrum.vu",
-      "server_port": 443,
-      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
-          "short_id": "a1b2c3d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "143.20.134.143",
+      "server": "169.40.2.37",
       "server_port": 443,
       "uuid": "66d5302c-17f1-4c36-8e27-fa157d815293",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de.crunch-crunch.com",
+        "server_name": "lv.crunch-crunch.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -85,29 +63,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "78.17.45.142",
-      "server_port": 443,
-      "uuid": "ae304f4e-20d2-4fee-b55a-c37c14c1eaa0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7DBnPhcXc7B8dErqp5XK9JAym1GfFtTXSb1Ic53CX3g",
-          "short_id": "0fda"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-01",
       "server": "169.40.2.37",
       "server_port": 443,
       "uuid": "66d5302c-17f1-4c36-8e27-fa157d815293",
@@ -129,23 +85,66 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "hetzner.spectrum.vu",
+      "tag": "vless-02",
+      "server": "84.32.151.226",
       "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "uuid": "d0fae6b5-f262-4ede-8120-934421d0f12e",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
-          "short_id": "a1b2c3d4"
+          "public_key": "zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E",
+          "short_id": "9ad8b6b1f507e216"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "dl-google.hopto.org",
+      "server_port": 443,
+      "uuid": "d7e937ed-fd25-48e4-a3f8-f5a6711b6ab0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "7c25f2e9ba5216f4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "dl-google.hopto.org",
+      "server_port": 443,
+      "uuid": "21cad53f-61c6-4fc3-8ff3-4e541b317bb4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6nqmFRBHkZtlEdEO-hZtSA-eDZrOSx-XSSqmbI7ZHU",
+          "short_id": "3bb693f0ea22ffd1"
         }
       }
     },
