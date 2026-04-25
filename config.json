@@ -42,53 +42,52 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "51.250.44.234",
-      "server_port": 443,
-      "uuid": "bb0040cf-36dc-4529-baf6-efca54f96042",
+      "server": "159.194.216.83",
+      "server_port": 8443,
+      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wl-6-2.legendary.ac",
+        "server_name": "www.siemens.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "HHmhCp_qS_hIgIniZwaNwqI5CFH2_QmES4dFO41BRWo",
-          "short_id": "64038de1ca7aad86"
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": "6ba85179e30d4fc3"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "51.250.44.234",
+      "server": "hetzner.spectrum.vu",
       "server_port": 443,
-      "uuid": "1aa19e05-22b8-4f08-bbc8-a5253fb9cda7",
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wl-6-2.legendary.ac",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "HHmhCp_qS_hIgIniZwaNwqI5CFH2_QmES4dFO41BRWo",
-          "short_id": "64038de1ca7aad86"
+          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
+          "short_id": "a1b2c3d4"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "hetzner.spectrum.vu",
+      "server": "72.56.38.50",
       "server_port": 443,
-      "uuid": "12a3c993-e2f1-4ebb-b622-d67e546f34e5",
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -130,22 +129,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "s1.fastfilex.pro",
+      "server": "103.231.73.181",
       "server_port": 8443,
-      "uuid": "3ca3c7ef-1c04-4396-92a0-5bf4c528905f",
+      "uuid": "e033ef6e-ab4b-47d4-a523-ff568d2c8dbb",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "s1.fastfilex.pro",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
-          "short_id": "4326"
+          "public_key": "TH8C9sgNuMRVR3o5QehXPgYw8PWjoHrH2rVQF4JWwGI",
+          "short_id": ""
         }
       }
     },
