@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "78.17.45.142",
-      "server_port": 443,
-      "uuid": "ae304f4e-20d2-4fee-b55a-c37c14c1eaa0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7DBnPhcXc7B8dErqp5XK9JAym1GfFtTXSb1Ic53CX3g",
-          "short_id": "0fda"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "hetzner.spectrum.vu",
       "server_port": 443,
       "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
@@ -85,29 +63,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "501.rushrushnode.org",
-      "server_port": 10501,
-      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "img14.360buyimg.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
-          "short_id": "9153"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-01",
       "server": "151.240.151.202",
       "server_port": 443,
       "uuid": "09a429d9-6ffa-43f3-8b3a-c634dbdda94d",
@@ -129,23 +85,67 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "151.240.151.202",
+      "tag": "vless-02",
+      "server": "78.17.45.142",
       "server_port": 443,
-      "uuid": "09a429d9-6ffa-43f3-8b3a-c634dbdda94d",
+      "uuid": "ae304f4e-20d2-4fee-b55a-c37c14c1eaa0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI",
-          "short_id": "db04ce8bdb8900f1"
+          "public_key": "7DBnPhcXc7B8dErqp5XK9JAym1GfFtTXSb1Ic53CX3g",
+          "short_id": "0fda"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "s1.fastfilex.pro",
+      "server_port": 8443,
+      "uuid": "3ca3c7ef-1c04-4396-92a0-5bf4c528905f",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "s1.fastfilex.pro",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
+          "short_id": "4326"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "501.rushrushnode.org",
+      "server_port": 10501,
+      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "img14.360buyimg.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
+          "short_id": "9153"
         }
       }
     },
