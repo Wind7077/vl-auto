@@ -1,1 +1,1 @@
-vless://6f528daf-4b4c-419a-9289-4c729397b042@64.188.64.215:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=randomized&pbk=8YhxIt59OyCh3hGT8mbByjMi040LIsSbLXGCstIqeXU&sid=aca2849be8b47f1b&sni=google.com#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+vless://76713d07-5a6b-49c2-abd8-bc450a2fa7fc@hetzner.spectrum.vu:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo&sid=a1b2c3d4&sni=www.microsoft.com#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
