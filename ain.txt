@@ -1,1 +1,1 @@
-vless://c27edd52-f249-4460-bfee-bdd3e29c0b3f@159.194.216.83:8443?type=tcp&security=reality&encryption=none&fp=chrome&pbk=F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA&sid=6ba85179e30d4fc3&sni=www.siemens.com#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://d0fae6b5-f262-4ede-8120-934421d0f12e@84.32.151.226:443?type=grpc&security=reality&encryption=none&fp=chrome&pbk=zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E&sid=9ad8b6b1f507e216&sni=deepl.com&mode=gun&serviceName=xyz#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D
