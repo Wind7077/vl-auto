@@ -42,7 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "72.56.38.50",
+      "server": "hetzner.spectrum.vu",
       "server_port": 443,
       "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "packet_encoding": "xudp",
@@ -64,28 +64,50 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "test.wide-frost.test-cdn-kkk.com",
-      "server_port": 443,
-      "uuid": "4a244438-8775-43b8-8b5c-4d3bb89d342c",
+      "server": "107.149.184.246",
+      "server_port": 10501,
+      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "img14.360buyimg.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "-tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw",
-          "short_id": "50"
+          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
+          "short_id": "9153"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
+      "server": "72.56.38.50",
+      "server_port": 443,
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "joMQZiNZWpGdcKDBOyAJQMnvSfU54GYUqqP_NwUtHAo",
+          "short_id": "a1b2c3d4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "ltt2.figurapn.ru",
       "server_port": 443,
       "uuid": "90620657-58a2-441a-a4ce-cdb0503bb9f5",
@@ -107,44 +129,22 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "white77.alexanderoff.ru",
-      "server_port": 3441,
-      "uuid": "a3672256-e3ba-40c0-81a8-dcd8b159dcd2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_tBiRkButwPxxa2HHuNufy0Tyr_0SViQZReJT75JVTI",
-          "short_id": "d49d578f280fd83a"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-04",
-      "server": "5.181.202.113",
-      "server_port": 443,
-      "uuid": "2d4cc8f5-6670-4ef4-8728-4d9e8a39b1a2",
+      "server": "159.194.216.83",
+      "server_port": 8443,
+      "uuid": "c27edd52-f249-4460-bfee-bdd3e29c0b3f",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ee.cdn-global.pro",
+        "server_name": "www.siemens.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "aAHYNPuyflpSMeo0wVKMETyuACVcT1ZVR4NDM0igMBU",
-          "short_id": ""
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": "6ba85179e30d4fc3"
         }
       }
     },
