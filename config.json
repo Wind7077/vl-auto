@@ -42,110 +42,107 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "g9.steptofreedom.one",
-      "server_port": 443,
-      "uuid": "117e7c31-9da8-4444-a959-7c7fbb19aeaa",
+      "server": "ee.keepsecured.net",
+      "server_port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g9.steptofreedom.one",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "ltt2.figurapn.ru",
-      "server_port": 443,
-      "uuid": "90620657-58a2-441a-a4ce-cdb0503bb9f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ltt2.figurapn.ru",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
-          "short_id": "868419504747f6de"
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "ee.keepsecured.net",
+      "server_port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.kwork.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "g2.steptofreedom.one",
+      "server": "lit.normbot.ru",
       "server_port": 443,
-      "uuid": "117e7c31-9da8-4444-a959-7c7fbb19aeaa",
+      "uuid": "1cc21fb6-b8ec-42c7-a57c-39e89ace379e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g2.steptofreedom.one",
+        "server_name": "lit.normbot.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "pgG2grngQEtOFJImLfz0AEm-O2IodM2jCY4aMCYQI1U",
+          "short_id": "6aa2d2e950441a9a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "g3.steptofreedom.one",
-      "server_port": 443,
-      "uuid": "117e7c31-9da8-4444-a959-7c7fbb19aeaa",
+      "server": "185.153.181.118",
+      "server_port": 46110,
+      "uuid": "6ec3c298-1058-43bd-81e3-54b155c4ae21",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g3.steptofreedom.one",
+        "server_name": "www.deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "7q3_m65wkw4AlZ0tk2SGw5PQePvYPh2kaU-UCkHUb2g",
+          "short_id": "5e"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "g8.steptofreedom.one",
-      "server_port": 443,
-      "uuid": "117e7c31-9da8-4444-a959-7c7fbb19aeaa",
+      "server": "fine3.keepsecured.net",
+      "server_port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g8.steptofreedom.one",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
         }
       }
     },
