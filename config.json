@@ -64,14 +64,36 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "g11.steptofreedom.one",
+      "server": "ltt2.figurapn.ru",
+      "server_port": 443,
+      "uuid": "90620657-58a2-441a-a4ce-cdb0503bb9f5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ltt2.figurapn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ",
+          "short_id": "868419504747f6de"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "g2.steptofreedom.one",
       "server_port": 443,
       "uuid": "117e7c31-9da8-4444-a959-7c7fbb19aeaa",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g11.steptofreedom.one",
+        "server_name": "g2.steptofreedom.one",
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
@@ -85,40 +107,18 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "ee.keepsecured.net",
-      "server_port": 443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
-          "short_id": "ad7dab462a323acb"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "g2.steptofreedom.one",
+      "server": "g3.steptofreedom.one",
       "server_port": 443,
       "uuid": "117e7c31-9da8-4444-a959-7c7fbb19aeaa",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g2.steptofreedom.one",
+        "server_name": "g3.steptofreedom.one",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
@@ -130,14 +130,14 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "g2.steptofreedom.one",
+      "server": "g8.steptofreedom.one",
       "server_port": 443,
       "uuid": "117e7c31-9da8-4444-a959-7c7fbb19aeaa",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g2.steptofreedom.one",
+        "server_name": "g8.steptofreedom.one",
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
