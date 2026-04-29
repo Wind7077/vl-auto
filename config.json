@@ -42,93 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fine3.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "server": "fta.tokervpn.ru",
+      "server_port": 443,
+      "uuid": "c22fbdee-854b-4ac6-a185-6d07bf017a07",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.kwork.com",
+        "server_name": "tokermod.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
+          "public_key": "KW23a9A86rHbgHUJLm3C-rzv94MkBlPPN7XBbrbX_hc",
+          "short_id": "6ba85179e30d4fc2"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "81.26.177.206",
-      "server_port": 443,
-      "uuid": "b9b05570-8db1-429a-bc9f-eb66c93c3d99",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ir-3.ozone.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA",
-          "short_id": "0d960275b7b0f9af"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "eu-latdeliver.onnstreaming.ru",
-      "server_port": 443,
-      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "eu-latdeliver.onnstreaming.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JgDfe0nB3kM-pi0YtkfSxx9MgWUwDv17qYkHisDul2M",
-          "short_id": "0c1de03e22ef2156"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "eu-latdeliver.onnstreaming.ru",
-      "server_port": 443,
-      "uuid": "19ef3d02-1c55-4fec-9794-6def8cbac396",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "eu-latdeliver.onnstreaming.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JgDfe0nB3kM-pi0YtkfSxx9MgWUwDv17qYkHisDul2M",
-          "short_id": "0c1de03e22ef2156"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
       "server": "ee.keepsecured.net",
       "server_port": 443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -145,6 +80,71 @@
           "enabled": true,
           "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
           "short_id": "ad7dab462a323acb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "152.53.122.143",
+      "server_port": 443,
+      "uuid": "46caad69-1ae4-4f61-b6c5-9f4bbf4ba358",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobinvest.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "152.53.122.143",
+      "server_port": 443,
+      "uuid": "6f1442a9-a374-4e84-9b33-a677d2d01947",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobinvest.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "fta.tokervpn.ru",
+      "server_port": 8443,
+      "uuid": "c22fbdee-854b-4ac6-a185-6d07bf017a07",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "tokermod.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KW23a9A86rHbgHUJLm3C-rzv94MkBlPPN7XBbrbX_hc",
+          "short_id": "6ba85179e30d4fc2"
         }
       }
     },
