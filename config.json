@@ -42,6 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "88.216.214.193",
+      "server_port": 443,
+      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "hcaptcha.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OnoYzxXhIySTpU1f2LlkD-Js_nQ0YwGvfDyi9IsDcWw",
+          "short_id": "8ac90e6b63633977"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
       "server": "ee.keepsecured.net",
       "server_port": 443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -63,7 +85,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
+      "tag": "vless-02",
       "server": "93.123.85.191",
       "server_port": 50443,
       "uuid": "7e9a39eb-a9b0-2e38-26da-d27b1a95904d",
@@ -85,53 +107,32 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "152.53.122.143",
+      "tag": "vless-03",
+      "server": "188.253.17.104",
       "server_port": 443,
-      "uuid": "33f9ef16-aaf5-432c-8a92-69e022e3091d",
+      "uuid": "63f26629-a4a4-4550-bffc-afabb3b5b3c3",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "jobinvest.ru",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "fine3.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
+          "public_key": "rwZxMeKJhN-LkKkP-u6qXYFzSlbuyqxYzloqaOpFLUM",
+          "short_id": "e98e89a0"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "lv.rush-server.com",
+      "server": "fi.rush-server.com",
       "server_port": 443,
-      "uuid": "8e66502a-83ca-47d7-a3b5-a65daf457ecf",
+      "uuid": "8e66502a-83ca-0003-a3b5-a65daf457ecf",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -139,12 +140,12 @@
         "server_name": "anyfile2file.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
           "public_key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
-          "short_id": "64c1fe36c7846400"
+          "short_id": "93ae75024604f796"
         }
       }
     },
