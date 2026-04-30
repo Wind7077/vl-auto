@@ -42,49 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fin.mircloud-storage.top",
-      "server_port": 443,
-      "uuid": "b875b7b4-f825-41da-9fa1-fd3dd7aad15a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.finnair.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hrL8iNeRw2OMUSugrRgIIR3pCFHOfTkEckNLKu71224",
-          "short_id": "7be3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "ee.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "es.mircloud-storage.top",
       "server_port": 443,
       "uuid": "b875b7b4-f825-41da-9fa1-fd3dd7aad15a",
@@ -106,30 +63,30 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "188.253.17.104",
+      "tag": "vless-01",
+      "server": "88.216.214.193",
       "server_port": 443,
-      "uuid": "63f26629-a4a4-4550-bffc-afabb3b5b3c3",
+      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "hcaptcha.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "rwZxMeKJhN-LkKkP-u6qXYFzSlbuyqxYzloqaOpFLUM",
-          "short_id": "e98e89a0"
+          "public_key": "OnoYzxXhIySTpU1f2LlkD-Js_nQ0YwGvfDyi9IsDcWw",
+          "short_id": "8ac90e6b63633977"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "fine3.keepsecured.net",
+      "tag": "vless-02",
+      "server": "ee.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
@@ -138,12 +95,55 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
           "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
           "short_id": "10f786a2491b2cd5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "g7.steptofreedom.one",
+      "server_port": 443,
+      "uuid": "c476ac5f-07af-4346-8c42-6fd377a345f7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "g7.steptofreedom.one",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "213.176.16.30",
+      "server_port": 443,
+      "uuid": "TMG_b6fc7a0ef8b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IEOMhe3UeW0v2VDgDmMJcQffNk54vVuRiksMQsjL4U4",
+          "short_id": "d245059a"
         }
       }
     },
