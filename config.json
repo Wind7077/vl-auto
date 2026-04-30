@@ -42,7 +42,29 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fine3.keepsecured.net",
+      "server": "fin.mircloud-storage.top",
+      "server_port": 443,
+      "uuid": "b875b7b4-f825-41da-9fa1-fd3dd7aad15a",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.finnair.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hrL8iNeRw2OMUSugrRgIIR3pCFHOfTkEckNLKu71224",
+          "short_id": "7be3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "ee.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
@@ -51,7 +73,7 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -62,7 +84,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
+      "tag": "vless-02",
       "server": "es.mircloud-storage.top",
       "server_port": 443,
       "uuid": "b875b7b4-f825-41da-9fa1-fd3dd7aad15a",
@@ -84,51 +106,30 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "fine3.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "144.31.129.174",
+      "server": "188.253.17.104",
       "server_port": 443,
-      "uuid": "6fa98ae6-52a9-017c-b9a6-081196b44f95",
+      "uuid": "63f26629-a4a4-4550-bffc-afabb3b5b3c3",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "s3-ru-central-1.rucdn777.com",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "sYDQC1RUZKqtJau7wrl-i5yAYy613d9e72FRGAwvYUM",
-          "short_id": ""
+          "public_key": "rwZxMeKJhN-LkKkP-u6qXYFzSlbuyqxYzloqaOpFLUM",
+          "short_id": "e98e89a0"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "ee.keepsecured.net",
+      "server": "fine3.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
