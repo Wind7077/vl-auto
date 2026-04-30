@@ -42,10 +42,11 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fine3.keepsecured.net",
-      "server_port": 8443,
+      "server": "ee.keepsecured.net",
+      "server_port": 443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "cdn.kwork.com",
@@ -55,52 +56,52 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "188.253.17.104",
+      "server": "ee.keepsecured.net",
       "server_port": 443,
-      "uuid": "63f26629-a4a4-4550-bffc-afabb3b5b3c3",
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "rwZxMeKJhN-LkKkP-u6qXYFzSlbuyqxYzloqaOpFLUM",
-          "short_id": "e98e89a0"
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "lt.superbuba.top",
+      "server": "ru-2.videoproeditor.com",
       "server_port": 443,
-      "uuid": "8c03f089-38eb-42ed-9581-0f351a807752",
+      "uuid": "cd3bfeac-adce-40db-8c5b-0e45aa634989",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lt.superbuba.top",
+        "server_name": "ru-2.videoproeditor.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
-          "short_id": "4fa44664f6a566d3"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
@@ -129,22 +130,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "ru-2.videoproeditor.com",
+      "server": "lt.superbuba.top",
       "server_port": 443,
-      "uuid": "cd3bfeac-adce-40db-8c5b-0e45aa634989",
+      "uuid": "8c03f089-38eb-42ed-9581-0f351a807752",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ru-2.videoproeditor.com",
+        "server_name": "lt.superbuba.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "vrcsm8L_tY7sNbnCEdLCEjOthh_w9bdWS3wFPgsIomk",
+          "short_id": "4fa44664f6a566d3"
         }
       }
     },
