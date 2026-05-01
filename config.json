@@ -42,50 +42,27 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "152.53.122.143",
+      "server": "b.primarymaster.online",
       "server_port": 443,
-      "uuid": "72b8d288-1174-4e1e-b86c-7192d796c4d9",
+      "uuid": "eaa39cf6-26ac-43a4-99df-208b248c5d84",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "jobinvest.ru",
+        "server_name": "b.primarymaster.online",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
+          "public_key": "SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8",
+          "short_id": "4332e1e3ea3950fa"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "152.53.122.143",
-      "server_port": 443,
-      "uuid": "33f9ef16-aaf5-432c-8a92-69e022e3091d",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "jobinvest.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "ee.keepsecured.net",
       "server_port": 443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -107,31 +84,32 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "fine3.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "tag": "vless-02",
+      "server": "m11r.speedtestmark.com",
+      "server_port": 443,
+      "uuid": "6a3af79f-524d-4894-9c92-95ab51969ea6",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.kwork.com",
+        "server_name": "m11r.speedtestmark.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
+          "public_key": "Bp49BC_XtsdC4Jvp5p-vfR1voCti6QrYyIPKQSIt_Hw",
+          "short_id": "4326"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-03",
       "server": "152.53.122.143",
       "server_port": 443,
-      "uuid": "a17a5c64-e01f-435b-ad5b-c5bc3713910a",
+      "uuid": "80fb5b0b-e23f-4363-8c5e-7273c0dc06eb",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -145,6 +123,27 @@
           "enabled": true,
           "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "b.primarymaster.online",
+      "server_port": 443,
+      "uuid": "d02d3313-4b86-4f4e-9488-4cb6ed871c31",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "b.primarymaster.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8",
+          "short_id": "4332e1e3ea3950fa"
         }
       }
     },
