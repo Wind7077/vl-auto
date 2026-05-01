@@ -44,7 +44,7 @@
       "tag": "vless-00",
       "server": "152.53.122.143",
       "server_port": 443,
-      "uuid": "4551cd10-41d0-4904-a1aa-ace1e51b30d0",
+      "uuid": "72b8d288-1174-4e1e-b86c-7192d796c4d9",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -64,6 +64,28 @@
     {
       "type": "vless",
       "tag": "vless-01",
+      "server": "152.53.122.143",
+      "server_port": 443,
+      "uuid": "33f9ef16-aaf5-432c-8a92-69e022e3091d",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "jobinvest.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "ee.keepsecured.net",
       "server_port": 443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -85,28 +107,6 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "152.53.122.143",
-      "server_port": 443,
-      "uuid": "0f511538-e114-4452-b78d-4e90b9a234b4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "jobinvest.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
       "server": "fine3.keepsecured.net",
       "server_port": 8443,
@@ -117,7 +117,7 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -139,7 +139,7 @@
         "server_name": "jobinvest.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
