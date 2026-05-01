@@ -42,44 +42,44 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "f5.steptofreedom.one",
+      "server": "152.53.122.143",
       "server_port": 443,
-      "uuid": "c476ac5f-07af-4346-8c42-6fd377a345f7",
+      "uuid": "4551cd10-41d0-4904-a1aa-ace1e51b30d0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "f5.steptofreedom.one",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "66.151.40.22",
-      "server_port": 443,
-      "uuid": "7fbeb76f-2fa1-4a5a-9f99-4dbfaafb4da2",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "jobinvest.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4v_4RSmE8ztHfQ4EV8Ym6J-6C8ACtYiznTHcdWJw6WA",
-          "short_id": "aabbccdd"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "ee.keepsecured.net",
+      "server_port": 443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.kwork.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
         }
       }
     },
@@ -88,7 +88,7 @@
       "tag": "vless-02",
       "server": "152.53.122.143",
       "server_port": 443,
-      "uuid": "6bdd3bf2-2b8a-4b0c-b7c7-5a243a7aaeda",
+      "uuid": "0f511538-e114-4452-b78d-4e90b9a234b4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -108,43 +108,43 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "b.primarymaster.online",
-      "server_port": 443,
-      "uuid": "d02d3313-4b86-4f4e-9488-4cb6ed871c31",
+      "server": "fine3.keepsecured.net",
+      "server_port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "b.primarymaster.online",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8",
-          "short_id": "4332e1e3ea3950fa"
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "m11r.speedtestmark.com",
+      "server": "152.53.122.143",
       "server_port": 443,
-      "uuid": "6a3af79f-524d-4894-9c92-95ab51969ea6",
+      "uuid": "a17a5c64-e01f-435b-ad5b-c5bc3713910a",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "m11r.speedtestmark.com",
+        "server_name": "jobinvest.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Bp49BC_XtsdC4Jvp5p-vfR1voCti6QrYyIPKQSIt_Hw",
-          "short_id": "4326"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": ""
         }
       }
     },
