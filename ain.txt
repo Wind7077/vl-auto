@@ -1,1 +1,1 @@
-vless://c631d469-de07-44ea-afcf-1033616e06f4@ee1.mehab.me:443?type=tcp&encryption=none&security=tls&fp=firefox&alpn=http%2F1.1&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+vless://c631d469-de07-44ea-afcf-1033616e06f4@ee1.mehab.me:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=ee1.mehab.me&fp=firefox&alpn=http/1.1&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D

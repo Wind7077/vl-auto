@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "188.92.78.183",
-      "server_port": 443,
-      "uuid": "5fd3fefa-f121-4f68-9592-e0964207fc29",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ztJq-ujdckOvXgiARRnTean6syVqoBBWw0s5tL5IkhE",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "de5.safepass.click",
       "server_port": 443,
       "uuid": "7d3e6808-d105-4ee4-b904-1f6ed8417f4d",
@@ -84,8 +62,8 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "fine3.keepsecured.net",
+      "tag": "vless-01",
+      "server": "ee.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
@@ -105,30 +83,29 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "free-v7-09.elbrusway.online",
-      "server_port": 443,
-      "uuid": "fbb2b7d7-e4d1-4266-8b00-d9a7ee86dd09",
+      "tag": "vless-02",
+      "server": "ee.keepsecured.net",
+      "server_port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "BvSO06HFZ6hdq4dcQV0OXroLr0cX5H7x3M2pDToduwI",
-          "short_id": "de2a1f03e27a36b9"
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "b.primarymaster.online",
+      "tag": "vless-03",
+      "server": "89.39.121.16",
       "server_port": 443,
       "uuid": "eaa39cf6-26ac-43a4-99df-208b248c5d84",
       "packet_encoding": "xudp",
@@ -143,6 +120,27 @@
           "enabled": true,
           "public_key": "SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8",
           "short_id": "4332e1e3ea3950fa"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "fine3.keepsecured.net",
+      "server_port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.kwork.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
         }
       }
     },
