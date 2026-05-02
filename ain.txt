@@ -1,1 +1,1 @@
-vless://c631d469-de07-44ea-afcf-1033616e06f4@ee1.mehab.me:443?allowInsecure=1&insecure=1&type=tcp&security=tls&sni=ee1.mehab.me&fp=firefox&alpn=http/1.1&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+vless://5fd3fefa-f121-4f68-9592-e0964207fc29@188.92.78.183:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=ztJq-ujdckOvXgiARRnTean6syVqoBBWw0s5tL5IkhE&sid=&sni=www.microsoft.com#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%28Latgales%20priek%C5%A1pils%C4%93ta%29%20%7C%20%5BBL%5D
