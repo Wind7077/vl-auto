@@ -42,28 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "de5.safepass.click",
-      "server_port": 443,
-      "uuid": "7d3e6808-d105-4ee4-b904-1f6ed8417f4d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "ee.keepsecured.net",
+      "server": "fine3.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
@@ -78,6 +57,28 @@
           "enabled": true,
           "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
           "short_id": "10f786a2491b2cd5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "ee.keepsecured.net",
+      "server_port": 443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.kwork.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
         }
       }
     },
@@ -105,9 +106,31 @@
     {
       "type": "vless",
       "tag": "vless-03",
+      "server": "31.57.105.162",
+      "server_port": 443,
+      "uuid": "239471f8-4608-438e-9d2e-a6a950d98ad4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tori.fi",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hPWm2gK2xIrWfZrWRgtPTpv2d1lN9Js61JSiJqdIOXw",
+          "short_id": "aaf420ded8e8cd25"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
       "server": "89.39.121.16",
       "server_port": 443,
-      "uuid": "eaa39cf6-26ac-43a4-99df-208b248c5d84",
+      "uuid": "d02d3313-4b86-4f4e-9488-4cb6ed871c31",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -120,27 +143,6 @@
           "enabled": true,
           "public_key": "SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8",
           "short_id": "4332e1e3ea3950fa"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "fine3.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
         }
       }
     },
