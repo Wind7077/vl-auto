@@ -42,6 +42,71 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "web.bingobon.ru",
+      "server_port": 2053,
+      "uuid": "5570943f-6cc3-4a8a-bee3-d15a2b2f53a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "web.bingobon.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ",
+          "short_id": "0858af97f4e7324d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "144.31.228.131",
+      "server_port": 443,
+      "uuid": "5b1c5027-5bc6-4ee2-b287-001b05fba219",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.deepl.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "132.243.224.167",
+      "server_port": 443,
+      "uuid": "e69d5f8a-2629-45ac-889b-981983209933",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PxiVEKI3dp1UpqzpgnD31-Wl4MFiHjTI23ylGFn5Slg",
+          "short_id": "111111"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "ee.keepsecured.net",
       "server_port": 443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -52,7 +117,7 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -63,8 +128,8 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "ee.keepsecured.net",
+      "tag": "vless-04",
+      "server": "fine3.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
@@ -79,70 +144,6 @@
           "enabled": true,
           "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
           "short_id": "10f786a2491b2cd5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "37-zqwerty.ru",
-      "server_port": 2053,
-      "uuid": "5570943f-6cc3-4a8a-bee3-d15a2b2f53a0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "web.37-zqwerty.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ",
-          "short_id": "0858af97f4e7324d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "89.39.121.16",
-      "server_port": 443,
-      "uuid": "eaa39cf6-26ac-43a4-99df-208b248c5d84",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "b.primarymaster.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8",
-          "short_id": "4332e1e3ea3950fa"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "ee.keepsecured.net",
-      "server_port": 443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
-          "short_id": "ad7dab462a323acb"
         }
       }
     },
