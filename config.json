@@ -42,29 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ge-3.hotservice.icu",
-      "server_port": 2066,
-      "uuid": "7c71bca8-1f80-435a-bb2d-0ad130d6d4f7",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "u4lNvUk5pLZGl0XN-QK4xQgPQBhoJiMkOP2XZoQ99GA",
-          "short_id": "d18f4e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "ee.keepsecured.net",
+      "server": "fine3.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
@@ -73,7 +51,7 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -84,44 +62,67 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "45.144.53.112",
-      "server_port": 8443,
-      "uuid": "0f847daf-dab0-4ba7-bcbb-dabd43c7933c",
+      "tag": "vless-01",
+      "server": "ee.keepsecured.net",
+      "server_port": 443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tradingview.com",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "EGxJpl6UtxBovvg0-E9utvD3VvEIVYwBtRN8yy8enUs",
-          "short_id": "36c9e5b0d8f2a147"
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "lit5.helper-internet.com",
+      "server_port": 443,
+      "uuid": "b25b7433-e364-499c-b583-15b277783385",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lit5.helper-internet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "107.149.184.246",
-      "server_port": 10501,
-      "uuid": "0844ceed-af3c-46cd-9d29-2295309a1701",
+      "server": "138.124.100.237",
+      "server_port": 443,
+      "uuid": "f5a3bf49-07ca-0021-a96b-9606781e3600",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "img14.360buyimg.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GwBhOiy3pLa73zga-wmG07xRfiI71_A9VDi-DiHeBWk",
-          "short_id": "9153"
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "4c8d1e0f"
         }
       }
     },
@@ -138,7 +139,7 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
