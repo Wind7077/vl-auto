@@ -63,27 +63,6 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "ee.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "b.primarymaster.online",
       "server_port": 443,
       "uuid": "eaa39cf6-26ac-43a4-99df-208b248c5d84",
@@ -104,7 +83,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-02",
       "server": "web.svinkovoz.ru",
       "server_port": 2053,
       "uuid": "5570943f-6cc3-4a8a-bee3-d15a2b2f53a0",
@@ -125,23 +104,43 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "free-v7-09.elbrusway.online",
-      "server_port": 443,
-      "uuid": "fbb2b7d7-e4d1-4266-8b00-d9a7ee86dd09",
+      "tag": "vless-03",
+      "server": "fine3.keepsecured.net",
+      "server_port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "BvSO06HFZ6hdq4dcQV0OXroLr0cX5H7x3M2pDToduwI",
-          "short_id": "de2a1f03e27a36b9"
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "b.primarymaster.online",
+      "server_port": 443,
+      "uuid": "eaa39cf6-26ac-43a4-99df-208b248c5d84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "b.primarymaster.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SPHl8eat6QSJ5ptl9l-08tu1vEf_1QHRazZrBuqM6z8",
+          "short_id": "4332e1e3ea3950fa"
         }
       }
     },
