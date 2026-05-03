@@ -42,13 +42,13 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "web.svinkovoz.ru",
+      "server": "web.pticaishak.ru",
       "server_port": 2053,
       "uuid": "5570943f-6cc3-4a8a-bee3-d15a2b2f53a0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "web.svinkovoz.ru",
+        "server_name": "web.pticaishak.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -72,7 +72,7 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
@@ -84,9 +84,9 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "89.39.121.16",
+      "server": "b.primarymaster.online",
       "server_port": 443,
-      "uuid": "d02d3313-4b86-4f4e-9488-4cb6ed871c31",
+      "uuid": "eaa39cf6-26ac-43a4-99df-208b248c5d84",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -105,21 +105,21 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "ee.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "server": "web.svinkovoz.ru",
+      "server_port": 2053,
+      "uuid": "5570943f-6cc3-4a8a-bee3-d15a2b2f53a0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.kwork.com",
+        "server_name": "web.svinkovoz.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
+          "public_key": "aFsY-EZjSNTomlAFShKwQIQMJ5pHiZQXXJpWvcz8WkQ",
+          "short_id": "0858af97f4e7324d"
         }
       }
     },
