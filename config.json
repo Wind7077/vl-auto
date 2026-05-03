@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "31.56.196.10",
-      "server_port": 443,
-      "uuid": "a0e4e8b6-0518-4f19-803e-eece71583392",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU",
-          "short_id": "00684d2eae2cdd16"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "de.appav.net",
       "server_port": 2083,
       "uuid": "a0e4e8b6-0518-4f19-803e-eece71583392",
@@ -84,12 +62,11 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "ee.keepsecured.net",
-      "server_port": 443,
+      "tag": "vless-01",
+      "server": "fine3.keepsecured.net",
+      "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "cdn.kwork.com",
@@ -99,8 +76,29 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
-          "short_id": "ad7dab462a323acb"
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fine3.keepsecured.net",
+      "server_port": 8443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.kwork.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
         }
       }
     },
@@ -129,22 +127,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "f5.steptofreedom.one",
+      "server": "de.appav.net",
       "server_port": 443,
-      "uuid": "c476ac5f-07af-4346-8c42-6fd377a345f7",
+      "uuid": "a0e4e8b6-0518-4f19-803e-eece71583392",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "f5.steptofreedom.one",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU",
+          "short_id": "00684d2eae2cdd16"
         }
       }
     },
