@@ -42,29 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ee.keepsecured.net",
-      "server_port": 443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "server": "de.appav.net",
+      "server_port": 2083,
+      "uuid": "a0e4e8b6-0518-4f19-803e-eece71583392",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.kwork.com",
+        "server_name": "barclays.co.uk",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
-          "short_id": "ad7dab462a323acb"
+          "public_key": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
+          "short_id": "6da16b1335651b38"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "fine3.keepsecured.net",
+      "server": "45.38.170.169",
+      "server_port": 443,
+      "uuid": "a0e4e8b6-0518-4f19-803e-eece71583392",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU",
+          "short_id": "00684d2eae2cdd16"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "ee.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
@@ -84,44 +105,23 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "216.57.109.204",
-      "server_port": 443,
-      "uuid": "afd7a25e-f2b8-45a4-b735-54518fc9caaf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0fmJjwdM2vOOTVeQcNtNaTjxpYeIj9NsVT-ddLKwnic",
-          "short_id": "2531"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "server4magic.magicvpssub.ru",
+      "server": "31.58.137.119",
       "server_port": 443,
-      "uuid": "a61698df-bdfc-51ad-b502-9ed61f777b48",
+      "uuid": "a0e4e8b6-0518-4f19-803e-eece71583392",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "es6RxPb8j0IKIGIYVNa8AZVlFjxXqcvQ2Q7YFwY1eD4",
-          "short_id": "4f"
+          "public_key": "9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU",
+          "short_id": "00684d2eae2cdd16"
         }
       }
     },
@@ -129,20 +129,21 @@
       "type": "vless",
       "tag": "vless-04",
       "server": "de.appav.net",
-      "server_port": 2083,
+      "server_port": 443,
       "uuid": "a0e4e8b6-0518-4f19-803e-eece71583392",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "barclays.co.uk",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
-          "short_id": "6da16b1335651b38"
+          "public_key": "9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU",
+          "short_id": "00684d2eae2cdd16"
         }
       }
     },
