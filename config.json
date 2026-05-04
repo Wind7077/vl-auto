@@ -42,43 +42,42 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "germany.pineappled.org",
+      "server": "216.57.109.204",
       "server_port": 443,
-      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
+      "uuid": "afd7a25e-f2b8-45a4-b735-54518fc9caaf",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
+          "public_key": "0fmJjwdM2vOOTVeQcNtNaTjxpYeIj9NsVT-ddLKwnic",
+          "short_id": "2531"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "95.143.111.137",
-      "server_port": 26989,
-      "uuid": "f5acf056-2e47-48af-af1a-08ae72d961a8",
+      "server": "89.169.121.10",
+      "server_port": 443,
+      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "aws.amazon.com",
+        "server_name": "hcaptcha.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "AjBsvNZjh_1e3qsb8FCFBwOg_uvBhHC-2vlZbVi0n10",
-          "short_id": "ee53d395"
+          "public_key": "h7CCbT_1gwxhQGM-4_pZkNRbAe_I6YFQM6jO9x6uORw",
+          "short_id": ""
         }
       }
     },
@@ -86,27 +85,28 @@
       "type": "vless",
       "tag": "vless-02",
       "server": "de.appav.net",
-      "server_port": 2083,
+      "server_port": 443,
       "uuid": "a0e4e8b6-0518-4f19-803e-eece71583392",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "barclays.co.uk",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
-          "short_id": "6da16b1335651b38"
+          "public_key": "9ajY_OBOn5CCPnCJTPjxg6J3IWE8uJYAiWQvG9CBGjU",
+          "short_id": "00684d2eae2cdd16"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "france.pineappled.org",
+      "server": "germany.pineappled.org",
       "server_port": 443,
       "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
       "packet_encoding": "xudp",
@@ -138,7 +138,7 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
