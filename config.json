@@ -42,80 +42,57 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "51.250.94.95",
+      "server": "ee.keepsecured.net",
       "server_port": 443,
-      "uuid": "dd939a0b-101a-434d-b664-174045026ea9",
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "144.31.220.136",
-      "server_port": 443,
-      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
+      "server": "91.219.227.203",
+      "server_port": 8083,
+      "uuid": "38e5a7d0-91fa-4580-aa02-6532ff5b780b",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hcaptcha.com",
+        "server_name": "sso.passport.yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
-          "short_id": ""
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "auto-6.barryvpn.com",
+      "server": "51.250.94.95",
       "server_port": 443,
-      "uuid": "abd468c8-a9d9-40b7-b70d-6c7948c37bb2",
+      "uuid": "33e6f00a-5447-424f-b77b-1c1f1ef9b131",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "5post-gate-test.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "I0fEW8_ADJkOVuU98orsk7R_XZljGRHnVNfirvFg4DU",
-          "short_id": "0123456789adcdea"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "72.56.233.230",
-      "server_port": 8454,
-      "uuid": "fca1204e-6e12-4cb0-9399-edda15a9bd0d",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "jobinvest.ru",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "qq"
@@ -129,12 +106,11 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "51.250.94.95",
-      "server_port": 443,
-      "uuid": "ac56c06b-4846-4789-8105-eba4a00d8776",
+      "tag": "vless-03",
+      "server": "91.219.227.203",
+      "server_port": 8083,
+      "uuid": "38e5a7d0-91fa-4580-aa02-6532ff5b780b",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "ads.x5.ru",
@@ -144,8 +120,30 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-          "short_id": ""
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "f5.steptofreedom.one",
+      "server_port": 443,
+      "uuid": "c476ac5f-07af-4346-8c42-6fd377a345f7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "f5.steptofreedom.one",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
