@@ -42,41 +42,42 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "89.169.121.10",
-      "server_port": 443,
-      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
+      "server": "78.17.76.197",
+      "server_port": 47644,
+      "uuid": "9a21263b-1af0-41ec-9d3a-2afda61606dc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "hcaptcha.com",
+        "server_name": "www.nvidia.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "h7CCbT_1gwxhQGM-4_pZkNRbAe_I6YFQM6jO9x6uORw",
-          "short_id": ""
+          "public_key": "ks2xxgXE4JO2nYBdbxliHfvy5OEd6zdjE9UWNXJy4m4",
+          "short_id": "bec61d2ccb"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "144.31.220.155",
-      "server_port": 443,
-      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
+      "server": "72.56.233.230",
+      "server_port": 8454,
+      "uuid": "fca1204e-6e12-4cb0-9399-edda15a9bd0d",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hcaptcha.com",
+        "server_name": "jobinvest.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "short_id": ""
         }
       }
@@ -115,7 +116,7 @@
         "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -127,21 +128,21 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "216.57.109.204",
+      "server": "89.169.121.10",
       "server_port": 443,
-      "uuid": "afd7a25e-f2b8-45a4-b735-54518fc9caaf",
+      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "hcaptcha.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0fmJjwdM2vOOTVeQcNtNaTjxpYeIj9NsVT-ddLKwnic",
-          "short_id": "2531"
+          "public_key": "h7CCbT_1gwxhQGM-4_pZkNRbAe_I6YFQM6jO9x6uORw",
+          "short_id": ""
         }
       }
     },
