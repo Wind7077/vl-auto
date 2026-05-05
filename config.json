@@ -42,20 +42,21 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "84.201.164.124",
-      "server_port": 443,
-      "uuid": "7b13eaac-882d-43a0-b19e-6d2e867d624e",
+      "server": "72.56.233.230",
+      "server_port": 8454,
+      "uuid": "04e2e0da-7377-4d44-b9b8-6995b0723fde",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "1c.ru",
+        "server_name": "jobinvest.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "h7CCbT_1gwxhQGM-4_pZkNRbAe_I6YFQM6jO9x6uORw",
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "short_id": ""
         }
       }
@@ -63,21 +64,21 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "90.156.218.67",
+      "server": "51.250.94.95",
       "server_port": 443,
-      "uuid": "cf5718f5-c0f3-4b63-8fbf-1de69c1299c5",
+      "uuid": "f02a1706-b955-4684-89d0-9059813e7cf9",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sun2-11.userapi.com",
+        "server_name": "5post-gate.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "qB_eMu3ZO_wGITnyIqJ7Kt39-h9oHFnHlQQEqA-r3VA",
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
           "short_id": ""
         }
       }
@@ -85,32 +86,11 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "89.125.93.19",
-      "server_port": 443,
-      "uuid": "053cff12-7699-462a-9e8a-590ea060354e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "W22BJZk_-gGzOuyaQWFyfaf9dARz3a4sApLXQXa__Ss",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "144.31.220.155",
+      "server": "144.31.220.136",
       "server_port": 443,
       "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "hcaptcha.com",
@@ -127,23 +107,44 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "154.83.208.12",
+      "tag": "vless-03",
+      "server": "89.125.93.19",
       "server_port": 443,
-      "uuid": "e9ebf8c2-dbe9-4220-9234-6a47be3e9dea",
+      "uuid": "053cff12-7699-462a-9e8a-590ea060354e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl-cdn.ru",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "7hCw9x8kRkAnLKO3FBwPLSM_6Qs5TOir31_TT050OxU",
-          "short_id": "c9b0c990b745646d"
+          "public_key": "W22BJZk_-gGzOuyaQWFyfaf9dARz3a4sApLXQXa__Ss",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "144.31.220.155",
+      "server_port": 443,
+      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hcaptcha.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
+          "short_id": ""
         }
       }
     },
