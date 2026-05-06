@@ -42,108 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "46.243.232.186",
+      "server": "95.85.236.118",
       "server_port": 443,
-      "uuid": "421421a2-060b-4b7d-a185-72ab44b302cf",
+      "uuid": "54c357db-e289-4389-b52d-6c3b9779c1c6",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "www.ya.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "OoPqWo20Aq1LsqmZCnGxcvLHun7S1d6F4Bx6PbxpOVE",
-          "short_id": "5FA44664f6a566d3"
+          "public_key": "tVyj7_ief3PBOwG3uC9i_XXKGRXiTJJ6XkrkEOZepDc",
+          "short_id": "3c88b649989ffa95"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "89.125.93.19",
-      "server_port": 443,
-      "uuid": "053cff12-7699-462a-9e8a-590ea060354e",
+      "server": "ee.nightvpn.online",
+      "server_port": 6443,
+      "uuid": "4075ca23-b9bd-42b8-b2c1-d91731e2646c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "cdnjs.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "W22BJZk_-gGzOuyaQWFyfaf9dARz3a4sApLXQXa__Ss",
-          "short_id": ""
+          "public_key": "zuriBhTMmp_RZj4FgG8X3504Af_08niWYWQiwoevSiA",
+          "short_id": "117bee239f0f9c0b"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "ee.keepsecured.net",
+      "server": "95.85.236.88",
       "server_port": 443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "uuid": "54c357db-e289-4389-b52d-6c3b9779c1c6",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.kwork.com",
+        "server_name": "www.ya.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
-          "short_id": "ad7dab462a323acb"
+          "public_key": "tVyj7_ief3PBOwG3uC9i_XXKGRXiTJJ6XkrkEOZepDc",
+          "short_id": "3c88b649989ffa95"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "89.125.93.19",
+      "server": "fingopota.unlimited-access.ru",
       "server_port": 443,
-      "uuid": "053cff12-7699-462a-9e8a-590ea060354e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "W22BJZk_-gGzOuyaQWFyfaf9dARz3a4sApLXQXa__Ss",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "144.31.220.155",
-      "server_port": 443,
-      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
+      "uuid": "2bbd7cc5-aa4b-4ec7-b12c-223fcb49e253",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "hcaptcha.com",
+        "server_name": "fingopota.unlimited-access.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
-          "short_id": ""
+          "public_key": "HyWLL5SIz0ik1ziUvs049CbRwz8pADomc6x-2OeM1i4",
+          "short_id": "7f11ee6d084c91d9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "fi1.persik.host",
+      "server_port": 443,
+      "uuid": "3f1851f4-4dbe-4e46-8939-3c5fe4f58d13",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi1.persik.host",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XfPQWevD1SzZqZFH9OwgpZMtn32lXcGtHBL8HpTeazI",
+          "short_id": "895edc3d"
         }
       }
     },
