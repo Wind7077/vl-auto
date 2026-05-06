@@ -42,77 +42,54 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "95.85.236.120",
-      "server_port": 443,
-      "uuid": "926a6d0f-d241-4efe-ae6a-e8cc530dcf7d",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tVyj7_ief3PBOwG3uC9i_XXKGRXiTJJ6XkrkEOZepDc",
-          "short_id": "3c88b649989ffa95"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "95.85.236.118",
-      "server_port": 443,
-      "uuid": "54c357db-e289-4389-b52d-6c3b9779c1c6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "tVyj7_ief3PBOwG3uC9i_XXKGRXiTJJ6XkrkEOZepDc",
-          "short_id": "3c88b649989ffa95"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "se-cdn.ru",
+      "server": "154.83.208.196",
       "server_port": 443,
       "uuid": "e9ebf8c2-dbe9-4220-9234-6a47be3e9dea",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "se-cdn.ru",
+        "server_name": "nl-cdn.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "nF_kEdHan2dgl2tlQ_dtNaKZ4oORhuiFrXHbtEDcT2Q",
-          "short_id": "2d6d073dc88f22a8"
+          "public_key": "7hCw9x8kRkAnLKO3FBwPLSM_6Qs5TOir31_TT050OxU",
+          "short_id": "c9b0c990b745646d"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "144.31.220.136",
+      "tag": "vless-01",
+      "server": "154.83.208.8",
+      "server_port": 443,
+      "uuid": "e9ebf8c2-dbe9-4220-9234-6a47be3e9dea",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl-cdn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7hCw9x8kRkAnLKO3FBwPLSM_6Qs5TOir31_TT050OxU",
+          "short_id": "c9b0c990b745646d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "144.31.220.155",
       "server_port": 443,
       "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "hcaptcha.com",
@@ -129,23 +106,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "95.85.236.146",
+      "tag": "vless-03",
+      "server": "154.83.208.198",
       "server_port": 443,
-      "uuid": "54c357db-e289-4389-b52d-6c3b9779c1c6",
+      "uuid": "e9ebf8c2-dbe9-4220-9234-6a47be3e9dea",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.ya.ru",
+        "server_name": "nl-cdn.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "tVyj7_ief3PBOwG3uC9i_XXKGRXiTJJ6XkrkEOZepDc",
-          "short_id": "3c88b649989ffa95"
+          "public_key": "7hCw9x8kRkAnLKO3FBwPLSM_6Qs5TOir31_TT050OxU",
+          "short_id": "c9b0c990b745646d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "154.83.208.194",
+      "server_port": 443,
+      "uuid": "e9ebf8c2-dbe9-4220-9234-6a47be3e9dea",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl-cdn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7hCw9x8kRkAnLKO3FBwPLSM_6Qs5TOir31_TT050OxU",
+          "short_id": "c9b0c990b745646d"
         }
       }
     },
