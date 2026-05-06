@@ -42,64 +42,64 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "31.56.177.21",
-      "server_port": 2083,
-      "uuid": "81eead1b-48bd-456f-8284-3e710cb30f07",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
-          "short_id": "6da16b1335651b38"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "lv-cdn.ru",
+      "server": "de-cdn.ru",
       "server_port": 443,
       "uuid": "e9ebf8c2-dbe9-4220-9234-6a47be3e9dea",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv-cdn.ru",
+        "server_name": "de-cdn.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "iUHMpeBEuXr_vSzZUBMZD2ENv2dZIr8e1-g6OzX1NRQ",
-          "short_id": "39a629c6c90bd2eb"
+          "public_key": "bg_o5_i-5MSy-t3CB3iyqIeI8Uqyy_wTP2kheJCXngg",
+          "short_id": "f7d0420b8ab26060"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "154.83.208.197",
+      "server_port": 443,
+      "uuid": "e9ebf8c2-dbe9-4220-9234-6a47be3e9dea",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl-cdn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "7hCw9x8kRkAnLKO3FBwPLSM_6Qs5TOir31_TT050OxU",
+          "short_id": "c9b0c990b745646d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "5.181.202.123",
+      "server": "144.31.220.155",
       "server_port": 443,
-      "uuid": "729a544f-aa57-4d0d-a2b0-df9775bc6a2f",
+      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.ya.ru",
+        "server_name": "hcaptcha.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "o2SrzDoX5tfMpju7B-RSxsb7eo6-hdV1vRFP8VA-dUA",
+          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
           "short_id": ""
         }
       }
@@ -107,42 +107,44 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "213.232.204.19",
-      "server_port": 2083,
-      "uuid": "81eead1b-48bd-456f-8284-3e710cb30f07",
+      "server": "144.31.220.136",
+      "server_port": 443,
+      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "hcaptcha.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
-          "short_id": "6da16b1335651b38"
+          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "31.58.79.132",
-      "server_port": 2083,
-      "uuid": "81eead1b-48bd-456f-8284-3e710cb30f07",
+      "server": "154.83.208.196",
+      "server_port": 443,
+      "uuid": "e9ebf8c2-dbe9-4220-9234-6a47be3e9dea",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "nl-cdn.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "J6NuOlIq3ypdTFc1TMhDDKmF8BWPnNWZq1EkxD7K-lQ",
-          "short_id": "6da16b1335651b38"
+          "public_key": "7hCw9x8kRkAnLKO3FBwPLSM_6Qs5TOir31_TT050OxU",
+          "short_id": "c9b0c990b745646d"
         }
       }
     },
