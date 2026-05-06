@@ -1,1 +1,1 @@
-vless://4075ca23-b9bd-42b8-b2c1-d91731e2646c@ee.nightvpn.online:6443?type=tcp&security=reality&sni=cdnjs.com&fp=firefox&pbk=zuriBhTMmp_RZj4FgG8X3504Af_08niWYWQiwoevSiA&sid=117bee239f0f9c0b&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+vless://e9ebf8c2-dbe9-4220-9234-6a47be3e9dea@lv-cdn.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=iUHMpeBEuXr_vSzZUBMZD2ENv2dZIr8e1-g6OzX1NRQ&sid=39a629c6c90bd2eb&sni=lv-cdn.ru&spx=/#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
