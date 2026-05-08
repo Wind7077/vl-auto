@@ -42,27 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "194.5.65.12",
-      "server_port": 8443,
-      "uuid": "cac77d0d-db69-4728-801a-f0ac5ca4e4ca",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "6DaBtchTYvJ6lKXm4I03nT3SO4d-C72NF5MQh147hmQ",
-          "short_id": "355db0b85d85e058"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "138.124.186.216",
       "server_port": 443,
       "uuid": "TMG_66f3b3f911f",
@@ -83,7 +62,50 @@
     },
     {
       "type": "vless",
+      "tag": "vless-01",
+      "server": "50.7.90.251",
+      "server_port": 443,
+      "uuid": "93246986-2fbf-4dfb-a2c3-39a4f11f42ce",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.trahodrom.fun",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_4cv7OXJFuVt8PGPNwk8isFFgrRR5tKojjpLWGTN8RI",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "vless-02",
+      "server": "2.27.41.210",
+      "server_port": 443,
+      "uuid": "TMG_baf1e323383",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5wNsqjCA7AEk_Frrb4q5y_PsS7w8M8mIXcT452DRdEU",
+          "short_id": "d4a6"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "144.31.220.155",
       "server_port": 443,
       "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
@@ -104,29 +126,8 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "138.124.186.216",
-      "server_port": 443,
-      "uuid": "b4ba750d-db37-5ed1-8514-dfa6f100f431",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "amazon.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI",
-          "short_id": "00f4f905a2"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-04",
-      "server": "se.keepsecured.net",
+      "server": "fine3.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
