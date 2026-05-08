@@ -42,27 +42,70 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "62.50.146.35",
-      "server_port": 9443,
+      "server": "fine3.keepsecured.net",
+      "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "raw.githubusercontent.com",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GdCtxJAti3DA8oTu9KkFHjCz1yRGGZB_4NZIBuQxc28",
-          "short_id": "abc5168218c8749c"
+          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
+          "short_id": "10f786a2491b2cd5"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
+      "server": "shop.harddahir.cyou",
+      "server_port": 443,
+      "uuid": "5bd36fef-18ac-4d69-8080-25df6c9b369e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.hollywoodreporter.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SqNAL7L50tQTHhkvN4dT3O-DqdI1qan5iwg6ai4U_hY",
+          "short_id": "a3a5df265540"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "144.31.220.155",
+      "server_port": 443,
+      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hcaptcha.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "138.124.186.216",
       "server_port": 443,
       "uuid": "TMG_66f3b3f911f",
@@ -83,7 +126,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
+      "tag": "vless-04",
       "server": "fine3.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -99,48 +142,6 @@
           "enabled": true,
           "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
           "short_id": "10f786a2491b2cd5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "62.50.146.35",
-      "server_port": 9443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "raw.githubusercontent.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "GdCtxJAti3DA8oTu9KkFHjCz1yRGGZB_4NZIBuQxc28",
-          "short_id": "abc5168218c8749c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "144.31.220.155",
-      "server_port": 443,
-      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "hcaptcha.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
-          "short_id": ""
         }
       }
     },
