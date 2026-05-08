@@ -42,91 +42,27 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "144.31.220.155",
+      "server": "138.124.186.216",
       "server_port": 443,
-      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
+      "uuid": "TMG_66f3b3f911f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "hcaptcha.com",
+        "server_name": "amazon.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
-          "short_id": ""
+          "public_key": "d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI",
+          "short_id": "00f4f905a2"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "se.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "144.31.220.155",
-      "server_port": 443,
-      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "hcaptcha.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "91.217.149.231",
-      "server_port": 443,
-      "uuid": "d09a86da-9f26-4b03-b518-bb375a865cd5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "speed.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hb18ZK8-pDV9MuiJ2gIrjT7QeOj0ZpZNA8YDVeis_js",
-          "short_id": "9ec46c298e29"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
       "server": "fine3.keepsecured.net",
       "server_port": 8443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -142,6 +78,70 @@
           "enabled": true,
           "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
           "short_id": "10f786a2491b2cd5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "138.124.186.216",
+      "server_port": 443,
+      "uuid": "b4ba750d-db37-5ed1-8514-dfa6f100f431",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "d7RwR9mRJpYwZuF9WFRt19DPkVkwehHzBMC9SOny5SI",
+          "short_id": "00f4f905a2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "144.31.220.155",
+      "server_port": 443,
+      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "hcaptcha.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "64.188.64.19",
+      "server_port": 443,
+      "uuid": "18828597-f8e7-450b-a811-1b29be793f0b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8YhxIt59OyCh3hGT8mbByjMi040LIsSbLXGCstIqeXU",
+          "short_id": "aca2849be8b47f1b"
         }
       }
     },
