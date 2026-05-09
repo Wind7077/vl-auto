@@ -42,51 +42,53 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fn.skysafe.online.alexander77.ru",
+      "server": "ee.keepsecured.net",
       "server_port": 443,
-      "uuid": "eb416f88-28a4-48ff-a6d6-e93188257957",
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fn.skysafe.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4iuR2mv0RnnPZbwvQuZ4L07Bois8hMUczEbMeDF0iRc",
-          "short_id": "fb38c1c83009e1"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "s3.cloudconsole.ru",
-      "server_port": 443,
-      "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "vk.com",
+        "server_name": "cdn.kwork.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pxnzbJKyXFslwW8ZUNp04hP8BnBC7vpgvKhLpdwZvUk",
-          "short_id": "1a5cdc31a8649874"
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "shop.harddahir.cyou",
+      "server_port": 443,
+      "uuid": "5bd36fef-18ac-4d69-8080-25df6c9b369e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.hollywoodreporter.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SqNAL7L50tQTHhkvN4dT3O-DqdI1qan5iwg6ai4U_hY",
+          "short_id": "a3a5df265540"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "91.84.119.187",
+      "server": "216.57.108.20",
       "server_port": 443,
-      "uuid": "c7cb3bae-8591-40dd-b18c-20919ab6389d",
+      "uuid": "ec75f351-4428-4e57-ae4a-f8e546da2be7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -97,51 +99,52 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "XoF4tf2G6jbwfd7t4aR8HpRXS3eYJRsGb0RAzPHLwGA",
-          "short_id": "18b9"
+          "public_key": "udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0",
+          "short_id": "95c7"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "84.201.167.88",
-      "server_port": 8081,
-      "uuid": "01d29f11-073a-4ee8-9370-53a4eea4ac51",
+      "server": "lists.soloramtin.cyou",
+      "server_port": 443,
+      "uuid": "67eb6b17-7797-4ded-bf52-423c4c5f6cbd",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
-          "short_id": "4326"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "93.77.167.35",
-      "server_port": 443,
-      "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "vk.com",
+        "server_name": "www.foxsports.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pxnzbJKyXFslwW8ZUNp04hP8BnBC7vpgvKhLpdwZvUk",
-          "short_id": "1a5cdc31a8649874"
+          "public_key": "G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY",
+          "short_id": "91af08b1ce1f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "104.238.6.225",
+      "server_port": 443,
+      "uuid": "5bd36fef-18ac-4d69-8080-25df6c9b369e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.hollywoodreporter.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SqNAL7L50tQTHhkvN4dT3O-DqdI1qan5iwg6ai4U_hY",
+          "short_id": "a3a5df265540"
         }
       }
     },
