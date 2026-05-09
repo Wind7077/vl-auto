@@ -42,6 +42,48 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "216.57.108.20",
+      "server_port": 443,
+      "uuid": "ec75f351-4428-4e57-ae4a-f8e546da2be7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0",
+          "short_id": "95c7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "216.57.108.20",
+      "server_port": 443,
+      "uuid": "ec75f351-4428-4e57-ae4a-f8e546da2be7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0",
+          "short_id": "95c7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "ee.keepsecured.net",
       "server_port": 443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -63,49 +105,28 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "216.57.108.20",
-      "server_port": 443,
-      "uuid": "ec75f351-4428-4e57-ae4a-f8e546da2be7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "yahoo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0",
-          "short_id": "95c70000"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "se.keepsecured.net",
-      "server_port": 8443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "J07yFEBPsic7-hLTS2KSxVqI7v4gpfkG6_a2cGKNVFk",
-          "short_id": "10f786a2491b2cd5"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
+      "server": "fn.skysafe.online.alexander77.ru",
+      "server_port": 443,
+      "uuid": "eb416f88-28a4-48ff-a6d6-e93188257957",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "fn.skysafe.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4iuR2mv0RnnPZbwvQuZ4L07Bois8hMUczEbMeDF0iRc",
+          "short_id": "fb38c1c83009e1"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
       "server": "45.140.204.121",
       "server_port": 443,
       "uuid": "416560bf-9ebb-4a43-96b6-e353e3d3572a",
@@ -121,28 +142,6 @@
           "enabled": true,
           "public_key": "MYU0vSA5rfofPjIwynqoPsr60F_swjCHCDX0yJPKwT0",
           "short_id": "08bf0000"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "nl1.skysafe.online.alexander77.ru",
-      "server_port": 8443,
-      "uuid": "eb416f88-28a4-48ff-a6d6-e93188257957",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl1.skysafe.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "f1kpVFY3EHaR41TCKGqSWzZq7HG-WpyE2g_tlMm2US0",
-          "short_id": "844dfa3681e4c4"
         }
       }
     },
