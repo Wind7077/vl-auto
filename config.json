@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "lit5.helper-internet.com",
-      "server_port": 443,
-      "uuid": "2003b2e8-0f93-47d7-8290-9df2321ef62a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lit5.helper-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-          "short_id": "ff776ff77be48b88"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "ee.keepsecured.net",
       "server_port": 443,
       "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
@@ -85,22 +63,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "144.31.220.155",
+      "tag": "vless-01",
+      "server": "lithnode.lumixnet.com",
       "server_port": 443,
-      "uuid": "cf8cc192-6120-4a60-945f-5ce91aee4175",
+      "uuid": "5d509427-0502-4159-9c2b-7eee71c5e41e",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hcaptcha.com",
+        "server_name": "lithnode.lumixnet.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "n00VSaVEImUfNI-8882Ecum-Er2KIHLg32Y-MWQGeh8",
-          "short_id": ""
+          "public_key": "8K4cnpy__grgZ9mQG0qdUg1JUYc0bz3wwrpXO9VXVXQ",
+          "short_id": "4e7082cd83ad9df5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "ee.keepsecured.net",
+      "server_port": 443,
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.kwork.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
         }
       }
     },
@@ -129,22 +130,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "lithnode.lumixnet.com",
+      "server": "eston5.helper-internet.com",
       "server_port": 443,
-      "uuid": "5d509427-0502-4159-9c2b-7eee71c5e41e",
+      "uuid": "2003b2e8-0f93-47d7-8290-9df2321ef62a",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lithnode.lumixnet.com",
+        "server_name": "eston5.helper-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "8K4cnpy__grgZ9mQG0qdUg1JUYc0bz3wwrpXO9VXVXQ",
-          "short_id": "4e7082cd83ad9df5"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },
