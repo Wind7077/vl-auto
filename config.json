@@ -42,50 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ee.keepsecured.net",
-      "server_port": 443,
-      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdn.kwork.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
-          "short_id": "ad7dab462a323acb"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "shop.harddahir.cyou",
-      "server_port": 443,
-      "uuid": "5bd36fef-18ac-4d69-8080-25df6c9b369e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.hollywoodreporter.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SqNAL7L50tQTHhkvN4dT3O-DqdI1qan5iwg6ai4U_hY",
-          "short_id": "a3a5df265540"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "216.57.108.20",
       "server_port": 443,
       "uuid": "ec75f351-4428-4e57-ae4a-f8e546da2be7",
@@ -100,13 +56,13 @@
         "reality": {
           "enabled": true,
           "public_key": "udIQmQtfL5_RuM9EowSs7DEnee-IEFVFmxbkeD8jIT0",
-          "short_id": "95c7"
+          "short_id": "95c70000"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-01",
       "server": "lists.soloramtin.cyou",
       "server_port": 443,
       "uuid": "67eb6b17-7797-4ded-bf52-423c4c5f6cbd",
@@ -128,7 +84,29 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-02",
+      "server": "5.180.54.54",
+      "server_port": 443,
+      "uuid": "2de34838-1270-4fb0-bbe5-dfc9aa5c01a1",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ztJq-ujdckOvXgiARRnTean6syVqoBBWw0s5tL5IkhE",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "104.238.6.225",
       "server_port": 443,
       "uuid": "5bd36fef-18ac-4d69-8080-25df6c9b369e",
@@ -145,6 +123,28 @@
           "enabled": true,
           "public_key": "SqNAL7L50tQTHhkvN4dT3O-DqdI1qan5iwg6ai4U_hY",
           "short_id": "a3a5df265540"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "45.136.126.126",
+      "server_port": 443,
+      "uuid": "3d168767-6e7e-463d-8739-a6e6cc4ae508",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl01.grani.site",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bM8bQEmKPzGTdcaSa6QQTFM3G2NXe-YvndIt3zvGRn0",
+          "short_id": "7a2f6c1d9e3b8450"
         }
       }
     },
