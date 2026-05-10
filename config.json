@@ -42,28 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "flp.musicperec.ru",
+      "server": "de.kp7mx3.uk",
       "server_port": 443,
-      "uuid": "e6dd980c-1978-0021-b689-af2f0399366e",
+      "uuid": "6f7ed352-71f5-451a-91b2-0ccb992bc63d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "www.deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw",
-          "short_id": "0c4d6e2f"
+          "public_key": "-HZml4cOqX6eiw2hUzBpDoN9bksvyAvGoehglkvvkh4",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
+      "server": "fl03.myxavpn.com",
+      "server_port": 443,
+      "uuid": "00a31b83-d78a-4866-9124-bf80ab961501",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fl03.myxavpn.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw",
+          "short_id": "d67ec5a8fc40ebea"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "216.57.108.20",
       "server_port": 443,
       "uuid": "ec75f351-4428-4e57-ae4a-f8e546da2be7",
@@ -84,67 +106,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "skynode-germany.duckdns.org",
-      "server_port": 2053,
-      "uuid": "8f18a1a9-dee6-4ba8-8edd-7f8574777b59",
+      "tag": "vless-03",
+      "server": "ger02.myxavpn.com",
+      "server_port": 443,
+      "uuid": "00a31b83-d78a-4866-9124-bf80ab961501",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "ger02.myxavpn.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "qURsRyIC4cOFGTEcRC3gTLW2zLP5Svu93Hn-bBlGfiY",
-          "short_id": "0123456789abcdef"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "78.40.117.244",
-      "server_port": 443,
-      "uuid": "c55a51d9-48bd-11f1-941f-54db13ea7d40",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.blocket.se",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wSjV1yR_rhDUdoNbM9zIXNGLASLp9RorComnyoayo2c",
-          "short_id": ""
+          "public_key": "OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw",
+          "short_id": "d67ec5a8fc40ebea"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "lists.soloramtin.cyou",
+      "server": "eep.musicperec.ru",
       "server_port": 443,
-      "uuid": "67eb6b17-7797-4ded-bf52-423c4c5f6cbd",
+      "uuid": "e6dd980c-1978-0021-b689-af2f0399366e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.foxsports.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "G7bpUPFSW28-oE6ff8qZac1_apU6PiJ-GHmi7tAPDSY",
-          "short_id": "91af08b1ce1f"
+          "public_key": "kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw",
+          "short_id": "4c7d9e2f"
         }
       }
     },
