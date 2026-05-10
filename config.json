@@ -42,44 +42,43 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "eep.musicperec.ru",
+      "server": "91.84.119.187",
       "server_port": 443,
-      "uuid": "e6dd980c-1978-0021-b689-af2f0399366e",
+      "uuid": "c7cb3bae-8591-40dd-b18c-20919ab6389d",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw",
-          "short_id": "4c7d9e2f"
+          "public_key": "XoF4tf2G6jbwfd7t4aR8HpRXS3eYJRsGb0RAzPHLwGA",
+          "short_id": "18b90000"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "neiro.oreovpn.site",
-      "server_port": 50000,
-      "uuid": "f00a92f9-7a9c-47ca-aa01-ff69b04d69c3",
+      "server": "pl1.astrocore.cloud",
+      "server_port": 443,
+      "uuid": "b1b24586-cccf-458d-b125-d621c3710676",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "pl1.astrocore.cloud",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "RMSTo4fhU1rjDCXJzPA1RHRsUEPsGsJf_wJR4S7P00o",
-          "short_id": "aa144875e69c6a43"
+          "public_key": "X2Sb6CKcI_yEV4gu9KUAmL9mcL-xpC1Ngks06NYIaxw",
+          "short_id": "f129f93e"
         }
       }
     },
@@ -108,44 +107,44 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "skynode-germany.duckdns.org",
-      "server_port": 2053,
-      "uuid": "8f18a1a9-dee6-4ba8-8edd-7f8574777b59",
+      "server": "flp.musicperec.ru",
+      "server_port": 443,
+      "uuid": "e6dd980c-1978-0021-b689-af2f0399366e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "qURsRyIC4cOFGTEcRC3gTLW2zLP5Svu93Hn-bBlGfiY",
-          "short_id": "0123456789abcdef"
+          "public_key": "k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw",
+          "short_id": "0c4d6e2f"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "144.124.232.82",
+      "server": "eep.musicperec.ru",
       "server_port": 443,
-      "uuid": "2787b776-7a1e-4f1b-b145-da84bca2c398",
+      "uuid": "e6dd980c-1978-0021-b689-af2f0399366e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "github.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pD2AbL0AvAwrNj7-ZyS4mrlLPghTJgZyXVjknypLwnw",
-          "short_id": "3a224be12cf1"
+          "public_key": "kG6zs_B1ZlZ5kjeC0WWPSz4B60vk_VeWj_WYsl2mGBw",
+          "short_id": "4c7d9e2f"
         }
       }
     },
