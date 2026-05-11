@@ -42,49 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "144.31.14.161",
-      "server_port": 15247,
-      "uuid": "3462877f-e054-43ee-b03b-d91d448ac5f0",
+      "server": "5.129.209.230",
+      "server_port": 443,
+      "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sun1-91.userapi.com",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "YqRkyVV_bn7O2m1aFLfq1AXFd1xLbHANXRN-jxazrh0",
-          "short_id": "3682bc8f0d0a9396"
+          "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
+          "short_id": "ca5096"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "31.57.28.130",
-      "server_port": 443,
-      "uuid": "ce26f4a4-dac9-427b-8731-5297d8d9b7a6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lv1.node.velum-vpn.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "b2CHaQlTFdnxLpNBjt5FKLH3jQabK6dvh8I30xZc5nM",
-          "short_id": "22e549172f59c481"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "45.13.226.103",
       "server_port": 7443,
       "uuid": "5e217cdf-9a6e-4ddc-84d2-ccda9e7e16fa",
@@ -106,8 +85,30 @@
     },
     {
       "type": "vless",
+      "tag": "vless-02",
+      "server": "85.92.108.132",
+      "server_port": 443,
+      "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
+          "short_id": "72e15d2b99"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "vless-03",
-      "server": "72.56.120.196",
+      "server": "185.215.187.100",
       "server_port": 443,
       "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
       "packet_encoding": "xudp",
@@ -129,14 +130,14 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "85.92.108.132",
+      "server": "64.188.61.218",
       "server_port": 443,
       "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "dns-shop.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -144,7 +145,7 @@
         "reality": {
           "enabled": true,
           "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
-          "short_id": "72e15d2b99"
+          "short_id": "1ea50acc56cec635"
         }
       }
     },
