@@ -42,14 +42,14 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "64.188.61.218",
+      "server": "5.129.209.230",
       "server_port": 443,
       "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dns-shop.ru",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -57,56 +57,35 @@
         "reality": {
           "enabled": true,
           "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
-          "short_id": "1ea50acc56cec635"
+          "short_id": "ca5096"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "167.17.176.175",
+      "server": "bestie1.pineappled.org",
       "server_port": 443,
-      "uuid": "0ead6ff4-4438-4aa5-8b54-db72b6ed6e7a",
+      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "swordware.ru",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pWSAxys6zqKRoHvRyE5nZZb-re7De_KQxgsYyJfsHQ0",
-          "short_id": "07b83e"
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "23"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "45.13.226.103",
-      "server_port": 7443,
-      "uuid": "5e217cdf-9a6e-4ddc-84d2-ccda9e7e16fa",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "chat.deepseek.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
-          "short_id": "d82fb387"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "185.215.187.100",
       "server_port": 443,
       "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
@@ -128,23 +107,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "auto-5.barryvpn.com",
-      "server_port": 8443,
-      "uuid": "f0b0e142-0768-458b-b481-671ed2018741",
+      "tag": "vless-03",
+      "server": "31.57.28.130",
+      "server_port": 443,
+      "uuid": "ce26f4a4-dac9-427b-8731-5297d8d9b7a6",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "5post-gate-test.x5.ru",
+        "server_name": "lv1.node.velum-vpn.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "u1QltI2SnUX48F-cqulaVojcSLadC9I1Vt8gOqnFTB4",
-          "short_id": "0123456789abcdef"
+          "public_key": "b2CHaQlTFdnxLpNBjt5FKLH3jQabK6dvh8I30xZc5nM",
+          "short_id": "22e549172f59c481"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "swed.lumixnet.com",
+      "server_port": 443,
+      "uuid": "ed1fcd42-02cd-41be-bdb0-f40c0a4786c4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "swed.lumixnet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cM7DvI5154nlTnovCUR-JZSq3jKLy5nME8rlJfdE0WU",
+          "short_id": "c2863747e0abe44e"
         }
       }
     },
