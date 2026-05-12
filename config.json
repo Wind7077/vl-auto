@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "64.188.93.13",
-      "server_port": 443,
-      "uuid": "f9d8aa07-589f-4da0-9cb0-fd8f2f0e4fa8",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU",
-          "short_id": "0123456789abcdef"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "95.164.55.147",
       "server_port": 443,
       "uuid": "70dd39f3-3453-4016-ba1a-745fe762b5fc",
@@ -85,37 +63,80 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "45.13.226.103",
-      "server_port": 7443,
-      "uuid": "5e217cdf-9a6e-4ddc-84d2-ccda9e7e16fa",
+      "tag": "vless-01",
+      "server": "bestie1.pineappled.org",
+      "server_port": 443,
+      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "chat.deepseek.com",
+        "server_name": "www.apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
-          "short_id": "d82fb387"
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "23"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fl.musicperec.ru",
+      "server_port": 443,
+      "uuid": "31216f81-3139-0021-bac4-646680314264",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "e1f8a3b6"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "185.215.187.100",
+      "server": "167.17.176.175",
+      "server_port": 443,
+      "uuid": "0ead6ff4-4438-4aa5-8b54-db72b6ed6e7a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "swordware.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pWSAxys6zqKRoHvRyE5nZZb-re7De_KQxgsYyJfsHQ0",
+          "short_id": "07b83e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "64.188.61.218",
       "server_port": 443,
       "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "dns-shop.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -123,28 +144,7 @@
         "reality": {
           "enabled": true,
           "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
-          "short_id": "8ae24275272f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "fingopota.unlimited-access.ru",
-      "server_port": 443,
-      "uuid": "2bbd7cc5-aa4b-4ec7-b12c-223fcb49e253",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "fingopota.unlimited-access.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HyWLL5SIz0ik1ziUvs049CbRwz8pADomc6x-2OeM1i4",
-          "short_id": "7f11ee6d084c91d9"
+          "short_id": "1ea50acc56cec635"
         }
       }
     },
