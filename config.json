@@ -42,105 +42,110 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "link7.moonflash.lol",
+      "server": "germ2.helper-internet.com",
       "server_port": 443,
-      "uuid": "087890ec-ecc6-4b33-8e85-358faa7e9e1f",
+      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "link7.moonflash.lol",
+        "server_name": "germ2.helper-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "t9UdUuzGk8GZBke5MJ1NYN1r2QiFX8dFBU-Bi4s3O3U",
-          "short_id": "038da411f2b3b756"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "hub2.glowbreeze.online",
+      "server": "lit5.helper-internet.com",
       "server_port": 443,
-      "uuid": "087890ec-ecc6-4b33-8e85-358faa7e9e1f",
+      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "hub2.glowbreeze.online",
+        "server_name": "lit5.helper-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "NGK7rbaQgNFEiZ2bnUG6PA2pU3yL1ye7WUhJk_qGO0U",
-          "short_id": "3fdbd681c2f9a56b"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "mesh1.moonflash.lol",
+      "server": "eston5.helper-internet.com",
       "server_port": 443,
-      "uuid": "087890ec-ecc6-4b33-8e85-358faa7e9e1f",
+      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "mesh1.moonflash.lol",
+        "server_name": "eston5.helper-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "t9UdUuzGk8GZBke5MJ1NYN1r2QiFX8dFBU-Bi4s3O3U",
-          "short_id": "038da411f2b3b756"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "api7.anytube.ru",
+      "server": "87.120.93.69",
       "server_port": 443,
-      "uuid": "087890ec-ecc6-4b33-8e85-358faa7e9e1f",
+      "uuid": "2001daf3-5c56-4bef-8ea6-8dd0493c5a4c",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api7.anytube.ru",
+        "server_name": "www.deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "CKHctUl1jF8mhECb57gzQXtTU4aOcWMCjb5-H5ctJQo",
-          "short_id": "3ccb3d3adb8ccecd"
+          "public_key": "ZHEMPjSWslk6_qD2JNQzd5enUPz8nY9mYRRuM6NkZmU",
+          "short_id": "67ccfc02"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "edge7.glowbreeze.online",
+      "server": "ee1.astrocore.cloud",
       "server_port": 443,
-      "uuid": "087890ec-ecc6-4b33-8e85-358faa7e9e1f",
+      "uuid": "ed8ba85c-fa44-4d55-8ab9-229e942db60f",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "edge7.glowbreeze.online",
+        "server_name": "ee1.astrocore.cloud",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "NGK7rbaQgNFEiZ2bnUG6PA2pU3yL1ye7WUhJk_qGO0U",
-          "short_id": "26bd83c8ced37b84"
+          "public_key": "X2Sb6CKcI_yEV4gu9KUAmL9mcL-xpC1Ngks06NYIaxw",
+          "short_id": "f129f93e"
         }
       }
     },
