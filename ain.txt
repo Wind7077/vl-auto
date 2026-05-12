@@ -1,1 +1,1 @@
-vless://99e50b35-0f8e-44a3-afe6-4385797f4737@45.12.129.221:443?pbk=GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU&sid=1ea50acc56cec635&type=tcp&flow=xtls-rprx-vision&security=reality&fp=chrome&sni=cdp.x5.ru#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%7C%20%5BBL%5D
+vless://a82fa701-6fa0-44f3-837f-aee8a13d95e1@151.101.195.6:443?type=xhttp&headerType=none&security=tls&encryption=none&sni=apps.apple.com&fp=chrome&alpn=h3&path=%2Fnocky&host=poland.alexander.com&insecure=1#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%7C%20%5BBL%5D
