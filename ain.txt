@@ -1,1 +1,1 @@
-vless://6d916d55-fead-4ff3-a3a9-83e175ea8ad7@ee18.mechvpn.online:443?flow=xtls-rprx-vision&fp=chrome&security=tls&sni=ee18.mechvpn.online&type=tcp#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+vless://ce26f4a4-dac9-427b-8731-5297d8d9b7a6@31.57.28.130:443?type=tcp&headerType=none&security=reality&encryption=none&sni=lv1.node.velum-vpn.ru&fp=randomized&pbk=b2CHaQlTFdnxLpNBjt5FKLH3jQabK6dvh8I30xZc5nM&sid=22e549172f59c481&flow=xtls-rprx-vision#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
