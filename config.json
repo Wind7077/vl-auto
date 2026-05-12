@@ -42,109 +42,106 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "lv.rush-server.com",
+      "server": "93.77.167.35",
       "server_port": 443,
-      "uuid": "51887142-8dc0-4aeb-8e81-379c8111c60c",
+      "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "anyfile2file.com",
+        "server_name": "vk.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0",
-          "short_id": "d1579a8745398e34"
+          "public_key": "pxnzbJKyXFslwW8ZUNp04hP8BnBC7vpgvKhLpdwZvUk",
+          "short_id": "1a5cdc31a8649874"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "5.129.209.230",
+      "server": "93.77.167.35",
       "server_port": 443,
-      "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
+      "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "vk.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
-          "short_id": "ca5096"
+          "public_key": "pxnzbJKyXFslwW8ZUNp04hP8BnBC7vpgvKhLpdwZvUk",
+          "short_id": "1a5cdc31a8649874"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "194.60.134.100",
+      "server": "swed.lumixnet.com",
       "server_port": 443,
-      "uuid": "46a42a48-dcdc-4f47-b26e-56df5fcd3ec0",
+      "uuid": "ed1fcd42-02cd-41be-bdb0-f40c0a4786c4",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "swed.lumixnet.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DZgrmacZ6fAlIjzpOFIHCj2Oj1nvPsUCnoDalQTJ0jg",
-          "short_id": "1f60"
+          "public_key": "cM7DvI5154nlTnovCUR-JZSq3jKLy5nME8rlJfdE0WU",
+          "short_id": "c2863747e0abe44e"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "45.12.136.81",
+      "server": "s3.cloudconsole.ru",
       "server_port": 443,
-      "uuid": "99e50b35-0f8e-44a3-afe6-4385797f4737",
+      "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "vk.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
-          "short_id": "8ae24275272f"
+          "public_key": "pxnzbJKyXFslwW8ZUNp04hP8BnBC7vpgvKhLpdwZvUk",
+          "short_id": "1a5cdc31a8649874"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "bestie1.pineappled.org",
+      "server": "s3.cloudconsole.ru",
       "server_port": 443,
-      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
+      "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "vk.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
-          "short_id": "23"
+          "public_key": "pxnzbJKyXFslwW8ZUNp04hP8BnBC7vpgvKhLpdwZvUk",
+          "short_id": "1a5cdc31a8649874"
         }
       }
     },
