@@ -63,7 +63,7 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "93.77.167.35",
+      "server": "s3.cloudconsole.ru",
       "server_port": 443,
       "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
       "packet_encoding": "xudp",
@@ -84,50 +84,49 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "swed.lumixnet.com",
+      "server": "45.15.152.167",
       "server_port": 443,
-      "uuid": "ed1fcd42-02cd-41be-bdb0-f40c0a4786c4",
+      "uuid": "180a65ce-f309-47ec-b8ee-2f7a9a8a0fe2",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "swed.lumixnet.com",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "cM7DvI5154nlTnovCUR-JZSq3jKLy5nME8rlJfdE0WU",
-          "short_id": "c2863747e0abe44e"
+          "public_key": "2lReHLDD5UCpT8FyBLPyrrIbi6MNKDBTArtCwI3NUQA",
+          "short_id": "4b1b"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "s3.cloudconsole.ru",
-      "server_port": 443,
-      "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
+      "server": "95.163.211.237",
+      "server_port": 8083,
+      "uuid": "aef9ff3f-9c4a-4c42-a0dd-e82709b4c36f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "vk.com",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pxnzbJKyXFslwW8ZUNp04hP8BnBC7vpgvKhLpdwZvUk",
-          "short_id": "1a5cdc31a8649874"
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "s3.cloudconsole.ru",
+      "server": "93.77.167.35",
       "server_port": 443,
       "uuid": "2bdf5db2-da78-4b5a-8a1f-8deb6c9b00df",
       "packet_encoding": "xudp",
