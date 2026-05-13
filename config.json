@@ -42,108 +42,110 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "46.243.233.134",
-      "server_port": 39671,
-      "uuid": "b4186875-7023-4f20-88b2-125a04943b2b",
+      "server": "158.160.218.119",
+      "server_port": 443,
+      "uuid": "3249a588-0b96-4209-9601-621c7d827cd0",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "n5P9loBH9eKY7Lj6uVi2CMh7vZcAclKWYjbSOWG0mkU",
-          "short_id": "54c7c13b52eea5f3"
+          "public_key": "u918pQoBaR_OKVik9dhLdqhTWDpyWdh84MjukzFCZio",
+          "short_id": "c71038697ba6f498"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "212.233.79.115",
-      "server_port": 52006,
-      "uuid": "3dae19c4-f3d1-4dab-9bb2-1d0121813f52",
+      "server": "84.201.132.188",
+      "server_port": 443,
+      "uuid": "0739af7f-2bf8-4d29-9cca-aff857dcae36",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "music.yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM",
-          "short_id": "08"
+          "public_key": "TBI7B2sHbG98NrozDc_uGyDaprOzktHkkG8TJibZw2U",
+          "short_id": "2a18e119"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "78.159.246.32",
-      "server_port": 39673,
-      "uuid": "b4186875-7023-4f20-88b2-125a04943b2b",
+      "server": "212.118.38.39",
+      "server_port": 443,
+      "uuid": "9ea60587-bd58-4556-8d52-307b51557fdd",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "storage.yandexcloud.net",
+        "server_name": "aliusfilms.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "n5P9loBH9eKY7Lj6uVi2CMh7vZcAclKWYjbSOWG0mkU",
-          "short_id": "54c7c13b52eea5f3"
+          "public_key": "cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg",
+          "short_id": "3f8ad1"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "158.160.38.221",
+      "server": "89.208.231.81",
       "server_port": 443,
-      "uuid": "8fef09bc-a48a-44ae-95cd-118e58ab796a",
+      "uuid": "b6ce8a51-19b9-4979-91ba-b4298c26d5fc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "ozon.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pxKqxFKiZjeTlVKv1JM7DozcbBJYp-_nK75KS1JVpSE",
-          "short_id": "1a1e145c"
+          "public_key": "mAu8QDi3pbmMCFg9kKC-ZBIHdtnXeCuZt3VnAw6vlH4",
+          "short_id": "ad7dab462a323acb"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "212.233.79.115",
-      "server_port": 52006,
-      "uuid": "3dae19c4-f3d1-4dab-9bb2-1d0121813f52",
+      "server": "31.15.16.169",
+      "server_port": 443,
+      "uuid": "c8e292bf-37c6-4f4e-b0cc-69508d10cd4f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "cloudflare.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM",
-          "short_id": "08"
+          "public_key": "udw-gSqfsNtKKEU_bM8h4V52LX4bTf5pD2I2essf1ys",
+          "short_id": "7e8b7e5f0d53d077"
         }
       }
     },
