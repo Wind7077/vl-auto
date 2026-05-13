@@ -42,29 +42,29 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "lit5.helper-internet.com",
+      "server": "82.21.114.7",
       "server_port": 443,
-      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
+      "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lit5.helper-internet.com",
+        "server_name": "de.kosmosapp.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-          "short_id": "ff776ff77be48b88"
+          "public_key": "r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI",
+          "short_id": "d0a1665d1b96515e"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "82.21.117.144",
+      "server": "82.21.117.140",
       "server_port": 443,
       "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
       "packet_encoding": "xudp",
@@ -86,28 +86,6 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "185.145.245.249",
-      "server_port": 443,
-      "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lv.kosmosapp.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI",
-          "short_id": "d0a1665d1b96515e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "fin2.helper-internet.com",
       "server_port": 443,
       "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
@@ -129,23 +107,44 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "82.21.114.7",
+      "tag": "vless-03",
+      "server": "mesh1.moonflash.lol",
       "server_port": 443,
-      "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
+      "uuid": "eae26a2b-a8a3-4367-b5f0-3d12390424e4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "mesh1.moonflash.lol",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "t9UdUuzGk8GZBke5MJ1NYN1r2QiFX8dFBU-Bi4s3O3U",
+          "short_id": "a86616f81a3bf243"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "nl4.helper-internet.com",
+      "server_port": 443,
+      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de.kosmosapp.ru",
+        "server_name": "nl4.helper-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI",
-          "short_id": "d0a1665d1b96515e"
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
         }
       }
     },
