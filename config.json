@@ -42,72 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "82.21.114.7",
-      "server_port": 443,
-      "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
+      "server": "212.233.79.115",
+      "server_port": 52006,
+      "uuid": "3dae19c4-f3d1-4dab-9bb2-1d0121813f52",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de.kosmosapp.ru",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI",
-          "short_id": "d0a1665d1b96515e"
+          "public_key": "DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM",
+          "short_id": "08"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "82.21.117.140",
-      "server_port": 443,
-      "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.kosmosapp.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI",
-          "short_id": "d0a1665d1b96515e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "fin2.helper-internet.com",
-      "server_port": 443,
-      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin2.helper-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-          "short_id": "ff776ff77be48b88"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "mesh1.moonflash.lol",
       "server_port": 443,
       "uuid": "eae26a2b-a8a3-4367-b5f0-3d12390424e4",
@@ -128,23 +84,66 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "nl4.helper-internet.com",
+      "tag": "vless-02",
+      "server": "de.kp7mx3.uk",
       "server_port": 443,
-      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
+      "uuid": "6f7ed352-71f5-451a-91b2-0ccb992bc63d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl4.helper-internet.com",
+        "server_name": "www.deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-          "short_id": "ff776ff77be48b88"
+          "public_key": "-HZml4cOqX6eiw2hUzBpDoN9bksvyAvGoehglkvvkh4",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "95.163.211.240",
+      "server_port": 8083,
+      "uuid": "70b585af-ffde-4095-8fe0-bee8805df9bf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Z84J2IelR9ch3k8VtlVhhs5ycBUlXA7wHBWcBrjqnAw",
+          "short_id": "7dbf7d3233971d5c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "93.123.84.16",
+      "server_port": 443,
+      "uuid": "ce26f4a4-dac9-427b-8731-5297d8d9b7a6",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "de1.node.velum-vpn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "iEnREcuxWZo5lnklJgtNoQSxb4uzYmPt19qxwatscCA",
+          "short_id": "f04ca115ab43a768"
         }
       }
     },
