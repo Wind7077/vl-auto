@@ -42,94 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "swed.lumixnet.com",
-      "server_port": 443,
-      "uuid": "ed1fcd42-02cd-41be-bdb0-f40c0a4786c4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "swed.lumixnet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cM7DvI5154nlTnovCUR-JZSq3jKLy5nME8rlJfdE0WU",
-          "short_id": "c2863747e0abe44e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "de2.astrocore.cloud",
-      "server_port": 443,
-      "uuid": "ed8ba85c-fa44-4d55-8ab9-229e942db60f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de2.astrocore.cloud",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "X2Sb6CKcI_yEV4gu9KUAmL9mcL-xpC1Ngks06NYIaxw",
-          "short_id": "f129f93e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "nl4.helper-internet.com",
-      "server_port": 443,
-      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl4.helper-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
-          "short_id": "ff776ff77be48b88"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "nl.astrocore.cloud",
-      "server_port": 443,
-      "uuid": "ed8ba85c-fa44-4d55-8ab9-229e942db60f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl.astrocore.cloud",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "X2Sb6CKcI_yEV4gu9KUAmL9mcL-xpC1Ngks06NYIaxw",
-          "short_id": "f129f93e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
       "server": "lit5.helper-internet.com",
       "server_port": 443,
       "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
@@ -146,6 +58,94 @@
           "enabled": true,
           "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
           "short_id": "ff776ff77be48b88"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "82.21.117.144",
+      "server_port": 443,
+      "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.kosmosapp.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI",
+          "short_id": "d0a1665d1b96515e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "185.145.245.249",
+      "server_port": 443,
+      "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lv.kosmosapp.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI",
+          "short_id": "d0a1665d1b96515e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "fin2.helper-internet.com",
+      "server_port": 443,
+      "uuid": "c1d2e359-5652-40c2-bd0b-22263af6e5f4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fin2.helper-internet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE",
+          "short_id": "ff776ff77be48b88"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "82.21.114.7",
+      "server_port": 443,
+      "uuid": "7c917504-9b62-4c48-85bb-8ae5bc925315",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.kosmosapp.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r77nilacD34SeLmghmchRKuNiUL0xzh-pK87Ux58dzI",
+          "short_id": "d0a1665d1b96515e"
         }
       }
     },
