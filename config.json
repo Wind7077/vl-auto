@@ -42,85 +42,108 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "cl-de-2.edgeflux.ru",
-      "server_port": 52006,
-      "uuid": "75807638-6f19-01f4-ae08-38492ee85c88",
+      "server": "46.243.233.134",
+      "server_port": 39671,
+      "uuid": "b4186875-7023-4f20-88b2-125a04943b2b",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cl-de-2.edgeflux.ru",
+        "server_name": "max.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n5P9loBH9eKY7Lj6uVi2CMh7vZcAclKWYjbSOWG0mkU",
+          "short_id": "54c7c13b52eea5f3"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "cl-de-2.edgeflux.ru",
+      "server": "212.233.79.115",
       "server_port": 52006,
-      "uuid": "75807638-6f19-01f4-ae08-38492ee85c88",
+      "uuid": "3dae19c4-f3d1-4dab-9bb2-1d0121813f52",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cl-de-2.edgeflux.ru",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM",
+          "short_id": "08"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "cl-de-2.edgeflux.ru",
-      "server_port": 52006,
-      "uuid": "75807638-6f19-01f4-ae08-38492ee85c88",
+      "server": "78.159.246.32",
+      "server_port": 39673,
+      "uuid": "b4186875-7023-4f20-88b2-125a04943b2b",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cl-de-2.edgeflux.ru",
+        "server_name": "storage.yandexcloud.net",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n5P9loBH9eKY7Lj6uVi2CMh7vZcAclKWYjbSOWG0mkU",
+          "short_id": "54c7c13b52eea5f3"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "cl-de-2.edgeflux.ru",
-      "server_port": 52006,
-      "uuid": "75807638-6f19-01f4-ae08-38492ee85c88",
+      "server": "158.160.38.221",
+      "server_port": 443,
+      "uuid": "8fef09bc-a48a-44ae-95cd-118e58ab796a",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cl-de-2.edgeflux.ru",
+        "server_name": "max.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "pxKqxFKiZjeTlVKv1JM7DozcbBJYp-_nK75KS1JVpSE",
+          "short_id": "1a1e145c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "cl-de-2.edgeflux.ru",
+      "server": "212.233.79.115",
       "server_port": 52006,
-      "uuid": "75807638-6f19-01f4-ae08-38492ee85c88",
+      "uuid": "3dae19c4-f3d1-4dab-9bb2-1d0121813f52",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cl-de-2.edgeflux.ru",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM",
+          "short_id": "08"
         }
       }
     },
