@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fi-hel-1.blook.network",
-      "server_port": 443,
-      "uuid": "73cd0d97-6b0e-4a9d-b938-7404355a3bc1",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fi-hel-1.blook.network",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "My4NYF1x_I4nnRhgQXjpKl6BQVtgBWklHP6a3ejmOxU",
-          "short_id": "1a66e6ad"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "germ6.api3-max.ru",
       "server_port": 443,
       "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
@@ -85,66 +63,87 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "pivo1.ikisky.com",
+      "tag": "vless-01",
+      "server": "fin.lumixnet.com",
       "server_port": 443,
-      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
+      "uuid": "b406ff54-96f2-45ce-9179-e4e00bff1cf6",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pivo1.ikisky.com",
+        "server_name": "fin.lumixnet.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
-          "short_id": "49c667cd18477438"
+          "public_key": "kmAVs3zjBhf0jPZpQqmMp1mIIcMJD6SqEtEMNoKVsFg",
+          "short_id": "00ba69ab2e6027d9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "bestie1.pineappled.org",
+      "server_port": 443,
+      "uuid": "629d2ccc-3a2a-4dd3-83d2-86b25fc8783e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ",
+          "short_id": "23"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "g6.steptofreedom.one",
-      "server_port": 443,
-      "uuid": "e9df7b68-f2d7-4726-b774-a474e91e0d69",
+      "server": "fn.skysafe.online",
+      "server_port": 8443,
+      "uuid": "0e3a9376-1bf0-4b9e-a328-f28083bf6c34",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g6.steptofreedom.one",
+        "server_name": "fn.skysafe.online",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "4iuR2mv0RnnPZbwvQuZ4L07Bois8hMUczEbMeDF0iRc",
+          "short_id": "fb38c1c83009e1"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "de-as2.connect-iskra.cv",
-      "server_port": 7443,
-      "uuid": "ba1581d2-d399-41e0-857b-82151ac0e040",
+      "server": "fn.skysafe.online",
+      "server_port": 443,
+      "uuid": "0e3a9376-1bf0-4b9e-a328-f28083bf6c34",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "fastsync.xyz",
+        "server_name": "fn.skysafe.online",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "BSmiVJfiGCUJfXw0e1vW4mItVY_wzvEiCiB7oQPHOgU",
-          "short_id": "dc0e72faf38ea571"
+          "public_key": "4iuR2mv0RnnPZbwvQuZ4L07Bois8hMUczEbMeDF0iRc",
+          "short_id": "fb38c1c83009e1"
         }
       }
     },
