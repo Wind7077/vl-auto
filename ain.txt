@@ -1,1 +1,1 @@
-vless://394f6981-a782-4779-9a85-e6cf22935d93@152.233.35.228:8443?encryption=none&security=tls&sni=de1.fromblancwithlove.com&insecure=1&allowInsecure=1&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+vless://37d3a4c5-974b-4624-9a64-6b47f5af83c1@72.56.127.52:443?type=tcp&security=reality&pbk=kBav5OwqoBdhVdOsAgWBWvA1CN5LNPFMGow9ll06WHU&fp=chrome&sni=yahoo.com&sid=48a3&spx=/#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
