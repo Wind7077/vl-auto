@@ -1,1 +1,1 @@
-vless://37d3a4c5-974b-4624-9a64-6b47f5af83c1@72.56.127.52:443?type=tcp&security=reality&pbk=kBav5OwqoBdhVdOsAgWBWvA1CN5LNPFMGow9ll06WHU&fp=chrome&sni=yahoo.com&sid=48a3&spx=/#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%7C%20%5BBL%5D
+vless://e9df7b68-f2d7-4726-b774-a474e91e0d69@g6.steptofreedom.one:443?fp=randomized&type=tcp&sni=g6.steptofreedom.one&flow=xtls-rprx-vision&sid=6d6f13013d3e1d0c&security=reality&pbk=ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
