@@ -42,6 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "pivo2.ikisky.com",
+      "server_port": 443,
+      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pivo2.ikisky.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
+          "short_id": "49c667cd18477438"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "84.201.132.188",
+      "server_port": 443,
+      "uuid": "3c29b2dd-b2e0-4e03-92fa-a707f597cd13",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "io.ozone.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TBI7B2sHbG98NrozDc_uGyDaprOzktHkkG8TJibZw2U",
+          "short_id": "a58d63750e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "lithnode.lumixnet.com",
       "server_port": 443,
       "uuid": "b406ff54-96f2-45ce-9179-e4e00bff1cf6",
@@ -63,89 +107,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "germ10.api3-max.ru",
-      "server_port": 443,
-      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "germ10.api3-max.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
-          "short_id": "49c667cd18477438"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "pl1.astrocore.cloud",
-      "server_port": 443,
-      "uuid": "b1b24586-cccf-458d-b125-d621c3710676",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl1.astrocore.cloud",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "X2Sb6CKcI_yEV4gu9KUAmL9mcL-xpC1Ngks06NYIaxw",
-          "short_id": "f129f93e"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "158.160.210.43",
+      "server": "de1.persik.host",
       "server_port": 443,
-      "uuid": "ad2727ec-7161-42d5-ac62-83f5bcf2492a",
+      "uuid": "5234854d-106b-41ee-8fc7-4acc6a1158a2",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wl-3-2.nodes.ac",
+        "server_name": "de1.persik.host",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "uk92pbvDM3dRNZqaTHUE-x06fZxubSyUA997NkB5tyk",
-          "short_id": "5a517ed4bfcd4a54"
+          "public_key": "Wussb3Mki1IqtlASsx19TawQ9P2qHZL6M8sVxps6xx4",
+          "short_id": "3f6a3ab281699a9d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "pivo2.ikisky.com",
+      "server": "84.201.132.188",
       "server_port": 443,
-      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
+      "uuid": "3c29b2dd-b2e0-4e03-92fa-a707f597cd13",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pivo2.ikisky.com",
+        "server_name": "st.vk.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
-          "short_id": "49c667cd18477438"
+          "public_key": "TBI7B2sHbG98NrozDc_uGyDaprOzktHkkG8TJibZw2U",
+          "short_id": "ec760c0443"
         }
       }
     },
