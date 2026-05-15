@@ -42,72 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "pivo2.ikisky.com",
+      "server": "158.160.231.91",
       "server_port": 443,
-      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
+      "uuid": "85b5cb2e-2617-4930-b6a4-4aeaf3b7b9aa",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pivo2.ikisky.com",
+        "server_name": "id.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
-          "short_id": "49c667cd18477438"
+          "public_key": "OCRYYq4e92sQ-wWFRX6WX9pdvuFBWOqybLhpSiv3nFA",
+          "short_id": "111111"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "84.201.132.188",
+      "server": "165.231.215.17",
       "server_port": 443,
-      "uuid": "3c29b2dd-b2e0-4e03-92fa-a707f597cd13",
+      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "io.ozone.ru",
+        "server_name": "google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TBI7B2sHbG98NrozDc_uGyDaprOzktHkkG8TJibZw2U",
-          "short_id": "a58d63750e"
+          "public_key": "EyzTSZxq5qlUT2xW0l7VP-DzIh2ucabMan9ekEv9Owo",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "lithnode.lumixnet.com",
-      "server_port": 443,
-      "uuid": "b406ff54-96f2-45ce-9179-e4e00bff1cf6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "lithnode.lumixnet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8K4cnpy__grgZ9mQG0qdUg1JUYc0bz3wwrpXO9VXVXQ",
-          "short_id": "4e7082cd83ad9df5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "de1.persik.host",
       "server_port": 443,
       "uuid": "5234854d-106b-41ee-8fc7-4acc6a1158a2",
@@ -129,23 +107,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "84.201.132.188",
+      "tag": "vless-03",
+      "server": "45.150.109.175",
       "server_port": 443,
-      "uuid": "3c29b2dd-b2e0-4e03-92fa-a707f597cd13",
+      "uuid": "3c81c716-4fd5-11f1-8a2c-525400a7149e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "st.vk.com",
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "tK34zUQC-KyBK3gIdH51TnOQx5pi7AbAoSZbRZlL8jw",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "78.159.246.191",
+      "server_port": 5443,
+      "uuid": "dcfc3b18-febc-4957-bacf-d6c854de89a8",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TBI7B2sHbG98NrozDc_uGyDaprOzktHkkG8TJibZw2U",
-          "short_id": "ec760c0443"
+          "public_key": "LGcG8Sqv5vPDypbaEgHV0ZGqQOBkgDepPWXyDohbVXQ",
+          "short_id": ""
         }
       }
     },
