@@ -1,1 +1,1 @@
-vless://f5a3bf49-07ca-0021-a96b-9606781e3600@138.124.100.237:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4&sid=4c8d1e0f&sni=www.amd.com#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+vless://b406ff54-96f2-45ce-9179-e4e00bff1cf6@lithnode.lumixnet.com:443?flow=xtls-rprx-vision&fp=chrome&type=tcp&sid=4e7082cd83ad9df5&pbk=8K4cnpy__grgZ9mQG0qdUg1JUYc0bz3wwrpXO9VXVXQ&security=reality&sni=lithnode.lumixnet.com&__rand=68fe959c#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%7C%20%5BBL%5D
