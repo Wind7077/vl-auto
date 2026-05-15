@@ -42,6 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "ee.c2horizon.app",
+      "server_port": 443,
+      "uuid": "24f6263c-a029-470d-8e54-36c6d4a01e27",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ee.c2horizon.app",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0",
+          "short_id": "122218f4c1f172e4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "germ10.api3-max.ru",
+      "server_port": 443,
+      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "germ10.api3-max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
+          "short_id": "49c667cd18477438"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "pivo3.ikisky.com",
       "server_port": 443,
       "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
@@ -63,28 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "5.188.142.169",
-      "server_port": 443,
-      "uuid": "5b2fc182-a497-000a-aeb8-1841dae99022",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Xqcp6tB5Fo56tQWqdP2JopElgM7I3UMAHVjdL6ryvRQ",
-          "short_id": "e3066feabab904ec"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
+      "tag": "vless-03",
       "server": "89.208.221.163",
       "server_port": 443,
       "uuid": "beed7aaa-a11d-4085-b327-b8f1123d8c61",
@@ -106,45 +129,23 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "89.208.221.163",
-      "server_port": 443,
-      "uuid": "beed7aaa-a11d-4085-b327-b8f1123d8c61",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "dkDy_40iCCrOTCDziuNidIgnqBFKEPK_SfPyKmPOJ2M",
-          "short_id": "dec215d635ae"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-04",
-      "server": "ee.c2horizon.app",
+      "server": "de1.persik.host",
       "server_port": 443,
-      "uuid": "24f6263c-a029-470d-8e54-36c6d4a01e27",
+      "uuid": "5234854d-106b-41ee-8fc7-4acc6a1158a2",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ee.c2horizon.app",
+        "server_name": "de1.persik.host",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "IuvAXlAWBpeXehmEk0P-FIGTctUhny2H3UilbWWfJC0",
-          "short_id": "122218f4c1f172e4"
+          "public_key": "Wussb3Mki1IqtlASsx19TawQ9P2qHZL6M8sVxps6xx4",
+          "short_id": "3f6a3ab281699a9d"
         }
       }
     },
