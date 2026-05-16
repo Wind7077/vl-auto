@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "de.skysafe.online",
-      "server_port": 8443,
-      "uuid": "0e3a9376-1bf0-4b9e-a328-f28083bf6c34",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de.skysafe.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "nMZty6MwsYsHk180yJ5PiKaHdY40bpdD9yUIycZYmCc",
-          "short_id": "ea9158334ab2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "172.86.68.161",
       "server_port": 443,
       "uuid": "3c81c716-4fd5-11f1-8a2c-525400a7149e",
@@ -85,29 +63,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "fl3-cloud.onnstreaming.ru",
-      "server_port": 443,
-      "uuid": "5fb4beab-89b7-48b4-9517-172a4221cbad",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fl3-cloud.onnstreaming.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "yHl_D4hqW8wkMkSE7zDwm9QBYxPhBjRO99Wd73kbtQE",
-          "short_id": "9b763beeb4b0f51c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-01",
       "server": "node2.boomvpn.ru",
       "server_port": 8443,
       "uuid": "30dab345-4de9-4b70-ad9f-8ebd5c66686f",
@@ -129,7 +85,29 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-02",
+      "server": "germ10.api3-max.ru",
+      "server_port": 443,
+      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "germ10.api3-max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
+          "short_id": "49c667cd18477438"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "45.150.109.175",
       "server_port": 443,
       "uuid": "3c81c716-4fd5-11f1-8a2c-525400a7149e",
@@ -146,6 +124,27 @@
           "enabled": true,
           "public_key": "tK34zUQC-KyBK3gIdH51TnOQx5pi7AbAoSZbRZlL8jw",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "server111magic.magicvpssub.ru",
+      "server_port": 8443,
+      "uuid": "99b278ca-1983-574b-8e8d-91ab3af28962",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "KQ1ZJVtNvxhyRjX_qzhrSvbmc7m82fxckOUZ1opBUHM",
+          "short_id": "58825610"
         }
       }
     },
