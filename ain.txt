@@ -1,1 +1,1 @@
-vless://3e4694ad-c0f8-4ddc-ba03-6222cbe5f988@lt.safepass.click:443?fp=chrome&mode=auto&path=%2F&pbk=ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw&security=reality&sni=www.samsung.com&type=xhttp#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%7C%20%5BBL%5D
+vless://6559ac75-107c-4706-a5ea-665ca6b61fa8@94.41.41.24:443?security=tls&type=ws&headerType=&path=%2F&host=cnd-fi.facklive.xyz&flow=&sni=cdn.tracker.yandex.net&fp=chrome&alpn=http%2F1.1&allowInsecure=1#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
