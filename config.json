@@ -64,86 +64,88 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "pivo2.ikisky.com",
-      "server_port": 443,
-      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
+      "server": "node1.boomvpn.ru",
+      "server_port": 8443,
+      "uuid": "30dab345-4de9-4b70-ad9f-8ebd5c66686f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pivo2.ikisky.com",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
-          "short_id": "49c667cd18477438"
+          "public_key": "GRxGFwibgoUjG9OL5Dl1OLyK56yw8WaG5BdFP8ifVgQ",
+          "short_id": "26f7082dd0e36ca1"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "de.ko.prod.n7.homes",
-      "server_port": 8443,
-      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
+      "server": "free-ne.moscow-neversleep.digital",
+      "server_port": 443,
+      "uuid": "24cb242c-1748-40a2-8b4f-28f829ca7963",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "free-us.moscow-neversleep.digital",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo",
-          "short_id": "3ca620a7ed5f3196"
+          "public_key": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
+          "short_id": "1ed136481e0ede74"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "pl.safepass.click",
+      "server": "de1.persik.host",
       "server_port": 443,
-      "uuid": "3e4694ad-c0f8-4ddc-ba03-6222cbe5f988",
+      "uuid": "5234854d-106b-41ee-8fc7-4acc6a1158a2",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsung.com",
+        "server_name": "de1.persik.host",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
-          "short_id": ""
+          "public_key": "Wussb3Mki1IqtlASsx19TawQ9P2qHZL6M8sVxps6xx4",
+          "short_id": "3f6a3ab281699a9d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "pl1.astrocore.cloud",
-      "server_port": 443,
-      "uuid": "b1b24586-cccf-458d-b125-d621c3710676",
+      "server": "free-de.moscow-neversleep.digital",
+      "server_port": 753,
+      "uuid": "24cb242c-1748-40a2-8b4f-28f829ca7963",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pl1.astrocore.cloud",
+        "server_name": "free-de.moscow-neversleep.digital",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "X2Sb6CKcI_yEV4gu9KUAmL9mcL-xpC1Ngks06NYIaxw",
-          "short_id": "f129f93e"
+          "public_key": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
+          "short_id": "1ed136481e0ede74"
         }
       }
     },
