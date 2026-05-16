@@ -64,7 +64,51 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "node1.boomvpn.ru",
+      "server": "172.86.68.161",
+      "server_port": 443,
+      "uuid": "3c81c716-4fd5-11f1-8a2c-525400a7149e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.kleinanzeigen.de",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "XFv4Qy1Pfx_Wj_oLqIqfVpBiykT2zr35X0mwEOME2Wg",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fl3-cloud.onnstreaming.ru",
+      "server_port": 443,
+      "uuid": "5fb4beab-89b7-48b4-9517-172a4221cbad",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fl3-cloud.onnstreaming.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "yHl_D4hqW8wkMkSE7zDwm9QBYxPhBjRO99Wd73kbtQE",
+          "short_id": "9b763beeb4b0f51c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "node2.boomvpn.ru",
       "server_port": 8443,
       "uuid": "30dab345-4de9-4b70-ad9f-8ebd5c66686f",
       "packet_encoding": "xudp",
@@ -85,67 +129,23 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "free-ne.moscow-neversleep.digital",
-      "server_port": 443,
-      "uuid": "24cb242c-1748-40a2-8b4f-28f829ca7963",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "free-us.moscow-neversleep.digital",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
-          "short_id": "1ed136481e0ede74"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "de1.persik.host",
-      "server_port": 443,
-      "uuid": "5234854d-106b-41ee-8fc7-4acc6a1158a2",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de1.persik.host",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Wussb3Mki1IqtlASsx19TawQ9P2qHZL6M8sVxps6xx4",
-          "short_id": "3f6a3ab281699a9d"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-04",
-      "server": "free-de.moscow-neversleep.digital",
-      "server_port": 753,
-      "uuid": "24cb242c-1748-40a2-8b4f-28f829ca7963",
+      "server": "45.150.109.175",
+      "server_port": 443,
+      "uuid": "3c81c716-4fd5-11f1-8a2c-525400a7149e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "free-de.moscow-neversleep.digital",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
-          "short_id": "1ed136481e0ede74"
+          "public_key": "tK34zUQC-KyBK3gIdH51TnOQx5pi7AbAoSZbRZlL8jw",
+          "short_id": ""
         }
       }
     },
