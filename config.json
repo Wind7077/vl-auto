@@ -42,108 +42,107 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "de.ko.prod.n7.homes",
-      "server_port": 8444,
-      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
+      "server": "78.159.246.239",
+      "server_port": 443,
+      "uuid": "d13aef7d-d19a-4d67-8cef-9a9e6e2a0fab",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo",
-          "short_id": ""
+          "public_key": "VEQ1aFtLMHgfLcZ2yIugry8JzVXPE5ZXz72L10RUXVs",
+          "short_id": "f4e2b8971d5c3a9f"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "germ7.api3-max.ru",
-      "server_port": 443,
-      "uuid": "b9d56e59-02ee-4af0-9963-b3650f8a1387",
+      "server": "2.58.56.131",
+      "server_port": 39800,
+      "uuid": "2815b6ce-2967-48ad-b996-6967a3f917ae",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "germ7.api3-max.ru",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hOUwTtuq2-jG7uKSgnrKIWxj3HdPYvvL7Kj3nrFTKA4",
-          "short_id": "49c667cd18477438"
+          "public_key": "bpHDYJWkA0h_nOqRBLUbuJJXfqmIZIMGcv07zcFpdCs",
+          "short_id": "dc27d60c096413b5"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "fl3-cloud.onnstreaming.ru",
+      "server": "fast.safepass.click",
       "server_port": 443,
-      "uuid": "5fb4beab-89b7-48b4-9517-172a4221cbad",
+      "uuid": "3e4694ad-c0f8-4ddc-ba03-6222cbe5f988",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fl3-cloud.onnstreaming.ru",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "yHl_D4hqW8wkMkSE7zDwm9QBYxPhBjRO99Wd73kbtQE",
-          "short_id": "9b763beeb4b0f51c"
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "de4-mwscloud.onnstreaming.ru",
+      "server": "158.160.109.57",
       "server_port": 443,
-      "uuid": "5fb4beab-89b7-48b4-9517-172a4221cbad",
+      "uuid": "85af477e-3c04-41fa-9446-922f15a97de8",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de4-mwscloud.onnstreaming.ru",
+        "server_name": "max.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0L2az4daQfRLsPZPMnDuU6VLA5yJWL3qIcOTfF3Sn2g",
-          "short_id": "70030fabf700a5d7"
+          "public_key": "66kZLshj9fxAIQA7NsABohNwgiOcY71enc6as_Frqw0",
+          "short_id": "3c1523da43287ec4"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "france.spectrum.vu",
+      "server": "lt.safepass.click",
       "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "uuid": "3e4694ad-c0f8-4ddc-ba03-6222cbe5f988",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "france.spectrum.vu",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ckd_LwbbFo8BYf9vT84B20P6EL1n6vl2yMxoXc6X4SA",
-          "short_id": "1f7b2e91a0c4"
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": ""
         }
       }
     },

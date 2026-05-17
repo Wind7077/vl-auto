@@ -1,1 +1,1 @@
-vless://5fb4beab-89b7-48b4-9517-172a4221cbad@fl3-cloud.onnstreaming.ru:443?type=tcp&security=reality&encryption=none&pbk=yHl_D4hqW8wkMkSE7zDwm9QBYxPhBjRO99Wd73kbtQE&fp=chrome&sni=fl3-cloud.onnstreaming.ru&sid=9b763beeb4b0f51c&flow=xtls-rprx-vision#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Turku%20%7C%20%5BBL%5D
+vless://3e4694ad-c0f8-4ddc-ba03-6222cbe5f988@lt.safepass.click:443?fp=chrome&mode=auto&path=%2F&pbk=ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw&security=reality&sni=www.samsung.com&type=xhttp#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%7C%20%5BBL%5D
