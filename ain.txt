@@ -1,1 +1,1 @@
-vless://5444090d-df19-4b22-942c-904666758940@5.181.20.165:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=1Bdy60YD69ATBKLLsZ6Z6a39_VX-OlxyByeg7GbfThc&sid=41d9cd02&sni=crates.io#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://3e4694ad-c0f8-4ddc-ba03-6222cbe5f988@lt.safepass.click:443?type=xhttp&security=reality&fp=chrome&pbk=ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw&sni=www.samsung.com&mode=auto#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%7C%20%5BBL%5D
