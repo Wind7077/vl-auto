@@ -1,1 +1,1 @@
-vless://5234854d-106b-41ee-8fc7-4acc6a1158a2@fi1.persik.host:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=XfPQWevD1SzZqZFH9OwgpZMtn32lXcGtHBL8HpTeazI&sid=895edc3d&sni=fi1.persik.host#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BIPv6%5D%20%7C%20%5BBL%5D
+vless://5444090d-df19-4b22-942c-904666758940@5.181.20.165:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=1Bdy60YD69ATBKLLsZ6Z6a39_VX-OlxyByeg7GbfThc&sid=41d9cd02&sni=crates.io#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
