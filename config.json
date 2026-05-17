@@ -42,8 +42,8 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "217.16.27.155",
-      "server_port": 6445,
+      "server": "217.16.27.32",
+      "server_port": 6444,
       "uuid": "4fb2d7fd-7fe1-45d7-b085-38b67f1c0556",
       "packet_encoding": "xudp",
       "tls": {
@@ -55,80 +55,14 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8",
-          "short_id": "bad5722c72a0"
+          "public_key": "jUL6sDTmnc7KRWv51yCnqJlfhw61UmNZismNg7-r-jU",
+          "short_id": "b2c3d4e5f6a7b8c9"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "de4-mwscloud.onnstreaming.ru",
-      "server_port": 443,
-      "uuid": "5fb4beab-89b7-48b4-9517-172a4221cbad",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de4-mwscloud.onnstreaming.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0L2az4daQfRLsPZPMnDuU6VLA5yJWL3qIcOTfF3Sn2g",
-          "short_id": "70030fabf700a5d7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "fl3-cloud.onnstreaming.ru",
-      "server_port": 443,
-      "uuid": "5fb4beab-89b7-48b4-9517-172a4221cbad",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fl3-cloud.onnstreaming.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "yHl_D4hqW8wkMkSE7zDwm9QBYxPhBjRO99Wd73kbtQE",
-          "short_id": "9b763beeb4b0f51c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "5.181.20.165",
-      "server_port": 443,
-      "uuid": "5444090d-df19-4b22-942c-904666758940",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "crates.io",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1Bdy60YD69ATBKLLsZ6Z6a39_VX-OlxyByeg7GbfThc",
-          "short_id": "41d9cd02"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
       "server": "217.16.27.155",
       "server_port": 6444,
       "uuid": "4fb2d7fd-7fe1-45d7-b085-38b67f1c0556",
@@ -144,6 +78,70 @@
           "enabled": true,
           "public_key": "kFiHVL1rkURP6u8UVc0v7L_9uYiEKK3YaQak51nxuXY",
           "short_id": "bad5722c72a038"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "pl-1-direct.memeplanet.org",
+      "server_port": 443,
+      "uuid": "75320b0d-a2dc-49db-837c-15240ab72582",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "71Ir8JPcGTVklyzs9oipiss22cr-2UfJwWHxMEa75XA",
+          "short_id": "41af"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "46.243.232.186",
+      "server_port": 443,
+      "uuid": "c06fc4a5-6b80-4009-8317-20d7f916acdb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OoPqWo20Aq1LsqmZCnGxcvLHun7S1d6F4Bx6PbxpOVE",
+          "short_id": "5FA44664f6a566d3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "217.16.27.155",
+      "server_port": 6445,
+      "uuid": "4fb2d7fd-7fe1-45d7-b085-38b67f1c0556",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8",
+          "short_id": "bad5722c72a0"
         }
       }
     },
