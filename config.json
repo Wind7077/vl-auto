@@ -42,21 +42,21 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "de.ko.prod.n7.homes",
-      "server_port": 8444,
-      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
+      "server": "217.16.27.155",
+      "server_port": 6445,
+      "uuid": "4fb2d7fd-7fe1-45d7-b085-38b67f1c0556",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo",
-          "short_id": "3ca620a7ed5f3196"
+          "public_key": "lU1yF2A1b0lM9DZbXWPpLfoU7_KQpXOYX0NFrPEIJy8",
+          "short_id": "bad5722c72a0"
         }
       }
     },
@@ -85,49 +85,51 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "46.243.232.186",
+      "server": "fl3-cloud.onnstreaming.ru",
       "server_port": 443,
-      "uuid": "c06fc4a5-6b80-4009-8317-20d7f916acdb",
+      "uuid": "5fb4beab-89b7-48b4-9517-172a4221cbad",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "fl3-cloud.onnstreaming.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "OoPqWo20Aq1LsqmZCnGxcvLHun7S1d6F4Bx6PbxpOVE",
-          "short_id": "5FA44664f6a566d3"
+          "public_key": "yHl_D4hqW8wkMkSE7zDwm9QBYxPhBjRO99Wd73kbtQE",
+          "short_id": "9b763beeb4b0f51c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "45.66.162.11",
-      "server_port": 8443,
-      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "server": "5.181.20.165",
+      "server_port": 443,
+      "uuid": "5444090d-df19-4b22-942c-904666758940",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.cloudflare.com",
+        "server_name": "crates.io",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "T_lUXR8Es1WH_N83UNL6r0n29_auf3HALtlUnHQLaXc",
-          "short_id": "9ba7d54c"
+          "public_key": "1Bdy60YD69ATBKLLsZ6Z6a39_VX-OlxyByeg7GbfThc",
+          "short_id": "41d9cd02"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "84.201.170.45",
+      "server": "217.16.27.155",
       "server_port": 6444,
       "uuid": "4fb2d7fd-7fe1-45d7-b085-38b67f1c0556",
       "packet_encoding": "xudp",
