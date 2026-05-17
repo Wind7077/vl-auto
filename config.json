@@ -42,49 +42,93 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "de.ko.prod.n7.homes",
-      "server_port": 8444,
-      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "urpvachvev.spectrumproxy.shop",
+      "server": "51.250.39.162",
       "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "uuid": "4996ba5b-470c-485e-8ab3-7d47551212bd",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "a7b3c9d2e4f.spectrumproxy.shop",
+        "server_name": "wl-6-1.legendary.ac",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zpxbyw3Y0c--G-zox99d_W0cFCDOUoL50bK70DCY_x8",
-          "short_id": "1e7f9a1b3c5d"
+          "public_key": "uofZM1SG_RthhSONWy50U6cQ5m3kXy-sglwY0CANfi8",
+          "short_id": "468d8ab371f8f563"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "130.193.56.208",
+      "server_port": 443,
+      "uuid": "4996ba5b-470c-485e-8ab3-7d47551212bd",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-11-2.nodes.ac",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "UfrA4c5fjRVKJTtAiDOd9lEdmkgfZBSTm9bSMzC4zCg",
+          "short_id": "c792be29a38dbefe"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
+      "server": "45.66.162.11",
+      "server_port": 8443,
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "T_lUXR8Es1WH_N83UNL6r0n29_auf3HALtlUnHQLaXc",
+          "short_id": "9ba7d54c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "158.160.106.23",
+      "server_port": 443,
+      "uuid": "4996ba5b-470c-485e-8ab3-7d47551212bd",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "wl-3-1.legendary-vpn.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "-5N6BJPDvTQm7vVOFpNnoJrZDaOsPccu6SeZGPGKEkI",
+          "short_id": "3626b118a6e54d7b"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
       "server": "84.201.169.50",
       "server_port": 443,
       "uuid": "fd365b7e-26eb-479a-a009-e182d827de04",
@@ -101,48 +145,6 @@
           "enabled": true,
           "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
           "short_id": "c31f9a0e7d4b52"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "de.ko.prod.n7.homes",
-      "server_port": 8443,
-      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo",
-          "short_id": "3ca620a7ed5f3196"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "45.66.162.11",
-      "server_port": 8443,
-      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "T_lUXR8Es1WH_N83UNL6r0n29_auf3HALtlUnHQLaXc",
-          "short_id": "9ba7d54c"
         }
       }
     },
