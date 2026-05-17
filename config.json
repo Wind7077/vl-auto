@@ -42,71 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "89.208.221.163",
+      "server": "84.201.169.50",
       "server_port": 443,
-      "uuid": "fa8043da-575a-4a58-b3f2-1ec8038aa3f0",
+      "uuid": "fd365b7e-26eb-479a-a009-e182d827de04",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "dkDy_40iCCrOTCDziuNidIgnqBFKEPK_SfPyKmPOJ2M",
-          "short_id": "ff265b47466b31"
+          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
+          "short_id": "c31f9a0e7d4b52"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "51.250.47.27",
+      "server": "158.160.106.23",
       "server_port": 443,
-      "uuid": "6831fca6-72d9-4b80-b6e6-57e64b758b3f",
+      "uuid": "d8d92d34-3642-4a3e-ba1f-b5223bf6a7a0",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "megafon.ru",
+        "server_name": "wl-3-1.legendary-vpn.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0vlyczKGGAZbev0skD7sP12VVsomgtYfNXyUMiZNOWo",
-          "short_id": "8ce38474521bce1a"
+          "public_key": "-5N6BJPDvTQm7vVOFpNnoJrZDaOsPccu6SeZGPGKEkI",
+          "short_id": "3626b118a6e54d7b"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "51.250.118.43",
-      "server_port": 443,
-      "uuid": "e7fa40f1-0807-43b8-b31a-acf5dff0a8f2",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zm81wXn-Hgc5FzK-PN1JOyC4jeyxvo7cKKetXVWicjM",
-          "short_id": "fae7a967fe24"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "2.58.56.131",
       "server_port": 39800,
       "uuid": "2815b6ce-2967-48ad-b996-6967a3f917ae",
@@ -127,23 +106,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "51.250.118.43",
+      "tag": "vless-03",
+      "server": "178.154.208.143",
       "server_port": 443,
-      "uuid": "e7fa40f1-0807-43b8-b31a-acf5dff0a8f2",
+      "uuid": "5f5114c6-ad1f-4e4a-baad-aacb4634f275",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "event.yandex.ru",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zm81wXn-Hgc5FzK-PN1JOyC4jeyxvo7cKKetXVWicjM",
-          "short_id": "0dab35e1"
+          "public_key": "su8tIyeRdTZZHPvZn1AjBZPCv0_FsI7msHP_s8x4Oj0",
+          "short_id": "c3be66103c6cba50"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "158.160.215.56",
+      "server_port": 443,
+      "uuid": "5f5114c6-ad1f-4e4a-baad-aacb4634f275",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_IQWmaU9lcBkuzTNPN3Mvdwu1FkvJy6tSavzVnd7N0o",
+          "short_id": "832d0444ad39bedf"
         }
       }
     },
