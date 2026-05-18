@@ -34,29 +34,30 @@
         "vless-00",
         "vless-01",
         "vless-02",
-        "vless-03"
+        "vless-03",
+        "vless-04"
       ],
       "default": "warp-out"
     },
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "api-maps.xwhiteness.top",
-      "server_port": 443,
-      "uuid": "a2b2a4fb-7b34-472b-b4c0-e206fef1edfc",
+      "server": "90.156.218.105",
+      "server_port": 910,
+      "uuid": "dc012b63-b466-4360-b06c-67d9b27c5410",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.xwhiteness.top",
+        "server_name": "rutube.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "JJFio7WT6anKV5WIkUNkXdzC_wzb0Ih3OWsRJ1HwKAI",
-          "short_id": ""
+          "public_key": "dSX3CIrk2aNtPfJA8vczRFPWiV_OZWyQXxfLaOfGOBc",
+          "short_id": "fd7d43c72d53f688"
         }
       }
     },
@@ -84,44 +85,66 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "deepl.xwhiteness.site",
-      "server_port": 443,
-      "uuid": "a2b2a4fb-7b34-472b-b4c0-e206fef1edfc",
+      "server": "90.156.218.105",
+      "server_port": 920,
+      "uuid": "dc012b63-b466-4360-b06c-67d9b27c5410",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "deepl.com",
+        "server_name": "5post-gate.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "K5Ieju2pjOSjg0xU6xIUbFpzGUJutArqNEzEaPB0ySQ",
-          "short_id": ""
+          "public_key": "dSX3CIrk2aNtPfJA8vczRFPWiV_OZWyQXxfLaOfGOBc",
+          "short_id": "fd7d43c72d53f688"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "login.xwhiteness.site",
-      "server_port": 443,
-      "uuid": "a2b2a4fb-7b34-472b-b4c0-e206fef1edfc",
+      "server": "95.163.183.11",
+      "server_port": 2087,
+      "uuid": "b1e4bfe2-2b12-11f1-92cb-12ba70109d32",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "login.xwhiteness.site",
+        "server_name": "vk.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_4UuX1REaRypO-PGfiKkq6ZHd-qaMKySdsDpzie7FRk",
-          "short_id": ""
+          "public_key": "OMQ1V_lJL1tgssEepG7BkCjBdt6sleZivAHiBPALlGc",
+          "short_id": "ce59797defddc5e7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "90.156.218.105",
+      "server_port": 222,
+      "uuid": "dc012b63-b466-4360-b06c-67d9b27c5410",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "dSX3CIrk2aNtPfJA8vczRFPWiV_OZWyQXxfLaOfGOBc",
+          "short_id": "fd7d43c72d53f688"
         }
       }
     },
