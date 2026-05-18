@@ -42,20 +42,21 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "lt.safepass.click",
+      "server": "de.auto.duckfree.online",
       "server_port": 443,
-      "uuid": "3e4694ad-c0f8-4ddc-ba03-6222cbe5f988",
+      "uuid": "9d444061-93fc-4b85-bc12-5b5bdbe08048",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsung.com",
+        "server_name": "sun1-16.userapi.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "public_key": "wY_MYPJUx849su3BlowuxnwnUaj25iLfRw2LooQfPAY",
           "short_id": ""
         }
       }
@@ -63,88 +64,88 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "bez2.stream-room.com",
-      "server_port": 8443,
-      "uuid": "79d6a159-67c8-4164-9534-89f103c81aaf",
+      "server": "p12.hdlowstream.com",
+      "server_port": 443,
+      "uuid": "1a17fbd6-a54f-456c-8e71-5282893e2b69",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "bez2.stream-room.com",
+        "server_name": "p12.hdlowstream.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
-          "short_id": "4326"
+          "public_key": "mTuT_isp316_u36EzJ2uqBdcj6VCD8LSq39mTO2vrzM",
+          "short_id": "93ed7d916252d203"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "87.120.126.23",
-      "server_port": 443,
-      "uuid": "5fb4beab-89b7-48b4-9517-172a4221cbad",
+      "server": "server111magic.magicvpssub.ru",
+      "server_port": 2053,
+      "uuid": "1ffcbf75-37ac-5ebd-8446-6495a772974f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de4-mwscloud.onnstreaming.ru",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0L2az4daQfRLsPZPMnDuU6VLA5yJWL3qIcOTfF3Sn2g",
-          "short_id": "70030fabf700a5d7"
+          "public_key": "QclpUQRXx1KYQaxXDgdQzIMn3dzuUdBdpkIP2qCpaVY",
+          "short_id": "807be55da31b2e9c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "144.31.82.47",
-      "server_port": 18038,
-      "uuid": "86292625-69b1-4701-b00d-eae6e7f9b998",
+      "server": "84.201.152.75",
+      "server_port": 443,
+      "uuid": "c097e336-8e1c-4a44-8d01-5ae294954cff",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "wl-5-5.nodes.ac",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8",
-          "short_id": "ce9f790791426d83"
+          "public_key": "BvBjeLm9nWiJn8JGxHO2cLVZ6gGtdxymb0AndLXIRzU",
+          "short_id": "74364cbaa37b403e"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "fi1.persik.host",
+      "server": "84.201.147.39",
       "server_port": 443,
-      "uuid": "5234854d-106b-41ee-8fc7-4acc6a1158a2",
+      "uuid": "c097e336-8e1c-4a44-8d01-5ae294954cff",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fi1.persik.host",
+        "server_name": "wl-5-2.nodes.ac",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "XfPQWevD1SzZqZFH9OwgpZMtn32lXcGtHBL8HpTeazI",
-          "short_id": "895edc3d"
+          "public_key": "e0Mb11d4CAtw89qrvJ59Lu0rfplLy6xLh2tbsKoN2UM",
+          "short_id": "7c05417ed86af034"
         }
       }
     },
