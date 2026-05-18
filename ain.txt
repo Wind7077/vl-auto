@@ -1,1 +1,1 @@
-vless://3e4694ad-c0f8-4ddc-ba03-6222cbe5f988@lt.safepass.click:443?type=xhttp&security=reality&fp=chrome&pbk=ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw&sni=www.samsung.com&mode=auto#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%7C%20%5BBL%5D
+vless://dc6dcd8e-c28b-47da-a5ec-26cd7f3b3835@138.124.182.202:2443?type=tcp&encryption=none&security=reality&pbk=UWHMXbFoFMGjxO2B2r5mWchgsuVVPZnorUsp6fTFkjk&fp=chrome&sni=www.amd.com&sid=8a6b4b4a04&spx=%2F&flow=xtls-rprx-vision#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
