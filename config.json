@@ -42,71 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "138.124.182.202",
-      "server_port": 3443,
-      "uuid": "8d64f8b9-8665-4e25-9497-44f065dc77a3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.sony.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1xLKEEWpRdZgdf4SVwmm3VT4k94R-wdAVGXhzDGXc1Q",
-          "short_id": "c5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "45.134.15.103",
-      "server_port": 2053,
-      "uuid": "7e5f3794-b417-4107-9b5f-91c5a69e850f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FmtVYIw9yUE9KI49FH4c01AzRWqh4VNfCvaSXY8rtFA",
-          "short_id": "a1b2c3d4e5f6a7b8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "138.124.182.202",
-      "server_port": 2443,
-      "uuid": "dc6dcd8e-c28b-47da-a5ec-26cd7f3b3835",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "UWHMXbFoFMGjxO2B2r5mWchgsuVVPZnorUsp6fTFkjk",
-          "short_id": "8a6b4b4a04"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "lt.safepass.click",
       "server_port": 443,
       "uuid": "3e4694ad-c0f8-4ddc-ba03-6222cbe5f988",
@@ -127,7 +62,28 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-01",
+      "server": "46.243.232.174",
+      "server_port": 443,
+      "uuid": "b4186875-7023-4f20-88b2-125a04943b2b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n5P9loBH9eKY7Lj6uVi2CMh7vZcAclKWYjbSOWG0mkU",
+          "short_id": "54c7c13b52eea5f3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "95.143.111.137",
       "server_port": 2053,
       "uuid": "7e5f3794-b417-4107-9b5f-91c5a69e850f",
@@ -144,6 +100,50 @@
           "enabled": true,
           "public_key": "FmtVYIw9yUE9KI49FH4c01AzRWqh4VNfCvaSXY8rtFA",
           "short_id": "a1b2c3d4e5f6a7b8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "84.201.129.56",
+      "server_port": 443,
+      "uuid": "f1ce4c8f-a840-4aa7-8b8e-37cd16761ddd",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "uYdYVZk9icFIvfd8eKHYHiULohrTdIHl2J8ktn7uTUU",
+          "short_id": "9db07670a7b491cb"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "de6.safepass.click",
+      "server_port": 443,
+      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": ""
         }
       }
     },
