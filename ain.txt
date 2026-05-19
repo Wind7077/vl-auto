@@ -1,1 +1,1 @@
-vless://8d64f8b9-8665-4e25-9497-44f065dc77a3@138.124.182.202:3443?type=grpc&encryption=none&serviceName=&authority=&security=reality&pbk=1xLKEEWpRdZgdf4SVwmm3VT4k94R-wdAVGXhzDGXc1Q&fp=chrome&sni=www.sony.com&sid=c5&spx=%2F#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
+vless://41d1527e-526b-436c-a84c-d70dc91f0648@d.lv-cdn.ru:443?type=tcp&security=reality&flow=xtls-rprx-vision&fp=edge&pbk=fHNZm9NrW_3Bp9xzCZhhoPuL4DFLqfaPu-uBhPE6dW4&sid=7a3f9e2b1c8d4f6a&sni=d.lv-cdn.ru&spx=/#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
