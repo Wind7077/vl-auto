@@ -42,31 +42,31 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "78.159.250.11",
-      "server_port": 443,
-      "uuid": "cbb3f4a6-dc29-4378-9000-0d94c45f2110",
+      "server": "84.201.174.10",
+      "server_port": 51192,
+      "uuid": "7b921ecd-fc42-4110-b7bf-20f1bd2649b7",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "x5.ru",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "VEQ1aFtLMHgfLcZ2yIugry8JzVXPE5ZXz72L10RUXVs",
-          "short_id": "f4e2b8971d5c3a9f"
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "b3bd6f5b168c4d61"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "158.160.246.28",
-      "server_port": 8443,
-      "uuid": "9a3e3ee0-08f1-4c87-8e8b-bb3c650ee1f1",
+      "server": "84.201.174.10",
+      "server_port": 51190,
+      "uuid": "7b921ecd-fc42-4110-b7bf-20f1bd2649b7",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -74,42 +74,20 @@
         "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PSSON1yktUjcmg5bELmgoWr32y1VVlVXRyRV-opvhQk",
-          "short_id": ""
+          "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+          "short_id": "b3bd6f5b168c4d61"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "84.201.169.50",
-      "server_port": 443,
-      "uuid": "fd365b7e-26eb-479a-a009-e182d827de04",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ads.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "oqRus6Z_Q1jqJaTEPu7ENbRL0-XKOw54K0jwCCGLtEk",
-          "short_id": "c31f9a0e7d4b52"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "84.201.174.10",
-      "server_port": 443,
+      "server": "84.201.152.16",
+      "server_port": 8443,
       "uuid": "7b921ecd-fc42-4110-b7bf-20f1bd2649b7",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
@@ -129,23 +107,44 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "swe-8t.freeonline.pro",
+      "tag": "vless-03",
+      "server": "sw.musicperec.ru",
       "server_port": 443,
-      "uuid": "8546145579",
+      "uuid": "31216f81-3139-0021-bac4-646680314264",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8",
-          "short_id": "bdac121c7debdaba"
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "6a2b5c9d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "158.160.2.84",
+      "server_port": 443,
+      "uuid": "b4186875-7023-4f20-88b2-125a04943b2b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n5P9loBH9eKY7Lj6uVi2CMh7vZcAclKWYjbSOWG0mkU",
+          "short_id": "54c7c13b52eea5f3"
         }
       }
     },
