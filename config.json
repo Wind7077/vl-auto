@@ -43,6 +43,49 @@
       "type": "vless",
       "tag": "vless-00",
       "server": "138.124.182.202",
+      "server_port": 3443,
+      "uuid": "8d64f8b9-8665-4e25-9497-44f065dc77a3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.sony.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1xLKEEWpRdZgdf4SVwmm3VT4k94R-wdAVGXhzDGXc1Q",
+          "short_id": "c5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "45.134.15.103",
+      "server_port": 2053,
+      "uuid": "7e5f3794-b417-4107-9b5f-91c5a69e850f",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FmtVYIw9yUE9KI49FH4c01AzRWqh4VNfCvaSXY8rtFA",
+          "short_id": "a1b2c3d4e5f6a7b8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "138.124.182.202",
       "server_port": 2443,
       "uuid": "dc6dcd8e-c28b-47da-a5ec-26cd7f3b3835",
       "packet_encoding": "xudp",
@@ -63,78 +106,11 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "api-maps.xwhiteness.top",
-      "server_port": 443,
-      "uuid": "a2b2a4fb-7b34-472b-b4c0-e206fef1edfc",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "api-maps.xwhiteness.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JJFio7WT6anKV5WIkUNkXdzC_wzb0Ih3OWsRJ1HwKAI",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "d.lv-cdn.ru",
-      "server_port": 443,
-      "uuid": "41d1527e-526b-436c-a84c-d70dc91f0648",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "d.lv-cdn.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "edge"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fHNZm9NrW_3Bp9xzCZhhoPuL4DFLqfaPu-uBhPE6dW4",
-          "short_id": "7a3f9e2b1c8d4f6a"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "gm.velajio.com",
+      "server": "lt.safepass.click",
       "server_port": 443,
-      "uuid": "207b433a-49fd-4704-b271-4d17385132d6",
+      "uuid": "3e4694ad-c0f8-4ddc-ba03-6222cbe5f988",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gm.velajio.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "bQPboza6zV_w8hIJsaF-TE79il0ebZe4p57ddBxV034",
-          "short_id": "0e2345467d451262"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "de6.safepass.click",
-      "server_port": 443,
-      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.samsung.com",
@@ -146,6 +122,28 @@
           "enabled": true,
           "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "95.143.111.137",
+      "server_port": 2053,
+      "uuid": "7e5f3794-b417-4107-9b5f-91c5a69e850f",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FmtVYIw9yUE9KI49FH4c01AzRWqh4VNfCvaSXY8rtFA",
+          "short_id": "a1b2c3d4e5f6a7b8"
         }
       }
     },
