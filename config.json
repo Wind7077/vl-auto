@@ -42,71 +42,49 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "144.31.82.47",
-      "server_port": 18038,
-      "uuid": "a42c8b66-d0a7-4b49-9143-b98f1c84edba",
+      "server": "nl5.safepass.click",
+      "server_port": 443,
+      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "UDLhjunZjP-5A6KBMeuWe3qp_FusLAshcQIcCF7EZh8",
-          "short_id": "ce9f790791426d83"
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": "965af8960474c29c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "swe-8t.freeonline.pro",
+      "server": "dewarp.xtrustnet.sbs",
       "server_port": 443,
-      "uuid": "8546145579",
+      "uuid": "f42c93f3-755b-4e12-a856-e7c6878b34ab",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "dewarp.xtrustnet.sbs",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "978-Yxgtd3AWTVfiXEQqCstdwrT1qgsgleGPIRGQDl8",
-          "short_id": "bdac121c7debdaba"
+          "public_key": "tuGJhuVxql1GIn7qT6prOWIXgJXXPdmN7ROKWnXarUg",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "78.17.39.96",
-      "server_port": 443,
-      "uuid": "e502ee54-8e2a-41c6-a3ca-3d192e8710fb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "adminvps.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "PdpC_vd6QYOgFb-p-1X5LcwvkW4Go8HlVyyzX_uVL0I",
-          "short_id": "ae99cc80bf3da3de"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "bc-fr-th.ray-balance.space",
       "server_port": 10443,
       "uuid": "f6431ff1-dec0-4a6c-be4a-ce917913b589",
@@ -128,23 +106,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "dewarp.xtrustnet.sbs",
+      "tag": "vless-03",
+      "server": "uk.trustnetx.sbs",
       "server_port": 443,
       "uuid": "f42c93f3-755b-4e12-a856-e7c6878b34ab",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dewarp.xtrustnet.sbs",
+        "server_name": "uk.trustnetx.sbs",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "tuGJhuVxql1GIn7qT6prOWIXgJXXPdmN7ROKWnXarUg",
+          "public_key": "IrOlFz6SHVhDK7dtzw46_HZaqzxYw8yAUHC6uIeCAEs",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "95.85.233.234",
+      "server_port": 8443,
+      "uuid": "f8eaf16d-14ac-4c8d-990b-8e49f9b1fc2c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fastsync.xyz",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "eHgRhHYifD2njbtjzgMsNPGnvbpAK8SSXC5-wFuQnQ4",
+          "short_id": "65b5280b52e0532c"
         }
       }
     },
