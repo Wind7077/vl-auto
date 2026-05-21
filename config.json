@@ -42,73 +42,9 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "l1-2.l-itx.info",
-      "server_port": 7443,
-      "uuid": "7ad4c072-db9e-4e79-a5e1-5ec2c00ee524",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "colorlib.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "l4.l-itx.info",
-      "server_port": 7443,
-      "uuid": "7ad4c072-db9e-4e79-a5e1-5ec2c00ee524",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "colorlib.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "f1.steptofreedom.one",
-      "server_port": 443,
-      "uuid": "b669d36c-f6f2-4248-90d0-9f47acaa5df2",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "f1.steptofreedom.one",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "158.160.255.35",
       "server_port": 443,
-      "uuid": "24f1a3ef-8200-4777-be49-27e8d4fa1f21",
+      "uuid": "985b6057-eaef-43dc-bdc9-9aee731b54f1",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -127,23 +63,89 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "51.250.17.121",
-      "server_port": 443,
-      "uuid": "ab6814fe-0999-4db2-950b-ad4e3d52bee7",
+      "tag": "vless-01",
+      "server": "serv-ne-4.whit3.net",
+      "server_port": 10444,
+      "uuid": "49f3fec2-1a21-481e-ae65-7c32ae262582",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "serv-ne-4.whit3.net",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "FVsbzZH7QHlo19NpEBG83yyumg1m0c4edwyutxRQtkA",
-          "short_id": "5550cf255197247d"
+          "public_key": "praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4",
+          "short_id": "378086fbdb7c61cd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "51.250.4.2",
+      "server_port": 443,
+      "uuid": "da888eb1-6efd-492d-a569-0435a5c22734",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "api-maps.yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI",
+          "short_id": "226509f017e4c36d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "158.101.195.118",
+      "server_port": 443,
+      "uuid": "ab6bd513-233a-4bd7-bdfc-d0afcef4030b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tv.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "BU86Bh8IfiMcQllCNU2sFi4z1GfpPOaTxCepPpNmgC4",
+          "short_id": "710e95ee"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "f1.steptofreedom.one",
+      "server_port": 443,
+      "uuid": "b669d36c-f6f2-4248-90d0-9f47acaa5df2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "f1.steptofreedom.one",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
