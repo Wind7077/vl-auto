@@ -42,50 +42,72 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "de.oneok.name",
-      "server_port": 7443,
-      "uuid": "030f6019-b8ce-4de8-911f-35b0ee11c33c",
+      "server": "de.nodes.rocketnetwork.ru",
+      "server_port": 443,
+      "uuid": "49a74c22-64e6-4799-aeb7-ae6f51bc1ddf",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "chat.deepseek.com",
+        "server_name": "de.nodes.rocketnetwork.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
-          "short_id": "be0ce047"
+          "public_key": "Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs",
+          "short_id": "428ef87fd47a3a32"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "vltch.mostserv.xyz",
+      "server": "ger06.myxasecure.space",
       "server_port": 443,
-      "uuid": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
+      "uuid": "5381a1bb-479a-412a-9d99-08ccbc008828",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "vltch.mostserv.xyz",
+        "server_name": "ger06.myxasecure.space",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI",
-          "short_id": "226509f017e4c36d"
+          "public_key": "OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw",
+          "short_id": "d67ec5a8fc40ebea"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
+      "server": "pl01.myxasecure.space",
+      "server_port": 443,
+      "uuid": "5381a1bb-479a-412a-9d99-08ccbc008828",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl01.myxasecure.space",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw",
+          "short_id": "d67ec5a8fc40ebea"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "vltch.mostserv.xyz",
       "server_port": 443,
       "uuid": "37253a6a-2a9b-42bb-992c-b5f1b1ef1791",
@@ -107,45 +129,23 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "f1.steptofreedom.one",
-      "server_port": 443,
-      "uuid": "b669d36c-f6f2-4248-90d0-9f47acaa5df2",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "f1.steptofreedom.one",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-04",
-      "server": "51.250.4.2",
+      "server": "fl02.myxasecure.space",
       "server_port": 443,
-      "uuid": "a9b4a227-b165-4b1c-908b-63a96f44504e",
+      "uuid": "5381a1bb-479a-412a-9d99-08ccbc008828",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
+        "server_name": "fl02.myxasecure.space",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI",
-          "short_id": "226509f017e4c36d"
+          "public_key": "OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw",
+          "short_id": "d67ec5a8fc40ebea"
         }
       }
     },
