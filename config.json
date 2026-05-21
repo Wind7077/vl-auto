@@ -42,110 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "130.193.41.117",
-      "server_port": 8443,
-      "uuid": "7b6b51fc-3a04-4b76-9f43-f818488e54e8",
+      "server": "158.160.57.73",
+      "server_port": 443,
+      "uuid": "06f15aec-71df-4ebf-b16f-c15143a55146",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg",
-          "short_id": "8ba12e75110b7a9c"
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "158.160.130.173",
+      "server": "144.31.166.79",
       "server_port": 443,
-      "uuid": "3d3a18db-baa3-4143-a72a-b3ae035c94b1",
+      "uuid": "9a3e3ee0-08f1-4c87-8e8b-bb3c650ee1f1",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "public_key": "7m0DQocBpPduly9i4RMJQQQN8RI2tr2Z4tQURWMozyo",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "158.160.124.151",
-      "server_port": 5443,
-      "uuid": "39afa20d-5e7b-4f45-9d10-768c89cbe97b",
+      "server": "de5.safepass.click",
+      "server_port": 443,
+      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "JzkvJatMiVUi4p8lbtcrTvLMKDb4f-ellCO8ethiozE",
-          "short_id": "baa2f130ca790592"
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "84.201.144.113",
-      "server_port": 443,
-      "uuid": "3d3a18db-baa3-4143-a72a-b3ae035c94b1",
+      "server": "185.70.186.72",
+      "server_port": 8443,
+      "uuid": "02ca6335-4c91-412c-956f-f7f9e5630b6c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "public_key": "HCAPfG0TaMTlGVAWQH1uUBeGnZQROm-5Tq2uCFU07xk",
+          "short_id": "28569c51ba75eb"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "84.201.168.220",
+      "server": "158.160.255.35",
       "server_port": 443,
-      "uuid": "3d3a18db-baa3-4143-a72a-b3ae035c94b1",
+      "uuid": "2b7a92c5-dc41-4121-8303-fa26ba172cee",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "public_key": "EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI",
+          "short_id": "226509f017e4c36d"
         }
       }
     },
