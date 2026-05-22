@@ -42,29 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "31.59.106.148",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
+      "server": "2.26.112.88",
+      "server_port": 42810,
+      "uuid": "42416da7-4071-326e-b755-be938209c21d",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "github.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
+          "public_key": "boopNaTpXu9k0fWmtact7rrsCRXxQOfJKz8kv0bHcjM",
+          "short_id": "c7b99c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "31.59.106.44",
+      "server": "31.59.106.81",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
@@ -86,7 +85,7 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "31.59.106.127",
+      "server": "31.59.106.148",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
@@ -108,7 +107,7 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "31.59.106.45",
+      "server": "31.59.106.44",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
@@ -130,22 +129,21 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "fl02.myxasecure.space",
-      "server_port": 443,
-      "uuid": "5381a1bb-479a-412a-9d99-08ccbc008828",
+      "server": "de.clickvpn.work",
+      "server_port": 13802,
+      "uuid": "ca26bcdf-7c38-48af-9f1f-80a9eba9060d",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fl02.myxasecure.space",
+        "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw",
-          "short_id": "d67ec5a8fc40ebea"
+          "public_key": "DcyacSHMtzb4tc0wH3FAjDgBr6rK4uHQ39940It2VF8",
+          "short_id": "4b60af73c2"
         }
       }
     },
