@@ -63,51 +63,50 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "31.59.106.81",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
+      "server": "de.oneok.name",
+      "server_port": 7443,
+      "uuid": "030f6019-b8ce-4de8-911f-35b0ee11c33c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "chat.deepseek.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
+          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
+          "short_id": "be0ce047"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "31.59.106.148",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
+      "server": "2.26.112.88",
+      "server_port": 42810,
+      "uuid": "42416da7-4071-326e-b755-be938209c21d",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "github.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
+          "public_key": "boopNaTpXu9k0fWmtact7rrsCRXxQOfJKz8kv0bHcjM",
+          "short_id": "c7b99c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "31.59.106.44",
+      "server": "31.59.106.151",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
@@ -129,21 +128,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "de.clickvpn.work",
-      "server_port": 13802,
-      "uuid": "ca26bcdf-7c38-48af-9f1f-80a9eba9060d",
+      "server": "185.196.117.80",
+      "server_port": 443,
+      "uuid": "f815b837-8504-41f9-9a06-bd3c72d2fcf3",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.intel.com",
+        "server_name": "wikihow.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DcyacSHMtzb4tc0wH3FAjDgBr6rK4uHQ39940It2VF8",
-          "short_id": "4b60af73c2"
+          "public_key": "xPBjNlvh2eWhpl8rpTP0ACqy7OqiGXY24WM6WQ-q2Sc",
+          "short_id": "8bd29483ded126b4"
         }
       }
     },
