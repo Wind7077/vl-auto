@@ -42,7 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "31.59.106.81",
+      "server": "31.59.106.44",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
@@ -64,49 +64,6 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "31.59.106.45",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "l7-1.l-itx.info",
-      "server_port": 7443,
-      "uuid": "7ad4c072-db9e-4e79-a5e1-5ec2c00ee524",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "colorlib.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": "6ba85179e30d4fc3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "fl02.myxasecure.space",
       "server_port": 443,
       "uuid": "5381a1bb-479a-412a-9d99-08ccbc008828",
@@ -128,8 +85,8 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "31.59.106.68",
+      "tag": "vless-02",
+      "server": "31.59.106.148",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
@@ -145,6 +102,50 @@
           "enabled": true,
           "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
           "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "31.59.106.45",
+      "server_port": 8443,
+      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "fl.locklance.lol",
+      "server_port": 443,
+      "uuid": "be0e7d89-9c35-4950-a460-d3bf5aae5f91",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fl.locklance.lol",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_ftr7AiRUt0qvp9EiM4k83zzApIm430inagF_R2--CE",
+          "short_id": "a74c10074f1816d5"
         }
       }
     },
