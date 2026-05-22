@@ -1,4 +1,4 @@
-# updated: 2026-05-21 23:58:01.365325+00:00
+# updated: 2026-05-22 03:57:01.649438+00:00
 vless://6c364976-715e-4454-a2e4-0ff6db9c522d@fl-4-direct.djarbnet.ru:443?&security=tls&fp=chrome&sni=fl-4-direct.djarbnet.ru&type=ws&headerType=none&host=fl-4-direct.djarbnet.ru&path=%2Fgetupdates#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
 vless://0c9c3d36-c93c-4d1b-bdff-8038c3ed78a2@fl-7-direct.djarbnet.ru:443?path=%2Fgetupdates&security=tls&encryption=none&host=fl-7-direct.djarbnet.ru&type=ws&sni=fl-7-direct.djarbnet.ru#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
 vless://5381a1bb-479a-412a-9d99-08ccbc008828@fl02.myxasecure.space:443?encryption=none&flow=xtls-rprx-vision&type=tcp&security=reality&sni=fl02.myxasecure.space&fp=chrome&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
