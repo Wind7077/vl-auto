@@ -1,1 +1,1 @@
-vless://6c364976-715e-4454-a2e4-0ff6db9c522d@fl-4-direct.djarbnet.ru:443?&security=tls&fp=chrome&sni=fl-4-direct.djarbnet.ru&type=ws&headerType=none&host=fl-4-direct.djarbnet.ru&path=%2Fgetupdates#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%5BBL%5D
+vless://10e82fcc-94ec-4d09-8855-579bb55b77e4@93.123.39.61:8443?type=tcp&headerType=none&security=reality&encryption=none&sni=www.google.com&fp=chrome&pbk=N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
