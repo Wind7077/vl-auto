@@ -42,6 +42,48 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "germany.cloudpath.live",
+      "server_port": 443,
+      "uuid": "ee6ca40f-57e4-5943-8e4c-7a9b911aff44",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
+          "short_id": "065ee439"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "latvia.cloudpath.live",
+      "server_port": 443,
+      "uuid": "ee6ca40f-57e4-5943-8e4c-7a9b911aff44",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ieObvdTPS7NPxQ2ByR-zktn7iZg1KQIMRzTcch8rRUg",
+          "short_id": "51fd4390"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "api.xwhiteness.site",
       "server_port": 443,
       "uuid": "73b7ea7f-2e71-4ced-8e0f-0f441d08960b",
@@ -63,52 +105,10 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "finland.cloudpath.live",
-      "server_port": 443,
-      "uuid": "5e1083b9-4d4f-50ef-93e7-6e966dfce1f9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "f7IfVwkipbZFQN0MDsBrHiANTcpSebrdIyOwL_0pOGc",
-          "short_id": "2478b338"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "finland-warp.cloudpath.live",
-      "server_port": 443,
-      "uuid": "5e1083b9-4d4f-50ef-93e7-6e966dfce1f9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "5cBhfhHWHj0vYQIDeearhbEa_k7gdUbobr3Hfecsl04",
-          "short_id": "58d6375f"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "finland-warp.cloudpath.live",
+      "server": "germany.cloudpath.live",
       "server_port": 443,
-      "uuid": "ee6ca40f-57e4-5943-8e4c-7a9b911aff44",
+      "uuid": "5e1083b9-4d4f-50ef-93e7-6e966dfce1f9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -119,8 +119,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "5cBhfhHWHj0vYQIDeearhbEa_k7gdUbobr3Hfecsl04",
-          "short_id": "58d6375f"
+          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
+          "short_id": "065ee439"
         }
       }
     },
@@ -129,7 +129,7 @@
       "tag": "vless-04",
       "server": "latvia.cloudpath.live",
       "server_port": 443,
-      "uuid": "ee6ca40f-57e4-5943-8e4c-7a9b911aff44",
+      "uuid": "5e1083b9-4d4f-50ef-93e7-6e966dfce1f9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
