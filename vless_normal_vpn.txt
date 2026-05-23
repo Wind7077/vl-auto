@@ -1,4 +1,4 @@
-# updated: 2026-05-23 14:56:39.133358+00:00
+# updated: 2026-05-23 16:01:12.901856+00:00
 vless://ee6ca40f-57e4-5943-8e4c-7a9b911aff44@latvia.cloudpath.live:443?type=tcp&security=reality&sni=microsoft.com&pbk=ieObvdTPS7NPxQ2ByR-zktn7iZg1KQIMRzTcch8rRUg&sid=51fd4390&fp=chrome&mux=true&muxConcurrency=8&fragment=100-200,10-20,tlshello#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://73b7ea7f-2e71-4ced-8e0f-0f441d08960b@api.xwhiteness.site:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&sni=api.xwhiteness.site&fp=chrome&pbk=6D3MsXVNHjWAmxIRlBTmZAw7fK8bCQIBN3TkZ2_F-hg&sid=#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
 vless://d7790b85-9659-4558-a405-e0ab57d32984@89.19.223.149:8443?encryption=none&security=none&type=tcp&headerType=none#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
