@@ -42,50 +42,27 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "83.168.78.176",
-      "server_port": 58730,
-      "uuid": "690cff03-0a82-457a-8532-4a83491458fb",
+      "server": "158.160.249.65",
+      "server_port": 443,
+      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dropbox.com",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_-lR8xvn-qaERi-M1iCn6ftH7ChnT0qHHq2GAiROmXA",
-          "short_id": ""
+          "public_key": "ICbaUTFU_kk6wFJbn_WVM8pJIigkuq2kqhAiBFuq11Q",
+          "short_id": "96b94e23"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "de.bage.7li7li.vip",
-      "server_port": 443,
-      "uuid": "135a7899-d6d6-40e9-a33e-d0ae87e09a7e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "itunes.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "khEvnbR8fxZCRIQkpJr9o57-dq_ufC7ErMKFo34im10",
-          "short_id": "be8dcf0d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "171.22.180.35",
       "server_port": 443,
       "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
@@ -101,6 +78,27 @@
           "enabled": true,
           "public_key": "zpxbyw3Y0c--G-zox99d_W0cFCDOUoL50bK70DCY_x8",
           "short_id": "1e7f9a1b3c5d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "de.clickvpn.work",
+      "server_port": 13802,
+      "uuid": "ca26bcdf-7c38-48af-9f1f-80a9eba9060d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": ""
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DcyacSHMtzb4tc0wH3FAjDgBr6rK4uHQ39940It2VF8",
+          "short_id": "4b60af73c2"
         }
       }
     },
@@ -129,22 +127,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "pl.synatra.net",
-      "server_port": 58730,
-      "uuid": "690cff03-0a82-457a-8532-4a83491458fb",
+      "server": "de.bage.7li7li.vip",
+      "server_port": 443,
+      "uuid": "135a7899-d6d6-40e9-a33e-d0ae87e09a7e",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dropbox.com",
+        "server_name": "itunes.apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_-lR8xvn-qaERi-M1iCn6ftH7ChnT0qHHq2GAiROmXA",
-          "short_id": ""
+          "public_key": "khEvnbR8fxZCRIQkpJr9o57-dq_ufC7ErMKFo34im10",
+          "short_id": "be8dcf0d"
         }
       }
     },
