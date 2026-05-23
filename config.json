@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "84.32.9.92",
-      "server_port": 443,
-      "uuid": "f815b837-8504-41f9-9a06-bd3c72d2fcf3",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "wikihow.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ",
-          "short_id": "8bd29483ded126b4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "31.59.106.127",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
@@ -85,8 +63,29 @@
     },
     {
       "type": "vless",
+      "tag": "vless-01",
+      "server": "l2.l-itx.info",
+      "server_port": 7443,
+      "uuid": "7ad4c072-db9e-4e79-a5e1-5ec2c00ee524",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "colorlib.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": "6ba85179e30d4fc3"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "vless-02",
-      "server": "31.59.106.5",
+      "server": "31.59.106.81",
       "server_port": 8443,
       "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
@@ -108,43 +107,44 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "nl5.safepass.click",
+      "server": "flp.musicperec.ru",
       "server_port": 443,
-      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
+      "uuid": "a6e26ac0-644f-0021-8035-e2be0c93ffbb",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsung.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
-          "short_id": "965af8960474c29c"
+          "public_key": "k76Ze8R0E5NyZwvBZT1A4n0zlVXxTeHQDAs0bBqiGQw",
+          "short_id": "4a1b0c7d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "nl_yt.oneok.name",
-      "server_port": 7443,
-      "uuid": "030f6019-b8ce-4de8-911f-35b0ee11c33c",
+      "server": "84.32.9.92",
+      "server_port": 443,
+      "uuid": "f815b837-8504-41f9-9a06-bd3c72d2fcf3",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "chat.deepseek.com",
+        "server_name": "wikihow.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
-          "short_id": "be0ce047"
+          "public_key": "1HeKf_8KDjfzXfUi9P7WBaGStMvr96TKdUbofpkwBzQ",
+          "short_id": "8bd29483ded126b4"
         }
       }
     },
