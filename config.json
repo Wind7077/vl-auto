@@ -42,48 +42,71 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "158.160.249.65",
-      "server_port": 443,
-      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "server": "pl.synatra.net",
+      "server_port": 58730,
+      "uuid": "690cff03-0a82-457a-8532-4a83491458fb",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "dropbox.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ICbaUTFU_kk6wFJbn_WVM8pJIigkuq2kqhAiBFuq11Q",
-          "short_id": "96b94e23"
+          "public_key": "_-lR8xvn-qaERi-M1iCn6ftH7ChnT0qHHq2GAiROmXA",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "171.22.180.35",
-      "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "server": "31.59.106.127",
+      "server_port": 8443,
+      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "w6e9r1t3y5u.spectrumproxy.shop",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zpxbyw3Y0c--G-zox99d_W0cFCDOUoL50bK70DCY_x8",
-          "short_id": "1e7f9a1b3c5d"
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
+      "server": "194.87.115.225",
+      "server_port": 443,
+      "uuid": "f6ca4401-06cb-476a-ae12-c039781fef51",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DkDoSniuiRGJmHe2eHvS5-JAxOCLe3pIWHk7PHfmojk",
+          "short_id": "c1a9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "de.clickvpn.work",
       "server_port": 13802,
       "uuid": "ca26bcdf-7c38-48af-9f1f-80a9eba9060d",
@@ -93,34 +116,12 @@
         "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
           "public_key": "DcyacSHMtzb4tc0wH3FAjDgBr6rK4uHQ39940It2VF8",
           "short_id": "4b60af73c2"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "pl.nodes.rocketnetwork.ru",
-      "server_port": 443,
-      "uuid": "60d0630c-8ac4-436d-ad2c-b798b63e1c69",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "pl.nodes.rocketnetwork.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs",
-          "short_id": "428ef87fd47a3a32"
         }
       }
     },
