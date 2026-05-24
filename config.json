@@ -42,6 +42,48 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "de.clickvpn.work",
+      "server_port": 13802,
+      "uuid": "ca26bcdf-7c38-48af-9f1f-80a9eba9060d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.intel.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "DcyacSHMtzb4tc0wH3FAjDgBr6rK4uHQ39940It2VF8",
+          "short_id": "4b60af73c2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "finland.cloudpath.live",
+      "server_port": 443,
+      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "f7IfVwkipbZFQN0MDsBrHiANTcpSebrdIyOwL_0pOGc",
+          "short_id": "2478b338"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "77.90.61.185",
       "server_port": 43000,
       "uuid": "527ab885-5599-4d61-b4a9-46a2266998c2",
@@ -63,74 +105,29 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "111.88.223.26",
-      "server_port": 8443,
-      "uuid": "b9ecc209-9fe3-42c5-a0cf-6afaeceb2bc9",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "I4Y17Ydb7mN_VUmRvghi_Yg3Wi1X7GhuHVuD9gFUbgg",
-          "short_id": "49c2b7d85ead8574"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "31.59.106.5",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "api.perecmusic.ru",
-      "server_port": 443,
-      "uuid": "fd668d66-0e3c-4148-bf90-3cd6f5d146e0",
+      "server": "104.194.156.128",
+      "server_port": 13802,
+      "uuid": "ca26bcdf-7c38-48af-9f1f-80a9eba9060d",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "www.intel.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-          "short_id": "6e3f0a5b"
+          "public_key": "DcyacSHMtzb4tc0wH3FAjDgBr6rK4uHQ39940It2VF8",
+          "short_id": "4b60af73c2"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "finland.cloudpath.live",
+      "server": "germany.cloudpath.live",
       "server_port": 443,
       "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
       "packet_encoding": "xudp",
@@ -143,8 +140,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "f7IfVwkipbZFQN0MDsBrHiANTcpSebrdIyOwL_0pOGc",
-          "short_id": "2478b338"
+          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
+          "short_id": "065ee439"
         }
       }
     },
