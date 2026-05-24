@@ -42,108 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "pl.synatra.net",
-      "server_port": 58730,
-      "uuid": "690cff03-0a82-457a-8532-4a83491458fb",
+      "server": "fl-s3.ru",
+      "server_port": 443,
+      "uuid": "931c3d51-fa5a-4d20-9b92-df8c495292c7",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dropbox.com",
+        "server_name": "fl-s3.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_-lR8xvn-qaERi-M1iCn6ftH7ChnT0qHHq2GAiROmXA",
-          "short_id": ""
+          "public_key": "0e7XhRGhWbMQVvqu4ELdx5G0uSocM_En9iSmKVWM5C4",
+          "short_id": "7a3f9e2b1c8d4f6a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "83.168.78.176",
-      "server_port": 58730,
-      "uuid": "690cff03-0a82-457a-8532-4a83491458fb",
+      "server": "77.90.61.185",
+      "server_port": 43000,
+      "uuid": "527ab885-5599-4d61-b4a9-46a2266998c2",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dropbox.com",
+        "server_name": "77.90.61.185",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_-lR8xvn-qaERi-M1iCn6ftH7ChnT0qHHq2GAiROmXA",
-          "short_id": ""
+          "public_key": "B2KaHYjgBRs-q9Wm6eoKNIjeBiee2UCpHDLrdqHGXzk",
+          "short_id": "309c4dc7"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "de.bage.7li7li.vip",
+      "server": "fl.musicperec.ru",
       "server_port": 443,
-      "uuid": "135a7899-d6d6-40e9-a33e-d0ae87e09a7e",
+      "uuid": "fa4d12f8-4d4f-0021-a8a6-7ced1db6cf91",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "itunes.apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "ios"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "khEvnbR8fxZCRIQkpJr9o57-dq_ufC7ErMKFo34im10",
-          "short_id": "be8dcf0d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "171.22.180.35",
-      "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "w6e9r1t3y5u.spectrumproxy.shop",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zpxbyw3Y0c--G-zox99d_W0cFCDOUoL50bK70DCY_x8",
-          "short_id": "1e7f9a1b3c5d"
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "4a7b1c8d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "estonia.cloudpath.live",
+      "server_port": 443,
+      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "yBrF1OAz3Rq2cyQkPytpsVNgbqAW5J7C5jE2ZWJkMBo",
+          "short_id": "5674d66f"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "de.clickvpn.work",
-      "server_port": 13802,
-      "uuid": "ca26bcdf-7c38-48af-9f1f-80a9eba9060d",
+      "server": "31.59.106.127",
+      "server_port": 8443,
+      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.intel.com",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "DcyacSHMtzb4tc0wH3FAjDgBr6rK4uHQ39940It2VF8",
-          "short_id": "4b60af73c2"
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
+          "short_id": ""
         }
       }
     },
