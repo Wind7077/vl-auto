@@ -64,22 +64,22 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "88.119.176.125",
+      "server": "de-1.shadowhub.cc",
       "server_port": 443,
-      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
+      "uuid": "e3da803c-9c04-4ffb-a0f2-32cda93dd868",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lit2.o4ka-internet.com",
+        "server_name": "static.gcore.pro",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
+          "public_key": "RuJ1lpOsGekCBHkDdJ-ZeaeHQ4biiMj3ioU2eqSyfQM",
+          "short_id": ""
         }
       }
     },
@@ -108,44 +108,44 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "31.59.106.127",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
+      "server": "77.90.61.185",
+      "server_port": 43000,
+      "uuid": "527ab885-5599-4d61-b4a9-46a2266998c2",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "77.90.61.185",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
-          "short_id": ""
+          "public_key": "B2KaHYjgBRs-q9Wm6eoKNIjeBiee2UCpHDLrdqHGXzk",
+          "short_id": "309c4dc7"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "est.director-store.ru",
+      "server": "88.119.176.125",
       "server_port": 443,
-      "uuid": "a725caba-7d73-4836-a8c4-6aaaae2f32ee",
+      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "est.director-store.ru",
+        "server_name": "lit2.o4ka-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fdZ9-Db3Ylb-K_O4uCcRbhl_9vDQJRGGfHA9UbQtUSQ",
-          "short_id": "44b92dda8944d794"
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
         }
       }
     },
