@@ -1,1 +1,1 @@
-vless://a1fbffe9-8e5a-5a0e-9333-045d32eccd59@finland.cloudpath.live:443?fp=chrome&headertype=none&pbk=f7IfVwkipbZFQN0MDsBrHiANTcpSebrdIyOwL_0pOGc&security=reality&sid=2478b338&sni=microsoft.com&type=tcp#%F0%9F%87%AB%F0%9F%87%AE%20Finland%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://c1797ce9-2f4d-4647-b45d-70a988614e72@lt.vk-proxy.com:12837?encryption=none&type=grpc&serviceName=grpc&mode=gun&security=reality&sni=lt.vk-proxy.com&fp=qq&pbk=lK6sh9C8_n5I-EA-UhX5UFbs3uJyES193uM79crOnRE&sid=ec41222aaacdf0b8#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20%C5%A0iauliai%20%7C%20%5BBL%5D
