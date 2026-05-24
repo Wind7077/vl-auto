@@ -42,27 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ru7.aimodelhub.top",
-      "server_port": 443,
-      "uuid": "ba895ce4-8c24-0004-9f22-81ee227c89d0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ru7.aimodelhub.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Fe5PnOaERhhHbBXhGBEsQaRUBpSM8hCc03zOEpHz218",
-          "short_id": "51b784e13468"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "77.90.61.185",
       "server_port": 43000,
       "uuid": "527ab885-5599-4d61-b4a9-46a2266998c2",
@@ -84,7 +63,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
+      "tag": "vless-01",
       "server": "88.119.176.125",
       "server_port": 443,
       "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
@@ -106,44 +85,67 @@
     },
     {
       "type": "vless",
+      "tag": "vless-02",
+      "server": "fin.o4ka-internet.com",
+      "server_port": 443,
+      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fin.o4ka-internet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "vless-03",
-      "server": "95.163.83.93.alexanderoff.ru",
-      "server_port": 24827,
+      "server": "89.125.60.236.alexanderoff.ru",
+      "server_port": 13893,
       "uuid": "3a66d4a5-88a6-4729-b7a6-a7f44763a0ed",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "moscow.grovpn.com",
+        "server_name": "germany1.grovpn.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "c7YzFzcPx886iFlmzmwwDl5rWPPQ0hSbkY4Tf3XtNXs",
-          "short_id": "9a3cfb7268eb7d"
+          "public_key": "oHql-On8aGXhj2PMd0v1vGi23Fbr0jlLT1OWke1LUS0",
+          "short_id": "23"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "216.57.108.24",
+      "server": "eston5.o4ka-internet.com",
       "server_port": 443,
-      "uuid": "61bf6a18-727e-4492-ab5f-01dea4aa2df9",
+      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "eston5.o4ka-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "6NCa8hdmqu3ZpYSQkODtsExGL1M0wR0GI4XZbb3Kdxo",
-          "short_id": "ce1b"
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
         }
       }
     },
