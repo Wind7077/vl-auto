@@ -42,6 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "est.director-store.ru",
+      "server_port": 443,
+      "uuid": "a725caba-7d73-4836-a8c4-6aaaae2f32ee",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "est.director-store.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fdZ9-Db3Ylb-K_O4uCcRbhl_9vDQJRGGfHA9UbQtUSQ",
+          "short_id": "44b92dda8944d794"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "eston5.o4ka-internet.com",
+      "server_port": 443,
+      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "eston5.o4ka-internet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "fi.xenovpn.top",
       "server_port": 443,
       "uuid": "35e96707-7233-4f04-9399-e62f6e2813c2",
@@ -63,7 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
+      "tag": "vless-03",
       "server": "est2.director-store.ru",
       "server_port": 443,
       "uuid": "a725caba-7d73-4836-a8c4-6aaaae2f32ee",
@@ -85,67 +129,22 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "fin.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin.o4ka-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "fi-h.f1vpn.com",
-      "server_port": 443,
-      "uuid": "dfedbc41-7cd0-4f13-9daf-919089e2dd8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "play.googleapis.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "hgd2sj-nfLxEsSH5RWTL6tEGQ4mvg9y94rAOdMzEing",
-          "short_id": "f6ca1a64cab1b8"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-04",
-      "server": "eston5.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
+      "server": "lt.vk-proxy.com",
+      "server_port": 12837,
+      "uuid": "c1797ce9-2f4d-4647-b45d-70a988614e72",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "eston5.o4ka-internet.com",
+        "server_name": "lt.vk-proxy.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
+          "public_key": "lK6sh9C8_n5I-EA-UhX5UFbs3uJyES193uM79crOnRE",
+          "short_id": "ec41222aaacdf0b8"
         }
       }
     },
