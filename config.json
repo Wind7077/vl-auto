@@ -42,94 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fin.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin.o4ka-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "hs-es-1.shadowhub.cc",
-      "server_port": 443,
-      "uuid": "e3da803c-9c04-4ffb-a0f2-32cda93dd868",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "static.gcore.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RuJ1lpOsGekCBHkDdJ-ZeaeHQ4biiMj3ioU2eqSyfQM",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "hs-es-1.shadowhub.cc",
-      "server_port": 443,
-      "uuid": "3861a7d0-8fff-4e9e-a3d7-b96089d4ee0b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "static.gcore.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RuJ1lpOsGekCBHkDdJ-ZeaeHQ4biiMj3ioU2eqSyfQM",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "eston5.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "eston5.o4ka-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
       "server": "88.119.176.125",
       "server_port": 443,
       "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
@@ -146,6 +58,93 @@
           "enabled": true,
           "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
           "short_id": "5629431325884ff0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "staging.lastilhame.monster",
+      "server_port": 443,
+      "uuid": "106d20f6-d70a-40e2-b69b-8e82baf8d117",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
+          "short_id": "60500a63ad12"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fi.srv.raw-srv.org",
+      "server_port": 443,
+      "uuid": "8b4c4359-ff2d-4322-bc04-e57e3eaca361",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi.srv.raw-srv.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "PZajgWT2dtEu0Avc2QWiZELK9wDQW9p9vvcckfQBfCE",
+          "short_id": "632cd48001bdb09a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "ru7.aimodelhub.top",
+      "server_port": 443,
+      "uuid": "ba895ce4-8c24-0004-9f22-81ee227c89d0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "ru7.aimodelhub.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Fe5PnOaERhhHbBXhGBEsQaRUBpSM8hCc03zOEpHz218",
+          "short_id": "51b784e13468"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "staging.lastilhame.monster",
+      "server_port": 443,
+      "uuid": "317bc783-340f-453c-afb5-b6bf637c0b23",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "FjcEZNQ8t5E4R04_11T6ghsOutdqwKKrelkuadakoQg",
+          "short_id": "fc994ae7eb10"
         }
       }
     },
