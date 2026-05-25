@@ -42,58 +42,58 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "2nl.cloudstreamself.com",
-      "server_port": 8443,
-      "uuid": "814bcfa5-c2e2-42fb-9138-22f88a1ca096",
+      "server": "serv-ne-3.whit3.net",
+      "server_port": 10444,
+      "uuid": "49f3fec2-1a21-481e-ae65-7c32ae262582",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "serv-ne-3.whit3.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "vgECJ1J0IOIrxpnh7Pu7nhy2wJ_RJWq5wp_5sxp-3Bk",
-          "short_id": "9db07670a7b491cb"
+          "public_key": "praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4",
+          "short_id": "378086fbdb7c61cd"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "ru-1.videoproeditor.com",
+      "server": "fin.o4ka-internet.com",
       "server_port": 443,
-      "uuid": "be4494a3-9544-4eb6-b166-5a733706d505",
+      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ru-1.videoproeditor.com",
+        "server_name": "fin.o4ka-internet.com",
         "utls": {
           "enabled": true,
-          "fingerprint": ""
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "izzzyvpn.2bd.net",
-      "server_port": 11443,
+      "server": "est.izzzyvpn.2bd.net",
+      "server_port": 12443,
       "uuid": "15102f73-1b10-4b47-98a8-912aaab646aa",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "www.github.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
@@ -108,43 +108,43 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "ru-1.videoproeditor.com",
+      "server": "fi.srv.raw-srv.org",
       "server_port": 443,
-      "uuid": "be4494a3-9544-4eb6-b166-5a733706d505",
+      "uuid": "8b4c4359-ff2d-4322-bc04-e57e3eaca361",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ru-1.videoproeditor.com",
+        "server_name": "fi.srv.raw-srv.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "PZajgWT2dtEu0Avc2QWiZELK9wDQW9p9vvcckfQBfCE",
+          "short_id": "632cd48001bdb09a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "64.188.56.58",
+      "server": "nl5.safepass.click",
       "server_port": 443,
-      "uuid": "6a17c0a3-026f-4ba5-b554-889d8276d80d",
+      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "C8dTu9YH4vLkDsJ2zHS8CyZ1WWjEZn0wAGlbWAb7gGA",
-          "short_id": "8a8c"
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": "965af8960474c29c"
         }
       }
     },
