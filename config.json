@@ -42,22 +42,22 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "serv-ne-3.whit3.net",
-      "server_port": 10444,
-      "uuid": "49f3fec2-1a21-481e-ae65-7c32ae262582",
+      "server": "51.250.108.162",
+      "server_port": 443,
+      "uuid": "aa1dfc3b-c91b-462f-a888-292ed5250b1f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "serv-ne-3.whit3.net",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "praGYag8YPbz_rcd_Pa6Fqsi_IiQtO3e1AosYBcu6h4",
-          "short_id": "378086fbdb7c61cd"
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
@@ -86,66 +86,66 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "fin.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
+      "server": "10.vles.space",
+      "server_port": 510,
+      "uuid": "f3d08978-e457-43a3-b062-d74e4328833d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fin.o4ka-internet.com",
+        "server_name": "cdn.vkvideo.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
+          "public_key": "gTLxGPaumAT1gY3dEXIbZcr0Ocspb1hdrEG5oBkPOA8",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "est.izzzyvpn.2bd.net",
-      "server_port": 12443,
-      "uuid": "15102f73-1b10-4b47-98a8-912aaab646aa",
+      "server": "51.250.24.232",
+      "server_port": 443,
+      "uuid": "aa1dfc3b-c91b-462f-a888-292ed5250b1f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.github.com",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "BVIW6DYDlI3z7DIwpmsS-b92yQ5mLgheSXfGDARWzRM",
-          "short_id": "f690c1046814dc9d"
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "de.locklance.lol",
+      "server": "51.250.4.2",
       "server_port": 443,
-      "uuid": "be0e7d89-9c35-4950-a460-d3bf5aae5f91",
+      "uuid": "72ac690f-f627-49e4-992e-3a6c6660d7be",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de.locklance.lol",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0k2aDh6JSsLCZsO7QUYepYnS_kHAnfmXX18WQBkgxEc",
-          "short_id": "b531f9a8f53b802e"
+          "public_key": "EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI",
+          "short_id": "226509f017e4c36d"
         }
       }
     },
