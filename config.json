@@ -64,50 +64,6 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "fin.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "fin.o4ka-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "est.izzzyvpn.2bd.net",
-      "server_port": 12443,
-      "uuid": "15102f73-1b10-4b47-98a8-912aaab646aa",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.github.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "BVIW6DYDlI3z7DIwpmsS-b92yQ5mLgheSXfGDARWzRM",
-          "short_id": "f690c1046814dc9d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "fi.srv.raw-srv.org",
       "server_port": 443,
       "uuid": "8b4c4359-ff2d-4322-bc04-e57e3eaca361",
@@ -129,22 +85,67 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "nl5.safepass.click",
+      "tag": "vless-02",
+      "server": "fin.o4ka-internet.com",
       "server_port": 443,
-      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
+      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.samsung.com",
+        "server_name": "fin.o4ka-internet.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
+          "short_id": "5629431325884ff0"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "est.izzzyvpn.2bd.net",
+      "server_port": 12443,
+      "uuid": "15102f73-1b10-4b47-98a8-912aaab646aa",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.github.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
-          "short_id": "965af8960474c29c"
+          "public_key": "BVIW6DYDlI3z7DIwpmsS-b92yQ5mLgheSXfGDARWzRM",
+          "short_id": "f690c1046814dc9d"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "de.locklance.lol",
+      "server_port": 443,
+      "uuid": "be0e7d89-9c35-4950-a460-d3bf5aae5f91",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "de.locklance.lol",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0k2aDh6JSsLCZsO7QUYepYnS_kHAnfmXX18WQBkgxEc",
+          "short_id": "b531f9a8f53b802e"
         }
       }
     },
