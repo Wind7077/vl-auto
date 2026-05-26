@@ -1,1 +1,1 @@
-vless://69a2af58-d74a-44ca-864a-e09b493f4274@45.91.53.54:443?type=tcp&security=reality&pbk=WMy1KN-awWYkz-3jct8VM4qvCeK3ICvJj3wzam6pAyE&fp=chrome&sni=pimg.mycdn.me&sid=b8f9f01b#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://d4bffeb8-2364-4997-a4b0-0bfcd68f1fda@lvmw.verymad.net:50207?type=tcp&headerType=none&security=reality&encryption=none&sni=www.yandex.net&fp=firefox&pbk=OSldWqB5yqBblJ4SRrbiZliMwpJIT3bYR8FCvV0Btwk&sid=d4a93cd9&spx=%2F1dzC11Fv8WBNYv4#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D

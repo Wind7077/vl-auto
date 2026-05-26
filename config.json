@@ -42,70 +42,49 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "152.53.224.29",
-      "server_port": 7443,
-      "uuid": "4350fd8e-9f5d-47e7-a5f6-6161e0f7db9b",
+      "server": "de5.safepass.click",
+      "server_port": 443,
+      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "stackoverflow.com",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
-          "short_id": "be0ce047"
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "45.91.8.55",
+      "server": "auto.trahodrom.fun",
       "server_port": 443,
-      "uuid": "76713d07-5a6b-49c2-abd8-bc450a2fa7fc",
+      "uuid": "88926075-7b7b-0114-aa83-201efd3e0319",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "down.spectrum.vu",
+        "server_name": "cdn.trahodrom.fun",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ckd_LwbbFo8BYf9vT84B20P6EL1n6vl2yMxoXc6X4SA",
-          "short_id": "f2a6d1c1e4b8"
+          "public_key": "IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "pl-1.shadowhub.cc",
-      "server_port": 443,
-      "uuid": "e3da803c-9c04-4ffb-a0f2-32cda93dd868",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "static.gcore.pro",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "OgJz7oQ3aYL5w5mQjdMp0QgCTwRoPuj0LgEZlBtpTRY",
-          "short_id": "6fce2d08"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "2.26.112.78",
       "server_port": 55919,
       "uuid": "b6083a84-80a5-3e88-9dbb-5c8ef241be3a",
@@ -121,6 +100,28 @@
           "enabled": true,
           "public_key": "tBsuKfKgNI5muCQ9HBEn-qBCQcA3Sot1PwqVTjWDdBU",
           "short_id": "f679b4f2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "78.17.85.226",
+      "server_port": 443,
+      "uuid": "579d8b84-5016-4ae8-bb84-f99bd9a6de99",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.googletagmanager.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MylliFqQZZ0ShMq1NfcfJYKhuvWtKA744y0hXPs-A0k",
+          "short_id": "3e79cd3484f19033"
         }
       }
     },
