@@ -42,7 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "51.250.108.162",
+      "server": "51.250.24.232",
       "server_port": 443,
       "uuid": "aa1dfc3b-c91b-462f-a888-292ed5250b1f",
       "packet_encoding": "xudp",
@@ -86,29 +86,29 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "10.vles.space",
-      "server_port": 510,
-      "uuid": "f3d08978-e457-43a3-b062-d74e4328833d",
+      "server": "51.250.4.2",
+      "server_port": 443,
+      "uuid": "72ac690f-f627-49e4-992e-3a6c6660d7be",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdn.vkvideo.ru",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "gTLxGPaumAT1gY3dEXIbZcr0Ocspb1hdrEG5oBkPOA8",
-          "short_id": ""
+          "public_key": "EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI",
+          "short_id": "226509f017e4c36d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "51.250.24.232",
+      "server": "51.250.106.87",
       "server_port": 443,
       "uuid": "aa1dfc3b-c91b-462f-a888-292ed5250b1f",
       "packet_encoding": "xudp",
@@ -130,22 +130,22 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "51.250.4.2",
+      "server": "51.250.24.222",
       "server_port": 443,
-      "uuid": "72ac690f-f627-49e4-992e-3a6c6660d7be",
+      "uuid": "aa1dfc3b-c91b-462f-a888-292ed5250b1f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "EBISh6QAVskJ_nvet-Qio9jS2yqxe9de6GMScYlbjhI",
-          "short_id": "226509f017e4c36d"
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
