@@ -42,98 +42,31 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ru2.bloodofwar.ru",
-      "server_port": 443,
-      "uuid": "6b435511-6abb-46e3-85fd-709bcc5882ee",
+      "server": "2.26.112.78",
+      "server_port": 55919,
+      "uuid": "b6083a84-80a5-3e88-9dbb-5c8ef241be3a",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "discord.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "hd4dEiJ3ba7pm7kUF9l4DYAm6M34do8TO6QEprgqFl0",
-          "short_id": "a1b2c3d4"
+          "public_key": "tBsuKfKgNI5muCQ9HBEn-qBCQcA3Sot1PwqVTjWDdBU",
+          "short_id": "f679b4f2"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "de5.safepass.click",
+      "server": "138.124.244.248",
       "server_port": 443,
-      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
+      "uuid": "476caa1d-7c04-48ab-8de5-2c1af0d13a66",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "finland-1.afihideos.ru",
-      "server_port": 443,
-      "uuid": "6b435511-6abb-46e3-85fd-709bcc5882ee",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "finland-1.afihideos.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Ll3YSjSgdnZ0UahskfjLoyagjeBR3rJBwVKAY95kk1E",
-          "short_id": "a1b2c3d4"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "germ2.o4ka-internet.com",
-      "server_port": 443,
-      "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "germ2.o4ka-internet.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "V2JprbR_aJkS7uX6anyU3nrswGxdvDQT2HpY4WnzuC8",
-          "short_id": "5629431325884ff0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "se.white-aist.com",
-      "server_port": 443,
-      "uuid": "5b38fd24-4d47-4ee2-a077-7d125e723230",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "yahoo.com",
@@ -143,8 +76,74 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "aCRQJz6gbsiHFjfxqyaqnYIlfwBFYDfMGJdUvmYqgC8",
-          "short_id": ""
+          "public_key": "PYX0lu3m0L_h28eW4186s63gRFHXoTc3K9wKeFewDUQ",
+          "short_id": "e9a8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "fi1.gofizzin.com",
+      "server_port": 443,
+      "uuid": "24e61e7c-4130-490d-9b6e-9d9ffffaa706",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi1.gofizzin.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "u6TamAtY_Dx-Bexb5euDt4Tbm9bldhD8qWAaHECXhio",
+          "short_id": "f8785f1e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "gm2.gofizz.in",
+      "server_port": 443,
+      "uuid": "24e61e7c-4130-490d-9b6e-9d9ffffaa706",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "gm2.gofizz.in",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "2sWwAouGZYf8UrRf5GA8SFZaY41MTwlV-U59ryvTHWU",
+          "short_id": "c03e23e85e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "ee2.gofizzin.com",
+      "server_port": 443,
+      "uuid": "24e61e7c-4130-490d-9b6e-9d9ffffaa706",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ee2.gofizzin.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LykL5dQ5QltHxwB37Vg73v3_nes1dERu_m1VZPBHJz0",
+          "short_id": "70a9c552"
         }
       }
     },
