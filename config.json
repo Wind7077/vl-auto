@@ -42,6 +42,71 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "ru2.bloodofwar.ru",
+      "server_port": 443,
+      "uuid": "6b435511-6abb-46e3-85fd-709bcc5882ee",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "hd4dEiJ3ba7pm7kUF9l4DYAm6M34do8TO6QEprgqFl0",
+          "short_id": "a1b2c3d4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "de5.safepass.click",
+      "server_port": 443,
+      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.samsung.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "finland-1.afihideos.ru",
+      "server_port": 443,
+      "uuid": "6b435511-6abb-46e3-85fd-709bcc5882ee",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "finland-1.afihideos.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Ll3YSjSgdnZ0UahskfjLoyagjeBR3rJBwVKAY95kk1E",
+          "short_id": "a1b2c3d4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "germ2.o4ka-internet.com",
       "server_port": 443,
       "uuid": "42ba03da-78cf-413e-9e79-1128ee6ddb30",
@@ -63,87 +128,23 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "sw.zapret-tg.ru",
-      "server_port": 443,
-      "uuid": "bb1c4695-a4f3-4705-b74f-a26beadc5906",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "sw.zapret-tg.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RZ-hpUKFZeRRjQBenhvngVFmQyHgFi0z4AREvOcOJnM",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "de5.safepass.click",
-      "server_port": 443,
-      "uuid": "9d59677e-df00-4918-bb03-e428cfc7c606",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.samsung.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "213.165.57.161",
-      "server_port": 443,
-      "uuid": "5f46e04e-b903-4a59-a419-d580bd4a343f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "finewl1.krusofiya.fun",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pGEVYQQxywkoOsGsFM4IiYtr20A6KeOauG5SOR62LCs",
-          "short_id": "142b6bbb86befbf4"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-04",
-      "server": "89.19.223.42",
+      "server": "se.white-aist.com",
       "server_port": 443,
-      "uuid": "5f46e04e-b903-4a59-a419-d580bd4a343f",
+      "uuid": "5b38fd24-4d47-4ee2-a077-7d125e723230",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "rutode1.krusofiya.fun",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "BFGWucvntkbW3q3Vi8wRGNm4wpImQC9jhbOpM6nfpwU",
-          "short_id": "67a9e92ec3cbaa78"
+          "public_key": "aCRQJz6gbsiHFjfxqyaqnYIlfwBFYDfMGJdUvmYqgC8",
+          "short_id": ""
         }
       }
     },
