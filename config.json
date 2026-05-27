@@ -42,93 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "nl-tx.sbrf-cdn342.ru",
+      "server": "2.59.183.167",
       "server_port": 443,
-      "uuid": "01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f",
+      "uuid": "301d514e-4aa0-47b0-ba44-a0cb891cd52f",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sub.sbrf-cdn342.ru",
+        "server_name": "www.samsung.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "OZVjfQBboTDTBw0baMFqzVPsVUI4FNQmspTEb0b0zW4",
+          "short_id": "a1b2c3d4"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "uae.sbrf-cdn342.ru",
+      "server": "84.201.173.163",
       "server_port": 443,
-      "uuid": "01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f",
+      "uuid": "c96b024e-7c04-45ed-b04a-7b01a0ff25d4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sub.sbrf-cdn342.ru",
+        "server_name": "max.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "66kZLshj9fxAIQA7NsABohNwgiOcY71enc6as_Frqw0",
+          "short_id": "3c1523da43287ec4"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "45.91.53.54",
+      "server": "81.29.156.195",
       "server_port": 443,
-      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "uuid": "731d5e57-4511-4abe-ab01-ec66eb52d6e9",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pimg.mycdn.me",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "WMy1KN-awWYkz-3jct8VM4qvCeK3ICvJj3wzam6pAyE",
-          "short_id": "b8f9f01b"
+          "public_key": "hikHYegxR1O_sGzFctGkQQEz5G8CZrdXxHSidEqSCh0",
+          "short_id": "a8cb02a2dffa"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "nl2.clgate.network",
+      "server": "158.160.51.70",
       "server_port": 443,
-      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "uuid": "63e7b216-7e06-4102-a32b-6aa56dd39723",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
-          "short_id": ""
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "nl-tx.sbrf-cdn342.ru",
+      "server": "51.250.24.232",
       "server_port": 443,
-      "uuid": "01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f",
+      "uuid": "63e7b216-7e06-4102-a32b-6aa56dd39723",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sub.sbrf-cdn342.ru",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
