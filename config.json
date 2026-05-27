@@ -42,106 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "nl2.clgate.network",
+      "server": "51.250.106.87",
       "server_port": 443,
-      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "uuid": "79be6869-7b5e-4ee8-9675-770284523435",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
-          "short_id": ""
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "nl2.clgate.network",
+      "server": "51.250.102.69",
       "server_port": 443,
-      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "uuid": "79be6869-7b5e-4ee8-9675-770284523435",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
-          "short_id": ""
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "de.alorvpn.fun",
+      "server": "83.166.238.232",
       "server_port": 443,
-      "uuid": "0c57b186-b8c7-4948-8d82-7548ad1af428",
+      "uuid": "246ec801-282d-413d-9c8e-b6116c892a1c",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.twitch.tv",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pjpXTyqfWOb3HylPzbFIEUdGoJA4R2I9fCtvc36sAyE",
-          "short_id": "a4faf295a3284012"
+          "public_key": "DaIRouGSxxQDEv9WKRxD79b2Vt0fsw4yQOTeAmXUYCM",
+          "short_id": "6a608eaf9117"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "fi2.clgate.network",
+      "server": "147.45.145.127",
       "server_port": 443,
-      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "uuid": "534cbbe2-cc36-4f2d-8fb0-90410e7148c9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
-          "short_id": ""
+          "public_key": "tWRR3W8jBAQKBUujLzL7Xri3WXy3F08OxHYrkSOnlAc",
+          "short_id": "52a6"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "fi2.clgate.network",
+      "server": "51.250.97.18",
       "server_port": 443,
-      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "uuid": "79be6869-7b5e-4ee8-9675-770284523435",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
-          "short_id": ""
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
