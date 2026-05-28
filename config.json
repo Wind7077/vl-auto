@@ -42,108 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "node-de-2.axmavpn.xyz",
-      "server_port": 8443,
-      "uuid": "ee9d83d7-b8b8-4f57-8b82-f713b6771d57",
+      "server": "nld.pink-service.ru",
+      "server_port": 443,
+      "uuid": "f998c699-43b5-4af2-921e-03b879eb7912",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ajax.aspnetcdn.com",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "gJvkA581Q3hRPNqq0izZbfb4Ix432fx_cL0XjNolJyg",
-          "short_id": "5d605caf"
+          "public_key": "2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0",
+          "short_id": "86b80f1e713a33ad"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "probabblynot.fazelextremeisreal.com",
-      "server_port": 29870,
-      "uuid": "a3eb4c35-c1df-4448-968c-f6229cba9de0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cWrLzTqWRYMQq8vsgN7rHtUxrDdqxDLNEWAuo_eXlRU",
-          "short_id": "821863f0"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "node-fr-1.axmavpn.xyz",
+      "server": "n2.dragonvpn.online",
       "server_port": 443,
-      "uuid": "ee9d83d7-b8b8-4f57-8b82-f713b6771d57",
+      "uuid": "61419a93-e318-4f37-938b-e1e178c5b806",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fonts.gstatic.com",
+        "server_name": "n2.dragonvpn.online",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "IhfJBfeNoDKmS7L8nhncOu-uCn46Tg-vavdC1efkGC0",
-          "short_id": "77889900"
+          "public_key": "wbcamjVEXYODW3IIc3a75i0ovD3WLEjvns1GcvEXzB8",
+          "short_id": "bb366914789b9bf5"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "ned.ggisopi.su",
+      "server_port": 443,
+      "uuid": "9b4838c1-3ed3-4e32-95da-50b981173118",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ned.ggisopi.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HYKy4FK5lRc1Lv1lbJSew6xmpbg-Hp9IREnObxTf6kU",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "nl-u16.vpn-port.com",
+      "server": "95.140.158.82",
       "server_port": 443,
-      "uuid": "48264301-dce4-4c4a-a91a-f5d8276ff362",
+      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.yimg.com",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ixTpiJJA-oOL0jUjjc9N_feC-WX_1tsgqfyZmzYNcTI",
-          "short_id": "c804d085f2d1"
+          "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
+          "short_id": "72e15d2b99"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "ru-1.videoproeditor.com",
+      "server": "178.154.194.99",
       "server_port": 443,
-      "uuid": "1d29d287-0e02-4e8e-81a4-14708d96e7ba",
+      "uuid": "4f4f9461-5cfa-4746-9f62-2f08dfd05636",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ru-1.videoproeditor.com",
+        "server_name": "pornhub.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
+          "short_id": "abab34c40ed6c10a"
         }
       }
     },
