@@ -42,110 +42,108 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ee.alorvpn.fun",
-      "server_port": 443,
-      "uuid": "0c57b186-b8c7-4948-8d82-7548ad1af428",
+      "server": "node-de-2.axmavpn.xyz",
+      "server_port": 8443,
+      "uuid": "ee9d83d7-b8b8-4f57-8b82-f713b6771d57",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.twitch.tv",
+        "server_name": "ajax.aspnetcdn.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "9lKgnCYeKBcHaY21ogYuM1DFd3wAx37BzdD5Nl7RHB4",
-          "short_id": "0579ab14e1cec4a2"
+          "public_key": "gJvkA581Q3hRPNqq0izZbfb4Ix432fx_cL0XjNolJyg",
+          "short_id": "5d605caf"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "node.fi1-cosmostechnology.ru",
-      "server_port": 8443,
-      "uuid": "10e82fcc-94ec-4d09-8855-579bb55b77e4",
+      "server": "probabblynot.fazelextremeisreal.com",
+      "server_port": 29870,
+      "uuid": "a3eb4c35-c1df-4448-968c-f6229cba9de0",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fi1-cosmostechnology.ru",
+        "server_name": "www.refersion.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "rzdJQamSRE_3xi0lgN3Kh157RLRQBewwg1Z3-LwFuWo",
-          "short_id": ""
+          "public_key": "cWrLzTqWRYMQq8vsgN7rHtUxrDdqxDLNEWAuo_eXlRU",
+          "short_id": "821863f0"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "ru-tr.omuvpn.tech",
-      "server_port": 12343,
-      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+      "server": "node-fr-1.axmavpn.xyz",
+      "server_port": 443,
+      "uuid": "ee9d83d7-b8b8-4f57-8b82-f713b6771d57",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.2gis.ru",
+        "server_name": "fonts.gstatic.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "KJswVpIUJ4i3x0xUJ0_OmdVH3396p5Jpyuz0CVxlGG0",
-          "short_id": "52"
+          "public_key": "IhfJBfeNoDKmS7L8nhncOu-uCn46Tg-vavdC1efkGC0",
+          "short_id": "77889900"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "78.17.85.226",
+      "server": "nl-u16.vpn-port.com",
       "server_port": 443,
-      "uuid": "579d8b84-5016-4ae8-bb84-f99bd9a6de99",
+      "uuid": "48264301-dce4-4c4a-a91a-f5d8276ff362",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.googletagmanager.com",
+        "server_name": "www.yimg.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "MylliFqQZZ0ShMq1NfcfJYKhuvWtKA744y0hXPs-A0k",
-          "short_id": "3e79cd3484f19033"
+          "public_key": "ixTpiJJA-oOL0jUjjc9N_feC-WX_1tsgqfyZmzYNcTI",
+          "short_id": "c804d085f2d1"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "51.250.115.42",
+      "server": "ru-1.videoproeditor.com",
       "server_port": 443,
-      "uuid": "8525e2c2-cddd-476c-b4de-3f9421d6210b",
+      "uuid": "1d29d287-0e02-4e8e-81a4-14708d96e7ba",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "megafon.ru",
+        "server_name": "ru-1.videoproeditor.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "pQ03qQVlXsiICaDjZDtfJECk4HPVNgj4K1NdI3odk1E",
-          "short_id": "d1f073a1511b4b"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
