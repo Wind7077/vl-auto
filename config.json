@@ -42,50 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "nld.pink-service.ru",
+      "server": "g2.steptofreedom.one",
       "server_port": 443,
-      "uuid": "f998c699-43b5-4af2-921e-03b879eb7912",
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "g2.steptofreedom.one",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0",
-          "short_id": "86b80f1e713a33ad"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "n2.dragonvpn.online",
-      "server_port": 443,
-      "uuid": "61419a93-e318-4f37-938b-e1e178c5b806",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "n2.dragonvpn.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wbcamjVEXYODW3IIc3a75i0ovD3WLEjvns1GcvEXzB8",
-          "short_id": "bb366914789b9bf5"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "ned.ggisopi.su",
       "server_port": 443,
       "uuid": "9b4838c1-3ed3-4e32-95da-50b981173118",
@@ -107,44 +85,67 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "95.140.158.82",
+      "tag": "vless-02",
+      "server": "famousaustrianpainter.live",
       "server_port": 443,
-      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
+      "uuid": "be413f87-a2bb-4560-bfea-2dd5877f0aa1",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "famousaustrianpainter.live",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GsKY4XpP6sr905aHvCrj0JEHhgcAD5aEcmbjyLSNjAU",
-          "short_id": "72e15d2b99"
+          "public_key": "lt_q1IjZNk0fflb00tMHbbLloqFE5zJmf2IW4A_x63Y",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "51.250.47.192",
+      "server_port": 8443,
+      "uuid": "d9bb6cda-b85d-4ab5-b9a6-b98f58c72326",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
+          "short_id": "dc8109baf0f607ea"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "178.154.194.99",
+      "server": "g3.steptofreedom.one",
       "server_port": 443,
-      "uuid": "4f4f9461-5cfa-4746-9f62-2f08dfd05636",
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pornhub.com",
+        "server_name": "g3.steptofreedom.one",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "YJ9I6GzZ_xT_Rk8We8iR1CwEMbzF4I30i_EH2VOVY0Y",
-          "short_id": "abab34c40ed6c10a"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
