@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "158.160.165.84",
-      "server_port": 443,
-      "uuid": "1511f862-0d72-4562-83b0-9d0f4aeffb83",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "max.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "w5zu8kLKRRX_UQTto3FX1knEjGZJbyY2NzcgiOfzIws",
-          "short_id": "def012"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "probabblynot.fazelextremeisreal.com",
       "server_port": 29870,
       "uuid": "a3eb4c35-c1df-4448-968c-f6229cba9de0",
@@ -84,7 +62,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
+      "tag": "vless-01",
       "server": "185.81.128.86",
       "server_port": 443,
       "uuid": "a5c689ce-ef93-4a6a-8b74-3dbe2287d71b",
@@ -105,8 +83,29 @@
     },
     {
       "type": "vless",
+      "tag": "vless-02",
+      "server": "nl-u16.vpn-port.com",
+      "server_port": 443,
+      "uuid": "48264301-dce4-4c4a-a91a-f5d8276ff362",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yimg.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ixTpiJJA-oOL0jUjjc9N_feC-WX_1tsgqfyZmzYNcTI",
+          "short_id": "c804d085f2d1"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "vless-03",
-      "server": "185.81.128.148",
+      "server": "5.231.202.95",
       "server_port": 443,
       "uuid": "a5c689ce-ef93-4a6a-8b74-3dbe2287d71b",
       "packet_encoding": "xudp",
@@ -127,20 +126,20 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "185.81.128.98",
-      "server_port": 443,
-      "uuid": "a5c689ce-ef93-4a6a-8b74-3dbe2287d71b",
+      "server": "2.27.59.11",
+      "server_port": 444,
+      "uuid": "2f26f4ba-cf36-4720-b8ff-2e4038c2c8f9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cloudrynth.com",
+        "server_name": "2.27.59.11",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
+          "public_key": "ETus3kZBv7feaOnuNWL_iUh4wTEes4vRYmB8DWO5FBs",
           "short_id": ""
         }
       }
