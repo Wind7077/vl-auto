@@ -42,49 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "185.81.128.98",
+      "server": "158.160.165.84",
       "server_port": 443,
-      "uuid": "a5c689ce-ef93-4a6a-8b74-3dbe2287d71b",
+      "uuid": "1511f862-0d72-4562-83b0-9d0f4aeffb83",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cloudrynth.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "fi2.clgate.network",
-      "server_port": 443,
-      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "max.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
-          "short_id": ""
+          "public_key": "w5zu8kLKRRX_UQTto3FX1knEjGZJbyY2NzcgiOfzIws",
+          "short_id": "def012"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "probabblynot.fazelextremeisreal.com",
+      "server_port": 29870,
+      "uuid": "a3eb4c35-c1df-4448-968c-f6229cba9de0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "cWrLzTqWRYMQq8vsgN7rHtUxrDdqxDLNEWAuo_eXlRU",
+          "short_id": "821863f0"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "185.81.128.148",
+      "server": "185.81.128.86",
       "server_port": 443,
       "uuid": "a5c689ce-ef93-4a6a-8b74-3dbe2287d71b",
       "packet_encoding": "xudp",
@@ -105,43 +106,42 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "194.58.41.65-uhe66vr6.nike77prime.ru",
+      "server": "185.81.128.148",
       "server_port": 443,
-      "uuid": "afc941a0-b6b4-42d1-b284-d59a42f083fd",
+      "uuid": "a5c689ce-ef93-4a6a-8b74-3dbe2287d71b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs",
-          "short_id": "deadbeef"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "ger-nnn.prostosetup.org",
-      "server_port": 443,
-      "uuid": "1b43419a-b711-40d4-a0ee-eb5c73e60c92",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "github.com",
+        "server_name": "cloudrynth.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "y3ZMu-ium5mBqE_h3xJ66vT0Z6HCIlTDti9emCQjDjw",
-          "short_id": "bcb6b0217a1206b3"
+          "public_key": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "185.81.128.98",
+      "server_port": 443,
+      "uuid": "a5c689ce-ef93-4a6a-8b74-3dbe2287d71b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudrynth.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "G2i-nsQgWiVf52tdCUV-G_VeuCJ3hggwDnTaEAgvg0Y",
+          "short_id": ""
         }
       }
     },
