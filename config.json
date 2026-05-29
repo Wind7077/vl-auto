@@ -42,65 +42,63 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "g2.steptofreedom.one",
+      "server": "fi2.clgate.network",
       "server_port": 443,
-      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g2.steptofreedom.one",
+        "server_name": "m.twitch.tv",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "ned.ggisopi.su",
-      "server_port": 443,
-      "uuid": "9b4838c1-3ed3-4e32-95da-50b981173118",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ned.ggisopi.su",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "HYKy4FK5lRc1Lv1lbJSew6xmpbg-Hp9IREnObxTf6kU",
+          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
           "short_id": ""
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "famousaustrianpainter.live",
+      "tag": "vless-01",
+      "server": "84.32.151.136",
       "server_port": 443,
-      "uuid": "be413f87-a2bb-4560-bfea-2dd5877f0aa1",
+      "uuid": "94ae5ad5-8f3e-41bf-9546-99a1543d3cd1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.recaptcha.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Abv_GBHT7hWs6pm7h9DC83-TvYXCa7gryqC296DRM1c",
+          "short_id": "3480570f03d0a601"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "de8.fi1-cosmostechnology.ru",
+      "server_port": 443,
+      "uuid": "6a4f00c8-22b4-44e2-83e7-f80db3432b6d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "famousaustrianpainter.live",
+        "server_name": "fi1-cosmostechnology.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "lt_q1IjZNk0fflb00tMHbbLloqFE5zJmf2IW4A_x63Y",
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
           "short_id": ""
         }
       }
@@ -108,44 +106,44 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "51.250.47.192",
-      "server_port": 8443,
-      "uuid": "d9bb6cda-b85d-4ab5-b9a6-b98f58c72326",
+      "server": "sw4.fi1-cosmostechnology.ru",
+      "server_port": 443,
+      "uuid": "6a4f00c8-22b4-44e2-83e7-f80db3432b6d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "fi1-cosmostechnology.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
-          "short_id": "dc8109baf0f607ea"
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "g3.steptofreedom.one",
+      "server": "132.243.225.142",
       "server_port": 443,
-      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "uuid": "6a4f00c8-22b4-44e2-83e7-f80db3432b6d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g3.steptofreedom.one",
+        "server_name": "fi1-cosmostechnology.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "N0QyBaacGqSpRv_Ib4jsSx5A1kfE8IE1w0HcDB5w1BE",
+          "short_id": ""
         }
       }
     },
