@@ -42,71 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "195.149.93.92",
-      "server_port": 30933,
-      "uuid": "730e55b2-7e76-4d70-b1dd-481b714d7270",
+      "server": "5.23.48.135",
+      "server_port": 443,
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.ya.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ZhyrdqoRLMo-2re0ufdrtUy8ca14Vm3NDnBcs0p1c34",
-          "short_id": "6cbc9d"
+          "public_key": "bMdCj0kTMpTngZhGEQ-fbfcDlbn-j8Jm2NXdnfis6g8",
+          "short_id": "9b551b69"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "158.160.130.173",
+      "server": "nld.pink-service.ru",
       "server_port": 443,
-      "uuid": "0812ce0c-35e1-4063-9fe0-8a27b52b2c79",
+      "uuid": "f998c699-43b5-4af2-921e-03b879eb7912",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "public_key": "2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0",
+          "short_id": "86b80f1e713a33ad"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "84.201.168.186",
-      "server_port": 443,
-      "uuid": "0812ce0c-35e1-4063-9fe0-8a27b52b2c79",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cdp.x5.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "probabblynot.fazelextremeisreal.com",
       "server_port": 29870,
       "uuid": "a3eb4c35-c1df-4448-968c-f6229cba9de0",
@@ -127,23 +106,44 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "150.241.101.40",
+      "tag": "vless-03",
+      "server": "103.75.198.109",
       "server_port": 443,
-      "uuid": "0294d19d-5b1c-4ac6-8bf9-b14be79f3db3",
+      "uuid": "ad3fa633-6116-4d1a-b155-456392178674",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3wa3ZmMniymkL-58bPtY7baWPxdJ6n2UaJMG7YiLiGo",
-          "short_id": ""
+          "public_key": "gwspsdMpJ40EtqdJcFZvyk02h6TG3jcrOMjw-jNgDW8",
+          "short_id": "af1c5322ed"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "g10.steptofsvo.com",
+      "server_port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "g10.steptofsvo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "randomized"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
