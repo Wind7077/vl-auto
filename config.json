@@ -42,28 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "cdn-se-1.bigbossvpn.online",
-      "server_port": 8443,
-      "uuid": "f7047044-9b40-4380-bbb1-4b8b01d8bb59",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "RBSJ-K9Ytm8PU_lz9H6O0Uz57lX4uufRJvPxZWM3riE",
-          "short_id": "098ae2a04a95cf8d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "194.58.41.65",
       "server_port": 443,
       "uuid": "afc941a0-b6b4-42d1-b284-d59a42f083fd",
@@ -84,66 +62,89 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "probabblynot.fazelextremeisreal.com",
-      "server_port": 29870,
-      "uuid": "a3eb4c35-c1df-4448-968c-f6229cba9de0",
+      "tag": "vless-01",
+      "server": "185.215.186.44",
+      "server_port": 443,
+      "uuid": "1cbfb9ea-2a50-4c25-adea-3fd8065e21bc",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.refersion.com",
+        "server_name": "video.intfreed.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "cWrLzTqWRYMQq8vsgN7rHtUxrDdqxDLNEWAuo_eXlRU",
-          "short_id": "821863f0"
+          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+          "short_id": "7755e972daf8eec8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "5.23.48.135",
+      "server_port": 443,
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ya.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "bMdCj0kTMpTngZhGEQ-fbfcDlbn-j8Jm2NXdnfis6g8",
+          "short_id": "9b551b69"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "2.26.88.109",
+      "server": "45.144.52.215",
       "server_port": 443,
-      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+      "uuid": "1cbfb9ea-2a50-4c25-adea-3fd8065e21bc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "150.241.101.40",
-      "server_port": 443,
-      "uuid": "0294d19d-5b1c-4ac6-8bf9-b14be79f3db3",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "video.intfreed.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3wa3ZmMniymkL-58bPtY7baWPxdJ6n2UaJMG7YiLiGo",
-          "short_id": ""
+          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+          "short_id": "7755e972daf8eec8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "ger-nnn.prostosetup.org",
+      "server_port": 443,
+      "uuid": "1b43419a-b711-40d4-a0ee-eb5c73e60c92",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "y3ZMu-ium5mBqE_h3xJ66vT0Z6HCIlTDti9emCQjDjw",
+          "short_id": "bcb6b0217a1206b3"
         }
       }
     },
