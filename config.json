@@ -42,110 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "89.110.74.58",
+      "server": "lv.srv.vpnza300.org",
       "server_port": 443,
-      "uuid": "2b02a206-c8e6-4494-845e-21d558a05311",
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "use123-33.riseads.in",
+        "server_name": "lv.srv.vpnza300.org",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "vJJU8P8oZVdZOj7fAxtBz4mB_wXBtJEYGpzquHrgsDs",
-          "short_id": "f21bbc5e7653e1ed"
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "ger-nnn.prostosetup.org",
+      "server": "ru.srv.vpnza300.org",
       "server_port": 443,
-      "uuid": "1b43419a-b711-40d4-a0ee-eb5c73e60c92",
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "github.com",
+        "server_name": "ru.srv.vpnza300.org",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "y3ZMu-ium5mBqE_h3xJ66vT0Z6HCIlTDti9emCQjDjw",
-          "short_id": "bcb6b0217a1206b3"
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "g10.steptofsvo.com",
+      "server": "nl-3.srv.vpnza300.org",
       "server_port": 443,
-      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g10.steptofsvo.com",
+        "server_name": "nl-3.srv.vpnza300.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "217.179.49.34",
-      "server_port": 2053,
-      "uuid": "5aac5f08-a711-4265-bd05-a97153e55fad",
+      "server": "lv-2.srv.vpnza300.org",
+      "server_port": 443,
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "lv-2.srv.vpnza300.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "aexzi-riPJIUIKCd6zjoQfusBBgghyt7gNS4RurQQ0Q",
-          "short_id": "6169bcdc80efade2"
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "45.67.136.184",
-      "server_port": 7443,
-      "uuid": "54a54ea0-4409-4030-ad9b-44c45849c05a",
+      "server": "probabblynot.fazelextremeisreal.com",
+      "server_port": 29870,
+      "uuid": "a3eb4c35-c1df-4448-968c-f6229cba9de0",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "stackoverflow.com",
+        "server_name": "www.refersion.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
-          "short_id": "be0ce047"
+          "public_key": "cWrLzTqWRYMQq8vsgN7rHtUxrDdqxDLNEWAuo_eXlRU",
+          "short_id": "821863f0"
         }
       }
     },
