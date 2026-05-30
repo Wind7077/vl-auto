@@ -42,107 +42,110 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "37.46.18.128",
+      "server": "150.241.101.40",
       "server_port": 443,
-      "uuid": "3c53398c-977f-442d-b7d0-bf92979e5c05",
+      "uuid": "0294d19d-5b1c-4ac6-8bf9-b14be79f3db3",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "dl.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "rKwAJxz4TAUYnvaGiTCsS1DrtYg-WhPreh-GvtDXwmw",
-          "short_id": "8feda7fefa82"
+          "public_key": "3wa3ZmMniymkL-58bPtY7baWPxdJ6n2UaJMG7YiLiGo",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "cdn-a9027cc2.glomedia-cdn.com",
-      "server_port": 2053,
-      "uuid": "0dc3fe97-73e3-4cc2-89a7-331e66540365",
+      "server": "198.105.115.65",
+      "server_port": 443,
+      "uuid": "d78c12c4-6927-40b8-8550-ed9be00334da",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "germany2.chickenkiller.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "sOTlswV3fg3MBJSiQek_a2fMs824tGNRFNRdQVYu1R8",
-          "short_id": "ef96a8323b38a60e"
+          "public_key": "qdp5Q3QZ7JhMnOaETGJjsRJe8m30P7np9xnu75-6xSE",
+          "short_id": "0da3ca76067a5e3c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "103.75.198.109",
+      "server": "2.26.88.109",
       "server_port": 443,
-      "uuid": "ad3fa633-6116-4d1a-b155-456392178674",
+      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "google.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "gwspsdMpJ40EtqdJcFZvyk02h6TG3jcrOMjw-jNgDW8",
-          "short_id": "af1c5322ed"
+          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "185.11.246.176",
+      "server": "198.105.115.65",
       "server_port": 443,
-      "uuid": "e00c965c-6492-0001-b8f3-5538c14a27be",
+      "uuid": "d78c12c4-6927-40b8-8550-ed9be00334da",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.sravni.ru",
+        "server_name": "germany2.chickenkiller.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "skQrUvqTYNsmUQiEFd2ySa94etOjlEQz6JbHwtgRclk",
-          "short_id": "3fbe3b48"
+          "public_key": "qdp5Q3QZ7JhMnOaETGJjsRJe8m30P7np9xnu75-6xSE",
+          "short_id": "0da3ca76067a5e3c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "nl-u16.vpn-port.com",
+      "server": "clee.altanetworking.ink",
       "server_port": 443,
-      "uuid": "48264301-dce4-4c4a-a91a-f5d8276ff362",
+      "uuid": "1c3f4485-0ba1-4796-9806-7be98e947842",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.yimg.com",
+        "server_name": "archive.ubuntu.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ixTpiJJA-oOL0jUjjc9N_feC-WX_1tsgqfyZmzYNcTI",
-          "short_id": "c804d085f2d1"
+          "public_key": "NzGDzCBdqlWAQGpUXn66UHa1YQpEBOTVbHiTlEvKs0E",
+          "short_id": "697a41353ae0cde8"
         }
       }
     },
