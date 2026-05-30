@@ -42,22 +42,21 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "150.241.101.40",
-      "server_port": 443,
-      "uuid": "0294d19d-5b1c-4ac6-8bf9-b14be79f3db3",
+      "server": "lvmw.verymad.net",
+      "server_port": 50207,
+      "uuid": "5828e5b6-b1b2-4b16-8958-332d414b51cf",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "dl.google.com",
+        "server_name": "www.yandex.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "3wa3ZmMniymkL-58bPtY7baWPxdJ6n2UaJMG7YiLiGo",
-          "short_id": ""
+          "public_key": "OSldWqB5yqBblJ4SRrbiZliMwpJIT3bYR8FCvV0Btwk",
+          "short_id": "15978e8670a057"
         }
       }
     },
@@ -86,44 +85,44 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "2.26.88.109",
+      "server": "clee.altanetworking.ink",
       "server_port": 443,
-      "uuid": "749a5df1-2d12-45cf-80f3-f85ea6b2e405",
+      "uuid": "1c3f4485-0ba1-4796-9806-7be98e947842",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Fp0-VrMBeaQe9xOrehDYHt0mqTZL-5CdfuMEzoXkOE8",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "198.105.115.65",
-      "server_port": 443,
-      "uuid": "d78c12c4-6927-40b8-8550-ed9be00334da",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "germany2.chickenkiller.com",
+        "server_name": "archive.ubuntu.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "qdp5Q3QZ7JhMnOaETGJjsRJe8m30P7np9xnu75-6xSE",
-          "short_id": "0da3ca76067a5e3c"
+          "public_key": "NzGDzCBdqlWAQGpUXn66UHa1YQpEBOTVbHiTlEvKs0E",
+          "short_id": "697a41353ae0cde8"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "213.176.77.65",
+      "server_port": 443,
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.google.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1kAsEwUWwatnjpeQ2qUwHSccFucFOKzXVICm9tC0eWA",
+          "short_id": "25425ff6fa"
         }
       }
     },
@@ -140,7 +139,7 @@
         "server_name": "archive.ubuntu.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,

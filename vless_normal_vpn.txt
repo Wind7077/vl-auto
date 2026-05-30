@@ -1,4 +1,4 @@
-# updated: 2026-05-30 04:48:22.060136+00:00
+# updated: 2026-05-30 07:37:28.024916+00:00
 vless://1c3f4485-0ba1-4796-9806-7be98e947842@clee.altanetworking.ink:443?encryption=none&type=tcp&security=reality&headerType=none&sni=archive.ubuntu.com&fp=firefox&allowInsecure=1&pbk=NzGDzCBdqlWAQGpUXn66UHa1YQpEBOTVbHiTlEvKs0E&sid=697a41353ae0cde8&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
 vless://5828e5b6-b1b2-4b16-8958-332d414b51cf@lvmw.verymad.net:50207?fp=firefox&pbk=OSldWqB5yqBblJ4SRrbiZliMwpJIT3bYR8FCvV0Btwk&security=reality&sid=15978e8670a057&sni=www.yandex.net&spx=%2FIbsXDSx5ygR49CG&type=tcp#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%7C%20%5BBL%5D
 vless://1c3f4485-0ba1-4796-9806-7be98e947842@clee.altanetworking.ink:443?encryption=none&type=tcp&security=reality&headerType=none&sni=archive.ubuntu.com&fp=chrome&allowInsecure=1&pbk=NzGDzCBdqlWAQGpUXn66UHa1YQpEBOTVbHiTlEvKs0E&sid=697a41353ae0cde8&flow=xtls-rprx-vision#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
