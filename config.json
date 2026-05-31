@@ -42,109 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "sw.srv.vpnza300.org",
+      "server": "109.196.101.214",
       "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "uuid": "93b16a2d-9567-4e20-8258-5074ffe0385d",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "sw.srv.vpnza300.org",
+        "server_name": "kkr.mediastreamer.online",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
+          "public_key": "gMBWY5R6Y9QyV1HMCvWvMSpuGgiaTJR9PclM4DTnKCg",
+          "short_id": "479c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "lvmw.verymad.net",
-      "server_port": 50207,
-      "uuid": "5828e5b6-b1b2-4b16-8958-332d414b51cf",
+      "server": "g10.steptofsvo.com",
+      "server_port": 443,
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.yandex.net",
+        "server_name": "g10.steptofsvo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "OSldWqB5yqBblJ4SRrbiZliMwpJIT3bYR8FCvV0Btwk",
-          "short_id": "15978e8670a057"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "nl-3.srv.vpnza300.org",
-      "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "server": "77.239.126.155",
+      "server_port": 44444,
+      "uuid": "4350fd8e-9f5d-47e7-a5f6-6161e0f7db9b",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "nl-3.srv.vpnza300.org",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
+          "public_key": "t7zppcy4X6f3INaKOTOX6hsc84UoykNlRiKYKkA-TXo",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "ger-nnn.prostosetup.org",
+      "server": "g10.steptofsvo.com",
       "server_port": 443,
-      "uuid": "1b43419a-b711-40d4-a0ee-eb5c73e60c92",
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "github.com",
+        "server_name": "g10.steptofsvo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "y3ZMu-ium5mBqE_h3xJ66vT0Z6HCIlTDti9emCQjDjw",
-          "short_id": "bcb6b0217a1206b3"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "lv.srv.vpnza300.org",
+      "server": "109.196.99.160",
       "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "uuid": "280234fa-4f72-4f4e-8ad8-eb95e5ebc606",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv.srv.vpnza300.org",
+        "server_name": "ccf.stackline.online",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
+          "public_key": "kllk-UkQtt0N5p1ktDPnkCfLukY3YcR9gpNx0-FGZzc",
+          "short_id": "282c60061f11"
         }
       }
     },
