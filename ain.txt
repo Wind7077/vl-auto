@@ -1,1 +1,1 @@
-vless://4350fd8e-9f5d-47e7-a5f6-6161e0f7db9b@77.239.126.155:44444?type=xhttp&headerType=none&security=reality&encryption=none&sni=apple.com&fp=firefox&pbk=t7zppcy4X6f3INaKOTOX6hsc84UoykNlRiKYKkA-TXo&spx=%2F&path=%2F#%F0%9F%87%AA%F0%9F%87%AA%20Estonia%2C%20Tallinn%20%7C%20%5BBL%5D
+vless://2ee26119-94e5-40b4-ba3a-16354021b600@185.18.250.127:2096?&security=tls&fp=chrome&sni=69565ce3109804e7813f98ee.mmdbay.blog&type=ws&headerType=none&host=69565ce3109804e7813f98ee.mmdbay.blog&path=%2Fgraphql#%F0%9F%87%AB%F0%9F%87%AE%20Finland%2C%20Helsinki%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
