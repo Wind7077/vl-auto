@@ -42,49 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ger-nnn.prostosetup.org",
-      "server_port": 443,
-      "uuid": "1b43419a-b711-40d4-a0ee-eb5c73e60c92",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "github.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "y3ZMu-ium5mBqE_h3xJ66vT0Z6HCIlTDti9emCQjDjw",
-          "short_id": "bcb6b0217a1206b3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "194-58-41-65-mac0uzpr.nike77prime.ru",
-      "server_port": 443,
-      "uuid": "afc941a0-b6b4-42d1-b284-d59a42f083fd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs",
-          "short_id": "deadbeef"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "sw.srv.vpnza300.org",
       "server_port": 443,
       "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
@@ -106,36 +63,80 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "probabblynot.fazelextremeisreal.com",
-      "server_port": 29870,
-      "uuid": "a3eb4c35-c1df-4448-968c-f6229cba9de0",
+      "tag": "vless-01",
+      "server": "lvmw.verymad.net",
+      "server_port": 50207,
+      "uuid": "5828e5b6-b1b2-4b16-8958-332d414b51cf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.refersion.com",
+        "server_name": "www.yandex.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "cWrLzTqWRYMQq8vsgN7rHtUxrDdqxDLNEWAuo_eXlRU",
-          "short_id": "821863f0"
+          "public_key": "OSldWqB5yqBblJ4SRrbiZliMwpJIT3bYR8FCvV0Btwk",
+          "short_id": "15978e8670a057"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "lv-2.srv.vpnza300.org",
+      "tag": "vless-02",
+      "server": "nl-3.srv.vpnza300.org",
       "server_port": 443,
       "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "lv-2.srv.vpnza300.org",
+        "server_name": "nl-3.srv.vpnza300.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "ger-nnn.prostosetup.org",
+      "server_port": 443,
+      "uuid": "1b43419a-b711-40d4-a0ee-eb5c73e60c92",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "github.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "y3ZMu-ium5mBqE_h3xJ66vT0Z6HCIlTDti9emCQjDjw",
+          "short_id": "bcb6b0217a1206b3"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "lv.srv.vpnza300.org",
+      "server_port": 443,
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "lv.srv.vpnza300.org",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
