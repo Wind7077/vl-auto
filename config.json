@@ -42,28 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "89.208.198.75",
-      "server_port": 4455,
-      "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
+      "server": "158.160.22.127",
+      "server_port": 443,
+      "uuid": "b2bf10f8-b287-481b-af5c-caaee37e9304",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wV_xLCx6wT8mn5x5-pC3I6F4FVHE7nzog-pFaesWYAI",
-          "short_id": "0bd47dd6701eb6b1"
+          "public_key": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
+          "short_id": "cf4d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
+      "server": "85.192.35.191",
+      "server_port": 443,
+      "uuid": "248891a9-1ac5-42ad-a68b-2cecef897b0a",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "max.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw",
+          "short_id": "fb916778d4"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "83.69.233.100",
       "server_port": 8446,
       "uuid": "81ee0ab0-99a4-4f04-9ff2-e51e0164150a",
@@ -85,67 +107,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "89.208.208.92",
-      "server_port": 9443,
-      "uuid": "cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "loadtest.dev.urent.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "aVu6XB9_RKR1xLtusyQ1_YOWCs4Ofi9GEJd6oERNH2Q",
-          "short_id": "689def22fcb54e86"
-        }
-      }
-    },
-    {
-      "type": "vless",
       "tag": "vless-03",
-      "server": "de-2.srv.vpnza300.org",
+      "server": "158.160.11.124",
       "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "uuid": "8b8ee388-5321-4d64-baa9-9bda31f9b4a2",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de-2.srv.vpnza300.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "de-2.srv.vpnza300.org",
-      "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-2.srv.vpnza300.org",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
+          "public_key": "1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA",
+          "short_id": "ece180c605b5453c"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "158.160.11.124",
+      "server_port": 443,
+      "uuid": "8b8ee388-5321-4d64-baa9-9bda31f9b4a2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ads.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA",
+          "short_id": "f34818a561dfd1fe"
         }
       }
     },
