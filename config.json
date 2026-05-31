@@ -42,22 +42,22 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "109.196.101.214",
+      "server": "g10.steptofsvo.com",
       "server_port": 443,
-      "uuid": "93b16a2d-9567-4e20-8258-5074ffe0385d",
+      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "kkr.mediastreamer.online",
+        "server_name": "g10.steptofsvo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "gMBWY5R6Y9QyV1HMCvWvMSpuGgiaTJR9PclM4DTnKCg",
-          "short_id": "479c"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
@@ -74,7 +74,7 @@
         "server_name": "g10.steptofsvo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
@@ -86,28 +86,7 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "77.239.126.155",
-      "server_port": 44444,
-      "uuid": "4350fd8e-9f5d-47e7-a5f6-6161e0f7db9b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "apple.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "t7zppcy4X6f3INaKOTOX6hsc84UoykNlRiKYKkA-TXo",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "g10.steptofsvo.com",
+      "server": "89.105.208.118",
       "server_port": 443,
       "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
       "packet_encoding": "xudp",
@@ -128,23 +107,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "109.196.99.160",
+      "tag": "vless-03",
+      "server": "80.89.237.87",
       "server_port": 443,
-      "uuid": "280234fa-4f72-4f4e-8ad8-eb95e5ebc606",
+      "uuid": "Fluffy_VPN-uQuRPvrt",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ccf.stackline.online",
+        "server_name": "very-mega-best.top",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "kllk-UkQtt0N5p1ktDPnkCfLukY3YcR9gpNx0-FGZzc",
-          "short_id": "282c60061f11"
+          "public_key": "yYOCEJEfnwByiWiiSNeCMhRqmViAhavOp8QaGWHx6VI",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "fi.roblugo.su",
+      "server_port": 443,
+      "uuid": "c980c5c7-1170-4a65-98c2-90d95f17ab80",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fi.roblugo.su",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
+          "short_id": "bbfb4f7a53e22dd3"
         }
       }
     },
