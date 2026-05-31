@@ -42,72 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "185.177.239.95",
-      "server_port": 14793,
-      "uuid": "74efe911-4e11-44ac-b9a8-c8b4caf42ea7",
+      "server": "fi.roblugo.su",
+      "server_port": 443,
+      "uuid": "c980c5c7-1170-4a65-98c2-90d95f17ab80",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.sony.com",
+        "server_name": "fi.roblugo.su",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LL5elMmIL4PZMio6uuBGuZoToOURQdGqnaL8-aIyFAw",
-          "short_id": "26adc84e61c1"
+          "public_key": "su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24",
+          "short_id": "bbfb4f7a53e22dd3"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "146.103.121.166",
-      "server_port": 443,
-      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "nl2.panel11.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "N1HRDSdKHqdbSX_N5SUfFiokXcN-jQzu-Na244bA21I",
-          "short_id": "c64556c616970b14"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "g10.steptofsvo.com",
-      "server_port": 443,
-      "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "g10.steptofsvo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "89.105.208.118",
       "server_port": 443,
       "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
@@ -129,18 +85,62 @@
     },
     {
       "type": "vless",
+      "tag": "vless-02",
+      "server": "146.103.121.166",
+      "server_port": 443,
+      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl2.panel11.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "N1HRDSdKHqdbSX_N5SUfFiokXcN-jQzu-Na244bA21I",
+          "short_id": "c64556c616970b14"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "89.124.82.95",
+      "server_port": 443,
+      "uuid": "ea484535-0170-4ec8-bb3c-a9dbaa7412d7",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "nl4.panel11.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "n4TFeuXAigmWJ9sXqnyicRkw3vcXy27ARfvhhsA61kI",
+          "short_id": "0bd0285f0c4f8f05"
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "vless-04",
-      "server": "g10.steptofsvo.com",
+      "server": "g3.steptofsvo.com",
       "server_port": 443,
       "uuid": "279828c6-13f2-439c-9a4e-ea7d4f470fa4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g10.steptofsvo.com",
+        "server_name": "g3.steptofsvo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
