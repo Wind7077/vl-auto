@@ -42,50 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "de-2.srv.vpnza300.org",
-      "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-2.srv.vpnza300.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "de-2.srv.vpnza300.org",
-      "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-2.srv.vpnza300.org",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "89.208.198.75",
       "server_port": 4455,
       "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
@@ -101,13 +57,35 @@
         "reality": {
           "enabled": true,
           "public_key": "wV_xLCx6wT8mn5x5-pC3I6F4FVHE7nzog-pFaesWYAI",
-          "short_id": "1d0437ac213d4ee4"
+          "short_id": "8d80046dc1c277a0"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-01",
+      "server": "89.208.198.75",
+      "server_port": 4455,
+      "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wV_xLCx6wT8mn5x5-pC3I6F4FVHE7nzog-pFaesWYAI",
+          "short_id": "8a5d679f8d9bb1dd"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "158.160.130.173",
       "server_port": 443,
       "uuid": "8987a492-3d01-4d0c-9411-7da6bae1a758",
@@ -129,23 +107,45 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "89.208.198.75",
-      "server_port": 4455,
-      "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
+      "tag": "vless-03",
+      "server": "de-2.srv.vpnza300.org",
+      "server_port": 443,
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "de-2.srv.vpnza300.org",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wV_xLCx6wT8mn5x5-pC3I6F4FVHE7nzog-pFaesWYAI",
-          "short_id": "8d80046dc1c277a0"
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "de-2.srv.vpnza300.org",
+      "server_port": 443,
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "de-2.srv.vpnza300.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
         }
       }
     },
