@@ -42,110 +42,110 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "158.160.22.127",
+      "server": "de-2.srv.vpnza300.org",
       "server_port": 443,
-      "uuid": "b2bf10f8-b287-481b-af5c-caaee37e9304",
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-maps.yandex.ru",
+        "server_name": "de-2.srv.vpnza300.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs",
-          "short_id": "cf4d"
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "85.192.35.191",
+      "server": "de-2.srv.vpnza300.org",
       "server_port": 443,
-      "uuid": "248891a9-1ac5-42ad-a68b-2cecef897b0a",
+      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "max.ru",
+        "server_name": "de-2.srv.vpnza300.org",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "SHIYN7zN9aFVxwKK-bIvDbhUgtHvlBhDi1qSl2sWwRw",
-          "short_id": "fb916778d4"
+          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
+          "short_id": "6eda877655137aff"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "83.69.233.100",
-      "server_port": 8446,
-      "uuid": "81ee0ab0-99a4-4f04-9ff2-e51e0164150a",
+      "server": "89.208.198.75",
+      "server_port": 4455,
+      "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "one.one.one.one",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "U3oQwKxFqqv2Y7vH7jtxIvjTMtgbGGNaj0QJ5zryugM",
-          "short_id": "6ba85179e30d4fc2"
+          "public_key": "wV_xLCx6wT8mn5x5-pC3I6F4FVHE7nzog-pFaesWYAI",
+          "short_id": "1d0437ac213d4ee4"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "158.160.11.124",
+      "server": "158.160.130.173",
       "server_port": 443,
-      "uuid": "8b8ee388-5321-4d64-baa9-9bda31f9b4a2",
+      "uuid": "8987a492-3d01-4d0c-9411-7da6bae1a758",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA",
-          "short_id": "ece180c605b5453c"
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "158.160.11.124",
-      "server_port": 443,
-      "uuid": "8b8ee388-5321-4d64-baa9-9bda31f9b4a2",
+      "server": "89.208.198.75",
+      "server_port": 4455,
+      "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ads.x5.ru",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA",
-          "short_id": "f34818a561dfd1fe"
+          "public_key": "wV_xLCx6wT8mn5x5-pC3I6F4FVHE7nzog-pFaesWYAI",
+          "short_id": "8d80046dc1c277a0"
         }
       }
     },
