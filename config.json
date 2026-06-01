@@ -42,110 +42,108 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "89.208.198.75",
-      "server_port": 4455,
-      "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
+      "server": "45.81.252.122",
+      "server_port": 443,
+      "uuid": "a3d83bba-5181-4cfa-963c-3623aa837ca0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "wikipedia.org",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wV_xLCx6wT8mn5x5-pC3I6F4FVHE7nzog-pFaesWYAI",
-          "short_id": "8d80046dc1c277a0"
+          "public_key": "14mbxpFBwnpp817ZLgT-6dVqsOmNPIaH7ygYcYScjGg",
+          "short_id": "2b4790ccbac1edb2"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "89.208.198.75",
-      "server_port": 4455,
-      "uuid": "69b578b6-6167-447d-a82c-033928da5e03",
+      "server": "nl-amst1-node.datamove.online",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wV_xLCx6wT8mn5x5-pC3I6F4FVHE7nzog-pFaesWYAI",
-          "short_id": "8a5d679f8d9bb1dd"
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "158.160.130.173",
-      "server_port": 443,
-      "uuid": "8987a492-3d01-4d0c-9411-7da6bae1a758",
+      "server": "185.23.19.93",
+      "server_port": 2053,
+      "uuid": "2896b35d-1de4-4458-a5ff-340a7bc2ebbe",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "www.gitlab.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": ""
         },
         "reality": {
           "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "public_key": "klqenfvPoePfiVDDeWb7GwcIB25cWF1bjuNVjVDc8BA",
+          "short_id": "17e9a4f3"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "de-2.srv.vpnza300.org",
-      "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "server": "riga-node.datamove.online",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de-2.srv.vpnza300.org",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "de-2.srv.vpnza300.org",
+      "server": "194.32.98.156",
       "server_port": 443,
-      "uuid": "d0b60427-ccb0-4026-aeec-d095b6b7dd08",
+      "uuid": "a3d83bba-5181-4cfa-963c-3623aa837ca0",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de-2.srv.vpnza300.org",
+        "server_name": "wikipedia.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "4Y1wdeQGqDecReK5UrA5RV7Dcq9QnfuArtSzujdJbXo",
-          "short_id": "6eda877655137aff"
+          "public_key": "14mbxpFBwnpp817ZLgT-6dVqsOmNPIaH7ygYcYScjGg",
+          "short_id": "2b4790ccbac1edb2"
         }
       }
     },
