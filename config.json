@@ -42,93 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "45.81.252.122",
+      "server": "est.netvora.space",
       "server_port": 443,
-      "uuid": "a3d83bba-5181-4cfa-963c-3623aa837ca0",
+      "uuid": "ea748643-6a0f-4120-b65a-420be4c074b3",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wikipedia.org",
+        "server_name": "est.netvora.space",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "14mbxpFBwnpp817ZLgT-6dVqsOmNPIaH7ygYcYScjGg",
-          "short_id": "2b4790ccbac1edb2"
+          "public_key": "KEpkyrOY2wV5h8_bA6doDT1e-lFjYd1jGHKDtDl8hSk",
+          "short_id": "141fb733511e7553"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "nl-amst1-node.datamove.online",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "185.23.19.93",
-      "server_port": 2053,
-      "uuid": "2896b35d-1de4-4458-a5ff-340a7bc2ebbe",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.gitlab.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "klqenfvPoePfiVDDeWb7GwcIB25cWF1bjuNVjVDc8BA",
-          "short_id": "17e9a4f3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "riga-node.datamove.online",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "194.32.98.156",
+      "server": "45.81.252.140",
       "server_port": 443,
       "uuid": "a3d83bba-5181-4cfa-963c-3623aa837ca0",
       "packet_encoding": "xudp",
@@ -144,6 +79,71 @@
           "enabled": true,
           "public_key": "14mbxpFBwnpp817ZLgT-6dVqsOmNPIaH7ygYcYScjGg",
           "short_id": "2b4790ccbac1edb2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "node-fr-1.axmavpn.xyz",
+      "server_port": 443,
+      "uuid": "ee9d83d7-b8b8-4f57-8b82-f713b6771d57",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fonts.gstatic.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "IhfJBfeNoDKmS7L8nhncOu-uCn46Tg-vavdC1efkGC0",
+          "short_id": "77889900"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "45.81.252.121",
+      "server_port": 443,
+      "uuid": "a3d83bba-5181-4cfa-963c-3623aa837ca0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "wikipedia.org",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "14mbxpFBwnpp817ZLgT-6dVqsOmNPIaH7ygYcYScjGg",
+          "short_id": "2b4790ccbac1edb2"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "auto.datamove.online",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "tradingview.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
         }
       }
     },
