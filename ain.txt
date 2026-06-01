@@ -1,1 +1,1 @@
-vless://1cbfb9ea-2a50-4c25-adea-3fd8065e21bc@88.216.193.56:443?flow=xtls-rprx-vision&fp=chrome&headertype=none&pbk=JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw&security=reality&sid=7755e972daf8eec8&sni=video.intfreed.ru&type=tcp#%F0%9F%87%B1%F0%9F%87%B9%20Lithuania%2C%20Vilnius%20%7C%20%5BBL%5D
+vless://c359d107-c1b1-4b71-811d-5040b898f2a7@fvpn.me:443?type=ws&headerType=none&security=tls&encryption=none&sni=fvpn.me&path=%2Fws&host=fvpn.me&insecure=0#%F0%9F%87%B1%F0%9F%87%BB%20Latvia%2C%20Riga%20%28Latgales%20priek%C5%A1pils%C4%93ta%29%20%7C%20%5BBL%5D
