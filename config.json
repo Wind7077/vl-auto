@@ -42,17 +42,37 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "china-node.appbyte.online",
+      "server": "cdn-a9027cc2.glomedia-cdn.com",
+      "server_port": 2053,
+      "uuid": "0dc3fe97-73e3-4cc2-89a7-331e66540365",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.apple.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "sOTlswV3fg3MBJSiQek_a2fMs824tGNRFNRdQVYu1R8",
+          "short_id": "ef96a8323b38a60e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "germ-node.datamove.online",
       "server_port": 2040,
       "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "apple.com",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "ios"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -63,65 +83,43 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
-      "server": "finland.cloudpath.live",
-      "server_port": 443,
-      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "tag": "vless-02",
+      "server": "nl-amst1-node.datamove.online",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "microsoft.com",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "f7IfVwkipbZFQN0MDsBrHiANTcpSebrdIyOwL_0pOGc",
-          "short_id": "2478b338"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "germany.cloudpath.live",
-      "server_port": 443,
-      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": ""
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "9LTpivOtvUds71_Hxmqk7vfeMx7JeHB0aJuaQX6xXzI",
-          "short_id": "065ee439"
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "185.215.186.44",
-      "server_port": 443,
-      "uuid": "1cbfb9ea-2a50-4c25-adea-3fd8065e21bc",
+      "server": "powerfull.ghoststeven.site",
+      "server_port": 53103,
+      "uuid": "9b5cec5b-cda2-48e1-a7b3-d1d620b965db",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "video.intfreed.ru",
+        "server_name": "www.tesla.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
+          "public_key": "xLHrnePXhCu8lwffhkde0wn6fwJRE9OO6d8hakI2Gwc",
+          "short_id": "d410dfdf35a66081"
         }
       }
     },
@@ -137,7 +135,7 @@
         "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
