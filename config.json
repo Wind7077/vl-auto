@@ -42,105 +42,109 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "cdn-a9027cc2.glomedia-cdn.com",
-      "server_port": 2053,
-      "uuid": "0dc3fe97-73e3-4cc2-89a7-331e66540365",
+      "server": "77.239.112.88",
+      "server_port": 443,
+      "uuid": "f099abc1-eb01-4171-a94f-566563f6b3b1",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.apple.com",
+        "server_name": "www.ya.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "sOTlswV3fg3MBJSiQek_a2fMs824tGNRFNRdQVYu1R8",
-          "short_id": "ef96a8323b38a60e"
+          "public_key": "o2SrzDoX5tfMpju7B-RSxsb7eo6-hdV1vRFP8VA-dUA",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "germ-node.datamove.online",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
+      "server": "158.160.253.147",
+      "server_port": 443,
+      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "yandex.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
+          "public_key": "IOFyDX8n74KV_z3WS8mIN20P-NAWEN_mU9N4joYh2gQ",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "nl-amst1-node.datamove.online",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
+      "server": "pl.sywl3.us",
+      "server_port": 443,
+      "uuid": "435954ab-38f3-40bf-b303-77e3f6576fa0",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "dropbox.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
+          "public_key": "xy8AHr_xZCNqFOuLq_t2fe4oLlrv5iu38uCQ1hUJ40w",
+          "short_id": "954c99065465428d"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "powerfull.ghoststeven.site",
-      "server_port": 53103,
-      "uuid": "9b5cec5b-cda2-48e1-a7b3-d1d620b965db",
+      "server": "china-node.appbyte.online",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tesla.com",
+        "server_name": "apple.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "ios"
         },
         "reality": {
           "enabled": true,
-          "public_key": "xLHrnePXhCu8lwffhkde0wn6fwJRE9OO6d8hakI2Gwc",
-          "short_id": "d410dfdf35a66081"
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "germ-node.datamove.online",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
+      "server": "cdn-de-1.bigbossvpn.online",
+      "server_port": 8443,
+      "uuid": "6ef2cd26-bd6c-45ee-88b6-ef4240cb012c",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
+          "public_key": "OAKZv1BA4SuH3tEQGf24i9ZJiKbYQoWoVZwrUdARQwU",
+          "short_id": "14a3a07e185c653f"
         }
       }
     },
