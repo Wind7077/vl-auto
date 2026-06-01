@@ -42,108 +42,110 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "est.netvora.space",
+      "server": "80.89.237.87",
       "server_port": 443,
-      "uuid": "ea748643-6a0f-4120-b65a-420be4c074b3",
+      "uuid": "Fluffy_VPN-uQuRPvrt",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "est.netvora.space",
+        "server_name": "very-mega-best.top",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "KEpkyrOY2wV5h8_bA6doDT1e-lFjYd1jGHKDtDl8hSk",
-          "short_id": "141fb733511e7553"
+          "public_key": "yYOCEJEfnwByiWiiSNeCMhRqmViAhavOp8QaGWHx6VI",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "45.81.252.140",
+      "server": "free-ne.moscow-neversleep.digital",
       "server_port": 443,
-      "uuid": "a3d83bba-5181-4cfa-963c-3623aa837ca0",
+      "uuid": "24cb242c-1748-40a2-8b4f-28f829ca7963",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wikipedia.org",
+        "server_name": "free-us.moscow-neversleep.digital",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "14mbxpFBwnpp817ZLgT-6dVqsOmNPIaH7ygYcYScjGg",
-          "short_id": "2b4790ccbac1edb2"
+          "public_key": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
+          "short_id": "1ed136481e0ede74"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "node-fr-1.axmavpn.xyz",
+      "server": "ru-1.videoproeditor.com",
       "server_port": 443,
-      "uuid": "ee9d83d7-b8b8-4f57-8b82-f713b6771d57",
+      "uuid": "be4494a3-9544-4eb6-b166-5a733706d505",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fonts.gstatic.com",
+        "server_name": "ru-1.videoproeditor.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "IhfJBfeNoDKmS7L8nhncOu-uCn46Tg-vavdC1efkGC0",
-          "short_id": "77889900"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "45.81.252.121",
+      "server": "88.216.193.56",
       "server_port": 443,
-      "uuid": "a3d83bba-5181-4cfa-963c-3623aa837ca0",
+      "uuid": "1cbfb9ea-2a50-4c25-adea-3fd8065e21bc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "wikipedia.org",
+        "server_name": "video.intfreed.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "14mbxpFBwnpp817ZLgT-6dVqsOmNPIaH7ygYcYScjGg",
-          "short_id": "2b4790ccbac1edb2"
+          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
+          "short_id": "7755e972daf8eec8"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "auto.datamove.online",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
+      "server": "free-de.moscow-neversleep.digital",
+      "server_port": 753,
+      "uuid": "24cb242c-1748-40a2-8b4f-28f829ca7963",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "free-de.moscow-neversleep.digital",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
+          "public_key": "zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M",
+          "short_id": "1ed136481e0ede74"
         }
       }
     },
