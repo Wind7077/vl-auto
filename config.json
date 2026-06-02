@@ -42,95 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "pl.sywl3.us",
-      "server_port": 443,
-      "uuid": "435954ab-38f3-40bf-b303-77e3f6576fa0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dropbox.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "xy8AHr_xZCNqFOuLq_t2fe4oLlrv5iu38uCQ1hUJ40w",
-          "short_id": "954c99065465428d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "37.252.11.92",
-      "server_port": 443,
-      "uuid": "e760af4f-3cf4-4087-832d-b1d0a91ac317",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "WtdwHlJ5Lc1BNeqNwYzlD_2CSi2phWzkoIbjkIuNa1Y",
-          "short_id": "e4d7a1c89b2f3560"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "vnldc.mostserv.xyz",
-      "server_port": 443,
-      "uuid": "0ddc1b7c-ce23-4a30-8ede-8a9e19f02fb7",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "vnldc.mostserv.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "3WzSgL8uXA3vE3IHrfdBpJmOO4MYrsWpczDSY_jJRjI",
-          "short_id": "226509f017e4c36d"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "cdn-de-1.bigbossvpn.online",
-      "server_port": 8443,
-      "uuid": "6ef2cd26-bd6c-45ee-88b6-ef4240cb012c",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "OAKZv1BA4SuH3tEQGf24i9ZJiKbYQoWoVZwrUdARQwU",
-          "short_id": "14a3a07e185c653f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "germ-node.datamove.online",
+      "server": "185.136.12.9",
       "server_port": 2040,
       "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
@@ -145,6 +57,93 @@
           "enabled": true,
           "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
           "short_id": "53197c66aef53c44"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "de2.clgate.network",
+      "server_port": 443,
+      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.twitch.tv",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "ger03.port-server.online",
+      "server_port": 443,
+      "uuid": "dbfa97b8-f4fb-4687-96dc-a5a2aebfae11",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ger03.port-server.online",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zM8Zl7N4M1lpqBOnOS_IZz8cpZE_C9HDIFOeuzFSxzk",
+          "short_id": "c91f7baf1f13e354"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "de.sywl3.us",
+      "server_port": 443,
+      "uuid": "435954ab-38f3-40bf-b303-77e3f6576fa0",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cloudflare.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "rH_bRwDjWFqJ5uyNKaNqJFCQbHDVvzkVFQn7ZLdmMEg",
+          "short_id": "f0a3d1c7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "germany02.anotherboring.top",
+      "server_port": 443,
+      "uuid": "8f76336d-e564-41e2-9c09-7a15536f356a",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "germany02.anotherboring.top",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "qq"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "zN9kS4_czte2L8NhB0046IASVAJd0CJJY2jgI2Qq4wg",
+          "short_id": "bb705d46cd253646"
         }
       }
     },
