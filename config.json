@@ -42,7 +42,7 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "185.136.12.9",
+      "server": "23.26.193.73",
       "server_port": 2040,
       "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
@@ -51,7 +51,7 @@
         "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
@@ -63,71 +63,28 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "de2.clgate.network",
-      "server_port": 443,
-      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "server": "pl-1.omuvpn.tech",
+      "server_port": 42346,
+      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "www.tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
-          "short_id": ""
+          "public_key": "0xOy6LYcvRIbgXBDMSV0ZiuJPi_hf2e7FV4icmsQYQY",
+          "short_id": "8b5017a8"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "ger03.port-server.online",
-      "server_port": 443,
-      "uuid": "dbfa97b8-f4fb-4687-96dc-a5a2aebfae11",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ger03.port-server.online",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "zM8Zl7N4M1lpqBOnOS_IZz8cpZE_C9HDIFOeuzFSxzk",
-          "short_id": "c91f7baf1f13e354"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "de.sywl3.us",
-      "server_port": 443,
-      "uuid": "435954ab-38f3-40bf-b303-77e3f6576fa0",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "cloudflare.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "rH_bRwDjWFqJ5uyNKaNqJFCQbHDVvzkVFQn7ZLdmMEg",
-          "short_id": "f0a3d1c7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
       "server": "germany02.anotherboring.top",
       "server_port": 443,
       "uuid": "8f76336d-e564-41e2-9c09-7a15536f356a",
@@ -144,6 +101,48 @@
           "enabled": true,
           "public_key": "zN9kS4_czte2L8NhB0046IASVAJd0CJJY2jgI2Qq4wg",
           "short_id": "bb705d46cd253646"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "sweden.cloudpath.live",
+      "server_port": 443,
+      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QlU9N0pOM_MrRXMILFcsTjrYD3SJzLvavAK8fIqcwFs",
+          "short_id": "6a0d77bf"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "se.clgate.network",
+      "server_port": 443,
+      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.twitch.tv",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
+          "short_id": ""
         }
       }
     },
