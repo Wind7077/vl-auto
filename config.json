@@ -34,115 +34,92 @@
         "vless-00",
         "vless-01",
         "vless-02",
-        "vless-03",
-        "vless-04"
+        "vless-03"
       ],
       "default": "warp-out"
     },
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "45.138.102.226",
+      "server": "158.160.7.200",
       "server_port": 443,
-      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "uuid": "8b9b71bb-bbe6-419f-bec8-915fe279fb5a",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "www.cloudflare.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
-          "short_id": ""
+          "public_key": "uXPzYhZc3phCl1QB_YPpclaejvOr2ufF3-UC1lVdFEY",
+          "short_id": "46814c2aaf2d1077"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "pl-1.omuvpn.tech",
-      "server_port": 42346,
-      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+      "server": "108.165.174.228",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.tradingview.com",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0xOy6LYcvRIbgXBDMSV0ZiuJPi_hf2e7FV4icmsQYQY",
-          "short_id": "8b5017a8"
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "germany02.anotherboring.top",
+      "server": "developer.projectauths.com",
       "server_port": 443,
-      "uuid": "8f76336d-e564-41e2-9c09-7a15536f356a",
+      "uuid": "d49eb175-facd-4c33-b1be-32c746701184",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "germany02.anotherboring.top",
+        "server_name": "developer.projectauths.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "zN9kS4_czte2L8NhB0046IASVAJd0CJJY2jgI2Qq4wg",
-          "short_id": "bb705d46cd253646"
+          "public_key": "U-aI9goYn0iGJ31emKZ1ltON45Ry0LjCl15MnumMD2c",
+          "short_id": "68d14e7adba07698"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "finland.cloudpath.live",
-      "server_port": 443,
-      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
+      "server": "23.26.193.73",
+      "server_port": 2040,
+      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "microsoft.com",
+        "server_name": "tradingview.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "qq"
         },
         "reality": {
           "enabled": true,
-          "public_key": "f7IfVwkipbZFQN0MDsBrHiANTcpSebrdIyOwL_0pOGc",
-          "short_id": "2478b338"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "sweden.cloudpath.live",
-      "server_port": 443,
-      "uuid": "a1fbffe9-8e5a-5a0e-9333-045d32eccd59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QlU9N0pOM_MrRXMILFcsTjrYD3SJzLvavAK8fIqcwFs",
-          "short_id": "6a0d77bf"
+          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
+          "short_id": "53197c66aef53c44"
         }
       }
     },
