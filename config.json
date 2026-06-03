@@ -42,27 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "108.165.174.228",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "tradingview.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
       "server": "tal.odavpn.online",
       "server_port": 443,
       "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
@@ -83,8 +62,29 @@
     },
     {
       "type": "vless",
+      "tag": "vless-01",
+      "server": "se.clgate.network",
+      "server_port": 443,
+      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.twitch.tv",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
       "tag": "vless-02",
-      "server": "45.138.102.226",
+      "server": "se.clgate.network",
       "server_port": 443,
       "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
       "packet_encoding": "xudp",
@@ -105,43 +105,44 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "108.165.32.239",
-      "server_port": 2040,
-      "uuid": "17451fec-af94-4715-8c2f-7f6839130d0a",
+      "server": "51.capycore.ru",
+      "server_port": 443,
+      "uuid": "891d43f1-e360-4b3a-96a8-5c5ff9697940",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "tradingview.com",
+        "server_name": "smartcaptcha.yandexcloud.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0",
-          "short_id": "53197c66aef53c44"
+          "public_key": "RJtIKw17_0x-zmAL0vL4FrgeKqxHt2Faai-oSTBPmWI",
+          "short_id": "ef276a7580e24ac8"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "de2.thefastspeedtest.net",
+      "server": "sw.musicperec.ru",
       "server_port": 443,
-      "uuid": "5a4514a3-be28-4655-9bd7-5ef391d7949f",
+      "uuid": "31216f81-3139-0021-bac4-646680314264",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "de2.thefastspeedtest.net",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "edge"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "PuOP1VAIjcpq6sU_eUxV-z-u_WYFsu2hKIv2uye6804",
-          "short_id": "26f8c993ac40d17d"
+          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
+          "short_id": "6a2b5c9d"
         }
       }
     },
