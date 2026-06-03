@@ -1,1 +1,1 @@
-vless://f3a61acd-8589-4c27-b6ed-81ec3b57e6a7@93665.xin:443?Telegram=&Telegram=&Telegram=&path=/49614/cdn&security=tls&encryption=none&host=free.irandoc.info&fp=chrome&type=ws&sni=free.irandoc.info#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Falkenstein%20%7C%20%F0%9F%8C%90%20%7C%20%5BBL%5D
+vless://telegramchannel-probabblynot@82.27.2.239:18034?security=reality&type=tcp&sni=refersion.com&fp=chrome&sid=ef6a0ec24e7f&pbk=ph_rbwXTPE724CilY2K21PHfgfj32QL2oApFve6s1nQ&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany%2C%20Frankfurt%20am%20Main%20%28Innenstadt%20I%29%20%7C%20%5BBL%5D
