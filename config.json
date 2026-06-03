@@ -42,28 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "tal.odavpn.online",
+      "server": "45.138.102.226",
       "server_port": 443,
-      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
+      "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "m.twitch.tv",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
-          "short_id": "41774dc9dc721e"
+          "public_key": "r2B2KwffHmyjWrmwKmI0o3uW9UEsn2l_Ko0UmyTjKgM",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "se.clgate.network",
+      "server": "45.138.102.226",
       "server_port": 443,
       "uuid": "f4bad870-4b45-4a46-bec6-d05fa31df1cb",
       "packet_encoding": "xudp",
@@ -105,33 +105,32 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "51.capycore.ru",
+      "server": "nl1.thefastspeedtest.net",
       "server_port": 443,
-      "uuid": "891d43f1-e360-4b3a-96a8-5c5ff9697940",
+      "uuid": "5a4514a3-be28-4655-9bd7-5ef391d7949f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "smartcaptcha.yandexcloud.net",
+        "server_name": "nl1.thefastspeedtest.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
-          "public_key": "RJtIKw17_0x-zmAL0vL4FrgeKqxHt2Faai-oSTBPmWI",
-          "short_id": "ef276a7580e24ac8"
+          "public_key": "PuOP1VAIjcpq6sU_eUxV-z-u_WYFsu2hKIv2uye6804",
+          "short_id": "90d8f7cfbc99d783"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "sw.musicperec.ru",
+      "server": "tal.odavpn.online",
       "server_port": 443,
-      "uuid": "31216f81-3139-0021-bac4-646680314264",
+      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "www.amd.com",
@@ -141,8 +140,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4",
-          "short_id": "6a2b5c9d"
+          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
+          "short_id": "41774dc9dc721e"
         }
       }
     },
