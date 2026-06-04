@@ -42,31 +42,31 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "b02.connectv.net",
+      "server": "51.250.103.104",
       "server_port": 443,
-      "uuid": "c4c9bfd7-4bdc-0007-ae64-185ffb553ae6",
+      "uuid": "06778d23-024a-4897-8d30-44d48a996487",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "b02.connectv.net",
+        "server_name": "cdp.x5.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
-          "public_key": "0RegtdcQHk9Fg95kgn5jmRglN6N3sdk3ZhrFXvmbrgk",
-          "short_id": ""
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "51.250.24.222",
+      "server": "51.250.106.87",
       "server_port": 443,
-      "uuid": "fdb3e2d8-b33e-448b-b9da-a7c1d3a5203e",
+      "uuid": "06778d23-024a-4897-8d30-44d48a996487",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -86,53 +86,9 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "178.154.204.65",
+      "server": "51.250.24.222",
       "server_port": 443,
-      "uuid": "ea7f64ed-64b5-453f-b5ab-dbc50c558209",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-4-4.nodes.ac",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "FVceIo73-WJfacwis9bRlQ7wEYbQuN4N25oWQlmdwl0",
-          "short_id": "bfb16f73e35be2da"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "178.154.215.113",
-      "server_port": 443,
-      "uuid": "ea7f64ed-64b5-453f-b5ab-dbc50c558209",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "wl-4-1.legendary.ac",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "E-nzKjkLlehnOE5Lub_r6tCOQcvnxVaSAETjFHESciw",
-          "short_id": "30e93292b543f308"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "51.250.103.104",
-      "server_port": 443,
-      "uuid": "fdb3e2d8-b33e-448b-b9da-a7c1d3a5203e",
+      "uuid": "06778d23-024a-4897-8d30-44d48a996487",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -146,6 +102,49 @@
           "enabled": true,
           "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
           "short_id": "8ec792bfd725be8a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "51.250.97.18",
+      "server_port": 443,
+      "uuid": "b635ecff-3b46-440f-be44-dd85ab63ee7d",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "2.26.88.118",
+      "server_port": 8443,
+      "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "2.26.88.118",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
+          "short_id": "ea1058117be12087"
         }
       }
     },
