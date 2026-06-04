@@ -42,108 +42,101 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "transparency.cloud-de.appcore.org",
-      "server_port": 34754,
-      "uuid": "35762c02-ff2b-4526-b41b-e96e5d99528b",
+      "server": "5.144.179.56",
+      "server_port": 45466,
+      "uuid": "6a8233fe-6fc0-4dd8-aab2-d4063c16089c",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yahoo.com",
+        "server_name": "5.144.179.56",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "eMijZKuJlNEciXbhyzdbewk-ot_JLMZVaA42bxKFcBM",
-          "short_id": "2e52"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "probabblynot.fazelextremeisreal.com",
-      "server_port": 18034,
-      "uuid": "telegramchannel-probabblynot",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ph_rbwXTPE724CilY2K21PHfgfj32QL2oApFve6s1nQ",
-          "short_id": "ef6a0ec24e7f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "185.218.137.132",
-      "server_port": 27064,
-      "uuid": "6283b900-8254-497c-8b67-3550e9f11ecf",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "VjzdppGQaf1Rc0qiYhAC5lbnIRY2Dfk54FgFjRjlszk",
-          "short_id": "acb8f68abe5f1f4e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "78.17.147.65",
+      "server": "pl-in.api.dznn.net",
       "server_port": 443,
-      "uuid": "b67ed271-5a34-4d07-9970-f8ba27ca2c8a",
+      "uuid": "8bb48085-50d3-42a3-b8b4-544d4fd936bc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "pl-in.api.dznn.net",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE",
-          "short_id": "fcd9787f"
+          "public_key": "9F7JxyyP-TNLt0dY2xOB0_34I8W0xXIpFY7rZ7-L0Gg",
+          "short_id": "0a6ba2716a409da6"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "82.27.2.239",
-      "server_port": 18034,
-      "uuid": "telegramchannel-probabblynot",
+      "tag": "vless-02",
+      "server": "2.26.88.118",
+      "server_port": 8443,
+      "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "refersion.com",
+        "server_name": "2.26.88.118",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ph_rbwXTPE724CilY2K21PHfgfj32QL2oApFve6s1nQ",
-          "short_id": "ef6a0ec24e7f"
+          "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
+          "short_id": "ea1058117be12087"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "37.203.35.59",
+      "server_port": 443,
+      "uuid": "bb2ee88f-b178-4f81-91e6-ac85fdffe454",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YtMwlaOi_MU9kXcCgFef_-GrHTWNyiHR1UWGo24daAk",
+          "short_id": "1ec4acc748fb237e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "37.203.35.59",
+      "server_port": 443,
+      "uuid": "bb2ee88f-b178-4f81-91e6-ac85fdffe454",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "YtMwlaOi_MU9kXcCgFef_-GrHTWNyiHR1UWGo24daAk",
+          "short_id": "1ec4acc748fb237e"
         }
       }
     },
