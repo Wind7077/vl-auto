@@ -42,6 +42,50 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "b02.connectv.net",
+      "server_port": 443,
+      "uuid": "c4c9bfd7-4bdc-0007-ae64-185ffb553ae6",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "b02.connectv.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "0RegtdcQHk9Fg95kgn5jmRglN6N3sdk3ZhrFXvmbrgk",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "51.250.24.222",
+      "server_port": 443,
+      "uuid": "fdb3e2d8-b33e-448b-b9da-a7c1d3a5203e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdp.x5.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
+          "short_id": "8ec792bfd725be8a"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
       "server": "178.154.204.65",
       "server_port": 443,
       "uuid": "ea7f64ed-64b5-453f-b5ab-dbc50c558209",
@@ -63,7 +107,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-01",
+      "tag": "vless-03",
       "server": "178.154.215.113",
       "server_port": 443,
       "uuid": "ea7f64ed-64b5-453f-b5ab-dbc50c558209",
@@ -85,29 +129,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
-      "server": "b02.connectv.net",
-      "server_port": 443,
-      "uuid": "c4c9bfd7-4bdc-0007-ae64-185ffb553ae6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "b02.connectv.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0RegtdcQHk9Fg95kgn5jmRglN6N3sdk3ZhrFXvmbrgk",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-04",
       "server": "51.250.103.104",
       "server_port": 443,
       "uuid": "fdb3e2d8-b33e-448b-b9da-a7c1d3a5203e",
@@ -124,28 +146,6 @@
           "enabled": true,
           "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
           "short_id": "8ec792bfd725be8a"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "b02.connectv.net",
-      "server_port": 443,
-      "uuid": "c4c9bfd7-4bdc-0007-ae64-185ffb553ae6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "b02.connectv.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "0RegtdcQHk9Fg95kgn5jmRglN6N3sdk3ZhrFXvmbrgk",
-          "short_id": ""
         }
       }
     },
