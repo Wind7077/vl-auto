@@ -42,48 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "143.14.50.243",
-      "server_port": 443,
-      "uuid": "ce745d48-da02-40a0-b7b5-89db3bf43131",
+      "server": "transparency.cloud-de.appcore.org",
+      "server_port": 34754,
+      "uuid": "35762c02-ff2b-4526-b41b-e96e5d99528b",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "yahoo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "MJsIaoeYt-qnokhHqSKjLQri0cddD7lKXQAGV34v3TI",
-          "short_id": ""
+          "public_key": "eMijZKuJlNEciXbhyzdbewk-ot_JLMZVaA42bxKFcBM",
+          "short_id": "2e52"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "82.27.2.239",
-      "server_port": 18034,
-      "uuid": "telegramchannel-probabblynot",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "refersion.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ph_rbwXTPE724CilY2K21PHfgfj32QL2oApFve6s1nQ",
-          "short_id": "ef6a0ec24e7f"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "probabblynot.fazelextremeisreal.com",
       "server_port": 18034,
       "uuid": "telegramchannel-probabblynot",
@@ -104,29 +84,29 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "45.67.136.114",
-      "server_port": 7443,
-      "uuid": "10484bee-8516-400a-9b1e-efb5144ad324",
+      "tag": "vless-02",
+      "server": "185.218.137.132",
+      "server_port": 27064,
+      "uuid": "6283b900-8254-497c-8b67-3550e9f11ecf",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "stackoverflow.com",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
-          "short_id": "d82fb387"
+          "public_key": "VjzdppGQaf1Rc0qiYhAC5lbnIRY2Dfk54FgFjRjlszk",
+          "short_id": "acb8f68abe5f1f4e"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-03",
       "server": "78.17.147.65",
       "server_port": 443,
       "uuid": "b67ed271-5a34-4d07-9970-f8ba27ca2c8a",
@@ -143,6 +123,27 @@
           "enabled": true,
           "public_key": "gXc2c9NIWxhUTb7HoBCjvo-uB1L4iQj4TH38g4YhxHE",
           "short_id": "fcd9787f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "82.27.2.239",
+      "server_port": 18034,
+      "uuid": "telegramchannel-probabblynot",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "refersion.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "ph_rbwXTPE724CilY2K21PHfgfj32QL2oApFve6s1nQ",
+          "short_id": "ef6a0ec24e7f"
         }
       }
     },
