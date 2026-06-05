@@ -42,14 +42,14 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "g7.steptofsvo.com",
+      "server": "g2.steptofsvo.com",
       "server_port": 443,
       "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g7.steptofsvo.com",
+        "server_name": "g2.steptofsvo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "randomized"
@@ -64,22 +64,22 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "51.250.106.87",
+      "server": "g3.steptofsvo.com",
       "server_port": 443,
-      "uuid": "164eb072-3f10-46f7-be37-d0e89cce879a",
+      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "g3.steptofsvo.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "randomized"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
+          "short_id": "6d6f13013d3e1d0c"
         }
       }
     },
@@ -107,44 +107,32 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "g3.steptofsvo.com",
+      "server": "78.159.240.174",
       "server_port": 443,
-      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
+      "uuid": "ab268dc7-510f-4fb9-ace4-b7305a59c7bb",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g3.steptofsvo.com",
+        "server_name": "95.85.246.16.speed-storage.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "fingerprint": "chrome"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "ru-lv.illusion-vpn.ru",
+      "server": "78.17.103.57.blanesik.space",
       "server_port": 443,
-      "uuid": "bee8df77-2780-5a7b-b005-9da84fcb7aaf",
+      "uuid": "ab268dc7-510f-4fb9-ace4-b7305a59c7bb",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ru-lv.illusion-vpn.ru",
+        "server_name": "78.17.103.57.blanesik.space",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "86DiKd_LyZ_9L4WyaADZsNJH5wnaTGoZyywz0CGFYwg",
-          "short_id": "9ec378e393a94f"
+          "fingerprint": "safari"
         }
       }
     },
