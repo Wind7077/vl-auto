@@ -42,71 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "tal.odavpn.online",
-      "server_port": 443,
-      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
+      "server": "147.45.187.210",
+      "server_port": 10443,
+      "uuid": "6ca66fa1-0bac-458e-8483-6662378c2a60",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "sun1-56.userapi.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
-          "short_id": "41774dc9dc721e"
+          "public_key": "rK6mCfx5GOI6HGvwilJAiYA7N52D2lsxtrYijkFPnwU",
+          "short_id": "6d2f"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "grok.sempai.site",
-      "server_port": 443,
-      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "qEUU6oGBD_rjO0319EK4rAnsPhlqrb-ecCgQsT4JUmI",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "117.55.203.204",
-      "server_port": 8443,
-      "uuid": "46131752-b3d9-4548-9890-13cae88c531b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.google.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JzqgD1kR5xVXfl4VkI-2tvFaRpK3ad0ZRTI4RUwyLWk",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "backend.xwhiteness.site",
       "server_port": 443,
       "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
@@ -128,22 +85,67 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "2.26.88.118",
-      "server_port": 8443,
-      "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
+      "tag": "vless-02",
+      "server": "grok.sempai.site",
+      "server_port": 443,
+      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "2.26.88.118",
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
-          "short_id": "ea1058117be12087"
+          "public_key": "qEUU6oGBD_rjO0319EK4rAnsPhlqrb-ecCgQsT4JUmI",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "login.sempai.site",
+      "server_port": 443,
+      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "front.xwhiteness.site",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HSxmRrAGkb_RPkm7rLyqr9tVCGzd9thesrdcgENYShA",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "150.241.93.194",
+      "server_port": 443,
+      "uuid": "73a27a6d-a111-4576-a6b3-e8594aeac2f2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "front.xwhiteness.site",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "HSxmRrAGkb_RPkm7rLyqr9tVCGzd9thesrdcgENYShA",
+          "short_id": ""
         }
       }
     },
