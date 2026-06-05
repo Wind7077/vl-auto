@@ -42,22 +42,21 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "g2.steptofsvo.com",
-      "server_port": 443,
-      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
+      "server": "2.26.88.118",
+      "server_port": 8443,
+      "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "g2.steptofsvo.com",
+        "server_name": "2.26.88.118",
         "utls": {
           "enabled": true,
-          "fingerprint": "randomized"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
+          "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
+          "short_id": "ea1058117be12087"
         }
       }
     },
@@ -107,32 +106,42 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "78.159.240.174",
+      "server": "72.56.18.179",
       "server_port": 443,
-      "uuid": "ab268dc7-510f-4fb9-ace4-b7305a59c7bb",
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "95.85.246.16.speed-storage.ru",
+        "server_name": "www.ya.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
+          "short_id": "2af15d98"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "78.17.103.57.blanesik.space",
+      "server": "ru02.goodmaximum.com",
       "server_port": 443,
-      "uuid": "ab268dc7-510f-4fb9-ace4-b7305a59c7bb",
+      "uuid": "db95b766-43a8-001f-9b5d-5ca6f2735188",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "78.17.103.57.blanesik.space",
+        "server_name": "ru-cloud.221131513.xyz",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
+          "short_id": "77778028b56c8704"
         }
       }
     },
