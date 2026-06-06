@@ -42,71 +42,6 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ru-2.videoproeditor.com",
-      "server_port": 443,
-      "uuid": "9b651a79-83f8-49a0-9848-b18c6a9406f7",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "ru-2.videoproeditor.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "roz1r.skystreamgame.com",
-      "server_port": 8443,
-      "uuid": "0468a043-e12c-466e-881c-7d685c1b3950",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "roz1r.skystreamgame.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
-          "short_id": "4326"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "leg.goodmaximum.com",
-      "server_port": 443,
-      "uuid": "e653f585-9924-002d-8d5d-c15c3ab95270",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "workspace.sablefrost.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "leg.goodmaximum.com",
       "server_port": 443,
       "uuid": "e653f585-9924-000f-8d5d-c15c3ab95270",
@@ -121,13 +56,55 @@
         "reality": {
           "enabled": true,
           "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-          "short_id": ""
+          "short_id": "99181028b56c8702"
         }
       }
     },
     {
       "type": "vless",
-      "tag": "vless-04",
+      "tag": "vless-01",
+      "server": "194.150.220.93",
+      "server_port": 443,
+      "uuid": "fa3666a2-aa05-440b-82be-f394f5bf385e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "m.twitch.tv",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "GORiNrCU-4X_zF4JWYY4f9Fkq6UqAlRgouj_d2ecako",
+          "short_id": "ff53f754b209fff9"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "72.56.18.179",
+      "server_port": 443,
+      "uuid": "a2415a12-3f92-4636-9823-9828d3ceb818",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ya.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
+          "short_id": "2af15d98"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "2.26.88.118",
       "server_port": 8443,
       "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
@@ -143,6 +120,27 @@
           "enabled": true,
           "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
           "short_id": "ea1058117be12087"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "leg.goodmaximum.com",
+      "server_port": 443,
+      "uuid": "e653f585-9924-002d-8d5d-c15c3ab95270",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "workspace.sablefrost.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
+          "short_id": ""
         }
       }
     },
