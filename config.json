@@ -42,6 +42,91 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "white77.alexanderoff.ru",
+      "server_port": 8443,
+      "uuid": "d2ce0b49-2b2c-46f6-9b43-4829d0075654",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "JW3P5Fn3MGk9wXsO0aFxQF6wvSEefCnkiYhmk9_OGXg",
+          "short_id": "a2aa2be69b18"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "l1-2.l-itx.info",
+      "server_port": 7443,
+      "uuid": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "colorlib.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "centos.ubuntuhosting.host",
+      "server_port": 443,
+      "uuid": "9cab10a8-7936-457f-bf1f-b9842439f494",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "centos.ubuntuhosting.host",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "QJW15WZWLNjA8KEpe4GqSdOe4rfW8KgqjjVmKxPk-ng",
+          "short_id": "3fa234ea9feaa048"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "fl-modx.webedg.net",
+      "server_port": 443,
+      "uuid": "b0276310-5e06-45b1-b2e5-1d74c429825d",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fl-modx.webedg.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "MuQH546CBdgYVBzNU_F5fimkbQ0srHxgLKDjl1Wz2Rw",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
       "server": "2.26.88.118",
       "server_port": 8443,
       "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
@@ -57,91 +142,6 @@
           "enabled": true,
           "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
           "short_id": "ea1058117be12087"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "g3.steptofsvo.com",
-      "server_port": 443,
-      "uuid": "4550993c-2191-493a-a612-aaba4a4ec083",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "g3.steptofsvo.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk",
-          "short_id": "6d6f13013d3e1d0c"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "72.56.18.179",
-      "server_port": 443,
-      "uuid": "a2415a12-3f92-4636-9823-9828d3ceb818",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
-          "short_id": "2af15d98"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "72.56.18.179",
-      "server_port": 443,
-      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
-          "short_id": "2af15d98"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "ru02.goodmaximum.com",
-      "server_port": 443,
-      "uuid": "db95b766-43a8-001f-9b5d-5ca6f2735188",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "ru-cloud.221131513.xyz",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-          "short_id": "77778028b56c8704"
         }
       }
     },
