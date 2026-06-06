@@ -42,42 +42,42 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "leg.goodmaximum.com",
+      "server": "72.56.18.179",
       "server_port": 443,
-      "uuid": "e653f585-9924-000f-8d5d-c15c3ab95270",
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cloud.nimhogoa.com",
+        "server_name": "www.ya.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-          "short_id": "99181028b56c8702"
+          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
+          "short_id": "2af15d98"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "194.150.220.93",
+      "server": "poland.milas.click",
       "server_port": 443,
-      "uuid": "fa3666a2-aa05-440b-82be-f394f5bf385e",
+      "uuid": "91427003-38cb-473e-95f2-a4b500c91f7b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "m.twitch.tv",
+        "server_name": "poland.milas.click",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "GORiNrCU-4X_zF4JWYY4f9Fkq6UqAlRgouj_d2ecako",
-          "short_id": "ff53f754b209fff9"
+          "public_key": "DoZSKLwNQjogQMlE7oEEuB8TqpNa-umXzG-2Q6dTTEY",
+          "short_id": "4fa44664f6a566d3"
         }
       }
     },
@@ -105,42 +105,42 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "2.26.88.118",
-      "server_port": 8443,
-      "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
+      "server": "194.150.220.93",
+      "server_port": 443,
+      "uuid": "fa3666a2-aa05-440b-82be-f394f5bf385e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "2.26.88.118",
+        "server_name": "m.twitch.tv",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
-          "short_id": "ea1058117be12087"
+          "public_key": "GORiNrCU-4X_zF4JWYY4f9Fkq6UqAlRgouj_d2ecako",
+          "short_id": "ff53f754b209fff9"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "leg.goodmaximum.com",
+      "server": "tal.odavpn.online",
       "server_port": 443,
-      "uuid": "e653f585-9924-002d-8d5d-c15c3ab95270",
+      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "workspace.sablefrost.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
-          "short_id": ""
+          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
+          "short_id": "41774dc9dc721e"
         }
       }
     },
