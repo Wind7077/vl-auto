@@ -42,49 +42,70 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "176.97.210.14",
+      "server": "51.250.43.93",
       "server_port": 443,
       "uuid": "91427003-38cb-473e-95f2-a4b500c91f7b",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "germany.milas.click",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "pJpaRasoceUeRDJTXEZNnKT3yW5IocPXudB_B7_rBR0",
-          "short_id": "4fa44664f6a566d3"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "2.26.88.118",
-      "server_port": 8443,
-      "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "2.26.88.118",
+        "server_name": "ads.x5.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
-          "short_id": "ea1058117be12087"
+          "public_key": "MXpxhnU1ctGMXbGGjIrtDfjRX-BbbpsjnS4-SUv3OFs",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
+      "server": "72.56.18.179",
+      "server_port": 443,
+      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.ya.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
+          "short_id": "2af15d98"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
+      "server": "144.31.237.74",
+      "server_port": 603,
+      "uuid": "8ed27b15-30a6-42a2-af38-e4dc675ee17e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "edge"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "lWJaKBaMPs0NYHGCbfsrmn64R4juEQEvfmHNnL741Ek",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "poland.milas.click",
       "server_port": 443,
       "uuid": "91427003-38cb-473e-95f2-a4b500c91f7b",
@@ -105,43 +126,22 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
-      "server": "white77.alexanderoff.ru",
-      "server_port": 8443,
-      "uuid": "d2ce0b49-2b2c-46f6-9b43-4829d0075654",
+      "tag": "vless-04",
+      "server": "nl01.goodmaximum.com",
+      "server_port": 443,
+      "uuid": "ec6b9cd8-0b2c-000a-996f-df26fee230f7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "files.nimhogoa.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "JW3P5Fn3MGk9wXsO0aFxQF6wvSEefCnkiYhmk9_OGXg",
-          "short_id": "a2aa2be69b18"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "72.56.18.179",
-      "server_port": 443,
-      "uuid": "a2415a12-3f92-4636-9823-9828d3ceb818",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.ya.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
-          "short_id": "2af15d98"
+          "public_key": "fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ",
+          "short_id": "77778028b56c8704"
         }
       }
     },
