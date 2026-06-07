@@ -63,28 +63,6 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "jp.gsupport.support",
-      "server_port": 443,
-      "uuid": "0752b610-6fd0-4382-a40c-39d59b416a1e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "video.intfreed.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw",
-          "short_id": "7755e972daf8eec8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
       "server": "2.26.88.118",
       "server_port": 8443,
       "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
@@ -105,7 +83,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-03",
+      "tag": "vless-02",
       "server": "de-dp-01.com",
       "server_port": 8443,
       "uuid": "f552a78e-400c-4332-8265-8e5da1c21eeb",
@@ -127,23 +105,44 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "ru-1.borshclick.tech",
-      "server_port": 443,
-      "uuid": "7ec71271-0d3a-4297-bdfc-8c7fdc79d73e",
+      "tag": "vless-03",
+      "server": "fi-m247-01.com",
+      "server_port": 8443,
+      "uuid": "944977ee-2755-4e47-a9e2-ce25a09b2ea6",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ru-1.borshclick.tech",
+        "server_name": "storage.yandex.net",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "RyCDlf2CUwPD1J4FB-sQkmVtNUm8bBF8x57T1pIYm0o",
-          "short_id": ""
+          "public_key": "KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg",
+          "short_id": "b0c58c398abb6842"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "72.61.94.216",
+      "server_port": 38148,
+      "uuid": "a0b7c251-a27c-410a-89a7-73a31e4e6af9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.yahoo.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "CqnP5lpBUqGXHo1aqkUi4HuqD7SC3c27u0LqXQTSJGM",
+          "short_id": "40"
         }
       }
     },
