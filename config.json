@@ -42,21 +42,21 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "72.56.18.179",
-      "server_port": 443,
-      "uuid": "69a2af58-d74a-44ca-864a-e09b493f4274",
+      "server": "2.26.88.118",
+      "server_port": 8443,
+      "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "www.ya.ru",
+        "server_name": "2.26.88.118",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "8xufuXmVTmxmM9SKIN1P6x3CFstZdl1mfSxr_LfOkDQ",
-          "short_id": "2af15d98"
+          "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
+          "short_id": "ea1058117be12087"
         }
       }
     },
@@ -84,9 +84,9 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "144.31.237.74",
-      "server_port": 603,
-      "uuid": "8ed27b15-30a6-42a2-af38-e4dc675ee17e",
+      "server": "tal.odavpn.online",
+      "server_port": 443,
+      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -97,8 +97,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "lWJaKBaMPs0NYHGCbfsrmn64R4juEQEvfmHNnL741Ek",
-          "short_id": ""
+          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
+          "short_id": "41774dc9dc721e"
         }
       }
     },
@@ -127,21 +127,21 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "l1-2.l-itx.info",
-      "server_port": 7443,
-      "uuid": "f1a44ae4-20f9-4dd7-b60e-b4f2acecfdb4",
+      "server": "tal.odavpn.online",
+      "server_port": 443,
+      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "colorlib.com",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "F2MKDw5CCtP1oXIej2EgNxB01k3eyNu7tKCFfucgnRA",
-          "short_id": ""
+          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
+          "short_id": "41774dc9dc721e"
         }
       }
     },
