@@ -42,27 +42,71 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "2.26.88.118",
-      "server_port": 8443,
-      "uuid": "785c7771-8d7f-48ca-bbc2-1a22e360d4d0",
+      "server": "nl-2.borshclick.tech",
+      "server_port": 443,
+      "uuid": "7ec71271-0d3a-4297-bdfc-8c7fdc79d73e",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "2.26.88.118",
+        "server_name": "nl-2.borshclick.tech",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "TdT90qbeyM7WO0QCztOhKDGKOi2qaFFif0hO0cfK1E4",
-          "short_id": "ea1058117be12087"
+          "public_key": "5eVYVBcTwAcJHbpZax630RnNPgHaMe43B33tApdSqQo",
+          "short_id": ""
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
+      "server": "ru-lv.illusion-vpn.ru",
+      "server_port": 443,
+      "uuid": "bee8df77-2780-5a7b-b005-9da84fcb7aaf",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "ru-lv.illusion-vpn.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "86DiKd_LyZ_9L4WyaADZsNJH5wnaTGoZyywz0CGFYwg",
+          "short_id": "9ec378e393a94f"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-02",
+      "server": "tal.odavpn.online",
+      "server_port": 443,
+      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amd.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
+          "short_id": "41774dc9dc721e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
       "server": "de-1.borshclick.tech",
       "server_port": 443,
       "uuid": "7ec71271-0d3a-4297-bdfc-8c7fdc79d73e",
@@ -84,7 +128,7 @@
     },
     {
       "type": "vless",
-      "tag": "vless-02",
+      "tag": "vless-04",
       "server": "fi-m247-01.com",
       "server_port": 8443,
       "uuid": "944977ee-2755-4e47-a9e2-ce25a09b2ea6",
@@ -101,49 +145,6 @@
           "enabled": true,
           "public_key": "KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg",
           "short_id": "b0c58c398abb6842"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
-      "server": "tal.odavpn.online",
-      "server_port": 443,
-      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amd.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
-          "short_id": "41774dc9dc721e"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "de-dp-01.com",
-      "server_port": 8443,
-      "uuid": "f552a78e-400c-4332-8265-8e5da1c21eeb",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "storage.yandex.net",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
-          "short_id": "5be97fb85093a3a9"
         }
       }
     },
