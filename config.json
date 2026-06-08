@@ -42,6 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
+      "server": "94.139.251.7",
+      "server_port": 12443,
+      "uuid": "e8d0f687-b369-4071-9c9b-eb6c4359bf26",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Q9rnUzSmDyhXFoIoeU0r_-H9FsXO8H36DrY7GSqF_wk",
+          "short_id": "abcd1234"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-01",
       "server": "lithuania.cloudpath.live",
       "server_port": 443,
       "uuid": "738a43fa-b9d5-52f2-afb1-de4f5cd97753",
@@ -57,28 +79,6 @@
           "enabled": true,
           "public_key": "7mDY-jBdETPQCdhpdhkettajyiWNuP5k__yOE0EiRz4",
           "short_id": "e2af8ebe"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-01",
-      "server": "187.77.111.209",
-      "server_port": 443,
-      "uuid": "e8d0f687-b369-4071-9c9b-eb6c4359bf26",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_m9k493cgdpVnh29a6P6NZJDkkQHCBYPZu879cuZUi0",
-          "short_id": "ab12cd34"
         }
       }
     },
@@ -107,44 +107,42 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "kaede.ther0ck.top",
+      "server": "tal.odavpn.online",
       "server_port": 443,
-      "uuid": "9a69c281-b698-4d4e-b76c-42ba116d9f74",
+      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "kaede.ther0ck.top",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "5QXpxeHfTVceMg_7LnkJFP4rfout2kZieA6TJaRYemo",
-          "short_id": ""
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "d.lv-cdn.ru",
-      "server_port": 443,
-      "uuid": "ce068d3e-5c3c-4014-b464-b776ef95e778",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "d.lv-cdn.ru",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "fHNZm9NrW_3Bp9xzCZhhoPuL4DFLqfaPu-uBhPE6dW4",
-          "short_id": "7a3f9e2b1c8d4f6a"
+          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
+          "short_id": "41774dc9dc721e"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "finland-warp.cloudpath.live",
+      "server_port": 443,
+      "uuid": "738a43fa-b9d5-52f2-afb1-de4f5cd97753",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "microsoft.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "5cBhfhHWHj0vYQIDeearhbEa_k7gdUbobr3Hfecsl04",
+          "short_id": "58d6375f"
         }
       }
     },
