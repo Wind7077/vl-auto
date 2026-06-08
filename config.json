@@ -42,22 +42,22 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "45.43.92.110",
-      "server_port": 7443,
-      "uuid": "adea61c0-0bb2-4ad3-8dba-7766eebd50f8",
+      "server": "89.150.41.81",
+      "server_port": 443,
+      "uuid": "5d8fcd24-9634-4dd7-845c-3dc2d6291942",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "www.google.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI",
-          "short_id": "d82fb387"
+          "public_key": "2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0",
+          "short_id": "86b80f1e713a33ad"
         }
       }
     },
@@ -85,9 +85,9 @@
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "185.117.0.232",
+      "server": "45.43.92.110",
       "server_port": 7443,
-      "uuid": "6ca8ea5b-e47f-4c19-adee-365456e1e87c",
+      "uuid": "adea61c0-0bb2-4ad3-8dba-7766eebd50f8",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
@@ -128,22 +128,21 @@
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "88.218.123.242",
-      "server_port": 443,
-      "uuid": "5d8fcd24-9634-4dd7-845c-3dc2d6291942",
+      "server": "nl2.gsupport.support",
+      "server_port": 3443,
+      "uuid": "0752b610-6fd0-4382-a40c-39d59b416a1e",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.google.com",
+        "server_name": "video.g2853af.lat",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
-          "public_key": "2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0",
-          "short_id": "86b80f1e713a33ad"
+          "public_key": "paKvmH95IryRK04p__8F3JZwkjFkPf-nblZxxIrTN2M",
+          "short_id": "d7a6448b544844c7"
         }
       }
     },
