@@ -64,85 +64,86 @@
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "tal.odavpn.online",
-      "server_port": 443,
-      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
+      "server": "94.139.251.7",
+      "server_port": 12443,
+      "uuid": "e8d0f687-b369-4071-9c9b-eb6c4359bf26",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.amd.com",
+        "server_name": "www.microsoft.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
-          "short_id": "41774dc9dc721e"
+          "public_key": "Q9rnUzSmDyhXFoIoeU0r_-H9FsXO8H36DrY7GSqF_wk",
+          "short_id": "abcd1234"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "158.160.253.147",
-      "server_port": 443,
-      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
+      "server": "gp2.steptofsvo.com",
+      "server_port": 18443,
+      "uuid": "9910e6e4-e540-4233-b88e-b1465434ad05",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "yandex.ru",
+        "server_name": "gp2.steptofsvo.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "IOFyDX8n74KV_z3WS8mIN20P-NAWEN_mU9N4joYh2gQ",
-          "short_id": ""
+          "public_key": "QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0",
+          "short_id": "5c766813929a1fdd"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "84.201.168.122",
-      "server_port": 443,
-      "uuid": "e0f64e0b-ecb7-43fa-803b-99b728e54128",
+      "server": "89.208.208.92",
+      "server_port": 9443,
+      "uuid": "cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "yandex.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI",
-          "short_id": "27e53bbcab7593d7"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-04",
-      "server": "del.hfgtek.ir",
-      "server_port": 59919,
-      "uuid": "087ebc31-5965-4ba9-8992-e13343e4cf99",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.amazon.com",
+        "server_name": "loadtest.dev.urent.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "wQrseGiUN-ONdLVBWbOu3-p8uD1qFlz5CZxYS5a_cxo",
-          "short_id": "e3f72e053f75804c"
+          "public_key": "aVu6XB9_RKR1xLtusyQ1_YOWCs4Ofi9GEJd6oERNH2Q",
+          "short_id": "689def22fcb54e86"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "cockroachservice.ru",
+      "server_port": 443,
+      "uuid": "6c6bb37a-3315-45bc-88d6-0fbba043c07f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "api.cockroachservice.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "EZ9ZUwrabGCJfowEvD4fI0ANMsxYh7hchEAbsnOTl0s",
+          "short_id": "803367e3aceaa5e1"
         }
       }
     },
