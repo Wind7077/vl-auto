@@ -42,71 +42,28 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "94.139.251.7",
-      "server_port": 12443,
-      "uuid": "e8d0f687-b369-4071-9c9b-eb6c4359bf26",
+      "server": "de-dp-01.com",
+      "server_port": 8443,
+      "uuid": "f552a78e-400c-4332-8265-8e5da1c21eeb",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "storage.yandex.net",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "Q9rnUzSmDyhXFoIoeU0r_-H9FsXO8H36DrY7GSqF_wk",
-          "short_id": "abcd1234"
+          "public_key": "ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo",
+          "short_id": "5be97fb85093a3a9"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "lithuania.cloudpath.live",
-      "server_port": 443,
-      "uuid": "738a43fa-b9d5-52f2-afb1-de4f5cd97753",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "microsoft.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "7mDY-jBdETPQCdhpdhkettajyiWNuP5k__yOE0EiRz4",
-          "short_id": "e2af8ebe"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-02",
-      "server": "coin.blacktoys.ru",
-      "server_port": 443,
-      "uuid": "9a69c281-b698-4d4e-b76c-42ba116d9f74",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "coin.blacktoys.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "randomized"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "_3iPGceIoYphvzttZKP5bXSAImOW28i60fiPTILRYWM",
-          "short_id": "c29d8c3c48a6f3c8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "vless-03",
       "server": "tal.odavpn.online",
       "server_port": 443,
       "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
@@ -127,22 +84,65 @@
     },
     {
       "type": "vless",
-      "tag": "vless-04",
-      "server": "finland-warp.cloudpath.live",
+      "tag": "vless-02",
+      "server": "158.160.253.147",
       "server_port": 443,
-      "uuid": "738a43fa-b9d5-52f2-afb1-de4f5cd97753",
+      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "microsoft.com",
+        "server_name": "yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "5cBhfhHWHj0vYQIDeearhbEa_k7gdUbobr3Hfecsl04",
-          "short_id": "58d6375f"
+          "public_key": "IOFyDX8n74KV_z3WS8mIN20P-NAWEN_mU9N4joYh2gQ",
+          "short_id": ""
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-03",
+      "server": "84.201.168.122",
+      "server_port": 443,
+      "uuid": "e0f64e0b-ecb7-43fa-803b-99b728e54128",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "yandex.ru",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "Ec54Eop0jZft7rcJsPN4RHc4xG9smXhtenM52pJFUQI",
+          "short_id": "27e53bbcab7593d7"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "vless-04",
+      "server": "del.hfgtek.ir",
+      "server_port": 59919,
+      "uuid": "087ebc31-5965-4ba9-8992-e13343e4cf99",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.amazon.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "wQrseGiUN-ONdLVBWbOu3-p8uD1qFlz5CZxYS5a_cxo",
+          "short_id": "e3f72e053f75804c"
         }
       }
     },
