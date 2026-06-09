@@ -42,98 +42,106 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "ru59.whost-solutions.ru",
+      "server": "ltr.moktana.app",
       "server_port": 443,
-      "uuid": "e7cb547e-5a74-4695-9019-a2c93e7593ea",
+      "uuid": "2cfb47db-5b73-43cf-be67-6e28d73df7d4",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "ru21.whost-solutions.ru",
+        "server_name": "ltr.moktana.app",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "IAdOYYmEMPFAhpVUhqfML58AVtYPdAb71R_HAPf0N0k",
-          "short_id": ""
+          "public_key": "C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4",
+          "short_id": "9e2a6f4c3b7d1e8a"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "89.208.208.92",
-      "server_port": 7443,
-      "uuid": "cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4",
+      "server": "tal.odavpn.online",
+      "server_port": 443,
+      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "loadtest.dev.urent.ru",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_AXs-QnufIq918tbb2pwM3MDbe7kQ6i0cIHDMLwPmGs",
-          "short_id": "3210e0eee6605048"
+          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
+          "short_id": "41774dc9dc721e"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-02",
-      "server": "89.208.208.92",
-      "server_port": 7443,
-      "uuid": "cbc27e56-38a1-4b0d-bce3-f9e7dcb807a4",
+      "server": "yt6.safepass.click",
+      "server_port": 443,
+      "uuid": "13bbbb75-2ec5-4262-9784-fe8b6e94510b",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "loadtest.dev.urent.ru",
+        "server_name": "timeweb.cloud",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "random"
         },
         "reality": {
           "enabled": true,
-          "public_key": "_AXs-QnufIq918tbb2pwM3MDbe7kQ6i0cIHDMLwPmGs",
-          "short_id": "3210e0eee6605048"
+          "public_key": "ELp9PUvVnkoFJYiscWrbnPXRnsYdELSCbIz9wNmMRRw",
+          "short_id": "965af8960474c29c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "desrv-res.noooo.win",
+      "server": "72.56.34.198",
       "server_port": 443,
-      "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
+      "uuid": "f7627a16-47bd-4900-a763-2802884064d0",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-6a20f558.noooo.win",
+        "server_name": "se.moktana.app",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4",
+          "short_id": "6f3c1b8e5d2a4f7c"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "desrv-res.noooo.win",
+      "server": "tal.odavpn.online",
       "server_port": 443,
-      "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
+      "uuid": "fb7fe921-1032-45fe-ae9d-20090976e572",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "api-6a20f558.noooo.win",
+        "server_name": "www.amd.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "_5YItXYM7SPX7baBG4Fl1MDBE7UvDC8sOx8-0VVueBA",
+          "short_id": "41774dc9dc721e"
         }
       }
     },
