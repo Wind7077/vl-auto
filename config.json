@@ -42,44 +42,38 @@
     {
       "type": "vless",
       "tag": "vless-00",
-      "server": "fl-modx.webedg.net",
-      "server_port": 443,
-      "uuid": "b0276310-5e06-45b1-b2e5-1d74c429825d",
+      "server": "158.160.183.141",
+      "server_port": 23458,
+      "uuid": "c8e83bdd-40ae-43f9-9e2a-c19241d2ca33",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "fl-modx.webedg.net",
+        "server_name": "debian.ubuntuhosting.host",
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
+          "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "MuQH546CBdgYVBzNU_F5fimkbQ0srHxgLKDjl1Wz2Rw",
-          "short_id": ""
+          "public_key": "p9B6DsYSn21Md7L8ZVfgy8KkbRh2vpYYtzvh_XfIJ24",
+          "short_id": "707c8615b9"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-01",
-      "server": "51.250.108.162",
+      "server": "desrv-res.noooo.win",
       "server_port": 443,
-      "uuid": "d84d1e24-3eae-4fc2-8035-dedc68422f3e",
+      "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "api-6a20f558.noooo.win",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "fingerprint": "chrome"
         }
       }
     },
@@ -107,44 +101,39 @@
     {
       "type": "vless",
       "tag": "vless-03",
-      "server": "pol01.port-server.online",
+      "server": "84.201.167.190",
       "server_port": 443,
-      "uuid": "dbfa97b8-f4fb-4687-96dc-a5a2aebfae11",
+      "uuid": "87a61ee1-f6eb-48b4-ac90-c255ce067a07",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "pol01.port-server.online",
+        "server_name": "api-maps.yandex.ru",
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "cc_O0Y2X8gIdbPzbp0CzRejf_LN1zOiuHD70GBs8e3M",
-          "short_id": "37919c8e74071571"
+          "public_key": "MX_HmJw-Auo8vAkcyM_5C8FzdQ42PPfh-LveTdg6P3c",
+          "short_id": "27e53bbcab7593d2"
         }
       }
     },
     {
       "type": "vless",
       "tag": "vless-04",
-      "server": "51.250.104.246",
+      "server": "desrv-res.noooo.win",
       "server_port": 443,
-      "uuid": "d84d1e24-3eae-4fc2-8035-dedc68422f3e",
+      "uuid": "7b241232-208d-4d36-857e-913f91b044f4",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "cdp.x5.ru",
+        "server_name": "api-6a20f558.noooo.win",
         "utls": {
           "enabled": true,
-          "fingerprint": "safari"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "wgXD4k3A16WR0aL63N9Mx8xoqFigJLyQWJXi-l3MPXI",
-          "short_id": "8ec792bfd725be8a"
+          "fingerprint": "edge"
         }
       }
     },
