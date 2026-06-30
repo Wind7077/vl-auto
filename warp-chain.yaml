@@ -1,59 +1,139 @@
-mixed-port: 7890
-allow-lan: false
-mode: rule
-log-level: info
-ipv6: true
+#!/usr/bin/env python3
+"""
+Сборщик всех VLESS конфигов с SNI max.ru
+"""
 
-dns:
-  enable: true
-  ipv6: true
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  nameserver:
-    - 8.8.8.8
-    - 1.1.1.1
-  fallback:
-    - 8.8.4.4
+import subprocess
+import yaml
+from urllib.parse import parse_qs, unquote
+import os
 
-proxy-providers:
-  vless-sub:
-    type: http
-    url: "https://raw.githubusercontent.com/Wind7077/yml-vless/refs/heads/main/vless_normal_vpn.txt"
-    interval: 3600
-    health-check:
-      enable: true
-      interval: 300
-      url: "https://www.gstatic.com/generate_204"
+def parse_vless(vless_str):
+    """Парсинг VLESS URI"""
+    try:
+        if "#" in vless_str:
+            uri_part, fragment = vless_str.rsplit("#", 1)
+            name = unquote(fragment)[:50]
+        else:
+            uri_part = vless_str
+            name = "Unnamed"
+        
+        if uri_part.startswith("vless://"):
+            uri_part = uri_part[8:]
+        
+        parts = uri_part.split("@", 1)
+        if len(parts) != 2:
+            return None
+        
+        uuid = parts[0]
+        rest = parts[1]
+        
+        if "?" in rest:
+            addr_part, query = rest.split("?", 1)
+        else:
+            addr_part = rest
+            query = ""
+        
+        if ":" in addr_part:
+            address, port = addr_part.rsplit(":", 1)
+            try:
+                port = int(port)
+            except:
+                port = 443
+        else:
+            address = addr_part
+            port = 443
+        
+        params = parse_qs(query)
+        sni = params.get("sni", [""])[0]
+        
+        config = {
+            "name": name,
+            "type": "vless",
+            "server": address,
+            "port": port,
+            "uuid": uuid,
+            "network": params.get("type", ["tcp"])[0],
+            "udp": True
+        }
+        
+        security = params.get("security", ["none"])[0]
+        if security != "none":
+            config["tls"] = True
+            config["servername"] = sni
+            
+            if security == "reality":
+                reality_opts = {}
+                if "pbk" in params:
+                    reality_opts["public-key"] = params["pbk"][0]
+                if "sid" in params:
+                    reality_opts["short-id"] = params["sid"][0]
+                if reality_opts:
+                    config["reality-opts"] = reality_opts
+            
+            if "fp" in params:
+                config["client-fingerprint"] = params["fp"][0]
+        
+        if "flow" in params:
+            config["flow"] = params["flow"][0]
+        
+        return config
+    except Exception as e:
+        return None
 
-proxies:
-  - name: "warp"
-    type: wireguard
-    server: 162.159.195.10
-    port: 4198
-    ip: 172.16.0.2
-    ipv6: 2606:4700:110:8172:ca5a:f45d:180d:d977
-    private-key: eFzBPxgxWksAAI2S84XV9W3YuG2P+PVZhbdvCzDU42w=
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    mtu: 1280
-    dialer-proxy: "vless-auto"
+def main():
+    url = "https://raw.githubusercontent.com/wiki/gfpcom/free-proxy-list/lists/vless.txt"
+    output_file = "vless_max_ru_full.yaml"
+    
+    print(f"📥 Загрузка файла: {url}")
+    
+    # Загружаем через curl
+    cmd = ['curl', '-s', '-L', '--max-time', '180', '--connect-timeout', '30', url]
+    result = subprocess.run(cmd, capture_output=True, text=True, timeout=200)
+    
+    if result.returncode != 0:
+        print(f"❌ Ошибка загрузки: {result.stderr}")
+        return
+    
+    lines = result.stdout.strip().split('\n')
+    print(f"📄 Всего строк: {len(lines)}")
+    
+    # Ищем все конфиги с max.ru
+    max_ru_configs = []
+    for line in lines:
+        line = line.strip()
+        if 'max.ru' in line.lower() and line.startswith('vless://'):
+            max_ru_configs.append(line)
+    
+    print(f"✅ Найдено конфигов с max.ru: {len(max_ru_configs)}")
+    
+    # Парсим все конфиги
+    parsed_configs = []
+    for cfg_str in max_ru_configs:
+        parsed = parse_vless(cfg_str)
+        if parsed:
+            parsed_configs.append(parsed)
+    
+    print(f"✅ Успешно распарсено: {len(parsed_configs)}")
+    
+    # Создаем YAML
+    clash_config = {"proxies": parsed_configs}
+    yaml_output = yaml.dump(
+        clash_config,
+        allow_unicode=True,
+        default_flow_style=False,
+        sort_keys=False
+    )
+    
+    # Сохраняем
+    with open(output_file, 'w', encoding='utf-8') as f:
+        f.write(f"# VLESS configs with SNI: max.ru\n")
+        f.write(f"# Count: {len(parsed_configs)}\n")
+        f.write(f"# Source: {url}\n\n")
+        f.write(yaml_output)
+    
+    print(f"💾 YAML файл сохранен: {output_file}")
+    print(f"📊 Размер: {len(yaml_output)} символов")
 
-proxy-groups:
-  - name: "vless-auto"
-    type: url-test
-    use:
-      - vless-sub
-    url: "https://www.gstatic.com/generate_204"
-    interval: 180
-    tolerance: 50
-
-  - name: "PROXY"
-    type: select
-    proxies:
-      - warp
-      - vless-auto
-      - DIRECT
-
-rules:
-  - IP-CIDR,162.159.192.0/22,DIRECT,no-resolve
-  - IP-CIDR,162.159.195.10/32,DIRECT,no-resolve
-  - MATCH,PROXY
+if __name__ == "__main__":
+    main()
